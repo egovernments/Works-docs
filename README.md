@@ -31,7 +31,7 @@ Read more about our multi-layered platform [architecture design rationale here.]
 
 The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments. &#x20;
 
-<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Benefits
 

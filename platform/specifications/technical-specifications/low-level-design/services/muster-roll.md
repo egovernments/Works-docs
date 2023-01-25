@@ -16,16 +16,16 @@ description: Describes a calculator service for computing attendance
 
 ## APIs
 
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml" path="/muster-roll/v1/_create" method="post" %}
-[Muster-Roll-Service-1.0.0 (1).yaml](<../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml>)
+{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_create" method="post" %}
+[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
 {% endswagger %}
 
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml" path="/muster-roll/v1/_update" method="post" %}
-[Muster-Roll-Service-1.0.0 (1).yaml](<../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml>)
+{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_update" method="post" %}
+[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
 {% endswagger %}
 
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml" path="/muster-roll/v1/_search" method="post" %}
-[Muster-Roll-Service-1.0.0 (1).yaml](<../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0 (1).yaml>)
+{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_search" method="post" %}
+[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
 {% endswagger %}
 
 ## Data Model

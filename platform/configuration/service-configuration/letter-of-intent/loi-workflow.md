@@ -670,7 +670,7 @@ An Action bar on the View LOI Screen shows the list of actions available. When a
 
 <figure><img src="../../../../.gitbook/assets/reject.png" alt=""><figcaption><p>Reject LOI</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/approve.png" alt=""><figcaption><p>Approve LOI</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/approve (1).png" alt=""><figcaption><p>Approve LOI</p></figcaption></figure>
 
 When these popups are submitted, Update LOI API is called containing the relevant updates in the workflow object contained in request body. LOI service internally calls the workflow service and updates the status of application.
 

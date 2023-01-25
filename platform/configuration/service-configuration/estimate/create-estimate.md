@@ -107,7 +107,7 @@ MDMS config for location
 }
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Create Estimate Form</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Create Estimate Form</p></figcaption></figure>
 
 Once the above details are filled, user needs to forward estimate to concerned department and official for checking. Forwarding is considered as part of estimate creation.Fill in the details and click “Forward Estimate”.
 
