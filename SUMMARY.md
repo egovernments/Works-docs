@@ -34,7 +34,7 @@
           * [Expenditure/ Billing](platform/specifications/technical-specifications/low-level-design/services/expenditure-billing.md)
   * [Setup](platform/setup.md)
   * [Configuration](platform/configuration/README.md)
-    * [UX - Mock up Screens](platform/configuration/ux-mock-up-screens.md)
+    * [UI Configuration](platform/configuration/ui-configuration.md)
     * [Service Configuration](platform/configuration/service-configuration/README.md)
       * [Estimate](platform/configuration/service-configuration/estimate/README.md)
         * [Create Estimate](platform/configuration/service-configuration/estimate/create-estimate.md)
