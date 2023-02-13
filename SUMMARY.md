@@ -47,6 +47,8 @@
         * [Create Contract](platform/configuration/service-configuration/contracts/create-contract.md)
         * [Contract Workflow](platform/configuration/service-configuration/contracts/contract-workflow.md)
         * [Modify Contract](platform/configuration/service-configuration/contracts/modify-contract.md)
+  * [Customisation](platform/customisation/README.md)
+    * [UI Screens](platform/customisation/ui-screens.md)
 * [Products](products/README.md)
   * [Works](products/works/README.md)
     * [Contracts Functional Scope](products/works/contracts-functional-scope.md)
