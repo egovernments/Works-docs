@@ -58,6 +58,7 @@
   * [Works](products/works/README.md)
     * [Contracts Functional Scope](products/works/contracts-functional-scope.md)
   * [Mukta Solution](products/mukta-solution/README.md)
+    * [MUKTA UI Technical Design](products/mukta-solution/mukta-ui-technical-design.md)
     * [Attendance Management](products/mukta-solution/attendance-management.md)
     * [Functional Doc- Mukta (Draft) Version](products/mukta-solution/functional-doc-mukta-draft-version.md)
 
