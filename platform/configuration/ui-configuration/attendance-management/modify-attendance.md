@@ -51,11 +51,15 @@ The municipal Engineer can view, Approve, and Reject the attendance which is ver
 
 ## Technical Implementation Details
 
-Modify attendance technical implementation where all actions are handled can be found in the below file.                                                                                                  [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/Modal/AttendanceActionModal.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/Modal/AttendanceActionModal.js)
+Modify attendance technical implementation where all actions are handled can be found in the below file.                                                                                                 &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/Modal/AttendanceActionModal.js" %}
 
 **Hooks used**
 
-To update muster (modify, verify, reject, approve, resubmit), ‘useUpdateAttendance’ is used which updated muster roll details.                                                                                          [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useUpdateAttendance.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useUpdateAttendance.js)                                                                             &#x20;
+To update muster (modify, verify, reject, approve, resubmit), ‘useUpdateAttendance’ is used which updated muster roll details.&#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useUpdateAttendance.js" %}
 
 **APIs used**
 
@@ -147,8 +151,10 @@ Localisation keys are added under the ‘_rainmaker-attendencemgmt_’ locale mo
 
 ## Customisation
 
-The content on this screen is rendered based on the configuration passed on _ApplicationDetails_ template component. Its implementation can be found in the below file.                               [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js)
+The content on this screen is rendered based on the configuration passed on _ApplicationDetails_ template component. Its implementation can be found in the below file.                              &#x20;
 
-### API Role Action Mapping
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js" %}
+
+## API Role Action Mapping
 
 <table><thead><tr><th>API</th><th>Role Code</th><th data-type="number">Action Id</th><th>Actions</th></tr></thead><tbody><tr><td>/muster-roll/v1/_update</td><td>JUNIOR_ENGINEER</td><td>38</td><td><ul><li>Reject</li><li>Send for Approval</li><li>Modify/Verify Muster Roll</li></ul></td></tr><tr><td>/muster-roll/v1/_update</td><td>MUNICIPAL_ENGINEER</td><td>38</td><td><ul><li>Approve</li><li>Reject</li></ul></td></tr></tbody></table>

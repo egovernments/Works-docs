@@ -32,17 +32,13 @@ Estimate Service will allow users to create estimates and forward them for appro
 {% endtab %}
 {% endtabs %}
 
-####
-
-### Estimate Inbox
+#### Estimate Inbox
 
 Estimate inbox uses the Inbox V2 service which queries ES to retrieve details for the inbox. For more information on Inbox V2, please refer [here](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/2289271031/Event+based+inbox).&#x20;
 
-
-
 #### Estimate PDF
 
-TBD. Proposed sequence diagram is below.
+TBD. The proposed sequence diagram is below.
 
 ![](../../../../../.gitbook/assets/Estimate-PDF.png)
 

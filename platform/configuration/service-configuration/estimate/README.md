@@ -1,10 +1,8 @@
----
-description: >-
-  Estimate proposal is the simplest form of estimate that is created to start
-  detailing out the scope and financial aspects of a project.
----
-
 # Estimate
+
+**Overview**
+
+An estimate proposal is the simplest form of estimate that is created to start detailing the scope and financial aspects of a project.
 
 **An estimate proposal contains**
 

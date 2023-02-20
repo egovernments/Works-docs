@@ -27,10 +27,10 @@ A minimum of 1 search criterion is required based on which the list will be popu
 
 This list can be filtered based on below parameters:
 
-* Date Range
-* Muster Roll Status
+* Date range
+* Muster roll status
 
-A ‘No results found’ message is displayed if no records are found for the given search/filter criteria&#x20;
+A ‘No results found’ message is displayed if no records are found for the given search/filter criteria.
 
 <figure><img src="../../../../.gitbook/assets/Muster_inbox_no_Results.png" alt=""><figcaption><p>Inbox with 'No Results Found'</p></figcaption></figure>
 
@@ -38,13 +38,19 @@ Both search and filter criteria can be cleared using the ‘Clear Search’ and 
 
 ## Technical Implementation Details
 
-Inbox screen technical implementation can be found in the file below.                                                              [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/Inbox/index.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/Inbox/index.js)
+Inbox screen technical implementation can be found in the file below.                                                            &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/Inbox/index.js" %}
 
 **Hooks used**
 
-To fetch inbox details, ‘**useCustomAPIHook**’ is used which takes all the API details like URL, query params and body from config (defined in MDMS).                      [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js)
+To fetch inbox details, ‘**useCustomAPIHook**’ is used which takes all the API details like URL, query params and body from config (defined in MDMS).                     &#x20;
 
-To fetch inbox config, ‘**useCustomMDMS**’ hook is used which takes module name, master details and config.                                                                                       [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomMDMS.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomMDMS.js)
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js" %}
+
+To fetch inbox config, ‘**useCustomMDMS**’ hook is used which takes the module name, master details and config.                                                                                      &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomMDMS.js" %}
 
 **APIs used**
 
@@ -108,7 +114,7 @@ curl --location --request POST 'https://works-dev.digit.org/inbox/v2/_search' \
 
 ## **MDMS Used**
 
-Inbox Screen config is fetched from MDMS using 'useCustomMDMS' hook.
+Inbox screen config is fetched from MDMS using 'useCustomMDMS' hook.
 
 ```json
 const { isLoading, data } = Digit.Hooks.useCustomMDMS(

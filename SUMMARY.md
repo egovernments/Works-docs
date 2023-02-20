@@ -7,6 +7,7 @@
     * [MDMS & Configuration Updates](platform/release-notes/mdms-and-configuration-updates.md)
     * [Test Cases](platform/release-notes/test-cases.md)
     * [Product Release Gate Checklist](platform/release-notes/product-release-gate-checklist.md)
+    * [Implementation Checklist](platform/release-notes/implementation-checklist.md)
   * [Specifications](platform/specifications/README.md)
     * [Functional Specifications](platform/specifications/functional-specifications/README.md)
       * [Projects Service](platform/specifications/functional-specifications/projects-service.md)

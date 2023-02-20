@@ -45,15 +45,17 @@ This component is used to render form fields passed in the 'fields' parameter in
 
 ### **Hooks used**
 
-To fetch inbox details, ‘useCustomAPIHook’ is used which takes all the API details like URL, query params, body, config etc. from config (defined in MDMS).                                                                                          [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js)
+To fetch inbox details, ‘useCustomAPIHook’ is used which takes all the API details like URL, query params, body, config etc. from config (defined in MDMS).                                                                                         &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js" %}
 
 ### Sample MDMS data for Inbox&#x20;
 
-[https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/projectInboxConfig.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/projectInboxConfig.json)
+{% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/projectInboxConfig.json" %}
 
 ### Sample MDMS data for Search
 
-[https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/SearchProjectConfig.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/SearchProjectConfig.json).&#x20;
+{% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/SearchProjectConfig.json" %}
 
 ## Steps To Configure Screens
 

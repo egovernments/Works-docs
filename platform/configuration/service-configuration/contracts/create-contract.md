@@ -34,7 +34,7 @@ Once the above details are filled, user needs to forward contract to concerned d
 
 Once Create Contract API call is successful, an acknowledgement screen is shown.
 
-<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Create Contract Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Create Contract Acknowledgement Screen</p></figcaption></figure>
 
 #### DropDown Data and Localization
 

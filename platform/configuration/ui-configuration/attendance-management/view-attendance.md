@@ -4,8 +4,6 @@ description: Screen to view muster roll details for selected muster roll.
 
 # View Attendance
 
-****
-
 **Objective:**
 
 * To view weekly muster roll details/attendance for selected muster roll
@@ -21,13 +19,21 @@ The view screen consists of register details on top, Enrolled user details in ta
 
 ## Technical Implementation Details
 
-View Attendance screen technical implementation can be found in the below file. [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/viewAttendance/ViewAttendances.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/viewAttendance/ViewAttendances.js)
+View Attendance screen technical implementation can be found in the below file.&#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/AttendenceMgmt/src/pages/employee/viewAttendance/ViewAttendances.js" %}
 
 **Hooks used**
 
-To fetch muster roll details, ‘useViewAttendance’ is used which takes tenant id and muster roll number.                                                                                           [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useViewAttendance.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useViewAttendance.js)
+To fetch muster roll details, ‘useViewAttendance’ is used which takes tenant id and muster roll number.                                                                                          &#x20;
 
-To fetch workflow details, ‘useWorkflowDetails is used which takes tenant id, muster roll number, and business service (muster-roll-approval) as module code and config.  [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/workflow.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/workflow.js)                                                                                &#x20;
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/attendance/useViewAttendance.js" %}
+
+To fetch workflow details, ‘useWorkflowDetails is used which takes tenant id, muster roll number, and business service (muster-roll-approval) as module code and config. &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/workflow.js" %}
+
+&#x20;                                                                              &#x20;
 
 **APIs used**
 
@@ -182,7 +188,9 @@ Localisation keys are added under the ‘_rainmaker-attendencemgmt_’ locale mo
 
 ## Customisation
 
-The content on this screen is rendered based on the configuration passed on _ApplicationDetails_ template component. Its implementation can be found in the below file.                               [https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js](https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js)
+The content on this screen is rendered based on the configuration passed on _ApplicationDetails_ template component. Its implementation can be found in the below file.                              &#x20;
+
+{% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/templates/ApplicationDetails/index.js" %}
 
 ## API Role Action Mapping
 
