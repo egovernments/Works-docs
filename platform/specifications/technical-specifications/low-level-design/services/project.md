@@ -14,11 +14,7 @@ description: High level design document
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/project-management-system/Project-Management-System-1.0.0.yaml" %}
 
-### APIs
-
-
-
-## Data Model&#x20;
+### Data Model&#x20;
 
 ### DB Schema Diagram
 

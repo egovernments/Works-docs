@@ -6,7 +6,7 @@ description: This service hosts estimates for projects.
 
 ## Overview
 
-Estimate Service will allow users to create estimates and forward them for approval to higher authorities across departments for technical, financial, and admin sanctions.
+Estimate Service will allow users to create estimates and forward them for approval to higher authorities across departments for technical, financial, and admin sanctions. For more technical information on this service, please refer to [GitHub module README](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service) as well as the [docs](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service/docs) folder.
 
 ### Dependencies
 
