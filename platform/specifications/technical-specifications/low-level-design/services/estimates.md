@@ -10,6 +10,12 @@ Estimate Service will allow users to create estimates and forward them for appro
 
 {% embed url="https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/estimate-service/docs/Estimate-service-1.0.0.yaml" %}
 
+### Estimate Flow Diagram
+
+Below diagram shows the flow diagram in the Estimate service. The indexer listens on a separate topic.&#x20;
+
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/estimate-service/docs/diagrams/EstimateFlowDiagram.png?raw=true" alt=""><figcaption></figcaption></figure>
+
 ### Web Sequence Diagrams
 
 {% tabs %}
