@@ -36,15 +36,11 @@ Contracts API spec
 
 {% tabs %}
 {% tab title="Create" %}
-<figure><img src="../../../../../.gitbook/assets/Contract Create.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/docs/SequenceDiagrams/pngs/ContractCreation.png?raw=true" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Update" %}
-<figure><img src="../../../../../.gitbook/assets/Contract Update.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/docs/SequenceDiagrams/pngs/ContractUpdation.png?raw=true" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Search" %}
@@ -56,7 +52,9 @@ Contracts API spec
 
 ### Master Data Types
 
-TBD
+Contract Type - defines different contract types
+
+
 
 ### Postman Collection
 
