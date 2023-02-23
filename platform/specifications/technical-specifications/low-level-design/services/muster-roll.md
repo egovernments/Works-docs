@@ -6,27 +6,13 @@ description: Describes a calculator service for computing attendance
 
 ## Overview
 
-
+The muster roll service aggregates attendance logs from the attendance service based on some rules and presents an attendance aggregate for a time period (week or month) per individual. This can then be used to compute payments or other semantics.&#x20;
 
 ## API Specifications
 
 ### API Contract Link
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/muster-roll-service/Muster-Roll-Service-1.0.0.yaml" %}
-
-## APIs
-
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_create" method="post" %}
-[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_update" method="post" %}
-[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml" path="/muster-roll/v1/_search" method="post" %}
-[Muster-Roll-Service-1.0.0.yaml](../../../../../.gitbook/assets/Muster-Roll-Service-1.0.0.yaml)
-{% endswagger %}
 
 ## Data Model
 
@@ -36,17 +22,27 @@ description: Describes a calculator service for computing attendance
 
 ### Web Sequence Diagrams
 
-#### Muster-Roll Create
-
+{% tabs %}
+{% tab title="Create" %}
 <figure><img src="../../../../../.gitbook/assets/Muster-Roll Create.png" alt=""><figcaption></figcaption></figure>
 
-#### Muster-Roll Update
 
+{% endtab %}
+
+{% tab title="Second Tab" %}
 <figure><img src="../../../../../.gitbook/assets/Muster-Roll Update.png" alt=""><figcaption></figcaption></figure>
 
-#### Muster-Roll Search
 
+{% endtab %}
+
+{% tab title="Search" %}
 <figure><img src="../../../../../.gitbook/assets/Muster-Roll Search.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endtab %}
+{% endtabs %}
+
+
 
 **MASTER DATA**&#x20;
 
@@ -56,7 +52,7 @@ description: Describes a calculator service for computing attendance
 
 **POSTMAN SCRIPT**&#x20;
 
-Steps to run the postman collection for musterRoll API
+Steps to run the postman collection for the Muster Roll services APIs:
 
 ———————————————————————————————————
 
