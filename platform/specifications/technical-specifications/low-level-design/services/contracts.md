@@ -30,7 +30,15 @@ Contracts API spec
 
 ### DB Schema Diagram
 
+<div>
+
 <figure><img src="https://github.com/egovernments/DIGIT-Works/blob/PFM-1050/backend/contract-service/Contract%20Service%20ER%20diagram.png?raw=true" alt=""><figcaption><p>DB Schema diagram</p></figcaption></figure>
+
+ 
+
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/Contract%20Service%20ER%20diagram.png?raw=true" alt=""><figcaption><p>DB Schema Diagram</p></figcaption></figure>
+
+</div>
 
 ### Web Sequence Diagrams
 
