@@ -25,13 +25,7 @@ Examples:
 
 Once the project is identified, the next step is the estimation of project costs. This is followed by tendering, contracting, sharing the work order with the contractor, tracking milestones, payments and closure.
 
-The platform design provides the capability to integrate smart payments with [iFIX](http://ifix.digit.org/).  The integration enables departments to track project milestones and simplify vendor payments. The multi-layer architecture design ensures transparency, visibility and fast decisions all of which translate to an accelerated pace of development. The registries and APIs ensure information flows seamlessly across channels removing the challenges of siloed data structures and facilitating interoperability.&#x20;
-
-Read more about our multi-layered platform [architecture design rationale here.](https://urban.digit.org/platform/architecture#multi-layer-architecture)&#x20;
-
-The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments. &#x20;
-
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+Explore the Works platform architecture [here](platform/service-architecture.md).&#x20;
 
 ## Benefits
 

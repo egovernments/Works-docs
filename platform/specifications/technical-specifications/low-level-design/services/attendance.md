@@ -16,45 +16,7 @@ This is a generic attendance module that allows creation of an attendance regist
 
 ### APIs
 
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/v1/_create" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
 
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/v1/_update" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/v1/_search" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/staff/v1/_create" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/staff/v1/_delete" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/attendee/v1/_create" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/attendee/v1/_delete" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/log/v1/_create" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/log/v1/_update" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
-
-{% swagger src="../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml" path="/attendance/log/v1/_search" method="post" %}
-[Attendance-Service-1.0.0.yaml](../../../../../.gitbook/assets/Attendance-Service-1.0.0.yaml)
-{% endswagger %}
 
 ## Data Model
 
