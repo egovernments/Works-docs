@@ -7,7 +7,7 @@
     * [Functional Specifications](platform/specifications/functional-specifications/README.md)
       * [Projects Service](platform/specifications/functional-specifications/projects-service.md)
       * [Vendor Service](platform/specifications/functional-specifications/vendor-service.md)
-      * [Contracts Service](platform/specifications/functional-specifications/contracts-service.md)
+      * [Contracts Functional Scope](platform/specifications/functional-specifications/contracts-functional-scope.md)
       * [Estimates Service](platform/specifications/functional-specifications/estimates-service.md)
       * [Attendance Management](platform/specifications/functional-specifications/attendance-management.md)
       * [Individual Service](platform/specifications/functional-specifications/individual-service.md)
@@ -68,11 +68,11 @@
     * [Field App User Manual](products/works-field-app/field-app-user-manual.md)
     * [Configuration Manual](products/works-field-app/configuration-manual.md)
     * [Technical Manual](products/works-field-app/technical-manual.md)
-  * [Contracts Functional Scope](products/contracts-functional-scope.md)
   * [Programs](products/programs/README.md)
     * [Mukta Solution](products/programs/mukta-solution/README.md)
       * [MUKTA UI Technical Design](products/programs/mukta-solution/mukta-ui-technical-design.md)
-      * [Functional Doc- Mukta (Draft) Version](products/programs/mukta-solution/functional-doc-mukta-draft-version.md)
+      * [Functional Doc- Mukta (Draft) Version](products/programs/mukta-solution/functional-doc-mukta-draft-version/README.md)
+        * [Mukta V1 Product Requirements Document](products/programs/mukta-solution/functional-doc-mukta-draft-version/mukta-v1-product-requirements-document.md)
 
 ## COMMUNITY
 
