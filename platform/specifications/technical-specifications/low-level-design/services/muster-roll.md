@@ -78,4 +78,4 @@ Steps to run the postman collection for the Muster Roll services APIs:
 
 The current value of environment variables ‘musterRollId’ and ‘musterRollNumber’ will be set from the response of the /\_create muster roll which will be used by /\_update and /\_search APIs.
 
-&#x20;****&#x20;
+&#x20;

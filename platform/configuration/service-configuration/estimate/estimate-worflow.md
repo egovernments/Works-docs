@@ -17,7 +17,7 @@ Once the Estimate are created they will move to the respective checker and appro
 * From Estimate Proposal Inbox, User can come into Estimate View Screen where Details of Estimate present while creating the estimate and Workflow history will be displayed.
 * User can take necessary actions by clicking on Actions Menu.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>View Estimate Screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>View Estimate Screen</p></figcaption></figure>
 
 Sample ProcessInstance Worflow Object as given below:
 
@@ -215,7 +215,7 @@ When any action is clicked respective popup is rendered according to the selecte
 
 <figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 19-36-48.png" alt=""><figcaption><p>Reject Processing Modal</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
 
 When these popups are submitted, Update Estimate API is called containing the relevant updates in the workflow object contained in request body. Estimate service internally calls the workflow service and updates the status of application.
 

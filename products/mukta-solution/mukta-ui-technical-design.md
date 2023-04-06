@@ -14,7 +14,7 @@ description: MUKTASoft UI design
 * So if we have to revert the Mukta customization can be done without affecting the Works modules.
 * Design will be as follow,
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Mukta Solution Design</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Mukta Solution Design</p></figcaption></figure>
 
 
 
