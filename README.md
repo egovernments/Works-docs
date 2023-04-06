@@ -42,7 +42,7 @@ Explore the Works platform architecture [here](platform/service-architecture.md)
 
 [Low Level Design](platform/specifications/technical-specifications/low-level-design/)
 
-[Configuration](platform/configuration/)
+[Configuration](programs/mukta/configuration/)
 
 [Release Notes](platform/release-notes/)
 

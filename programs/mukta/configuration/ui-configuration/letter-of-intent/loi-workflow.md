@@ -2,17 +2,17 @@
 
 \-> An LOI workflow looks like this
 
-<figure><img src="../../../../.gitbook/assets/Untitled (1).png" alt=""><figcaption><p>LOI Workflow Diagram</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Untitled (1).png" alt=""><figcaption><p>LOI Workflow Diagram</p></figcaption></figure>
 
 \-> Once the LOIs are created they will move to the respective approver's inbox as pending items.
 
-<figure><img src="../../../../.gitbook/assets/LOI Inbox.png" alt=""><figcaption><p>LOI Inbox</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/LOI Inbox.png" alt=""><figcaption><p>LOI Inbox</p></figcaption></figure>
 
 #### View LOI
 
 Clicking on the LOI number(1st column) will open the View LOI page on which the user can take available actions according to the state of the workflow the current application is in.
 
-<figure><img src="../../../../.gitbook/assets/View LOI.png" alt=""><figcaption><p>View LOI Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/View LOI.png" alt=""><figcaption><p>View LOI Screen</p></figcaption></figure>
 
 Current State of an application is returned from the processInstance search API of the workflow service. Sample processInstance object is given below
 
@@ -666,11 +666,11 @@ curl --location --request POST 'http://works-dev.digit.org/egov-workflow-v2/egov
 
 An Action bar on the View LOI Screen shows the list of actions available. When any action is clicked respective popup is rendered according to the selected action. We have created three popups for approve, forward and reject. They are shown below
 
-<figure><img src="../../../../.gitbook/assets/processing details.png" alt=""><figcaption><p>Forward LOI</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/processing details.png" alt=""><figcaption><p>Forward LOI</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/reject.png" alt=""><figcaption><p>Reject LOI</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/reject.png" alt=""><figcaption><p>Reject LOI</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/approve (1).png" alt=""><figcaption><p>Approve LOI</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/approve (1).png" alt=""><figcaption><p>Approve LOI</p></figcaption></figure>
 
 When these popups are submitted, Update LOI API is called containing the relevant updates in the workflow object contained in request body. LOI service internally calls the workflow service and updates the status of application.
 
@@ -703,7 +703,7 @@ curl 'http://localhost:3000/loi-service/v1/_update' \
 
 Upon successful update a response screen is displayed as follows
 
-<figure><img src="../../../../.gitbook/assets/LOI forwarded Successfully.png" alt=""><figcaption><p>Response</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/LOI forwarded Successfully.png" alt=""><figcaption><p>Response</p></figcaption></figure>
 
 ### Role-Action Mapping
 

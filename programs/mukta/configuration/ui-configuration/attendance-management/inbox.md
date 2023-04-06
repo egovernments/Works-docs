@@ -14,11 +14,11 @@ description: Inbox screen for Attendance Management Module
 
 The employee home screen will have a link to navigate to the Attendance Inbox screen
 
-<figure><img src="../../../../.gitbook/assets/Home_Screen.png" alt=""><figcaption><p>Home Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Home_Screen.png" alt=""><figcaption><p>Home Screen</p></figcaption></figure>
 
 The inbox screen consists of a list of muster rolls created/submitted by SHG in tabular format. This table supports pagination and the number of records displayed per page can be editable
 
-<figure><img src="../../../../.gitbook/assets/Attendance_Inbox_Screen.png" alt=""><figcaption><p>Attendance Inbox Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Attendance_Inbox_Screen.png" alt=""><figcaption><p>Attendance Inbox Screen</p></figcaption></figure>
 
 A minimum of 1 search criterion is required based on which the list will be populated with search results. Search parameters are as below:
 
@@ -32,7 +32,7 @@ This list can be filtered based on below parameters:
 
 A ‘No results found’ message is displayed if no records are found for the given search/filter criteria.
 
-<figure><img src="../../../../.gitbook/assets/Muster_inbox_no_Results.png" alt=""><figcaption><p>Inbox with 'No Results Found'</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Muster_inbox_no_Results.png" alt=""><figcaption><p>Inbox with 'No Results Found'</p></figcaption></figure>
 
 Both search and filter criteria can be cleared using the ‘Clear Search’ and ‘refresh’ buttons respectively. Muster Roll ID is a clickable link that navigates the user to the View Attendance screen (Muster Details).
 
@@ -152,8 +152,8 @@ Localisation keys are added under the ‘_rainmaker-attendencemgmt_’ locale mo
 
 The content on this screen is rendered based on configuration passed via MDMS. Its implementation can be found in the below file. &#x20;
 
-{% content-ref url="../../../customisation/ui-screens/inbox-search-screen.md" %}
-[inbox-search-screen.md](../../../customisation/ui-screens/inbox-search-screen.md)
+{% content-ref url="../../../../../platform/customisation/ui-screens/inbox-search-screen.md" %}
+[inbox-search-screen.md](../../../../../platform/customisation/ui-screens/inbox-search-screen.md)
 {% endcontent-ref %}
 
 ## API Role Action Mapping

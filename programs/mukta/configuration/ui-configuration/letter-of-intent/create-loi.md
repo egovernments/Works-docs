@@ -6,19 +6,19 @@ description: Create Letter of Indent Flow
 
 Create LOI flow starts from the search approved sub-estimates screen since we can create an LOI based on an approved sub-estimate only.
 
-<figure><img src="../../../../.gitbook/assets/search-approved.png" alt=""><figcaption><p>Search Approved Estimates Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/search-approved.png" alt=""><figcaption><p>Search Approved Estimates Screen</p></figcaption></figure>
 
 Upon Clicking the Create LOI action user is redirected to the Create LOI form
 
-<figure><img src="../../../../.gitbook/assets/Create LOI.png" alt=""><figcaption><p>Create LOI form</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Create LOI.png" alt=""><figcaption><p>Create LOI form</p></figcaption></figure>
 
 When user submits this form a processing modal is shown in which user can fill details of the employee to whom this LOI will be forwarded for approval. All the data selected in this modal will be sent in the workflow object in the create LOI request body
 
-<figure><img src="../../../../.gitbook/assets/Group 335.png" alt=""><figcaption><p>Workflow Modal</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Group 335.png" alt=""><figcaption><p>Workflow Modal</p></figcaption></figure>
 
 If the Create LOI API call is successful, an acknowledgement screen is shown.
 
-<figure><img src="../../../../.gitbook/assets/Untitled.png" alt=""><figcaption><p>Create LOI acknowledgement screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Untitled.png" alt=""><figcaption><p>Create LOI acknowledgement screen</p></figcaption></figure>
 
 #### API Call role action mapping
 

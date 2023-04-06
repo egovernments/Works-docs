@@ -14,14 +14,14 @@ Clicking on Rejected Contract ID from inbox will open Contract view page.
 
 Clicking Actions-> **Modify Contract** will make page editable
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Rejected Contract View Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Rejected Contract View Screen</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Modify Contract Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Modify Contract Screen</p></figcaption></figure>
 
 From here on the flow is same as that of Create Contract. Once this Contract is submitted it is again moved to the respective Checker's inbox for approval. Contract can be rejected any number of times due to any specific reason which can be mentioned in the comments and the same comments are reflected in the View Contract screen.&#x20;
 
 Upon Successful update relevant acknowledgement screen displayed.
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Contract Modify Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Contract Modify Acknowledgement Screen</p></figcaption></figure>
 
 A Contract that is approved and sent to next stage wont be editable.
