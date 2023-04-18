@@ -1,16 +1,33 @@
-# Introducing Works
+# Introducing DIGIT Works Platform
 
-## About Works
+## Mission
 
-The Works module aims to achieve user satisfaction through quality, timely delivery and transparency in the effective execution of works by simplifying procedures to improve client interface, eliminate delays, improve responsiveness and service delivery, improve productivity, and avoid arbitration or litigation.
+Help countries achieve Infrastructure SDGs by building digital public goods that make cities and human settlements inclusive, safe, resilient and sustainable
 
-## Problems Addressed
+## Overview
 
-With new emerging construction technologies gaining dominance over conventional construction practices and with the rising expectations of various stakeholders for timely delivery of the projects, there is a need for transformative changes requiring revision of the Works Module to make it more nimble, effective and delivery oriented, rather than being process-centric with obsolete provisions.
+The DIGIT Works platform is being built as an open source Digital Public Good to expand capabilities in public infrastructure. It is designed to work across boundaries at varying levels of capacity and complexity.
 
-It should also be in consonance with the fundamental principles of service delivery, customer focus, efficiency, transparency, fairness, competition, economy and accountability.
+As per a recent article in economic times in 2022  “_Capital investment outlay is being increased steeply by 33% to Rs 10 lakh crore. This will be 3.3% of GDP. Will be almost three times the outlay made in 2019”_
 
-## Approach
+Majority of this capital investment (Capital Expenditure) which is on civil works is managed in offline or independent systems lying within the executing agencies. This is a huge problem as information is not exchanged between planning, executing, owning, financing, auditing and other authorities which leads to payment delays, poor quality of executing, poor financing & auditing amongst many others issues.
+
+## Need for DIGIT Works Platform
+
+Works Management Systems are massive and complex. While many agencies are building their own products and solutions, these are independent systems that do not exchange data. This leads to inefficiencies in carrying out projects that are closely linked by nature, type, location, citizens etc. \
+
+
+The goal of this works platform is to allow seamless exchange of works related information (e.g. projects, vendor, assets, attendance, estimate, contracts, bills etc.) between&#x20;
+
+&#x20;                 1\. Works and Finance systems to accelerate payments
+
+&#x20;                 2\. Different agencies for better project coordination&#x20;
+
+&#x20;                 3\. Share open data & registries to avoid duplication and mis-utilisation of resources&#x20;
+
+The Works Platform on DIGIT can be used by any Agency (National, Sub National, Urban/Rural local bodies, parastatal agencies and others to create any kind of civil projects
+
+The platform will become a “shared source of truth” that all stakeholders can use to align resources and decisions to achieve operational and financial efficiency. The platform will therefore greatly improve the transparency and competency of agencies executing works.
 
 A Works Management System(WMS) typically is used by various departments in the government to track end to end lifecycle of a project (scope and finances).
 
@@ -21,11 +38,21 @@ Examples:
 1. Construction of new metro rail is of nature capital works (New Works)
 2. Repair of existing roads is of nature operations and maintenance (O\&M)
 
-<figure><img src=".gitbook/assets/Copy of Works Management - Gate 1.png" alt=""><figcaption><p>Steps illustration through the works management cycle</p></figcaption></figure>
-
 Once the project is identified, the next step is the estimation of project costs. This is followed by tendering, contracting, sharing the work order with the contractor, tracking milestones, payments and closure.
 
-Explore the Works platform architecture [here](platform/service-architecture.md).&#x20;
+The platform design provides the capability to integrate smart payments with[ iFIX](http://ifix.digit.org/). The integration enables departments to track project milestones and simplify vendor payments. The multi-layer architecture design ensures transparency, visibility and fast decisions all of which translate to an accelerated pace of development. The registries and APIs ensure information flows seamlessly across channels removing the challenges of siloed data structures and facilitating interoperability.
+
+
+
+Read more about our multi-layered platform[ architecture design rationale here](https://urban.digit.org/platform/architecture#multi-layer-architecture)
+
+<figure><img src="https://lh4.googleusercontent.com/0Yp9shZbfLrToThjYRr9uF9_ZJGjUIV8JQ50XIdnus9Zp_a4qufcgURdM8axKkzbEkJF9beFws1mBL1yD1vspDaWDCIABIIbXXSujAPzhcgEz9b4_URYuUDavsI8fqlmIIO0t4GQPvggeisygykRM1c" alt=""><figcaption></figcaption></figure>
+
+
+
+## Platform scope
+
+The DIGIT Works Platform is designed to enable delivery at scale, across various aspects of public Works, and multiple agencies. Using the platform approach, we will create an end-to-end flexible, open, configurable, and reusable platform to plan, manage and close any public works projects such as new constructions or existing works maintenance so there is timely project completion and payments.
 
 ## Benefits
 

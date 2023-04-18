@@ -22,7 +22,7 @@ This is a generic attendance module that allows creation of an attendance regist
 
 ### DB Schema Diagram
 
-<figure><img src="../../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Web Sequence Diagram
 

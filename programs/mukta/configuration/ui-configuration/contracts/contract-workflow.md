@@ -33,7 +33,7 @@ description: >-
 * From Contract Proposal Inbox, User can come into Contract View Screen where Details of Contract present while creating the contract and Workflow history will be displayed.
 * User can take necessary actions by clicking on Actions Menu.
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>View Contract Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>View Contract Screen</p></figcaption></figure>
 
 ### Taking Actions on Contract
 
@@ -46,7 +46,7 @@ An Action bar on the View Contract Screen shows the list of actions&#x20;
 
 When any action is clicked respective popup is rendered according to the selected action. We have created three popups for approve, forward and reject. They are shown below
 
-<figure><img src="../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Forward Processing Modal</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p>Forward Processing Modal</p></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot from 2022-12-06 13-34-04.png" alt=""><figcaption><p>Reject Processing Modal</p></figcaption></figure>
 
@@ -58,4 +58,4 @@ When these popups are submitted, Update Contract API is called containing the re
 
 Upon successful update a response screen is displayed as follows
 
-<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Contract Updation Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Contract Updation Acknowledgement Screen</p></figcaption></figure>

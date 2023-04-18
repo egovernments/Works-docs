@@ -6,7 +6,7 @@ description: >-
 
 # UI Tech Design
 
-UI Design\
+WORKS UI Design(MUKTA)\
 
 
-{% embed url="https://miro.com/app/board/uXjVP1uDKJE=/?cot=14&moveToWidget=3458764548536223192" %}
+{% embed url="https://miro.com/app/live-embed/uXjVP1uDKJE=/?embedId=137923690263&moveToViewport=297948,-278957,123194,67500" %}

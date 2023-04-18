@@ -2,11 +2,11 @@
 
 Create Contract will have link to create contract from view approved estimate sub Estimate table screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>View Approved Estimate Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>View Approved Estimate Screen</p></figcaption></figure>
 
 Clicking on this will open create contract screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Create Contract Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p>Create Contract Screen</p></figcaption></figure>
 
 #### Add create contract fields mdms config
 
@@ -34,7 +34,7 @@ Once the above details are filled, user needs to forward contract to concerned d
 
 Once Create Contract API call is successful, an acknowledgement screen is shown.
 
-<figure><img src="../../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Create Contract Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Create Contract Acknowledgement Screen</p></figcaption></figure>
 
 #### DropDown Data and Localization
 

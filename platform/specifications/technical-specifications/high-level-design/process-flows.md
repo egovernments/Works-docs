@@ -4,7 +4,7 @@
 
 A process flow detailing all steps in Works within various value bundles is given below. Refer to the colour legend on top of the attached diagram for a better understanding.
 
-<figure><img src="../../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 A Works Management System (WMS) typically is used by various departments in the government to track end to end lifecycle of a project (Scope and Finances).
 
