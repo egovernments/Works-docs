@@ -15,6 +15,9 @@ A running DIGIT platform is needed to deploy the contract service. Specifically,
 * Estimate
 * Organisation
 * User
+* Workflow
+* IDGen
+* Notification
 * Persister
 * Indexer
 
