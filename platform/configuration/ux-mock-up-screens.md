@@ -1,8 +1,12 @@
 ---
-description: UI configuration for screens
+description: UI configuration for app
 ---
 
 # UI Configuration
+
+## **Overview**
+
+
 
 **Mock Screens Figma Link**
 
@@ -101,6 +105,8 @@ Please refer to the table in [this document ](https://works.digit.org/programs/m
 
 ### **Localization Configs**
 
-All strings localized per module are provided in this [sheet linked here](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231). To translate the UI into other languages, please follow this sheet and provide appropriate translations in your language. \
-\
+All strings localized per module are provided in this [sheet linked here](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231). To translate the UI into other languages, please follow this sheet and provide appropriate translations in your language.&#x20;
+
+## **Reference Links**
+
 \
