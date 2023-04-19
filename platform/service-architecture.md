@@ -21,10 +21,8 @@ The platform architecture illustration below provides a visual representation of
 The platform operates through distinct layers that include -&#x20;
 
 * Master Data - project-specific information layer (bottom layer)
-* Registries & Certificates&#x20;
-* Common Service APIs
+* Registries
 * Services
-* Open APIs
 * Apps - linking multiple stakeholder groups
 * Individual Users (top layer)
 
