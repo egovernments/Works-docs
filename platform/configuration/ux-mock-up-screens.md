@@ -4,15 +4,13 @@ description: UI configuration for screens
 
 # UI Configuration
 
-**Mock Screens Figma Link:**&#x20;
+**Mock Screens Figma Link**
 
-{% embed url="https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1:2&t=rN5iRNy8jvmI57VD-0" %}
+Figma screens for the UI are [here](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1-2). Please refer to them to understand the MUKTA UI.&#x20;
 
+### **DevOps Configuration**
 
-
-**DevOps Configuration::**\
-\
-The following block of code has to be added to the environment file.
+In the DevOps repository of your organization, locate the following `"deploy-as-code/helm/environments/works-dev.yaml"`. Inside the environment YAML file used to deploy the Works platform, please add the following block of code:
 
 ```yaml
 
@@ -20,31 +18,36 @@ works-ui:
   custom-js-injection: |
     sub_filter.conf: "
       sub_filter  '<head>' '<head>
-      <script src=https://s3.ap-south-1.amazonaws.com/works-dev-asset/globalConfigsWorks.js type=text/javascript></script>';"
+      <script src={{INSERT_YOUR_AWS_BUCKET_NAME}}/globalConfigsWorks.js type=text/javascript></script>';"
 ```
 
-{% embed url="https://github.com/egovernments/DIGIT-DevOps/blob/8f80d072be92a8a3cbcac438ca3abdd5e999d17b/deploy-as-code/helm/environments/works-dev.yaml#L587" %}
-Works dev Environment Configuration
-{% endembed %}
+A dev environment sample file is linked [here](https://github.com/egovernments/DIGIT-DevOps/blob/8f80d072be92a8a3cbcac438ca3abdd5e999d17b/deploy-as-code/helm/environments/works-dev.yaml#L587). Note that you will have to modify this for your deployment.
 
+### **GlobalConfig**&#x20;
 
+This section contains config that is applicable globally to all UI modules. These need to be configured prior to service specific UI configurations.
 
-**GlobalConfig (Env Configuration)**
+#### Steps to create a globalconfig.js file:
 
-
+1. Create a config file(globalconfigs.js) with below mentioned config (see code below).
+2. Configure all the images/logo required in the S3 and add links as footerBWLogoURL , footerLogoURL
+3. Mention the state tenant ID as stateTenantId
+4. If any User roles have to be made invalid add as invalidEmployeeRoles
+5. Then push this global config file into your S3 bucket as globalconfigs.js
+6. Mention the globalconfig file URL into your [`Environment config`](ux-mock-up-screens.md#devops-configuration)&#x20;
 
 ```javascript
 var globalConfigs = (function () {
-  var stateTenantId = 'pg'
+  var stateTenantId = 'pg' // statetenantId
    var gmaps_api_key = 'AIzaSyAQOd09-vjmk1sXFb_ZQYDz2nlfhXq7Wf8';
    var contextPath = 'works-ui'; 
    var configModuleName = 'commonMuktaUiConfig'; 
    var centralInstanceEnabled = false;
-   var footerBWLogoURL = 'https://s3.ap-south-1.amazonaws.com/egov-dev-assets/digit-footer-bw.png';
-   var footerLogoURL = 'https://s3.ap-south-1.amazonaws.com/egov-dev-assets/digit-footer.png';
+   var footerBWLogoURL = '{{INSERT_YOUR_AWS_BUCKET_NAME}}/digit-footer-bw.png';
+   var footerLogoURL = '{{INSERT_YOUR_AWS_BUCKET_NAME}}/digit-footer.png';
    var digitHomeURL = 'https://www.digit.org/';
    var xstateWebchatServices = 'wss://dev.digit.org/xstate-webchat/';
-   var assetS3Bucket = 'egov-dev-assets';
+   var assetS3Bucket = '{{INSERT_YOUR_AWS_BUCKET_NAME}}';
    var invalidEmployeeRoles = ["CBO_ADMIN","STADMIN","ORG_ADMIN","ORG_STAFF"] 
 
  
@@ -83,34 +86,21 @@ var globalConfigs = (function () {
  }());
 ```
 
-{% embed url="https://s3.ap-south-1.amazonaws.com/works-dev-asset/globalConfigsWorks.js" %}
-Global Config
-{% endembed %}
+####
 
-**MDMS configs**\
-All the UI Screen Config Of MUkta is present in this folder [commonMuktaUiConfig](https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/commonMuktaUiConfig)
+### **MDMS configs**
 
-[https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/commonMuktaUiConfig](https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/commonMuktaUiConfig)\
+All the UI Screen configurations required for MUKTA are present in this folder [commonMuktaUiConfig](https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/commonMuktaUiConfig).\
 \
-Other MDMS configs\
+For other MDMS configurations, please check [here](../../programs/mukta/configuration/ui-configuration/mdms-configuration.md).\
 
 
-{% content-ref url="../../programs/mukta/configuration/ui-configuration/mdms-configuration.md" %}
-[mdms-configuration.md](../../programs/mukta/configuration/ui-configuration/mdms-configuration.md)
-{% endcontent-ref %}
+### **Roles Configuration**
 
-{% embed url="https://docs.google.com/spreadsheets/d/1m72DeHvIrvt4P6NRlg2lAc-3Xrs_a56co7SqkrrZDKU/edit#gid=0" %}
-MDMS Configs
-{% endembed %}
+Please refer to the table in [this document ](https://works.digit.org/programs/mukta/configuration/ui-configuration/role-configuration)for screen-specific role configuration. Note that some of this will overlap with configurations done for the backend service modules. If already present in MDMS, please ignore it.&#x20;
 
-**Roles Configuration**\
+### **Localization Configs**
 
-
-{% content-ref url="../../programs/mukta/configuration/ui-configuration/role-configuration.md" %}
-[role-configuration.md](../../programs/mukta/configuration/ui-configuration/role-configuration.md)
-{% endcontent-ref %}
-
+All strings localized per module are provided in this [sheet linked here](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231). To translate the UI into other languages, please follow this sheet and provide appropriate translations in your language. \
 \
 \
-**Localization Configs**\
-[**https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231**](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231)\
