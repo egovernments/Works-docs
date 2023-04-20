@@ -6,7 +6,7 @@ description: >-
 
 # Inbox/Search Screen
 
-**Objective:**
+**Overview:**
 
 * To render the Inbox screen or Search screen based on the config
 * To call the API dynamically based on API details passed via config

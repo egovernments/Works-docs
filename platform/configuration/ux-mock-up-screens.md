@@ -6,11 +6,7 @@ description: UI configuration for app
 
 ## **Overview**
 
-
-
-**Mock Screens Figma Link**
-
-Figma screens for the UI are [here](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1-2). Please refer to them to understand the MUKTA UI.&#x20;
+This Document says about the Configuration required to enable the MUKTA UI in any environment.
 
 ### **DevOps Configuration**
 
@@ -29,7 +25,7 @@ A dev environment sample file is linked [here](https://github.com/egovernments/D
 
 ### **GlobalConfig**&#x20;
 
-This section contains config that is applicable globally to all UI modules. These need to be configured prior to service specific UI configurations.
+This section contains a config that is applicable globally to all UI modules. These need to be configured prior to service specific UI configurations.
 
 #### Steps to create a globalconfig.js file:
 
@@ -96,17 +92,19 @@ var globalConfigs = (function () {
 
 All the UI Screen configurations required for MUKTA are present in this folder [commonMuktaUiConfig](https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/commonMuktaUiConfig).\
 \
-For other MDMS configurations, please check [here](../../programs/mukta/configuration/ui-configuration/mdms-configuration.md).\
+For other MDMS configurations, please check [here](../../programs/mukta/configuration/ui-configuration/common-configurations/mdms-configuration.md).\
 
 
 ### **Roles Configuration**
 
-Please refer to the table in [this document ](https://works.digit.org/programs/mukta/configuration/ui-configuration/role-configuration)for screen-specific role configuration. Note that some of this will overlap with configurations done for the backend service modules. If already present in MDMS, please ignore it.&#x20;
+Please refer to the table in [this document ](../../programs/mukta/configuration/ui-configuration/common-configurations/role-configuration.md)for screen-specific role configuration. Note that some of this will overlap with configurations done for the backend service modules. If already present in MDMS, please ignore it.&#x20;
 
 ### **Localization Configs**
 
 All strings localized per module are provided in this [sheet linked here](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z6cJ1IhsaVCxY9PKcBTg2IpIZ1dXgX4/edit#gid=934078231). To translate the UI into other languages, please follow this sheet and provide appropriate translations in your language.&#x20;
 
 ## **Reference Links**
+
+1. Figma screens for the UI are [here](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1-2). Please refer to them to understand the MUKTA UI.&#x20;
 
 \
