@@ -18,25 +18,25 @@ The muster roll service aggregates attendance logs from the attendance service b
 
 ### DB Schema Diagram
 
-<figure><img src="../../../../.gitbook/assets/Muster_roll_DbSchema.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Muster_roll_DbSchema.png" alt=""><figcaption></figcaption></figure>
 
 ### Web Sequence Diagrams
 
 {% tabs %}
 {% tab title="Create" %}
-<figure><img src="../../../../.gitbook/assets/Muster-Roll Create.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Muster-Roll Create.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}
 
 {% tab title="Second Tab" %}
-<figure><img src="../../../../.gitbook/assets/Muster-Roll Update.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Muster-Roll Update.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}
 
 {% tab title="Search" %}
-<figure><img src="../../../../.gitbook/assets/Muster-Roll Search.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Muster-Roll Search.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}

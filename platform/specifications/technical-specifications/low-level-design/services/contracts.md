@@ -52,7 +52,7 @@ Contracts API spec
 {% endtab %}
 
 {% tab title="Search" %}
-<figure><img src="../../../../.gitbook/assets/Contract Search.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Contract Search.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}
