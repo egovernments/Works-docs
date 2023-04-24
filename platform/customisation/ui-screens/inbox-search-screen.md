@@ -6,10 +6,12 @@ description: >-
 
 # Inbox/Search Screen
 
-**Overview:**
+## **Overview**
 
-* To render the Inbox screen or Search screen based on the config
-* To call the API dynamically based on API details passed via config
+This page provides the approach details for -
+
+* rendering the Inbox screen or Search screen based on the config
+* calling the API dynamically based on API details passed via config
 
 ## Common Components Used
 
@@ -21,7 +23,7 @@ This is a container component for inbox and search screens. It consists of 4 chi
 
 #### InboxSearchLinks
 
-This component is used to render titles and links in inbox.
+This component is used to render titles and links in the inbox.
 
 <table><thead><tr><th>Prop Name</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>headerText</td><td>Config fetched from MDMS data</td><td></td></tr><tr><td>links</td><td>Links to navigate to other screens</td><td></td></tr><tr><td>customClass</td><td>Class to update styling</td><td></td></tr><tr><td>logoIcon</td><td>Icon name and class to render in component</td><td></td></tr></tbody></table>
 
@@ -43,21 +45,21 @@ This component is used to render form fields passed in the 'fields' parameter in
 
 <table><thead><tr><th>Prop Name</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>fields</td><td>Config to render all form fields</td><td></td></tr><tr><td>control, formData, errors, register, setValue, getValues, setError, clearErrors</td><td>Props to handle all form actions like collectibe data, setting errors, clearing errors etc.</td><td></td></tr><tr><td>apiDetails</td><td>Includes all API details required to fetch data</td><td></td></tr></tbody></table>
 
-### **Hooks used**
+### **Hooks Used**
 
 To fetch inbox details, ‘useCustomAPIHook’ is used which takes all the API details like URL, query params, body, config etc. from config (defined in MDMS).                                                                                         &#x20;
 
 {% embed url="https://github.com/egovernments/DIGIT-Works/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/useCustomAPIHook.js" %}
 
-### Sample MDMS data for Inbox&#x20;
+### Sample MDMS Data For Inbox&#x20;
 
 {% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/projectInboxConfig.json" %}
 
-### Sample MDMS data for Search
+### Sample MDMS Data For Search
 
 {% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/commonUiConfig/SearchProjectConfig.json" %}
 
-## Steps To Configure Screens
+## Configure Screens - Steps
 
 1.  Create config based on the sections that need to be displayed on the screen. The basic structure for Inbox and Search screens is as below.&#x20;
 

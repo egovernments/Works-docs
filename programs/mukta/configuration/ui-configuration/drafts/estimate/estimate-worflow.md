@@ -215,7 +215,7 @@ When any action is clicked respective popup is rendered according to the selecte
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 19-36-48.png" alt=""><figcaption><p>Reject Processing Modal</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
 
 When these popups are submitted, Update Estimate API is called containing the relevant updates in the workflow object contained in request body. Estimate service internally calls the workflow service and updates the status of application.
 
