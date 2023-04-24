@@ -2,7 +2,7 @@
 description: Works platform design principles, approach and rationale
 ---
 
-# Service Architecture
+# Architecture
 
 ## Principles
 
@@ -16,7 +16,7 @@ The platform design provides the capability to integrate smart payments with [iF
 
 The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments.&#x20;
 
-<figure><img src="../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 The platform operates through distinct layers that include -&#x20;
 

@@ -2,7 +2,10 @@
 
 * [Introducing DIGIT Works Platform](README.md)
 * [Platform](platform/README.md)
-  * [Service Architecture](platform/service-architecture.md)
+  * [Architecture](platform/architecture/README.md)
+    * [Common Services](platform/architecture/common-services.md)
+    * [Registries](platform/architecture/registries.md)
+    * [Data Exchange](platform/architecture/data-exchange.md)
   * [Specifications](platform/specifications/README.md)
     * [Functional Specifications](platform/specifications/functional-specifications/README.md)
       * [Projects Service](platform/specifications/functional-specifications/projects-service.md)
