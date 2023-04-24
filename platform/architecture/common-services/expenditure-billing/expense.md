@@ -1,4 +1,4 @@
-# Expenditure/ Billing
+# Expense
 
 ## Overview
 

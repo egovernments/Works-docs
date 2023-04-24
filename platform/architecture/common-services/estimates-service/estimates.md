@@ -37,19 +37,19 @@ Below diagram shows the interaction between the estimate service and the persist
 
 {% tabs %}
 {% tab title="Create Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Create.png>)
+![](<../../../../.gitbook/assets/Estimate Create.png>)
 
 
 {% endtab %}
 
 {% tab title="Update Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Update.png>)
+![](<../../../../.gitbook/assets/Estimate Update.png>)
 
 
 {% endtab %}
 
 {% tab title="Search Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Search.png>)
+![](<../../../../.gitbook/assets/Estimate Search.png>)
 
 
 {% endtab %}
@@ -63,7 +63,7 @@ Estimate inbox uses the Inbox V2 service (from DIGIT core) which queries ES to r
 
 TBD. The proposed sequence diagram is below.
 
-![](../../../../../.gitbook/assets/Estimate-PDF.png)
+![](../../../../.gitbook/assets/Estimate-PDF.png)
 
 
 

@@ -65,12 +65,12 @@ Mockups\
 
 
 
-| Create Project with no sub projects                              | ![](<../../../.gitbook/assets/image (22).png>) |
-| ---------------------------------------------------------------- | ---------------------------------------------- |
-| Create Project with Sub projects                                 | ![](<../../../.gitbook/assets/image (1).png>)  |
-| Capturing Financial details of project (Part of Program service) | ![](<../../../.gitbook/assets/image (3).png>)  |
-| Capturing Sub Project Details                                    | ![](<../../../.gitbook/assets/image (8).png>)  |
-| Project Created Successfully                                     | ![](<../../../.gitbook/assets/image (34).png>) |
-| View Project                                                     | ![](../../../.gitbook/assets/image.png)        |
-| Projects Inbox                                                   | ![](<../../../.gitbook/assets/image (21).png>) |
-| Inbox Table                                                      | ![](<../../../.gitbook/assets/image (32).png>) |
+| Create Project with no sub projects                              | ![](<../../../../.gitbook/assets/image (22).png>) |
+| ---------------------------------------------------------------- | ------------------------------------------------- |
+| Create Project with Sub projects                                 | ![](<../../../../.gitbook/assets/image (1).png>)  |
+| Capturing Financial details of project (Part of Program service) | ![](<../../../../.gitbook/assets/image (3).png>)  |
+| Capturing Sub Project Details                                    | ![](<../../../../.gitbook/assets/image (8).png>)  |
+| Project Created Successfully                                     | ![](<../../../../.gitbook/assets/image (34).png>) |
+| View Project                                                     | ![](../../../../.gitbook/assets/image.png)        |
+| Projects Inbox                                                   | ![](<../../../../.gitbook/assets/image (21).png>) |
+| Inbox Table                                                      | ![](<../../../../.gitbook/assets/image (32).png>) |
