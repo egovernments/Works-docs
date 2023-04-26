@@ -62,6 +62,10 @@ Configure roles based on the roles column below in roles.json file.&#x20;
 
 **Master name:** roles
 
+{% hint style="warning" %}
+#### Assign EMPLOYEE\_COMMON to all contract actors during user creation.
+{% endhint %}
+
 #### Configure Role-Action:
 
 Role-action mapping is configured in MDMS per the table belowAdd .&#x20;
@@ -75,17 +79,15 @@ Role-action mapping is configured in MDMS per the table belowAdd .&#x20;
 | WORK\_ORDER\_CREATOR  | /contract/v1/\_create  |
 |                       | /contract/v1/\_update  |
 |                       | /contract/v1/\_search  |
-|                       | /inbox/v2/\_search     |
 |                       | /wms/contract/\_search |
 | WORK\_ORDER\_VERIFIER | /contract/v1/\_update  |
 |                       | /contract/v1/\_search  |
-|                       | /inbox/v2/\_search     |
 |                       | /wms/contract/\_search |
 | WORK\_ORDER\_APPROVER | /contract/v1/\_update  |
 |                       | /contract/v1/\_search  |
-|                       | /inbox/v2/\_search     |
 | WORK\_ORDER\_VIEWER   | /contract/v1/\_search  |
 |                       | /wms/contract/\_search |
+| EMPLOYEE\_COMMON      | /inbox/v2/\_search     |
 
 These have to be translated into JSON in the role-action mapping module in MDMS.
 

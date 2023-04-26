@@ -101,19 +101,29 @@ Configure roles:
     }
 ```
 
+{% hint style="warning" %}
+Assign EMPLOYEE\_COMMON role to all estimate actors.&#x20;
+{% endhint %}
+
 Configure role-action mappings as per the table below:
 
 | Role                  | APIs                                   |
 | --------------------- | -------------------------------------- |
 | ESTIMATE\_CREATOR     | /estimate-service/estimate/v1/\_create |
 |                       | /estimate-service/estimate/v1/\_search |
+|                       | /wms/estimate/\_search                 |
 | ESTIMATE\_VERIFIER    | /estimate-service/estimate/v1/\_update |
 |                       | /estimate-service/estimate/v1/\_search |
+|                       | /wms/estimate/\_search                 |
 | TECHNICAL\_SANCTIONER | /estimate-service/estimate/v1/\_update |
 |                       | /estimate-service/estimate/v1/\_search |
+|                       | /wms/estimate/\_search                 |
 | ESTIMATE\_APPROVER    | /estimate-service/estimate/v1/\_update |
 |                       | /estimate-service/estimate/v1/\_search |
+|                       | /wms/estimate/\_search                 |
 | ESTIMATE\_VIEWER      | /estimate-service/estimate/v1/\_search |
+|                       | /wms/estimate/\_search                 |
+| EMPLOYEE\_COMMON      | /inbox/v2/\_search                     |
 
 Translate the table above into role-action mappings in roleactions.json in MDMS. Sample is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
 

@@ -58,6 +58,10 @@ The project service provides the below functionalities. Currently, only APIs to 
     },
 ```
 
+{% hint style="info" %}
+Define (if not present already) and assign EMPLOYEE\_COMMON role to all project actors.&#x20;
+{% endhint %}
+
 #### actions.json
 
 Below are the actions or APIs exposed by the Project service used by the Works platform. Note that the "id" in the attributes needs to be unique and may be different in the implementation environment. It need not be exactly the same as what is shown below.
@@ -105,12 +109,13 @@ Below are the actions or APIs exposed by the Project service used by the Works p
 
 The following table shows the mapping between the APIs and the roles:
 
-| Role Code        | Description     | API                     |
-| ---------------- | --------------- | ----------------------- |
-| PROJECT\_CREATOR | Project Creator | pms/project/v1/\_create |
-|                  |                 | pms/project/v1/\_update |
-|                  |                 | pms/project/v1/\_search |
-| PROJECT\_VIEWER  | Project Viewer  | pms/project/v1/\_search |
+| Role Code        | Description     | API                  |
+| ---------------- | --------------- | -------------------- |
+| PROJECT\_CREATOR | Project Creator | /project/v1/\_create |
+|                  |                 | /project/v1/\_update |
+|                  |                 | /project/v1/\_search |
+| PROJECT\_VIEWER  | Project Viewer  | /project/v1/\_search |
+| EMPLOYEE\_COMMON | Employee Common | /inbox/v2/\_search   |
 
 The following role-action mappings derived from the above table are configured for the Project service in the roleactions.json in MDMS. A sample is provided below. Make sure the action ID is correct and corresponding to actions.json.&#x20;
 
@@ -118,7 +123,7 @@ The following role-action mappings derived from the above table are configured f
 {
       "id": 51,
       "name": "Create Project",
-      "url": "/pms/project/v1/_create",
+      "url": "/project/v1/_create",
       "parentModule": "project-management-system",
       "displayName": "Create Project",
       "orderNumber": 0,
@@ -130,7 +135,7 @@ The following role-action mappings derived from the above table are configured f
     {
       "id": 52,
       "name": "Search Project",
-      "url": "/pms/project/v1/_search",
+      "url": "/project/v1/_search",
       "parentModule": "project-management-system",
       "displayName": "Search Project",
       "orderNumber": 0,
@@ -142,7 +147,7 @@ The following role-action mappings derived from the above table are configured f
     {
       "id": 53,
       "name": "Update Project",
-      "url": "/pms/project/v1/_update",
+      "url": "/project/v1/_update",
       "parentModule": "project-management-system",
       "displayName": "Update Project",
       "orderNumber": 0,
