@@ -52,6 +52,8 @@
   * [MUKTA](programs/mukta/README.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
+      * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
+        * [Project Type](programs/mukta/configuration/master-data-templates/project-type.md)
       * [UI Configuration](platform/configuration/ux-mock-up-screens.md)
         * [Common Configurations](programs/mukta/configuration/ui-configuration/common-configurations/README.md)
           * [Role Configuration](programs/mukta/configuration/ui-configuration/common-configurations/role-configuration.md)
