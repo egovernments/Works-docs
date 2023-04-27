@@ -59,6 +59,7 @@
         * [Create Project](programs/mukta/user-stories/project-user-stories/create-project.md)
         * [Search Project](programs/mukta/user-stories/project-user-stories/search-project.md)
         * [View Project Details](programs/mukta/user-stories/project-user-stories/view-project-details.md)
+        * [Modify Project Details](programs/mukta/user-stories/project-user-stories/modify-project-details.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
