@@ -1,10 +1,10 @@
 # Project Type
 
-### Introduction
+## Introduction
 
 
 
-### Data Table
+## Data Table
 
 | Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
 | ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
@@ -16,9 +16,7 @@
 The data given in the table is sample data for reference.
 {% endhint %}
 
-### Procedure
-
-#### Data Definition
+## Data Definition
 
 | Sr. No. | Column Name          | Data Type    | Data Size | Is Mandatory? | Definition/ Description                         |
 | ------- | -------------------- | ------------ | --------- | ------------- | ----------------------------------------------- |

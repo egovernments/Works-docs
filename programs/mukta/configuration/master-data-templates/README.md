@@ -17,7 +17,7 @@ This page is intended to help stakeholders as given below on data gathering acti
 
 The artefacts of this document are the data template of a configurable entity, a page with content defining the entity template and helping on how to fill the template with required data.
 
-## Steps to fill data
+## Data Entry
 
 1. Download the data template attached to this page.
 2. Find the meaning of the different headers in the Data Definition section on this page
@@ -34,18 +34,18 @@ The checklist is a set of activities to be performed once the data is filled int
 
 This checklist covers all the activities which are common across the entities.
 
-| Sr. No | Checklist Parameter                                                               | Example                       |
-| ------ | --------------------------------------------------------------------------------- | ----------------------------- |
-| 1      | Make sure that each and every point in this reference list has been taken care of | [Checklist](broken-reference) |
+| Sr. No | Checklist Parameter                                                               | Example                                                                                                                              |
+| ------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1      | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://urban.digit.org/platform/configure-digit/configuring-master-data-templates/module-setup/common-config/checklist) |
 
 #### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
-| Sr. No. | Activity                                           | Example                                                            |
-| ------- | -------------------------------------------------- | ------------------------------------------------------------------ |
-| 1       | The Code should be alphanumeric and unique         | TL\_APPROVER, GRO                                                  |
-| 2       | The Name should not contain any special characters | <p>TL Approver : [Allowed]</p><p>#TL Approver! : [Not allowed]</p> |
+| Sr. No. | Activity                                           | Example |
+| ------- | -------------------------------------------------- | ------- |
+| 1       | The Code should be alphanumeric and unique         | DR      |
+| 2       | The Name should not contain any special characters |         |
 
 ###
 
