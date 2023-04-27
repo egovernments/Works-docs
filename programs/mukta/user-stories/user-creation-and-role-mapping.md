@@ -1,18 +1,14 @@
----
-description: Taken from Jira
----
-
 # User Creation & Role Mapping
 
-### Scope
+## Scope
 
 Employees users creation and role mapping
 
-### Actors
+## Actors
 
 Employees
 
-### Details
+## Details
 
 1. HRMS module to be used to create the employee users and mapping of roles.
 2. Roles are created from the back end and actions are mapped as per role requirements.&#x20;
@@ -22,26 +18,26 @@ Employees
 6. Use the UAT for initial testing. Testing credentials and URLs are available on request.&#x20;
 7. Once the HRMS is packaged with MUKTA, it is tested thoroughly with MUKTA-specific role and action mapping.
 
-### Validations
+## Validations
 
 Not applicable
 
-### Configurations
+## Configurations
 
 Not applicable
 
-### Actions
+## Actions
 
-#### Login
+### Login
 
 1. On successful login, the user is taken to Home Page.
 2. On failure due to incorrect credentials, an appropriate message is displayed.
 
-#### Forgot Password?
+### Forgot Password
 
 1. It will take the user to the password reset page.
 
-#### Notifications
+## Notifications
 
 Not applicable.
 
@@ -51,5 +47,11 @@ Not applicable.
 
 ## Acceptance Criteria
 
-1. User creation flow to be tested to found it working perfect.
+| Acceptance Criteria  | Description                                                              |
+| -------------------- | ------------------------------------------------------------------------ |
+| 1                    | User creation flows to be tested and validated for working without error |
+| 2                    |                                                                          |
+|                      |                                                                          |
+
+
 
