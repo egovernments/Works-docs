@@ -60,15 +60,11 @@ The DIGIT Works Platform is designed to enable delivery at scale, across various
 
 ## Section Overview
 
-[High Level Design](broken-reference)
-
-[Low Level Design](broken-reference)
-
-[Configuration](programs/mukta/configuration/)
-
-[Release Notes](platform/release-notes/)
-
-[Reference Applications](products/)
+* [Platform Architecture](platform/architecture/)
+* [Setup](platform/setup.md)
+* [Configuration](platform/configuration.md)
+* [Release Notes](platform/release-notes/)
+* [Mukta](programs/mukta/)
 
 ## Contact Us
 
