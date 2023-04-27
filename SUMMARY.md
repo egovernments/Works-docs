@@ -60,6 +60,8 @@
         * [Search Project](programs/mukta/user-stories/project-user-stories/search-project.md)
         * [View Project Details](programs/mukta/user-stories/project-user-stories/view-project-details.md)
         * [Modify Project Details](programs/mukta/user-stories/project-user-stories/modify-project-details.md)
+      * [Estimate User Stories](programs/mukta/user-stories/estimate-user-stories/README.md)
+        * [Create Estimate](programs/mukta/user-stories/estimate-user-stories/create-estimate.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
