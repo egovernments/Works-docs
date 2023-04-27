@@ -186,9 +186,210 @@ In the common-masters folder of MDMS, locate the IDFormat.json file. ID formats 
 }
 ```
 
+#### Other masters for Estimate:
+
+The following masters need to be configured for the Estimate service. Please make sure to use the same master name and module names:
+
+[UOM - Unit of measurement](https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/common-masters/uom.json)
+
+[Overheads](https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/Overheads.json)
+
 #### Workflow Configuration
 
-TBD
+The workflow configuration for Estimate is as follows. This payload needs to be called against businessService \_create API for workflow configuration:
+
+```sh
+"BusinessServices": [
+    {
+      "tenantId": "statea",
+      "businessService": "mukta-estimate",
+      "business": "estimate-service",
+      "businessServiceSla": 432000000,
+      "states": [
+	  {
+          "sla": null,
+          "state": null,
+          "applicationStatus": "SUBMITTED",
+          "docUploadRequired": false,
+          "isStartState": true,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "SUBMIT",
+              "nextState": "PENDINGFORVERIFICATION",
+              "roles": [
+                "ESTIMATE_CREATOR"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": 172800000,
+          "state": "PENDINGFORVERIFICATION",
+          "applicationStatus": "VERIFIED",
+          "docUploadRequired": false,
+          "isStartState": true,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "VERIFYANDFORWARD",
+              "nextState": "PENDINGFORTECHNICALSANCTION",
+              "roles": [
+                "ESTIMATE_VERIFIER"
+              ]
+            },
+            {
+              "action": "SENDBACK",
+              "nextState": "PENDINGFORCORRECTION",
+              "roles": [
+                "ESTIMATE_VERIFIER"
+              ]
+            },
+            {
+              "action": "REJECT",
+              "nextState": "REJECTED",
+              "roles": [
+				"ESTIMATE_VERIFIER"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": 86400000,
+          "state": "PENDINGFORTECHNICALSANCTION",
+          "applicationStatus": "TECHNICALLY SANCTIONED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "TECHNICALSANCTION",
+              "nextState": "PENDINGFORAPPROVAL",
+              "roles": [
+                "TECHNICAL_SANCTIONER"
+              ]
+            },
+            {
+              "action": "SENDBACK",
+              "nextState": "PENDINGFORVERIFICATION",
+              "roles": [
+                "TECHNICAL_SANCTIONER"
+              ]
+            },
+            {
+              "action": "SENDBACKTOORIGINATOR",
+              "nextState": "PENDINGFORCORRECTION",
+              "roles": [
+				"TECHNICAL_SANCTIONER"
+              ]
+            },
+            {
+              "action": "REJECT",
+              "nextState": "REJECTED",
+              "roles": [
+				"TECHNICAL_SANCTIONER"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": 86400000,
+          "state": "PENDINGFORAPPROVAL",
+          "applicationStatus": "SENT BACK",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "SENDBACK",
+              "nextState": "PENDINGFORTECHNICALSANCTION",
+              "roles": [
+                "ESTIMATE_APPROVER"
+              ]
+            },
+            {
+              "action": "SENDBACKTOORIGINATOR",
+              "nextState": "PENDINGFORCORRECTION",
+              "roles": [
+				"ESTIMATE_APPROVER"	
+              ]
+            },
+            {
+              "action": "APPROVE",
+              "nextState": "APPROVED",
+              "roles": [
+                "ESTIMATE_APPROVER"
+              ]
+            },
+            {
+              "action": "REJECT",
+              "nextState": "REJECTED",
+              "roles": [
+				"ESTIMATE_APPROVER"	
+              ]
+            }
+          ]
+        },
+        {
+          "sla": 86400000,
+          "state": "PENDINGFORCORRECTION",
+          "applicationStatus": "RE-SUBMITTED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "RE-SUBMITTED",
+              "nextState": "PENDINGFORVERIFICATION",
+              "roles": [
+                "ESTIMATE_CREATOR"
+              ]
+            },
+            {
+              "action": "SENDBACKTOORIGINATOR",
+              "nextState": "PENDINGFORCORRECTION",
+              "roles": [
+                "ESTIMATE_CREATOR"
+              ]
+            },
+            {
+              "action": "REJECT",
+              "nextState": "REJECTED",
+              "roles": [
+                "ESTIMATE_CREATOR"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": null,
+          "state": "APPROVED",
+          "applicationStatus": "APPROVED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true,
+          "isStateUpdatable": false,
+          "actions": null
+        },
+        {
+          "sla": null,
+          "state": "REJECTED",
+          "applicationStatus": "REJECTED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true,
+          "isStateUpdatable": false,
+          "actions": null
+        }
+      ]
+    }
+  ]
+```
 
 #### Inbox Configuration
 
@@ -214,3 +415,5 @@ Below are the variables that should be configured well before deployment of the 
 * Make sure to add the digit core services related secrets are configured in the respective environment secret file the way it's done [here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev-secrets.yaml).
 
 ### Integration
+
+Postman scripts for Estimate are here:&#x20;
