@@ -108,7 +108,7 @@ Not applicable.
 
 | Acceptance Criteria | Description                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| 1                   | Overhead are rendered and their values are calculated according to the configuration.                  |
+| 1                   | Overheads are rendered and their values are calculated according to the configuration.                 |
 | 2                   | On Submit, the estimate gets saved, workflow state changes accordingly, and estimate no. is generated. |
 | 3                   |                                                                                                        |
 
