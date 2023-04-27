@@ -2,7 +2,7 @@
 
 ## Context
 
-Estimate is a document which is prepared to estimate the amount of work required to complete. The estimate helps the Government in tendering, contracting and measuring the work to release the payment.
+The estimate is a document which is prepared to estimate the amount of work required to complete. The estimate helps the Government in tendering, contracting and measuring the work to release the payment.
 
 ## Scope
 
@@ -12,9 +12,7 @@ Search Project → Search Result → View Project Details → Create Estimate
 
 ## Actors
 
-Employee
-
-Role: Estimate Creator
+Employee Role: Estimate Creator
 
 ## Details
 
@@ -107,4 +105,10 @@ Not applicable.
 [<img src="https://static.figma.com/uploads/b6df2735e4cb368306acf5480b50f96e69f96099" alt="" data-size="line">DIGIT-Works](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=2435%3A35724\&t=ejsnb7xhkFG3BDc9-4)
 
 ## Acceptance Criteria
+
+| Acceptance Criteria | Description                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| 1                   | Overhead are rendered and their values are calculated according to the configuration.                  |
+| 2                   | On Submit, the estimate gets saved, workflow state changes accordingly, and estimate no. is generated. |
+| 3                   |                                                                                                        |
 
