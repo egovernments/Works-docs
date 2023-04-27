@@ -1,2 +1,0 @@
-# Wage Seeker MDT
-
