@@ -68,7 +68,7 @@
         * [HRMS Sections/Departments](programs/mukta/configuration/master-data-templates/hrms-sections-departments.md)
         * [HRMS Designation](programs/mukta/configuration/master-data-templates/hrms-designation.md)
         * [HRMS Employment Type](programs/mukta/configuration/master-data-templates/hrms-employment-type.md)
-        * [Page 1](programs/mukta/configuration/master-data-templates/page-1.md)
+        * [User Role](programs/mukta/configuration/master-data-templates/user-role.md)
         * [Project Type](programs/mukta/configuration/master-data-templates/project-type.md)
       * [UI Configuration](platform/configuration/ux-mock-up-screens.md)
         * [Common Configurations](programs/mukta/configuration/ui-configuration/common-configurations/README.md)
