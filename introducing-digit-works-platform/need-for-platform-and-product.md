@@ -1,10 +1,10 @@
-# Process Flows
+---
+description: Draft
+---
 
-## Overview
+# Need For Platform & Product
 
-A process flow detailing all steps in Works within various value bundles is given below. Refer to the colour legend on top of the attached diagram for a better understanding.
-
-<figure><img src="../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
+## Works Overview
 
 A Works Management System (WMS) typically is used by various departments in the government to track end to end lifecycle of a project (Scope and Finances).
 
@@ -24,9 +24,9 @@ Read on to learn more about the features and capabilities supported by Works.
      * The estimate Proposal has high-level details like the name of the project, a brief description, a few line items that constitute the project and under which budget heads of finance the project will be funded.
   2. **Detail Estimate:**
      * A detailed Estimate is prepared mostly after the estimate proposal is approved. (In many cases, these may start simultaneously, as the concerned engineer would already know the chances for approvals)
-     * A detailed Estimate is generally prepared in offline tools supporting advanced functionalities and methods of doing scope estimation. ( For example, in case of Civil Projects, an estimation tool/process already has Plinth Area Estimate, Service Unit Method, Floor Area Method, Carpet Area Method, Typical Bay Method, and Cost Comparison Method) With this, it is possible to do a very detailed analysis.
+     * A detailed Estimate is generally prepared in offline tools supporting advanced functionalities and methods of doing scope estimation. ( For example, in the case of Civil Projects, an estimation tool/process already has Plinth Area Estimate, Service Unit Method, Floor Area Method, Carpet Area Method, Typical Bay Method, and Cost Comparison Method) With this, it is possible to do a very detailed analysis.
   3. **Abstract Estimate:**
-     * An abstract estimate is a sort of grouping and summary of the bill of quantities that evolved from a detailed estimation process.
+     * An abstract estimate is a grouping and summary of the bill of quantities that evolved from a detailed estimation process.
      * The concerned engineer enters the abstract estimate details into WMS. This goes through an approval process through necessary stakeholders and departments depending on the nature of work, Type of Work, and Estimated Cost.
   4. **Sub Estimate:**
      * An Estimate is sometimes divided into Sub Estimates (For large or multi-location projects etc) for better management purposes.
@@ -60,7 +60,7 @@ Read on to learn more about the features and capabilities supported by Works.
      * All Milestones need to be in the completed stage to process the final contractor Bill
    * **Tracking Measurement Book:**
      * MBook is also set up for detailed project tracking. M Book measurements are derived from Abstract estimates and track the day-day progress of completed work.
-     * MBook measurements can be entered by the vendor and verified by employees or can be entered by ground inspectors/ field staff on regular basis.
+     * MBook measurements can be entered by the vendor and verified by employees or can be entered by ground inspectors/ field staff on a regular basis.
 
 ## Contractor Bill and Payments <a href="#_t8dle02vzju0" id="_t8dle02vzju0"></a>
 
@@ -125,3 +125,7 @@ Some of these are listed below:
 18. Sub-Scheme Master
 19. Designations Master
 20. User Master
+
+A process flow detailing all steps in Works within various value bundles is given below. Refer to the colour legend on top of the attached diagram for a better understanding.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

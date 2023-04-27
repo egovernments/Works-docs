@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introducing DIGIT Works Platform](README.md)
+  * [Need For Platform & Product](introducing-digit-works-platform/need-for-platform-and-product.md)
+  * [Roadmap](introducing-digit-works-platform/roadmap.md)
 * [Platform](platform/README.md)
   * [Release Notes](platform/release-notes/README.md)
     * [Service Build Updates](platform/release-notes/service-build-updates.md)
@@ -9,7 +11,6 @@
     * [Product Release Gate Checklist](platform/release-notes/product-release-gate-checklist.md)
     * [Implementation Checklist](platform/release-notes/implementation-checklist.md)
   * [Architecture](platform/architecture/README.md)
-    * [Process Flows](platform/specifications/technical-specifications/high-level-design/process-flows.md)
     * [Common Services](platform/specifications/technical-specifications/low-level-design/services/README.md)
       * [Projects Service](platform/specifications/functional-specifications/projects-service.md)
         * [Project](platform/specifications/technical-specifications/low-level-design/services/project.md)
@@ -34,7 +35,6 @@
       * [Organisation](platform/specifications/technical-specifications/low-level-design/registries/organisation.md)
     * [Data Exchange](platform/architecture/data-exchange.md)
   * [Source Code](https://github.com/egovernments/DIGIT-Works)
-  * [Roadmap](platform/roadmap.md)
   * [Installation](platform/setup.md)
   * [Configuration](platform/configuration.md)
   * [Customisation](platform/customisation/README.md)
