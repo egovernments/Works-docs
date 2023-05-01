@@ -2,7 +2,7 @@
 description: This service hosts estimates for projects.
 ---
 
-# Estimates
+# Estimates Technical Docs
 
 ## Overview
 
@@ -12,6 +12,9 @@ Estimate Service will allow users to create estimates and forward them for appro
 
 * Project
 * MDMS
+* Workflow
+* Notification
+* Access Control
 * User
 * IDGen
 
@@ -25,6 +28,8 @@ Estimate API Spec
 
 ### DB Schema Diagram
 
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/master/backend/estimate-service/docs/diagrams/DB_Schema_Estimat-%20Service.png?raw=true" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/estimate-service/docs/diagrams/DB_Schema_Estimat-%20Service.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 ### Estimate Flow Diagram
@@ -37,19 +42,19 @@ Below diagram shows the interaction between the estimate service and the persist
 
 {% tabs %}
 {% tab title="Create Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Create.png>)
+![](<../../../../.gitbook/assets/Estimate Create.png>)
 
 
 {% endtab %}
 
 {% tab title="Update Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Update.png>)
+![](<../../../../.gitbook/assets/Estimate Update.png>)
 
 
 {% endtab %}
 
 {% tab title="Search Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Search.png>)
+![](<../../../../.gitbook/assets/Estimate Search.png>)
 
 
 {% endtab %}
@@ -63,7 +68,7 @@ Estimate inbox uses the Inbox V2 service (from DIGIT core) which queries ES to r
 
 TBD. The proposed sequence diagram is below.
 
-![](../../../../../.gitbook/assets/Estimate-PDF.png)
+![](../../../../.gitbook/assets/Estimate-PDF.png)
 
 
 

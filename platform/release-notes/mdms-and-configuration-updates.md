@@ -10,12 +10,6 @@
 
 ## **Config Changes**
 
-| Feature | Service Name | Changes | Description |
-| ------- | ------------ | ------- | ----------- |
-|         |              |         |             |
-|         |              |         |             |
-|         |              |         |             |
-
 ## **Infra Changes**
 
 | Features    | Service Name | Changes                                                                                                                                                                                      | Description                             |
@@ -36,3 +30,18 @@
 | <p><br></p> | File-store   | [https://github.com/egovernments/DIGIT-DevOps/commit/cd0ddf5ec74ea405142c85328dd9b150536b7ac0](https://github.com/egovernments/DIGIT-DevOps/commit/cd0ddf5ec74ea405142c85328dd9b150536b7ac0) | File store correction                   |
 | <p><br></p> | <p><br></p>  | [https://github.com/egovernments/DIGIT-DevOps/commit/f4c9ca0fbdd00b1595f3e0184beb0d0caf081fc1](https://github.com/egovernments/DIGIT-DevOps/commit/f4c9ca0fbdd00b1595f3e0184beb0d0caf081fc1) | <p><br></p>                             |
 | <p><br></p> | user         | [https://github.com/egovernments/DIGIT-DevOps/commit/a9123a71da1b05ec6708ab88b76a4d3f5f8a4321](https://github.com/egovernments/DIGIT-DevOps/commit/a9123a71da1b05ec6708ab88b76a4d3f5f8a4321) | user path added                         |
+
+| Features                  | Service Name              | Changes                                                                                                          | Description                                |
+| ------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| project-management-system | project-management-system | [https://github.com/egovernments/works-configs/pull/86](https://github.com/egovernments/works-configs/pull/86)   | Project module work-config changes         |
+| attendance-service        | attendance-service        | [https://github.com/egovernments/works-configs/pull/91](https://github.com/egovernments/works-configs/pull/91)   | Attendance module work-config changes      |
+| organization-service      | organization-service      | [https://github.com/egovernments/works-configs/pull/90](https://github.com/egovernments/works-configs/pull/90)   | Organization module work-config changes    |
+| contract-service          | contract-service          | [https://github.com/egovernments/works-configs/pull/89](https://github.com/egovernments/works-configs/pull/89)   | Contract module work-config changes        |
+| estimate-service          | estimate-service          | [https://github.com/egovernments/works-configs/pull/87](https://github.com/egovernments/works-configs/pull/87)   | Estimate module work-config changes        |
+| muster-roll-service       | muster-roll-service       | [https://github.com/egovernments/works-configs/pull/92](https://github.com/egovernments/works-configs/pull/92)   | musterroll module work-config changes      |
+| Audit service             | Audit service             | [https://github.com/egovernments/works-configs/pull/94](https://github.com/egovernments/works-configs/pull/94)   | Audit service work-config changes          |
+| individual-service        | individual-service        | [https://github.com/egovernments/works-configs/pull/95](https://github.com/egovernments/works-configs/pull/95)   | Individual service work-config changes     |
+| <p><br></p>               | <p><br></p>               | [https://github.com/egovernments/works-configs/pull/122](https://github.com/egovernments/works-configs/pull/122) | Adding file egov-workflow-v2-persister.yml |
+| <p><br></p>               | <p><br></p>               | [https://github.com/egovernments/works-configs/pull/139](https://github.com/egovernments/works-configs/pull/139) | Muster roll config changes                 |
+| <p><br></p>               | <p><br></p>               | [https://github.com/egovernments/works-configs/pull/144](https://github.com/egovernments/works-configs/pull/144) | Estimate PDF corrections                   |
+| <p><br></p>               | <p><br></p>               | [https://github.com/egovernments/works-configs/pull/143](https://github.com/egovernments/works-configs/pull/143) | Estimate PDF corrections                   |

@@ -30,82 +30,7 @@ Please refer to the functional specifications for an overview of functionality p
 
 #### MDMS Configuration
 
-Configure APIs to be exposed. Please replace the text {unique ID} with a unique running number.
-
-```json
-{
-      "id": {unique ID},
-      "name": "Create Estimate",
-      "url": "/estimate-service/estimate/v1/_create",
-      "parentModule": "estimate-service",
-      "displayName": "Create Estimate",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "estimate-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": {unique ID},
-      "name": "Search Estimate",
-      "url": "/estimate-service/estimate/v1/_search",
-      "parentModule": "estimate-service",
-      "displayName": "Search Estimate",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "estimate-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": {unique ID},
-      "name": "Update Estimate",
-      "url": "/estimate-service/estimate/v1/_update",
-      "parentModule": "estimate-service",
-      "displayName": "Update Estimate",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "estimate-service",
-      "code": "null",
-      "path": ""
-    },
-```
-
-Configure roles:
-
-```json
- {
-      "code": "ESTIMATE_CREATOR",
-      "name": "ESTIMATE CREATOR",
-      "description": "Estimate Creator"
-    },
-    {
-      "code": "ESTIMATE_VIEWER",
-      "name": "ESTIMATE VIEWER",
-      "description": "Estimate VIEWER having search api access"
-    },
-    {
-      "code": "ESTIMATE_VERIFIER",
-      "name": "ESTIMATE VERIFIER",
-      "description": "Estimate Verifier"
-    },
-    {
-      "code": "TECHNICAL_SANCTIONER",
-      "name": "TECHNICAL SANCTIONER",
-      "description": "Technical sanctioner"
-    },
-    {
-      "code": "ESTIMATE_APPROVER",
-      "name": "ESTIMATE APPROVER",
-      "description": "Estimate Approver"
-    }
-```
-
-{% hint style="warning" %}
-Assign EMPLOYEE\_COMMON role to all estimate actors.&#x20;
-{% endhint %}
-
-Configure role-action mappings as per the table below:
+Configure roles, actions and role-action mappings as per the table below by referring to this doc [here](./):
 
 | Role                  | APIs                                   |
 | --------------------- | -------------------------------------- |
@@ -125,36 +50,15 @@ Configure role-action mappings as per the table below:
 |                       | /wms/estimate/\_search                 |
 | EMPLOYEE\_COMMON      | /inbox/v2/\_search                     |
 
-Translate the table above into role-action mappings in roleactions.json in MDMS. Sample is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
-
-For example, below, `ESTIMATE_CREATOR` is being given access to API actionid 9. This maps to the estimate create API in our repository. Note that the `actionid` and `tenantId` might differ from implementation to implementation.&#x20;
-
-```json
- {
-      "rolecode": "ESTIMATE_CREATOR",
-      "actionid": 9,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "ESTIMATE_VERIFIER",
-      "actionid": 11,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "TECHNICAL_SANCTIONER",
-      "actionid": 11,
-      "actioncode": "",
-      "tenantId": "pg"
-    }
-```
+Sample is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
 
 #### Persister configuration
 
-Please make sure that below files are present in [https://github.com/egovernments/works-configs/blob/DEV/egov-persister/estimate-service.yml](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/estimate-service.yml)
+The persister file for the service is called `estimate-service.yml`.
 
-If the above files are not present, add them in the given location and restart the ‘egov-persister’  service in the respective environment.
+[https://github.com/egovernments/works-configs/blob/DEV/egov-persister/estimate-service.yml](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/estimate-service.yml)
+
+Follow steps [here](./#persister-configuration) for configuring this.
 
 #### Indexer configuration
 

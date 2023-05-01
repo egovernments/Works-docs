@@ -2,35 +2,9 @@
 description: High level design document
 ---
 
-# Project
+# Project Technical Docs
 
-## Overview
-
-
-
-## API Specifications
-
-### API Contract Link
-
-{% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/project-management-system/Project-Management-System-1.0.0.yaml" %}
-
-### Data Model&#x20;
-
-### DB Schema Diagram
-
-<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/project-management-system/src/main/resources/Project_Management_System_DB_Diagram.png?raw=true" alt=""><figcaption><p>Project Service DB Schema</p></figcaption></figure>
-
-### Web Sequence Diagrams
-
-{% tabs %}
-{% tab title="Create" %}
-<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/project-management-system/src/main/resources/docs/sequence_diagrams/create/ProjectCreation.webp?raw=true" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Update" %}
-
-{% endtab %}
-{% endtabs %}
+Documentation for this service resides [here](https://health.digit.org/platform/low-level-design/services/project). Please refer to it for all information.
 
 ### Postman Collection
 

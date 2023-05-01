@@ -2,7 +2,7 @@
 description: Work related contracts
 ---
 
-# Contracts
+# Contracts Technical Docs
 
 ## Overview
 
@@ -22,23 +22,13 @@ The contract service captures work orders or purchase orders. It validates the w
 
 ### API Contract Link
 
-{% embed url="http://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/contract-service/Contract_v1.0.0_oas3.yaml" %}
-Contracts API spec
-{% endembed %}
+{% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/contract-service/Contract_v1.0.0_oas3.yaml" %}
 
 ### Data Model&#x20;
 
 ### DB Schema Diagram
 
-<div>
-
-<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/PFM-1050/backend/contract-service/Contract%20Service%20ER%20diagram.png?raw=true" alt=""><figcaption><p>DB Schema diagram</p></figcaption></figure>
-
- 
-
-<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/Contract%20Service%20ER%20diagram.png?raw=true" alt=""><figcaption><p>DB Schema Diagram</p></figcaption></figure>
-
-</div>
+<figure><img src="https://github.com/egovernments/DIGIT-Works/blob/master/backend/contract-service/Contract%20Service%20ER%20diagram.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 ### Web Sequence Diagrams
 
@@ -52,7 +42,7 @@ Contracts API spec
 {% endtab %}
 
 {% tab title="Search" %}
-<figure><img src="../../../../../.gitbook/assets/Contract Search.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Contract Search.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}

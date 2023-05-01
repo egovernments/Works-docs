@@ -44,35 +44,9 @@ Please refer to a [sample here](https://github.com/egovernments/DIGIT-DevOps/blo
 Restart egov-mdms-service, egov-persister, egov-indexer, inbox, egov-workflow-v2, egov-accesscontrol and zuul after the above changes are performed.
 {% endhint %}
 
-### Configuration
+### MDMS Configuration
 
-#### Configure Actions
-
-Add all the APIs exposed by the contract service (refer to table below for actual APIs) to the actions.json file in MDMS
-
-**Module name:** ACCESSCONTROL-ACTIONS-TEST
-
-**Master name:** actions-test
-
-#### Configure Roles
-
-Configure roles based on the roles column below in roles.json file.&#x20;
-
-**Module name:** ACCESSCONTROL-ROLES
-
-**Master name:** roles
-
-{% hint style="warning" %}
-#### Assign EMPLOYEE\_COMMON to all contract actors during user creation.
-{% endhint %}
-
-#### Configure Role-Action:
-
-Role-action mapping is configured in MDMS per the table belowAdd .&#x20;
-
-**Module name:** ACCESSCONTROL-ROLEACTIONS
-
-**Master name:** roleactions.json
+Configure actions, roles and role-action mappings from the table below. Follow the steps [here](./).
 
 | Role                  | APIs                   |
 | --------------------- | ---------------------- |
@@ -91,7 +65,7 @@ Role-action mapping is configured in MDMS per the table belowAdd .&#x20;
 
 These have to be translated into JSON in the role-action mapping module in MDMS.
 
-The physical location of the file in MDMS can be anywhere as long as the module name and master name are defined correctly. Typically, a folder called [ACCESSCONTROL-ROLEACTIONS](https://github.com/egovernments/works-mdms-data/tree/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS) is defined under a tenant folder for clarity purposes. Example is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json). But this is not mandatory.&#x20;
+Example is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
 
 #### Other masters to be added:
 
