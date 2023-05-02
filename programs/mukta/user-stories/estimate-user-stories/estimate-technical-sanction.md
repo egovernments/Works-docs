@@ -1,26 +1,36 @@
 # Estimate Technical Sanction
 
+## **Scope**
+
+Technical sanction of estimates.
+
+## **Actors**
+
+Employees
+
+## **Details**
+
 ### **Technical Sanction**
 
-1. To technically sanction the estimate the action ‘Technical Sanction’ is enabled in action menu and a pop-up window is opened with following details.
-   1. **Assignee name**- Drop-down - Non Mandatory -  _The next user in the workflow i.e. **Estimate\_Approver**, hence the employees having the role Estimate\_Approver are displayed in drop-down with the name and the designation. E.g. Rakesh K working as Executive Officer and have the role of Estimate Approver will be displayed ‘RakeshK - Executive Officer’._
-   2. **Comments** - Text area - Non Mandatory -  _In case any comments to be added._
-   3. **Attach Supporting Document** - Non Mandatory - _Any document to be uploaded as supporting document._
-   4. **Technical Sanction**- _Action Button_
-   5. **Cancel** - _Action Button_
-2. On technical sanction,
-   1. Pop-up window is closed, toast success message is displayed and view estimate page is refreshed.
-   2. Action menu is loaded according to the role-action mapping of the current user.
-   3. Application is forwarded to next user in the workflow and the workflow state changes.
-   4. Timelines shows the current state of estimate in the workflow.
+* To technically sanction the estimate the action Technical Sanction is enabled in the action menu and a pop-up window is opened with following details.
+  1. **Assignee name**- This is a drop-down field and non-mandatory. The drop-down displays employees having the role of **Estimate Approver** with their names and the designation. For instance, Rakesh K works as an Executive Officer and has the role of Estimate Approver displayed as Rakesh K - Estimate Approver. &#x20;
+  2. **Comments** - This field is drop-down and non-mandatory. This field allows the addition of any remarks or comments. &#x20;
+  3. **Attach Supporting Document** - This is a non-mandatory field. Users can attach and upload supporting documents.&#x20;
+  4. **Technical Sanction**- This is an action button.
+  5. **Cancel** - This is an action button.
+* On technical sanction,
+  1. The pop-up window is closed, a toast success message is displayed and the view estimate page is refreshed.
+  2. The action menu is loaded according to the role-action mapping of the current user.
+  3. The application is forwarded to the next user in the workflow and the workflow state changes.
+  4. Timelines show the current state of the estimate in the workflow.
 
-| **Role**           | **From State**                 | **To State**         | **Status**             |
+| Role               | From State                     | To State             | Status                 |
 | ------------------ | ------------------------------ | -------------------- | ---------------------- |
 | Technical Sanction | Pending for technical sanction | Pending for approval | Technically Sanctioned |
 
 * Clicking on cancel closes the pop-up window and a toast cancel message is displayed on the view estimate page.
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Toast Success Message:**
 
 The estimate is technically sanctioned successfully.
