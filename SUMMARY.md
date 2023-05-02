@@ -68,6 +68,7 @@
         * [Estimate Edit/Submit Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-edit-submit-workflow.md)
         * [Estimate Verify & Forward Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-verify-and-forward-workflow.md)
         * [Estimate Send Back Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-send-back-workflow.md)
+        * [Estimate Reject Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-reject-workflow.md)
         * [Estimate Send Back To Originator Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-send-back-to-originator-workflow.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
