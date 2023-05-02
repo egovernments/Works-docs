@@ -49,8 +49,8 @@ The inbox of employees is divided into 4 sections.
 6. Estimated Amount
 7. SLA days remaining
 
-{% hint style="info" %}
-**It should be a DIGIT standard Inbox that allows configuration based on requests from the implementation.**
+{% hint style="warning" %}
+It should be a DIGIT standard Inbox that allows configuration based on requests from the implementation.
 {% endhint %}
 
 ## Validations

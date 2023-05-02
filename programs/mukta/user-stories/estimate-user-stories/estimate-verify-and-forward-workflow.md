@@ -31,7 +31,7 @@ Estimate Verifier
 
 * On cancel, the pop-up window is closed and the toast cancel message is displayed on the view estimate page.
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Toast Success Message:**
 
 The estimate is verified and forwarded successfully.

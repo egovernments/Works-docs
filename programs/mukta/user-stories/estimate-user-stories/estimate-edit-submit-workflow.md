@@ -68,7 +68,7 @@ Not applicable.
 | Technical Sanctioner | Technical Sanction pop-up window |
 | Approver             | Approval pop-up window           |
 
-getOn taking respective workflow action, changes get saved and estimate is forwarded to next user in the workflow.
+On taking respective workflow action, changes get saved and the estimate is forwarded to the next user in the workflow.
 
 On Cancel, the pop-up window is closed and the submit action is cancelled.
 

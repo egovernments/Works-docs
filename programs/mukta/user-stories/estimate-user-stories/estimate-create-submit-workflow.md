@@ -31,17 +31,19 @@ Estimate Creators
 
 * The On Cancel closes the submit pop-up window and displays the toast cancel message on the View Estimate page.
 
-### **Toast Success Message**
+{% hint style="success" %}
+**Toast Success Message**
 
 The estimate is forwarded successfully.
 
-### **Failure Message**
+**Failure Message**
 
 Forward of estimate failed.
 
-### **Toast Cancel Message**
+**Toast Cancel Message**
 
 Action is cancelled.
+{% endhint %}
 
 ## **Validation**
 
