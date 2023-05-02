@@ -64,6 +64,7 @@
         * [Create Estimate](programs/mukta/user-stories/estimate-user-stories/create-estimate.md)
         * [Estimate Workflow (Role Action Mapping)](programs/mukta/user-stories/estimate-user-stories/estimate-workflow-role-action-mapping.md)
         * [Estimate Inbox](programs/mukta/user-stories/estimate-user-stories/estimate-inbox.md)
+        * [Estimate Edit/Submit Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-edit-submit-workflow.md)
         * [Estimate Create/Submit Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-create-submit-workflow.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
