@@ -12,9 +12,9 @@ Employees
 
 ### **Technical Sanction**
 
-* To technically sanction the estimate the action Technical Sanction is enabled in the action menu and a pop-up window is opened with following details.
+* To technically sanction the estimate the action Technical Sanction is enabled in the action menu and a pop-up window is opened with the following details.
   1. **Assignee name**- This is a drop-down field and non-mandatory. The drop-down displays employees having the role of **Estimate Approver** with their names and the designation. For instance, Rakesh K works as an Executive Officer and has the role of Estimate Approver displayed as Rakesh K - Estimate Approver. &#x20;
-  2. **Comments** - This field is drop-down and non-mandatory. This field allows the addition of any remarks or comments. &#x20;
+  2. **Comments** - This is a text and non-mandatory field. Users can add any remarks or comments.  &#x20;
   3. **Attach Supporting Document** - This is a non-mandatory field. Users can attach and upload supporting documents.&#x20;
   4. **Technical Sanction**- This is an action button.
   5. **Cancel** - This is an action button.

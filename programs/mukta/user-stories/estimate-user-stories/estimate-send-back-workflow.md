@@ -13,7 +13,7 @@ Estimate Verifier, Technical Sanction, Estimate Approver
 ### **Send Back**
 
 * To send the estimate back to the previous user in the workflow, **Send Back** action is provided with the below details to be captured.
-  1. **Comments** - This is a Text area and non-mandatory. Users can add _any_ remarks/instructions to be passed on to the previous users in the workflow.
+  1. **Comments** - This is a text area and non-mandatory. Users can add _any_ remarks/instructions to be passed on to the previous users in the workflow.
   2. **Attach Supporting Document** - This is the field for document upload and non-mandatory. Users can attach and upload supporting documents as required.  _I_
   3. **Send Back** - This is an Action button.
   4. **Cancel** - This is an Action button.

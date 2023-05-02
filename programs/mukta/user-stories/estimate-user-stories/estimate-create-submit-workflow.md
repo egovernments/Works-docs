@@ -13,10 +13,10 @@ Estimate Creators
 ### **Submit**
 
 * **Estimate Creators** will find the **On** **Submit** pop-up window to capture the details given below:
-  1. **Assignee name** - This field offers a drop-down and is non-mandatory. The drop-down displays the names of employees having the role of _**Estimate\_Verifier**  and their Designation. For instance, Suresh K working as Junior Assistant Executive Engineer and having the role of estimate verifier is displayed as ‘**Suresh K - Assistant Executive Engineer**’._
+  1. **Assignee name** - This field offers a drop-down and is non-mandatory. The drop-down displays the names of employees having the role of **Estimate\_Verifier** and their Designation. For instance, Suresh K working as Junior Assistant Executive Engineer and having the role of estimate verifier is displayed as **Suresh K - Assistant Executive Engineer**.
   2. **Comments** - This field is a text area and is non-mandatory. The field is used to add any remarks or comments in context.
-  3. **Forward** - This is an Action button_._
-  4. **Cancel** - This is an Action button.
+  3. **Forward** - This is an action button_._
+  4. **Cancel** - This is an action button.
 * The On **Forward** pop-up window captures the following details:
   1. The submit pop-up window is closed and a toast success message is displayed and the view estimate page is refreshed.
   2. The action menu is loaded according to the role-action mapping of the currently logged-in user.

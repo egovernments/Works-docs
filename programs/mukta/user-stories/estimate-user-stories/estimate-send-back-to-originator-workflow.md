@@ -13,7 +13,7 @@ Employees
 ### **Send Back To Originator**
 
 * This allows the user to send the estimate back to the originator’s inbox for any correction required. Below given detail is captured.
-  1. **Comments** - This is a text area and non-mandatory field. Users can _a_dd any remarks/ instructions to be passed to the originator of estimate_._
+  1. **Comments** - This is a text area and non-mandatory field. Users can _a_dd any remarks/ instructions to be passed to the originator of the estimate_._
   2. **Attach Supporting Document** - This is a document upload field and non-mandatory. Users can attach and upload supporting documents while sending the estimate back to the originator.
   3. **Send Back** - This is an action button.
   4. **Cancel** - This is an action button.

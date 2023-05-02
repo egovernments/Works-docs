@@ -13,7 +13,7 @@ Employees
 ### **Reject**
 
 * To reject an estimate, action is provided to capture the below-given details and reject the estimate.
-  1. **Comments** - This is a text area and a mandatory field.
+  1. **Comments** - This is a text and non-mandatory field. Users can add any remarks or comments. &#x20;
   2. **Attach Supporting Document** - Users can attach and upload the required documents.
   3. **Reject** - This is an action button.
   4. **Cancel** - This is an action button.
