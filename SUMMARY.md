@@ -72,6 +72,8 @@
         * [Estimate Send Back To Originator Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-send-back-to-originator-workflow.md)
         * [Estimate Technical Sanction](programs/mukta/user-stories/estimate-user-stories/estimate-technical-sanction.md)
         * [Estimate Approve Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-approve-workflow.md)
+        * [Search Estimate](programs/mukta/user-stories/estimate-user-stories/search-estimate.md)
+        * [View Estimate](programs/mukta/user-stories/estimate-user-stories/view-estimate.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
