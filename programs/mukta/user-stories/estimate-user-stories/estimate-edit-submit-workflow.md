@@ -12,10 +12,10 @@ Estimate Creator
 
 ### **Edit Estimate**
 
-1. Edit Estimate action is to be mapped with Estimate Creator.
-2. It is configurable and can to mapped with other roles too on demand.
-3. The estimate which are in workflow can only be edited. Rejected and Approved estimate can not be edited.
-4. Edit Estimate allows user to edit the below given estimate detail.
+1. The Edit Estimate action is mapped to the Estimate Creator user role.
+2. It is configurable and can be mapped to other roles too as per requirement.
+3. The estimate which is in a workflow can only be edited. Rejected and approved estimates can not be edited.
+4. Edit Estimate allows the user to edit the below-given estimate details.
 
 | S.No. | Field                              | Data Type         | Required | Description                                                |
 | ----- | ---------------------------------- | ----------------- | -------- | ---------------------------------------------------------- |
@@ -51,31 +51,40 @@ Estimate Creator
 | 30    | Others                             | Texbox            | N        | To capture the file which is to be uploaded.               |
 |       |                                    | File Attachment   | N        | DIGIT standard file attachment component, file size 5MB.   |
 
-Once the estimate is edited, it is re-submitted again for approval process using the action ‘**Submit’**.
+Once the estimate is edited, it is re-submitted again for approval process using the **Submit** action.
 
-**Notification**
+## **Notification**
 
 Not applicable.
 
-**Actions**
+## **Actions**
 
-**On submit**, based on the logged-in user role, a workflow pop-up window is displayed.
+**On submit** a workflow pop-up window is displayed based on the logged-in user role.
 
-| **Role**             | **Workflow window**              |
+| Role                 | Workflow window                  |
 | -------------------- | -------------------------------- |
 | Estimate Creator     | Submit pop-up window             |
 | Estimate Verifier    | Verify and Forward pop-up window |
 | Technical Sanctioner | Technical Sanction pop-up window |
 | Approver             | Approval pop-up window           |
 
-On taking respective workflow action, changes gets saved and estimate is forwarded to next user in the workflow.
+getOn taking respective workflow action, changes get saved and estimate is forwarded to next user in the workflow.
 
-On Cancel, the pop-up window gets closed and the action the submit action gets cancelled.
+On Cancel, the pop-up window is closed and the submit action is cancelled.
 
-Messages are shown according to workflow stories.
+Messages are displayed as per workflow stories.
 
-**UI**
+## **UI**
 
-[![](https://static.figma.com/uploads/b6df2735e4cb368306acf5480b50f96e69f96099)DIGIT-Works](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1828%3A33133\&t=djH0uqfGMEwJm930-4)
+[<img src="https://static.figma.com/uploads/b6df2735e4cb368306acf5480b50f96e69f96099" alt="" data-size="line">DIGIT-Works](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1828%3A33133\&t=djH0uqfGMEwJm930-4)
 
-**Acceptance Criteria**
+## **Acceptance Criteria**
+
+| Acceptance Criteria | Description                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| 1                   | Configurable role-based access                                                      |
+| 2                   | Only the estimates in workflow can be edited                                        |
+| 3                   | Estimate is opened in editable mode                                                 |
+| 4                   | The details given in the table can be edited by user                                |
+| 5                   | On Submit the estimate is again forwarded to the next user for the approval process |
+
