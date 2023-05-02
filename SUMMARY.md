@@ -2,7 +2,7 @@
 
 * [Introducing DIGIT Works Platform](README.md)
   * [User Persona](products/works/user-stories.md)
-  * [Platform Features & Capabilities](introducing-digit-works-platform/platform-features-and-capabilities.md)
+  * [Platform Capabilities](introducing-digit-works-platform/platform-capabilities.md)
   * [Roadmap](introducing-digit-works-platform/roadmap.md)
 * [Platform](platform/README.md)
   * [Release Notes](platform/release-notes/README.md)
