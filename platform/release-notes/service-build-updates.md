@@ -1,7 +1,58 @@
 # Service Build Updates
 
-| Category | Services | Git Tags | Docker Artifact ID | Remarks |
-| -------- | -------- | -------- | ------------------ | ------- |
-|          |          |          |                    |         |
-|          |          |          |                    |         |
-|          |          |          |                    |         |
+| Module Name        | Image IDs                                                                         | Namespace |
+| ------------------ | --------------------------------------------------------------------------------- | --------- |
+| Attendance         | egovio/attendance-service:v0.1.0-de0b03ee-9                                       | works     |
+| Bank Account       | egovio/bankaccounts:v0.1.0-de0b03ee-20                                            | works     |
+| Contract           | egovio/contract-service:v0.1.0-de0b03ee-24                                        | works     |
+| Estimate           | egovio/estimate-service:v0.1.0-de0b03ee-47                                        | works     |
+| Muster Roll        | egovio/muster-roll-service:v0.1.0-de0b03ee-30                                     | works     |
+| Project Management | egovio/project-management-system:v0.1.0-de0b03ee-14                               | works     |
+| Organisation       | egovio/organisation:v0.1.0-de0b03ee-30                                            | works     |
+| WMS                | egovio/works-management-service:v0.1.0-2907a747-6                                 | works     |
+| Works UI           | egovio/works-ui:v0.1.0-8d78f96f-218                                               | works     |
+| Works SHG App      | egovio/works-shg-app:v0.1.0-8d78f96f-90                                           | works     |
+| Individual Service | egovio/individual:PFM-1799-d67b1c6958-38                                          | works     |
+| PDF                | /egovio/works-pdf:v0.1.0-9fcdb9a4-6                                               | works     |
+|                    |                                                                                   |           |
+|                    | **Core Services**                                                                 |           |
+|                    |                                                                                   |           |
+| Signed Audit       | egovio/audit-service:signed-audit-fix-fcb96df6ea-2                                | core      |
+| Access Control     | egovio/egov-accesscontrol:v1.1.3-72f8a8f87b-24                                    | core      |
+| Encryption         | egovio/egov-enc-service:v1.1.3-44558a0-3                                          | core      |
+| Filestore          | egovio/egov-filestore:v1.2.4-72f8a8f87b-10                                        | core      |
+| HRMS               | egovio/egov-hrms:v1.2.5-1715164454-6                                              | core      |
+| ID Gen             | egovio/egov-idgen:v1.2.3-72f8a8f87b-7                                             | core      |
+| Indexer            | egovio/egov-indexer:v1.1.7-f52184e6ba-25                                          | core      |
+| Localisation       | egovio/egov-localization:v1.1.3-72f8a8f87b-6                                      | core      |
+| Location           | egovio/egov-location:v1.1.4-72f8a8f87b-6                                          | core      |
+| MDMS               | egovio/egov-mdms-service:v1.3.2-72f8a8f87b-12                                     | core      |
+| Notification-SMS   | egovio/egov-notification-sms:v1.1.3-48a03ad7bb-10                                 | core      |
+| OTP                | egovio/egov-otp:v1.2.3-e30d33c5ee-13                                              | core      |
+| PDF Service (Core) | egovio/pdf-service:v1.2.1-5ad7ffbc29-42                                           | core      |
+| Persister          | egovio/egov-persister:v1.1.5-6cfa52c1f9-3                                         | core      |
+| Searcher           | egovio/egov-searcher:v1.1.5-72f8a8f87b-16                                         | core      |
+| URL Shortener      | egovio/egov-url-shortening:v1.1.3-6cfa52c1f9-1                                    | core      |
+| User               | egovio/egov-user:v1.2.7-cb9eb30-5                                                 | core      |
+| Workflow           | egovio/egov-workflow-v2:v1.2.2-cae8f24502-30                                      | core      |
+| Inbox              | egovio/inbox:v1.3.0-634e9cc-6                                                     | core      |
+| Ingress Controller | egovio/nginx-ingress-controller:0.26.1                                            | core      |
+| Oauth2 Proxy       | [quay.io/pusher/oauth2\_proxy:v5.1.0](http://quay.io/pusher/oauth2\_proxy:v5.1.0) | core      |
+| User OTP           | egovio/user-otp:v1.1.6-e30d33c5ee-8                                               | core      |
+| Zuul               | egovio/zuul:v1.3.1-96b24b0d72-39                                                  | core      |
+
+
+
+**Postman Collection**
+
+| Service Name         | API Collections                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Service      | [https://github.com/egovernments/health-campaign-services/blob/dev/health-services/project/src/test/resources/postman/Project\_Works.postman\_collection.json](https://github.com/egovernments/health-campaign-services/blob/dev/health-services/project/src/test/resources/postman/Project\_Works.postman\_collection.json)                                                                                                                                                                                                                                                                                                                                                    |
+| Estimate Service     | [https://www.postman.com/joint-operations-meteorologist-32147227/workspace/estimate-service](https://www.postman.com/joint-operations-meteorologist-32147227/workspace/estimate-service)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Contract Service     | [https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/src/test/resources/Contract%20Service%20Postman%20Scripts.postman\_collection.json](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contract-service/src/test/resources/Contract%20Service%20Postman%20Scripts.postman\_collection.json)                                                                                                                                                                                                                                                                                                                                    |
+| Organization Service | [https://github.com/egovernments/DIGIT-Works/blob/develop/backend/organisation/docs/Organisation%20Registry%20-%20Test%20Scripts.postman\_collection.json](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/organisation/docs/Organisation%20Registry%20-%20Test%20Scripts.postman\_collection.json)                                                                                                                                                                                                                                                                                                                                                            |
+| Attendance Service   | [https://www.postman.com/joint-operations-meteorologist-32147227/workspace/attendance-service/overview](https://www.postman.com/joint-operations-meteorologist-32147227/workspace/attendance-service/overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Muster roll Service  | <p><a href="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Environment.postman_environment.json">https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Environment.postman_environment.json</a></p><p><br></p><p><a href="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Roll%20Service.postman_collection.json">https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Roll%20Service.postman_collection.json</a></p> |
+| Individual Service   | [https://www.postman.com/joint-operations-meteorologist-32147227/workspace/individual-service/overview](https://www.postman.com/joint-operations-meteorologist-32147227/workspace/individual-service/overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Bank service         | [https://github.com/egovernments/DIGIT-Works/blob/develop/backend/bankaccounts/docs/BankAccount.postman\_collection.json](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/bankaccounts/docs/BankAccount.postman\_collection.json)                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Workflow             | [https://www.postman.com/joint-operations-meteorologist-32147227/workspace/workflow/overview](https://www.postman.com/joint-operations-meteorologist-32147227/workspace/workflow/overview)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
