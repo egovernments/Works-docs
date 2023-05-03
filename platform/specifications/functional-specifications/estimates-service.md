@@ -10,13 +10,14 @@ Estimates are created for each project/sub-project entity.
 2. Estimates are created for each project/sub-project entity.
 3. There are multiple estimate types for each project prepared with different levels of abstraction.
 
-| Proposal   | A single line item has the overall project cost against the project title. This requires in-principal Admin sanction. Once approved detailed estimate for the same is created.                                                                                                               |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Detailed   | A detailed estimate contains engineering drawings done on AutoCAD & other drawing tools. Modern tools also abstract out many measurements and materials from drawings created by these tools.                                                                                                |
-| Abstract   | An abstract estimate is prepared using standard SOR & Non-SOR Items defined by PWD (mostly ULBs customise SOR and have their own copies). SOR items are created internally using item rates.                                                                                                 |
-| Revised    | When a project's finances are increasing then to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have the same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost |
-| Deviation  | A deviation statement is a type of estimation when the scope of the project changes but the project cost is meant to remain the same. The deviation statement and revised estimate are the same as far as the estimation process is concerned. The approving authority changes only.         |
-| Spill Over | For a multi-year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating the entire budget in the first year.                                                                                                          |
+| Estimate Type | Definition                                                                                                                                                                                                                                                                                   |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Proposal      | A single line item has the overall project cost against the project title. This requires in-principal Admin sanction. Once approved detailed estimate for the same is created.                                                                                                               |
+| Detailed      | A detailed estimate contains engineering drawings done on AutoCAD & other drawing tools. Modern tools also abstract out many measurements and materials from drawings created by these tools.                                                                                                |
+| Abstract      | An abstract estimate is prepared using standard SOR & Non-SOR Items defined by PWD (mostly ULBs customise SOR and have their own copies). SOR items are created internally using item rates.                                                                                                 |
+| Revised       | When a project's finances are increasing then to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have the same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost |
+| Deviation     | A deviation statement is a type of estimation when the scope of the project changes but the project cost is meant to remain the same. The deviation statement and revised estimate are the same as far as the estimation process is concerned. The approving authority changes only.         |
+| Spill Over    | For a multi-year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating the entire budget in the first year.                                                                                                          |
 
 ## Functional Requirements
 
@@ -62,20 +63,20 @@ Estimates are created for each project/sub-project entity.
 3. Each SOR Item may have multiple variants with slight changes in description and amounts.
    * Ex. Estimate of tiling for the ground floor and estimate of tiling for the first floor will change by 15 Rs to capture the carriage charges. These should be captured with .serial\_number. (Parent.Child)
 
-| **Field**                           | **Data Type** | **Required (Y/N)** | **Comments**                                                                                                                                      |
-| ----------------------------------- | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SOR Category ID                     | Drop down     | Y                  | <p>Options will be the list of Category Code from the SOR category type master</p><p>The combination of category Code and Item code is unique</p> |
-| Item ID                             | Alphanumeric  | Y                  | System generated                                                                                                                                  |
-| Item Description                    |               | Y                  | Item description of the selected Item                                                                                                             |
-| Unit of Measurement                 |               | Y                  | Options will be the list from Unit of measurement master                                                                                          |
-| _\[Array] for specific date ranges_ |               |                    |                                                                                                                                                   |
-| Item Rate                           | Numeric       | Y                  | Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates                                 |
-| Item rate Applicable From           | Date          | Y                  | To be entered in the format dd/mm/yyyy                                                                                                            |
-| Item rate Applicable To             | Date          | N                  | To be entered in the format dd/mm/yyyy                                                                                                            |
+| Field                               | Data Type    | Required (Y/N) | Comments                                                                                                                                          |
+| ----------------------------------- | ------------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SOR Category ID                     | Drop down    | Y              | <p>Options will be the list of Category Code from the SOR category type master</p><p>The combination of category Code and Item code is unique</p> |
+| Item ID                             | Alphanumeric | Y              | System generated                                                                                                                                  |
+| Item Description                    |              | Y              | Item description of the selected Item                                                                                                             |
+| Unit of Measurement                 |              | Y              | Options will be the list from Unit of measurement master                                                                                          |
+| _\[Array] for specific date ranges_ |              |                |                                                                                                                                                   |
+| Item Rate                           | Numeric      | Y              | Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates                                 |
+| Item rate Applicable From           | Date         | Y              | To be entered in the format dd/mm/yyyy                                                                                                            |
+| Item rate Applicable To             | Date         | N              | To be entered in the format dd/mm/yyyy                                                                                                            |
 
 **Analysis of Rates**
 
-1. Each line item of a SOR master/SOr Variant will further be divided into Sub line items that come from a set of category Masters like Labour Master, Material Master, Royalty Master, Carriage Master etc.
+1. Each line item of a SOR master/SOR variant will further be divided into Sub line items that come from a set of category Masters like Labour Master, Material Master, Royalty Master, Carriage Master etc.
    * A group of Sub line items together will form an estimate line item.
    * Each sub-line item will have Item detail 1, item detail 2, quantity, UOM, rate, estimated amount.
    * The sum of all sub-line items will become the total of the SOR line item
