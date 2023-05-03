@@ -4,11 +4,17 @@ description: High level design document
 
 # Project Technical Docs
 
-Documentation for this service resides [here](https://health.digit.org/platform/low-level-design/services/project). Please refer to it for all information.
+## Overview
+
+Find the API specs and master data details required to deploy the Project service.
+
+### API Spec
+
+Documentation for this service is available [here](https://health.digit.org/platform/low-level-design/services/project). Refer to the doc to access technical details.
 
 ### Postman Collection
 
-The postman collection used to test APIs is [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/project-management-system/src/main/resources/Project%20Management%20System.postman\_collection.json). Please import the link into Postman and follow the instructions to run the collection.&#x20;
+Click [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/project-management-system/src/main/resources/Project%20Management%20System.postman\_collection.json) to access the Postman collection used to test APIs. Import the link into Postman and follow the instructions to run the collection.&#x20;
 
 ### Master Data Types
 

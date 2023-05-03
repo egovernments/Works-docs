@@ -6,7 +6,7 @@ description: This service hosts estimates for projects.
 
 ## Overview
 
-Estimate Service will allow users to create estimates and forward them for approval to higher authorities across departments for technical, financial, and admin sanctions. For more technical information on this service, please refer to [GitHub module README](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service) as well as the [docs](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service/docs) folder.
+Estimate Service will allow users to create estimates and forward them for approval to higher authorities across departments for technical, financial, and admin sanctions. For more technical information on this service, please refer to the [GitHub module README](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service) as well as the [docs](https://github.com/egovernments/DIGIT-Works/tree/develop/backend/estimate-service/docs) folder.
 
 ### Dependencies
 
@@ -34,7 +34,7 @@ Estimate API Spec
 
 ### Estimate Flow Diagram
 
-Below diagram shows the interaction between the estimate service and the persister, indexer. This does not follow the default pattern. Instead, enrichment of the payload for the indexer happens via a separate consumer and then the enriched payload is pushed to a topic. The indexer listens to this topic and sends it to ElasticSearch.&#x20;
+The below diagram shows the interaction between the estimate service and the persister, indexer. This does not follow the default pattern. Instead, enrichment of the payload for the indexer happens via a separate consumer and then the enriched payload is pushed to a topic. The indexer listens to this topic and sends it to ElasticSearch.&#x20;
 
 <figure><img src="https://github.com/egovernments/DIGIT-Works/blob/develop/backend/estimate-service/docs/diagrams/EstimateFlowDiagram.png?raw=true" alt=""><figcaption></figcaption></figure>
 
@@ -66,7 +66,7 @@ Estimate inbox uses the Inbox V2 service (from DIGIT core) which queries ES to r
 
 #### Estimate PDF
 
-TBD. The proposed sequence diagram is below.
+The proposed sequence diagram is below.
 
 ![](../../../../.gitbook/assets/Estimate-PDF.png)
 
