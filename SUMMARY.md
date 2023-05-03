@@ -19,7 +19,7 @@
         * [Estimates Technical Docs](platform/architecture/common-services/estimates-service/estimates-technical-docs.md)
       * [Contracts Service](platform/specifications/functional-specifications/contracts-service.md)
         * [Contracts Technical Docs](platform/architecture/common-services/contracts-service/contracts-technical-docs.md)
-      * [Organisation Service](platform/specifications/functional-specifications/organisation-service.md)
+      * [Organisation Service](platform/architecture/common-services/organisation-service/README.md)
         * [Organisation Technical Docs](platform/architecture/common-services/organisation-service/organisation-technical-docs.md)
       * [Attendance Management](platform/specifications/functional-specifications/attendance-management.md)
         * [Attendance Technical Docs](platform/architecture/common-services/attendance-management/attendance-technical-docs.md)

@@ -30,3 +30,6 @@ description: >-
 | 22   | Common              | This role will have all common access that employee should have like edit profile, get Workflow status ,Inbox Search, HRMS Employee Search, | Common Role For all employee | EMPLOYEE\_COMMON                                                  |
 | 23   | Organization        | Search                                                                                                                                      | Org Viewer                   | ORG\_VIEWER                                                       |
 
+**Note:**
+
+Employee Common (**EMPLOYEE\_COMMON**) role is to be added for all the users, since it provides the user all employees' common access.
