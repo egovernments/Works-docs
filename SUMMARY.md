@@ -74,6 +74,8 @@
         * [Estimate Approve Workflow](programs/mukta/user-stories/estimate-user-stories/estimate-approve-workflow.md)
         * [Search Estimate](programs/mukta/user-stories/estimate-user-stories/search-estimate.md)
         * [View Estimate](programs/mukta/user-stories/estimate-user-stories/view-estimate.md)
+      * [Contracts User Stories](programs/mukta/user-stories/contracts-user-stories/README.md)
+        * [Create Work Order](programs/mukta/user-stories/contracts-user-stories/create-work-order.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
