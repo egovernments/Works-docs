@@ -10,14 +10,13 @@ Estimates are created for each project/sub-project entity.
 2. Estimates are created for each project/sub-project entity.
 3. There are multiple estimate types for each project prepared with different levels of abstraction.
 
-| **Estimate Type** | **Definition**                                                                                                                                                                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Proposal          | A single line item having the overall project cost against the project title. This will go for in-principal Admin sanction. Once Approved Detailed Estimate for the same will be created                                                                                              |
-| Detailed          | A Detailed Estimate contains of engineering drawings done on AutoCAD & other drwawing tools. Modern tools also abstract out many measurements and materials from drawings created in these tools.                                                                                     |
-| Abstract          | Abstract Estimate is prepared using standard SOR & Non SOR Items defined by PWD (manytimes ULBs customise SOR and have their own copies). SOR items is created internally using Item rates                                                                                            |
-| Revised           | When a project finances is increasing than to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost |
-| Deviation         | Deviation statement is a type of estimation when scope of the project changes but project cost is meant to remain same. Deviation statement and revised estimate are same as far as estimation process is concered. Only approving authority will change                              |
-| Spill Over        | For a Multi year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating entire budget in first year.                                                                                                           |
+| Proposal   | A single line item has the overall project cost against the project title. This requires in-principal Admin sanction. Once approved detailed estimate for the same is created.                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Detailed   | A detailed estimate contains engineering drawings done on AutoCAD & other drawing tools. Modern tools also abstract out many measurements and materials from drawings created by these tools.                                                                                                |
+| Abstract   | An abstract estimate is prepared using standard SOR & Non-SOR Items defined by PWD (mostly ULBs customise SOR and have their own copies). SOR items are created internally using item rates.                                                                                                 |
+| Revised    | When a project's finances are increasing then to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have the same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost |
+| Deviation  | A deviation statement is a type of estimation when the scope of the project changes but the project cost is meant to remain the same. The deviation statement and revised estimate are the same as far as the estimation process is concerned. The approving authority changes only.         |
+| Spill Over | For a multi-year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating the entire budget in the first year.                                                                                                          |
 
 ## Functional Requirements
 
@@ -30,7 +29,7 @@ Estimates are created for each project/sub-project entity.
    * Manually adding from SOR Master List
    * Using Estimate Template
    * Copying the format of existing similar projects and changing the values
-4. **Type 1:** To select line items for SOR, select the SOR category, search for the SOR line item by SOR code or SOR description and select the SOR.&#x20;
+4. To select line items for SOR, select the SOR category, search for the SOR line item by SOR code or SOR description and select the SOR.&#x20;
    * To the SOR line item, add the quantity that is required for this project.&#x20;
    * SOR standard amount multiplied by this quantity gives the line item-wise cost.&#x20;
 5. Measurements can be captured at the SOR line item level directly by the specified UOM or length, breadth, height, quantity can be captured and stored in an empty measurement book so as to utilise it later for m book recordings.&#x20;
@@ -77,11 +76,11 @@ Estimates are created for each project/sub-project entity.
 **Analysis of Rates**
 
 1. Each line item of a SOR master/SOr Variant will further be divided into Sub line items that come from a set of category Masters like Labour Master, Material Master, Royalty Master, Carriage Master etc.
-   1. A group of Sub line items together will form an estimate line item.
-   2. Each sub-line item will have Item detail 1, item detail 2, quantity, UOM, rate, estimated amount.
-   3. The sum of all sub-line items will become the total of the SOR line item
-   4. Item detail 1 will capture whether it is material/labour/carriage/overhead/royalty etc
-   5. Item detail 2 will capture the exact details of the item from the respective item master. rates need to be auto-populated.
+   * A group of Sub line items together will form an estimate line item.
+   * Each sub-line item will have Item detail 1, item detail 2, quantity, UOM, rate, estimated amount.
+   * The sum of all sub-line items will become the total of the SOR line item
+   * Item detail 1 will capture whether it is material/labour/carriage/overhead/royalty etc
+   * Item detail 2 will capture the exact details of the item from the respective item master. rates need to be auto-populated.
 2. With this when extracted, we should be able to produce labour analysis, material analysis and other standard reports, coming from the estimates.
 
 **Basic Rates of Materials Master**
