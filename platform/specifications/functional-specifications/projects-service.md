@@ -6,56 +6,52 @@ description: DIGIT - Projects
 
 ## Overview
 
-**Need:**
+**Need**
 
-Projects are the first entity of work defined by the state/ Department/ ULB or any executing authority that wishes to do a “Project”. This consists of basic details like IDs, description, address, Sub project Details, project types, start and end dates etc.&#x20;
+Projects are the first entity of work defined by the state/Department/ULB or any executing authority that wishes to do a Project. This consists of basic details like IDs, descriptions, addresses, sub-project details, project types, start and end dates etc.&#x20;
 
-Projects need not be focussed on just construction or civil works. A Health campaign, an office decoration, a pre-contractual phase with an IT vendor for new software, new service delivery initiatives etc all of it can be projects.
+Projects need not be focussed on just construction or civil works. A health campaign, an office decoration, a pre-contractual phase with an IT vendor for new software, new service delivery initiatives etc are examples of projects.
 
 **Users:** Junior Engineer or Assistant Engineer who creates Works Projects for the ULB/Department
 
-**Description:**
+**Description**
 
-1. JE creates Projects with below mentioned attributes.
-2. A project can have sub projects as well depending on way of executing the project.
-   1. A project when is divided into sub projects, each will have same attributes to be captured as the main project.
-3. A project can be sent for approval depending on need.
-   1. Usually administrative sanction is done on projects by EO. After Approval, detailed and abstract estimates are done
-      1. When Admin sanction is done, fund is also blocked in the respective heads of accounts.
+1. JE creates projects with the below-mentioned attributes.
+2. A project can have sub-projects as well depending on the way of executing the project.
+   1. A project when is divided into sub-projects, each will have the same attributes to be captured as the main project.
+3. A project can be sent for approval depending on the need.
+   1. Usually, the administrative sanction is done on projects by EO. After Approval, detailed and abstract estimates are done
+      1. When Admin sanction is done, the fund is also blocked in the respective heads of accounts.
       2. Statuses of a Project
          1. Created
          2. In progress
          3. Approved
          4. Rejected
          5. Cancelled
-4. After a project is created on the UI, system should generate a unique ID for each project/ sub project.
+4. After a project is created on the UI, the system should generate a unique ID for each project/sub-project.
    1. ID: PROJ/\<ULB/Department Code>/\<Year>/\<month>/\<Date>/\<running sequence number>
-5. While creating a project, certain financial details are also captured as to where to fund this project from. These however are not part of Project service and will be part of program service
+5. While creating a project, certain financial details are also captured as to where to fund this project from. These however are not part of the Project service and will be part of the program service.
 
 ## Features & Scope
 
-The table below provides the list of Project attributes.
+The table below provides the list of project attributes.
 
-| Field               | Data Type    | Required (Y/N) | Validations / Comments                                                                                                                  |
-| ------------------- | ------------ | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Id                  | NA           | Y              | System generated UUID                                                                                                                   |
-| Name                | Alphanumeric | Y              | <p>MinChar 2 - Max Char - NA<br><br>Ex - Construction of School Building</p>                                                            |
-| Project Type        | MDMS Data    | Y              | <p>Should be pre defined master data<br><br>Ex - Building</p>                                                                           |
-| Project Sub Type    | MDMS Data    | N              | <p>Should be pre defined master data. Estimate templates are linked to project sub type<br><br>Ex - School Building</p>                 |
-| Project Group       | MDMS Data    | Y              | <p>Should be pre defined master data. Contract &#x26; Assetisation terms are defined based on this value.<br><br>Ex - Capital Works</p> |
-| Address             |              | Y              | Address of the main project.                                                                                                            |
-| Proposed Start date | Date         | N              |                                                                                                                                         |
-| Proposed End date   | Date         | N              |                                                                                                                                         |
-| Parent              | ID           | N              | Parent Project ID                                                                                                                       |
-| Status              | MDMS Data    | Y              | Created, Rejected, Cancelled, In-progress, Completed                                                                                    |
-| Owning Department   | MDMS Data    | Y              |                                                                                                                                         |
-| Reference No        | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Reference No to Offline File if any</p>                                                             |
-| Description         | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Description of the Project</p>                                                                      |
-| Documents           | Attachments  | N              | <p>Upto 5 Documents each of 5 MB<br><br>Document Attachments</p>                                                                        |
-
-
-
-
+| Field               | Data Type    | Required (Y/N) | Validations / Comments                                                                                                              |
+| ------------------- | ------------ | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Id                  | NA           | Y              | System generated UUID                                                                                                               |
+| Name                | Alphanumeric | Y              | <p>MinChar 2 - Max Char - NA<br>Ex - Construction of School Building</p>                                                            |
+| Project Type        | MDMS Data    | Y              | <p>Should be pre-defined master data<br>Ex - Building</p>                                                                           |
+| Project Sub Type    | MDMS Data    | N              | <p>Should be pre-defined master data. Estimate templates are linked to a project subtype<br>Ex - School Building</p>                |
+| Project Group       | MDMS Data    | Y              | <p>Should be pre-defined master data. Contract &#x26; Assetisation terms are defined based on this value.<br>Ex - Capital Works</p> |
+| Address             |              | Y              | Address of the main project.                                                                                                        |
+| Proposed Start date | Date         | N              |                                                                                                                                     |
+| Proposed End date   | Date         | N              |                                                                                                                                     |
+| Parent              | ID           | N              | Parent Project ID                                                                                                                   |
+| Status              | MDMS Data    | Y              | Created, Rejected, Cancelled, In-progress, Completed                                                                                |
+| Owning Department   | MDMS Data    | Y              |                                                                                                                                     |
+| Reference No        | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Reference No to Offline File if any</p>                                                         |
+| Description         | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Description of the Project</p>                                                                  |
+| Documents           | Attachments  | N              | <p>Upto 5 Documents each of 5 MB<br><br>Document Attachments</p>                                                                    |
 
 ## Use Cases
 
