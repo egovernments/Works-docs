@@ -5,11 +5,9 @@ description: >-
   share your feedback on contact@egovernments.org
 ---
 
-# Works Roadmap
+# Roadmap
 
-Current Product Roadmap for Works is divided into 3 Versions based on Importance of each value bundle, Inter dependencies between various features and services and Need on the ground.&#x20;
-
-
+The current product roadmap for Works is divided into 3 versions based on the importance of each value bundle, interdependencies between various features and services and need on the ground.&#x20;
 
 | Serial # | Value bundle                                  | Value delivered                                                                                                                                     | Functionalities Delivered                                              | Features                                                                                                                                                     | Version |
 | -------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
