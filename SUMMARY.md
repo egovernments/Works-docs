@@ -79,6 +79,8 @@
         * [Create Work Order](programs/mukta/user-stories/contracts-user-stories/create-work-order.md)
         * [Work Order Workflow](programs/mukta/user-stories/contracts-user-stories/work-order-workflow.md)
         * [Work Order Inbox Page](programs/mukta/user-stories/contracts-user-stories/work-order-inbox-page.md)
+        * [Create/ Submit Work Order](programs/mukta/user-stories/contracts-user-stories/create-submit-work-order.md)
+        * [Edit/Submit Work Order](programs/mukta/user-stories/contracts-user-stories/edit-submit-work-order.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
