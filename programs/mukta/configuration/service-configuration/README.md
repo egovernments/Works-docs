@@ -11,9 +11,9 @@ This page lists common configuration steps that need to be repeatedly performed 
 Deploying a service involves three parts:
 
 * Deploying a published docker image of the service in a DIGIT environment
-* Having the Helm charts necessary for the service deployment. Helm charts configure the environment variables for the service specific to a Kube cluster. A service can be deployed using  CI CD OR  directly using Helm commands from a system. All helm charts for MUKTA services are [available in this repository here](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend).&#x20;
+* Having the Helm charts necessary for the service deployment. Helm charts configure the environment variables for the service specific to a Kube cluster. A service can be deployed using  CI/CD[^1] OR  directly using Helm commands from a system. All helm charts for MUKTA[^2] services are [available in this repository here](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend).&#x20;
 * Configuring the service&#x20;
-  * MDMS, IDGen, Workflow, other masters for the service to work properly to be set up in GitHub.
+  * MDMS[^3], IDGen, Workflow, other masters for the service to work properly to be set up in GitHub.
 
 ## MDMS Role-Action Configuration
 
@@ -169,3 +169,9 @@ Make sure to restart MDMS and the persister service after adding the file at the
 {% endhint %}
 
 ## Indexer Configuration
+
+[^1]: Continuous Integration/Continuous Deployment
+
+[^2]: Mukhyamantri Karma Tatpara Abhiyan Yojana ( MUKTA Yojana) - a government  scheme to provide employment
+
+[^3]: Master Data Management Service

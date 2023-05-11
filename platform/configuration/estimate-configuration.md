@@ -6,19 +6,19 @@ description: Provides an overview of the configuration of the estimate service
 
 ## Overview
 
-The estimate service provides the functionality to create, update and search for estimates related to a Works project. An estimate is always linked to a project. For low-level technical design, please refer to this section.
+The estimate service provides the functionality to create, update and search for estimates related to a Works project. An estimate is always linked to a project. [Click here](../architecture/common-services/estimates-service/estimates-technical-docs.md) to find the low-level technical design for estimate.
 
 ## Pre-requisites
 
 The following DIGIT services should be running for the estimate service to function:
 
-* DIGIT backbone services (PostgreSQL, Elastic Search, Zuul)
-* Project&#x20;
-* MDMS
-* Persister
-* Indexer
-* Workflow
-* User
+* [DIGIT backbone services (PostgreSQL, Elastic Search, Zuul)](https://core.digit.org/platform/core-services)
+* [Project ](../specifications/functional-specifications/projects-service.md)
+* [MDMS](https://core.digit.org/platform/core-services/mdms-master-data-management-service)
+* [Persister](https://core.digit.org/platform/core-services/persister-service)
+* [Indexer](https://core.digit.org/platform/core-services/indexer-service)
+* [Workflow](https://core.digit.org/platform/core-services/workflow-service)
+* [User](https://core.digit.org/platform/core-services/user-services)
 
 ## Functionality
 
