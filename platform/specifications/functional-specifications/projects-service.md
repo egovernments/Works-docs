@@ -1,8 +1,10 @@
 ---
-description: DIGIT - Projects
+description: DIGIT - Projects functional details
 ---
 
 # Projects Service
+
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="content-ref"></th><th></th><th></th></tr></thead><tbody><tr><td><a href="../../architecture/common-services/projects-service/project-technical-docs.md">project-technical-docs.md</a></td><td>Click on the link above to learn about the technical specifications for the project service.</td><td></td></tr></tbody></table>
 
 ## Overview
 
@@ -18,18 +20,18 @@ Projects need not be focussed on just construction or civil works. A health camp
 
 1. JE creates projects with the below-mentioned attributes.
 2. A project can have sub-projects as well depending on the way of executing the project.
-   1. A project when is divided into sub-projects, each will have the same attributes to be captured as the main project.
+   * A project when is divided into sub-projects, each will have the same attributes to be captured as the main project.
 3. A project can be sent for approval depending on the need.
-   1. Usually, the administrative sanction is done on projects by EO. After Approval, detailed and abstract estimates are done
-      1. When Admin sanction is done, the fund is also blocked in the respective heads of accounts.
-      2. Statuses of a Project
-         1. Created
-         2. In progress
-         3. Approved
-         4. Rejected
-         5. Cancelled
+   * Usually, the administrative sanction is done on projects by EO. After Approval, detailed and abstract estimates are done
+     * When Admin sanction is done, the fund is also blocked in the respective heads of accounts.
+     * Statuses of a Project
+       * Created
+       * In progress
+       * Approved
+       * Rejected
+       * Cancelled
 4. After a project is created on the UI, the system should generate a unique ID for each project/sub-project.
-   1. ID: PROJ/\<ULB/Department Code>/\<Year>/\<month>/\<Date>/\<running sequence number>
+   * ID: PROJ/\<ULB/Department Code>/\<Year>/\<month>/\<Date>/\<running sequence number>
 5. While creating a project, certain financial details are also captured as to where to fund this project from. These however are not part of the Project service and will be part of the program service.
 
 ## Features & Scope
@@ -57,9 +59,7 @@ The table below provides the list of project attributes.
 
 1. A project can be divided into Multiple Sub Projects and each can have its own workflows/business requirements defined.&#x20;
 
-Mockups\
-
-
+## Mockups
 
 | Create Project with no sub projects                              | ![](<../../../.gitbook/assets/image (22).png>)    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
@@ -70,3 +70,4 @@ Mockups\
 | View Project                                                     | ![](<../../../.gitbook/assets/image (1).png>)     |
 | Projects Inbox                                                   | ![](<../../../.gitbook/assets/image (21).png>)    |
 | Inbox Table                                                      | ![](<../../../.gitbook/assets/image (32).png>)    |
+

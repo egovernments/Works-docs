@@ -1,7 +1,3 @@
----
-description: Draft (needs review)
----
-
 # Platform Capabilities
 
 ## Works Overview
