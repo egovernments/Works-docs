@@ -4,7 +4,7 @@ description: Configuring platform services
 
 # Service Configuration
 
-This page lists common configuration steps that need to be repeatedly performed for all services. Please follow these steps in the context of each service replacing only certain values as needed. The respective service will provide you with information on what needs to be replaced.
+This page lists common configuration steps that need to be repeatedly performed for all services. Follow the steps in the context of each service replacing only certain values as required. The respective service will provide the information on what needs to be replaced.
 
 ## Deploying a Service
 
