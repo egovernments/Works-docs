@@ -62,13 +62,10 @@ The DIGIT Works Platform is designed to enable delivery at scale, across various
 
 * [Platform Architecture](platform/architecture/)
 * [Setup](platform/setup.md)
-* [Configuration](platform/configuration.md)
+* [Configuration](platform/configuration/)
 * [Release Notes](platform/release-notes/)
 * [Mukta](programs/mukta/)
 
 ## Contact Us
 
 {% embed url="https://egov.org.in/contact/" %}
-
-
-
