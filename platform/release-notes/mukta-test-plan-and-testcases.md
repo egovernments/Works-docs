@@ -1,6 +1,6 @@
 # Mukta - Test Plan & Testcases
 
-**Test Plan**&#x20;
+**Test Plan**
 
 {% embed url="https://docs.google.com/presentation/d/196O9b8gQ-yy7ZSMU11iR6z9mVYfXlIqBaHajo_sKo10/edit#slide=id.g1f16c13c9c1_0_10" %}
 

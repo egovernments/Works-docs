@@ -4,15 +4,15 @@ description: DIGIT - Projects functional details
 
 # Projects Service
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-type="content-ref"></th><th></th><th></th></tr></thead><tbody><tr><td><a href="../../architecture/common-services/projects-service/project-technical-docs.md">project-technical-docs.md</a></td><td>Click on the link above to learn about the technical specifications for the project service.</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="content-ref"></th><th></th><th></th></tr></thead><tbody><tr><td><a href="../../architecture/common-services/projects-service/project-technical-docs.md">project-technical-docs.md</a></td><td>Click on the link above to explore the technical specifications for the project service.</td><td></td></tr></tbody></table>
 
 ## Overview
 
 **Need**
 
-Projects are the first entity of work defined by the state/Department/ULB or any executing authority that wishes to do a Project. This consists of basic details like IDs, descriptions, addresses, sub-project details, project types, start and end dates etc.&#x20;
+Projects are the first work entity defined by the State/Department/ULB or any executing authority. This consists of basic details like IDs, descriptions, addresses, sub-project details, project types, start and end dates etc.&#x20;
 
-Projects need not be focussed on just construction or civil works. A health campaign, an office decoration, a pre-contractual phase with an IT vendor for new software, new service delivery initiatives etc are examples of projects.
+Projects may not focus on just construction or civil works. A health campaign, an office decoration, a pre-contractual phase with an IT vendor for new software, new service delivery initiatives etc are examples of projects.
 
 **Users:** Junior Engineer or Assistant Engineer who creates Works Projects for the ULB/Department
 
@@ -20,19 +20,19 @@ Projects need not be focussed on just construction or civil works. A health camp
 
 1. JE creates projects with the below-mentioned attributes.
 2. A project can have sub-projects as well depending on the way of executing the project.
-   * A project when is divided into sub-projects, each will have the same attributes to be captured as the main project.
+   * When a project is divided into sub-projects, each will have the same attributes to be captured as the main project.
 3. A project can be sent for approval depending on the need.
-   * Usually, the administrative sanction is done on projects by EO. After Approval, detailed and abstract estimates are done
-     * When Admin sanction is done, the fund is also blocked in the respective heads of accounts.
-     * Statuses of a Project
+   * Usually, the administrative sanction is done on projects by EO. Post approval, detailed and abstract estimates are done.
+     * Once the admin sanctions the project, the fund is also blocked for the respective heads of accounts.
+     * Project status -
        * Created
        * In progress
        * Approved
        * Rejected
        * Cancelled
-4. After a project is created on the UI, the system should generate a unique ID for each project/sub-project.
+4. Once a project is created on the UI, the system generates a unique ID for each project/sub-project.
    * ID: PROJ/\<ULB/Department Code>/\<Year>/\<month>/\<Date>/\<running sequence number>
-5. While creating a project, certain financial details are also captured as to where to fund this project from. These however are not part of the Project service and will be part of the program service.
+5. The project details capture the financial details such as the funding source for the project. These details, however, are not part of the Project service but are captured as part of the Program service.
 
 ## Features & Scope
 
@@ -57,7 +57,7 @@ The table below provides the list of project attributes.
 
 ## Use Cases
 
-1. A project can be divided into Multiple Sub Projects and each can have its own workflows/business requirements defined.&#x20;
+A project can be divided into multiple sub-projects, each with its own workflows/business requirements defined.&#x20;
 
 ## Mockups
 
