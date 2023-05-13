@@ -110,7 +110,7 @@ The Project created can be downloaded in PDF format from the View Project Screen
 | pg       | rainmaker-project        |
 | pg       | rainmaker-common-masters |
 | pg       | rainmaker-common         |
-| pg       | rainmaker-pg             |
+| pg.citya | rainmaker-pg.citya       |
 
 ### &#x20;Workflow Configuration
 
