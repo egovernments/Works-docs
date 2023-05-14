@@ -39,7 +39,7 @@ This section contains a config that is applicable globally to all UI modules. Th
 ```javascript
 var globalConfigs = (function () {
   var stateTenantId = 'pg' // statetenantId
-   var gmaps_api_key = 'AIzaSyAQOd09-vjmk1sXFb_ZQYDz2nlfhXq7Wf8';
+   var gmaps_api_key = '<<INSERT_GMAP_GENERATED_TOKEN>>';
    var contextPath = 'works-ui'; 
    var configModuleName = 'commonMuktaUiConfig'; 
    var centralInstanceEnabled = false;
@@ -48,7 +48,7 @@ var globalConfigs = (function () {
    var digitHomeURL = 'https://www.digit.org/';
    var xstateWebchatServices = 'wss://dev.digit.org/xstate-webchat/';
    var assetS3Bucket = '{{INSERT_YOUR_AWS_BUCKET_NAME}}';
-   var invalidEmployeeRoles = ["CBO_ADMIN","STADMIN","ORG_ADMIN","ORG_STAFF"] 
+   var invalidEmployeeRoles = ["CBO_ADMIN","STADMIN","ORG_ADMIN","ORG_STAFF","SYSTEM"] 
 
  
    var getConfig = function (key) {
