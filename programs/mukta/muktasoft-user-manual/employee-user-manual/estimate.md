@@ -42,8 +42,8 @@ The search estimate enables ULB employees to find specific estimates using multi
 
 ![](<../../../../.gitbook/assets/2 (2).png>)
 
-* At least one parameter is mandatory. Enter anyone for more to search for an estimate.
-* The system fetches the estimates created between the specified period by entering the date range in created from and created to. From Date and To Date considered one parameter.
+* At least one parameter is mandatory. Enter any one filter or more to search for an estimate.
+* The system fetches the estimates created between the specified period by entering the date range in created from and created to. The From Date and To Date field is considered one parameter.
 * Click on the Search button to view the search results.
 * Click on the Reset button to renew the search using different parameters.
 
@@ -58,11 +58,11 @@ The search estimate enables ULB employees to find specific estimates using multi
 
 ![](../../../../.gitbook/assets/3.png)
 
-#### View Estimate <a href="#_x27l4m714yv4" id="_x27l4m714yv4"></a>
+### View Estimate <a href="#_x27l4m714yv4" id="_x27l4m714yv4"></a>
 
-Home Page > Estimates> Inbox > Search Estimate > Search Results
+**Home Page > Estimates> Inbox > Search Estimate > Search Results**
 
-The estimate is searched using the search estimate and then click on the estimated number from the search result to see the details.
+Click on the applicable **Estimate Number** from the search results to view the estimate details.
 
 ![](<../../../../.gitbook/assets/4 (2).png>)
 
@@ -74,47 +74,47 @@ The estimate is searched using the search estimate and then click on the estimat
 
 ![](<../../../../.gitbook/assets/8 (1).png>)
 
-#### Create Estimate <a href="#_3bh6o6q4ckbs" id="_3bh6o6q4ckbs"></a>
+### Create Estimate <a href="#_3bh6o6q4ckbs" id="_3bh6o6q4ckbs"></a>
 
-Home Page > Estimates > Inbox > Create Estimate
+**Home Page > Estimates > Inbox > Create Estimate**
 
-To create an estimate for a project, the project is first searched using the search project feature and opened to view the details. Then from the view project details page, action create estimate is clicked.
+To create an estimate for a project, search for the project using the search project feature. Open the project to view the details. Navigate to the Actions button on the bottom right corner and click on the Create Estimate option.&#x20;
 
-1. A project is searched using the Search Project and the search result is displayed.
-2. Click on the project ID. to view the project details.
-3. Complete project detail is displayed along with attached documents and action menu.
+* Search for the project is searched using the Search Project.
+* Click on the applicable Project ID from the search results list to view the project details.
+* The complete project detail is displayed along with the attached documents and the Actions menu.
 
 ![](../../../../.gitbook/assets/9.png)
 
-1. Create Estimate is selected from the menu and Create Estimate Page is opened up.
+* Click on the Create Estimate option. This opens the Create Estimate page.
 
 ![](<../../../../.gitbook/assets/10 (1).png>)
 
-1. Basic project details are displayed on the top of the page.
-2. Project Details tab displays the full project details.
-3. Estimate details are captured into 2 grids, SOR/Non SOR Items and Overhead.
-4. Item’s description, Unit, Rate, Estimated Quantity are entered in SOR/Non SOR Grid. Additional items can be added by clicking on Add Line Item.
+* The basic project details are displayed at the top of the page.
+* The project details tab displays the full project details.
+* Estimate details are captured in 2 grids - SOR/Non-SOR items and overhead.
+* Enter the Item Description, Unit, Rate, and Estimated Quantity in the SOR/Non-SOR Grid. Click on Add Line Item button to append additional items.
 
 ![](<../../../../.gitbook/assets/11 (1).png>)
 
-1. Overhead grid is provided to capture the GST and Supervision Charges.
+* An overhead grid is provided to capture the GST and Supervision Charges.
 
 ![](<../../../../.gitbook/assets/12 (1).png>)
 
-1. Total of SOR/ Non-SOR and Overheads grids are displayed as Total Estimate Amount.
-2. Option to enter the Labour and Material cost is provided. Total these 2 can not be more than the total estimated amount.
+* The total of SOR/ Non-SOR and overheads grids are displayed as Total Estimate Amount.
+* An option to enter the Labour and Material cost is provided. Total these 2 can not be more than the total estimated amount.
 
 ![](../../../../.gitbook/assets/13.png)
 
-1. Relevant document section allows users to upload the documents which are needed to verify and approve the estimate.
+* Upload the documents in the Relevant Documents section required to verify and approve the estimate.
 
 ![](../../../../.gitbook/assets/14.png)
 
 ![](../../../../.gitbook/assets/15.png)
 
-1. After filling all the details, click in create estimate. Please make a note fields marked with asterisk are mandatory to fill.
+* Click on Create Estimate button once the details are filled in. All fields marked with an asterisk are mandatory.
 
-#### Workflow <a href="#_ifmt2wi19o01" id="_ifmt2wi19o01"></a>
+### Create Workflows <a href="#_ifmt2wi19o01" id="_ifmt2wi19o01"></a>
 
 **Creator**
 
