@@ -170,6 +170,9 @@
     * [Customisation](programs/mukta/ui-customisation.md)
       * [UI Technical Design](platform/specifications/technical-specifications/low-level-design/ui-tech-design/README.md)
         * [UI Tech Flow Diagrams](platform/specifications/technical-specifications/low-level-design/ui-tech-design/ui-tech-flow-diagrams.md)
+    * [Program Details](programs/mukta/program-details/README.md)
+      * [Roll Out Plan](programs/mukta/program-details/roll-out-plan.md)
+      * [Adoption Metrics](programs/mukta/program-details/adoption-metrics.md)
 
 ## COMMUNITY
 
