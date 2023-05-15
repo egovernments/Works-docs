@@ -83,6 +83,7 @@
         * [Create/ Submit Work Order](programs/mukta/user-stories/contracts-user-stories/create-submit-work-order.md)
         * [Edit/Submit Work Order](programs/mukta/user-stories/contracts-user-stories/edit-submit-work-order.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
+    * [MuktaSoft User Manual](programs/mukta/muktasoft-user-manual.md)
     * [Configuration](programs/mukta/configuration/README.md)
       * [Master Data Templates](programs/mukta/configuration/master-data-templates/README.md)
         * [Project Type](programs/mukta/configuration/master-data-templates/project-type.md)
