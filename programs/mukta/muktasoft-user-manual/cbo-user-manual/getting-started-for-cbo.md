@@ -10,8 +10,8 @@ To log in to the system
 
 1. Enter the url \[Application URL]/ Install MUKTASoft CBO application.
 
-| <img src="../../../../.gitbook/assets/0 (1).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/1 (4).jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| <img src="../../../../.gitbook/assets/0 (1) (1).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/1 (4).jpeg" alt="" data-size="original"> |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 
 1. Click on the Login button.
 2. Enter your Mobile Number.
