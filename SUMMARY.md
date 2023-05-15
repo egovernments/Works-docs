@@ -93,6 +93,7 @@
         * [Work Order](programs/mukta/muktasoft-user-manual/employee-user-manual/work-order.md)
         * [Workflow](programs/mukta/muktasoft-user-manual/employee-user-manual/workflow.md)
         * [Billing](programs/mukta/muktasoft-user-manual/employee-user-manual/billing.md)
+        * [Payment](programs/mukta/muktasoft-user-manual/employee-user-manual/payment.md)
         * [Registries](programs/mukta/muktasoft-user-manual/employee-user-manual/registries.md)
         * [Organizations](programs/mukta/muktasoft-user-manual/employee-user-manual/organizations.md)
     * [Configuration](programs/mukta/configuration/README.md)

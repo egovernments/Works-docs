@@ -97,7 +97,7 @@ Approver can
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Approve from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/6 (5).png>)
+![](<../../../../../.gitbook/assets/6 (6).png>)
 
 1. Provide any additional information for the applicant in the Comments section.
 2. Click on the Approve Files button to upload any supporting documents.

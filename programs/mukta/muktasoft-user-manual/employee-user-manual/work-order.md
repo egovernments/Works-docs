@@ -80,7 +80,7 @@ To create a work order for a project, a related estimate is searched and opened 
 
 ![](<../../../../.gitbook/assets/5 (4).png>)
 
-![](<../../../../.gitbook/assets/6 (4).png>)
+![](<../../../../.gitbook/assets/6 (5).png>)
 
 ![](<../../../../.gitbook/assets/7 (7).png>)
 

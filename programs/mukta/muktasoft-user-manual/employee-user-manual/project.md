@@ -58,7 +58,7 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../.gitbook/assets/5 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/6 (3).png>)
+![](<../../../../.gitbook/assets/6 (4).png>)
 
 ![](<../../../../.gitbook/assets/7 (4).png>)
 

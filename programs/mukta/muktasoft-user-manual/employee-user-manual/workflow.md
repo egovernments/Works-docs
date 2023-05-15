@@ -92,7 +92,7 @@ Approver can
 2. Click on the work order number to open the work order and view the details.
 3. Select the Approve from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/6 (7).png>)
+![](<../../../../.gitbook/assets/6 (8).png>)
 
 1. Provide any additional information in the Comments section.
 2. Click on the Approve Files button to upload any supporting documents.
