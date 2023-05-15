@@ -15,11 +15,11 @@ WC can
 
 Work order creator (WC) has the rights to create a work order for a project and then forward it to the verifier. On creation, the WC gets the forward dialog box from which the user optionally selects the verifier’s name as assignee name, add the comments if any, and then forward the work order.
 
-![](<../../../../.gitbook/assets/0 (7).png>)
+![](<../../../../.gitbook/assets/0 (8).png>)
 
 On Forward, the work order is forwarded to the verifier and the success page is displayed with the success message and work order number.
 
-![](<../../../../.gitbook/assets/1 (5).png>)
+![](<../../../../.gitbook/assets/1 (6).png>)
 
 **Edit**
 
@@ -38,7 +38,7 @@ WV can
 * Verify and forward work order
 * Send work order back to WC
 
-![](<../../../../.gitbook/assets/2 (7).png>)
+![](<../../../../.gitbook/assets/2 (8).png>)
 
 **Verify and forward**
 
@@ -50,7 +50,7 @@ To verify and forward the work order
 2. Click on the work order number to open the work order and view the details.
 3. Select the Verify and Forward from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/3 (6).png>)
+![](<../../../../.gitbook/assets/3 (7).png>)
 
 1. Select the approver’s name as Assignee Name.
 2. Provide any additional information for the assignee in the comments section.
@@ -67,7 +67,7 @@ To send the work order back to the WE
 2. Click on the work order number to open the work order and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/4 (7).png>)
+![](<../../../../.gitbook/assets/4 (8).png>)
 
 1. State the reasons for sending the work order back to WE in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -84,7 +84,7 @@ Approver can
 * Send the work order back to WC
 * Reject the work order
 
-![](<../../../../.gitbook/assets/5 (8).png>)
+![](<../../../../.gitbook/assets/5 (9).png>)
 
 **Approve**
 
@@ -92,7 +92,7 @@ Approver can
 2. Click on the work order number to open the work order and view the details.
 3. Select the Approve from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/6 (8).png>)
+![](<../../../../.gitbook/assets/6 (9).png>)
 
 1. Provide any additional information in the Comments section.
 2. Click on the Approve Files button to upload any supporting documents.
@@ -106,7 +106,7 @@ To send the work order back to the WV
 2. Click on the work order number to open the work order and view the details.
 3. Select the Send Back from the Take Action. Pop-up window is opened.
 
-![](<../../../../.gitbook/assets/7 (6).png>)
+![](<../../../../.gitbook/assets/7 (7).png>)
 
 1. State the reasons for sending the work order back to the WV in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -120,7 +120,7 @@ To send the work order back to the WE
 2. Click on the work order number to open the work order and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/8 (7).png>)
+![](<../../../../.gitbook/assets/8 (8).png>)
 
 1. State the reasons for sending the work order back to WE in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -136,7 +136,7 @@ To reject the work order
 2. Click on the work order number to open the work order and view the details.
 3. Select the Edit from the Take Action. A pop-up window is opened.
 
-![](<../../../../.gitbook/assets/9 (6).png>)
+![](<../../../../.gitbook/assets/9 (8).png>)
 
 1. State the reasons for rejecting the work order in the Comments section.
 2. Click on the Choose Files button to upload any supporting documents.

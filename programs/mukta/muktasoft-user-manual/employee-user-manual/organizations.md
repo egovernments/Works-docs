@@ -14,11 +14,11 @@ To Create Organization for a project
 
 ![](../../../../.gitbook/assets/0.png)
 
-![](<../../../../.gitbook/assets/1 (1).png>)
+![](../../../../.gitbook/assets/1.png)
 
-![](<../../../../.gitbook/assets/2 (1).png>)
+![](../../../../.gitbook/assets/2.png)
 
-![](<../../../../.gitbook/assets/3 (2).png>)
+![](<../../../../.gitbook/assets/3 (1).png>)
 
 **Search**
 
@@ -30,9 +30,9 @@ To Search an Organisation for a project
 2. This will display the Search Organisation page where details such as Ward, Organisation Type, Name of the Organisation, Organisation ID needs to be filled.
 3. This will view the Search Result; Organisation ID, Name of the Organisation, Organisation Type, Organisation Sub type, Address and the Status.
 
-![](../../../../.gitbook/assets/4.png)
+![](<../../../../.gitbook/assets/4 (2).png>)
 
-![](<../../../../.gitbook/assets/5 (1).png>)
+![](<../../../../.gitbook/assets/5 (2).png>)
 
 **View**
 
@@ -43,7 +43,7 @@ Home >Sidebar Menu/ Homepage > Organisation > Search Organisation > Organisation
 3. This will view the Search Result; Organisation ID , Name of the Organisation, Organisation Type, Organisation Sub type, Address and the Status.
 4. Click on Organisation ID to view the Vendor Organisation.
 
-![](../../../../.gitbook/assets/6.png)
+![](<../../../../.gitbook/assets/6 (1).png>)
 
 ![](../../../../.gitbook/assets/7.png)
 
@@ -51,8 +51,8 @@ Home >Sidebar Menu/ Homepage > Organisation > Search Organisation > Organisation
 
 Home > Sidebar Menu/ Homepage > Organisation > Search Organisation > Organisation ID > View Vendor Organisation
 
-![](../../../../.gitbook/assets/8.png)
+![](<../../../../.gitbook/assets/8 (2).png>)
 
 To modify any details regarding Organizations, one must view the Organizations and then click on Modify at the bottom of the page. This will display all details of the Organization. Make necessary changes and click on Save at the bottom.
 
-![](../../../../.gitbook/assets/9.png)
+![](<../../../../.gitbook/assets/9 (2).png>)

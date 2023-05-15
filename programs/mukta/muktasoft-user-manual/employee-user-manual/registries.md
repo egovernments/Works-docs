@@ -37,7 +37,7 @@ Once you have filled all details and clicked on Search, it displays the followin
 6. Ward
 7. Locality
 
-![](../../../../.gitbook/assets/1.png)
+![](<../../../../.gitbook/assets/1 (2).png>)
 
 **View**
 
@@ -48,15 +48,15 @@ Sidebar Menu / Homepage > Wage Seeker > Search Wage Seeker > Wage Seeker Result 
 3. Click on the Wage Seeker ID in orange.
 4. This displays the View Wage Seeker.
 
-![](../../../../.gitbook/assets/2.png)
+![](<../../../../.gitbook/assets/2 (2).png>)
 
-![](../../../../.gitbook/assets/3.png)
+![](<../../../../.gitbook/assets/3 (2).png>)
 
-![](<../../../../.gitbook/assets/4 (2).png>)
+![](<../../../../.gitbook/assets/4 (1).png>)
 
-![](<../../../../.gitbook/assets/5 (2).png>)
+![](<../../../../.gitbook/assets/5 (1).png>)
 
-![](<../../../../.gitbook/assets/6 (1).png>)
+![](<../../../../.gitbook/assets/6 (3).png>)
 
 **Modify**
 
@@ -64,10 +64,10 @@ Sidebar Menu/ Homepage > Wage Seeker > Search Wage Seeker > Wage Seeker Result >
 
 To modify any details regarding Wage Seekers, one must view the Wage Seeker and then click on Modify at the bottom of the page. This will display all details of the Wage Seeker. Make necessary changes and click on Save at the bottom.
 
-![](<../../../../.gitbook/assets/7 (2).png>)
+![](<../../../../.gitbook/assets/7 (3).png>)
 
-![](<../../../../.gitbook/assets/8 (1).png>)
+![](../../../../.gitbook/assets/8.png)
 
-![](<../../../../.gitbook/assets/9 (2).png>)
+![](<../../../../.gitbook/assets/9 (4).png>)
 
-![](../../../../.gitbook/assets/10.png)
+![](<../../../../.gitbook/assets/10 (1).png>)

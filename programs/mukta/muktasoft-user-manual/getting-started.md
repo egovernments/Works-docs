@@ -8,11 +8,11 @@ This section of the user manual guides you through the user login process and gu
 
 ![](<../../../.gitbook/assets/0 (1) (1).png>)
 
-![](<../../../.gitbook/assets/1 (6).png>)
+![](<../../../.gitbook/assets/1 (7).png>)
 
 ### Home Page <a href="#_y9ihxiqjb66c" id="_y9ihxiqjb66c"></a>
 
-![](<../../../.gitbook/assets/2 (5).png>)
+![](<../../../.gitbook/assets/2 (6).png>)
 
 ### Change Language <a href="#_vhz5bczfaqjw" id="_vhz5bczfaqjw"></a>
 

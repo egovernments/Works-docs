@@ -35,7 +35,7 @@ The search Bill enables ULB employees to search for a specific Bill using differ
 6. Created From Date
 7. Created To Date
 
-![](<../../../../.gitbook/assets/1 (2).png>)
+![](<../../../../.gitbook/assets/1 (4).png>)
 
 **Search Result**
 
@@ -47,7 +47,7 @@ The search Bill enables ULB employees to search for a specific Bill using differ
 6. Status
 7. Bill Amount
 
-![](<../../../../.gitbook/assets/2 (2).png>)
+![](<../../../../.gitbook/assets/2 (1).png>)
 
 #### View <a href="#_l58uqzt3r1td" id="_l58uqzt3r1td"></a>
 
@@ -55,7 +55,7 @@ Home Page > Bills > Inbox > Search Bill > Search Results
 
 The bill for which the details to be displayed is searched using Search Bill and then opened by clicking on bill number.
 
-![](<../../../../.gitbook/assets/3 (1).png>)
+![](<../../../../.gitbook/assets/3 (4).png>)
 
 1. Click on the Bill Number to view the Bill details.
 2. Complete bill details are displayed along with attached documents and the option to download the bill in PDF.
@@ -70,25 +70,25 @@ To create a bill for a project, the work order for the project is searched using
 2. Click on the Work Order Number to view the work order details.
 3. Click on the **Create Purchase Bill** from the action.
 
-![](<../../../../.gitbook/assets/4 (1).png>)
+![](<../../../../.gitbook/assets/4 (4).png>)
 
 1. **Create Purchase Bill** page is opened.
 
 ![](../../../../.gitbook/assets/5.png)
 
-![](<../../../../.gitbook/assets/6 (2).png>)
+![](<../../../../.gitbook/assets/6 (4).png>)
 
 ![](<../../../../.gitbook/assets/7 (1).png>)
 
-![](<../../../../.gitbook/assets/8 (2).png>)
+![](<../../../../.gitbook/assets/8 (1).png>)
 
-![](<../../../../.gitbook/assets/9 (1).png>)
+![](<../../../../.gitbook/assets/9 (3).png>)
 
-![](<../../../../.gitbook/assets/10 (1).png>)
+![](<../../../../.gitbook/assets/10 (2).png>)
 
 1. Fill all the relevant details properly and then forward the application.
 
-![](../../../../.gitbook/assets/11.png)
+![](<../../../../.gitbook/assets/11 (1).png>)
 
 1. On successful completion, the success page is displayed along with the bill number.
 

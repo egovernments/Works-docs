@@ -11,7 +11,7 @@ TS can
 * Send the estimate back to EC
 * Reject the estimate
 
-![](<../../../../../.gitbook/assets/0 (4).png>)
+![](<../../../../../.gitbook/assets/0 (5).png>)
 
 **Technical Sanction**
 
@@ -23,7 +23,7 @@ To technically sanction the estimate
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/1 (7).png>)
+![](<../../../../../.gitbook/assets/1 (8).png>)
 
 1. Select the estimate’s approver’s name as Assignee Name.
 2. Provide any additional information for the assignee in the comments section.
@@ -40,7 +40,7 @@ To send the estimate back to the EV
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/2 (4).png>)
+![](<../../../../../.gitbook/assets/2 (5).png>)
 
 1. State the reasons for sending the estimate back to the EV in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -56,7 +56,7 @@ To send the estimate back to the CE
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/3 (5).png>)
+![](<../../../../../.gitbook/assets/3 (6).png>)
 
 1. State the reasons for sending the estimate back to the CE in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -72,7 +72,7 @@ To reject the estimate
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Reject from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/4 (8).png>)
+![](<../../../../../.gitbook/assets/4 (9).png>)
 
 1. State the reasons for rejecting the estimate in the Comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -89,7 +89,7 @@ Approver can
 * Send the estimate back to EC
 * Reject the estimate
 
-![](<../../../../../.gitbook/assets/5 (5).png>)
+![](<../../../../../.gitbook/assets/5 (6).png>)
 
 **Approve**
 
@@ -97,7 +97,7 @@ Approver can
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Approve from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/6 (6).png>)
+![](<../../../../../.gitbook/assets/6 (7).png>)
 
 1. Provide any additional information for the applicant in the Comments section.
 2. Click on the Approve Files button to upload any supporting documents.
@@ -111,7 +111,7 @@ To send the estimate back to the TS
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. Pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/7 (5).png>)
+![](<../../../../../.gitbook/assets/7 (6).png>)
 
 1. State the reasons for sending the estimate back to the TS in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -125,7 +125,7 @@ To send the estimate back to the CE
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/8 (4).png>)
+![](<../../../../../.gitbook/assets/8 (5).png>)
 
 1. State the reasons for sending the estimate back to the CE in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
@@ -141,7 +141,7 @@ To reject the application
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Edit from the Take Action. A pop-up window is opened.
 
-![](<../../../../../.gitbook/assets/9 (3).png>)
+![](<../../../../../.gitbook/assets/9 (5).png>)
 
 1. State the reasons for rejecting the estimate in the Comments section.
 2. Click on the Choose Files button to upload any supporting documents.

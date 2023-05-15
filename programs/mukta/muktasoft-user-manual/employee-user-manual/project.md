@@ -22,7 +22,7 @@ The search project option enables ULB employees to find specific projects using 
 5. Created From
 6. Created To
 
-![](<../../../../.gitbook/assets/0 (6).png>)
+![](<../../../../.gitbook/assets/0 (7).png>)
 
 * At least one parameter is mandatory. Enter any one or more to search for a Project.
 * The system fetches the estimates created between the specified period by entering the date range in created from and created to. The Created From and Created To are considered one parameter.
@@ -48,7 +48,7 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../.gitbook/assets/3 (2) (1).png>)
 
-![](<../../../../.gitbook/assets/4 (6).png>)
+![](<../../../../.gitbook/assets/4 (7).png>)
 
 ### Create Projects <a href="#_knxsefvb7ee7" id="_knxsefvb7ee7"></a>
 
@@ -58,20 +58,20 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../.gitbook/assets/5 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/6 (4).png>)
+![](<../../../../.gitbook/assets/6 (5).png>)
 
-![](<../../../../.gitbook/assets/7 (4).png>)
+![](<../../../../.gitbook/assets/7 (5).png>)
 
-![](<../../../../.gitbook/assets/8 (3).png>)
+![](<../../../../.gitbook/assets/8 (4).png>)
 
 ![](<../../../../.gitbook/assets/9 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/10 (2).png>)
+![](<../../../../.gitbook/assets/10 (3).png>)
 
 * Fill in all the required details and attach the relevant documents.
 * Click on the **Create Project**. On successful creation of the project, the success page is displayed along with **Project ID** and options to go back to the Search Project, go back to the home page, or create an estimate for the project.
 
-![](<../../../../.gitbook/assets/11 (1).png>)
+![](<../../../../.gitbook/assets/11 (2).png>)
 
 ### Modify Project <a href="#_r4yyntfzp4qz" id="_r4yyntfzp4qz"></a>
 
@@ -79,7 +79,7 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 The project details can be modified to correct the fields that were wrongly entered at the time of creating the project. Search for the specific project and open it to view the details. Navigate to the Actions button and click on Modify Project.
 
-![](../../../../.gitbook/assets/12.png)
+![](<../../../../.gitbook/assets/12 (1).png>)
 
 The project details are in the edit mode. Make the required changes.&#x20;
 

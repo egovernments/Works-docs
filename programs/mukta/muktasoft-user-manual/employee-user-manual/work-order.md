@@ -8,7 +8,7 @@ Home Page > Work Orders
 
 From the Home Page on click of the Work Orders, Inbox Page is displayed.
 
-![](<../../../../.gitbook/assets/0 (5).png>)
+![](<../../../../.gitbook/assets/0 (6).png>)
 
 1. On the left side on the top feature menus are displayed.
 2. On the left side on the bottom Filters Panel is displayed with the filters.
@@ -35,7 +35,7 @@ The search work order enables ULB employees to search for a specific work order 
 6. Created From Date
 7. Created To Date
 
-![](<../../../../.gitbook/assets/1 (4).png>)
+![](<../../../../.gitbook/assets/1 (5).png>)
 
 1. At Least one parameter is mandatory. Enter anyone for more to search for a work order.
 2. The system fetches the work order created between the specified period by entering the date range in created from and created to. From Date and To Date considered as one parameter.
@@ -52,7 +52,7 @@ The search work order enables ULB employees to search for a specific work order 
 6. Status
 7. Amount
 
-![](<../../../../.gitbook/assets/2 (8).png>)
+![](<../../../../.gitbook/assets/2 (9).png>)
 
 #### View <a href="#_nf76zuc71wx1" id="_nf76zuc71wx1"></a>
 
@@ -72,18 +72,18 @@ To create a work order for a project, a related estimate is searched and opened 
 1. The estimate is searched using the Search Estimate and the search result is displayed.
 2. Click on the Estimate Number to view estimate details.
 
-![](<../../../../.gitbook/assets/3 (7).png>)
+![](<../../../../.gitbook/assets/3 (8).png>)
 
 1. Click on the action ‘Create Work Order’, then open to create work order page.
 
-![](<../../../../.gitbook/assets/4 (4).png>)
+![](<../../../../.gitbook/assets/4 (5).png>)
 
-![](<../../../../.gitbook/assets/5 (4).png>)
+![](<../../../../.gitbook/assets/5 (5).png>)
 
-![](<../../../../.gitbook/assets/6 (5).png>)
+![](<../../../../.gitbook/assets/6 (6).png>)
 
-![](<../../../../.gitbook/assets/7 (7).png>)
+![](<../../../../.gitbook/assets/7 (8).png>)
 
-![](<../../../../.gitbook/assets/8 (6).png>)
+![](<../../../../.gitbook/assets/8 (7).png>)
 
 1. All the details are filled properly and then click on ‘Create Work Order’ to create the work order. Please make a note the fields marked with asterisk are mandatory to fill.
