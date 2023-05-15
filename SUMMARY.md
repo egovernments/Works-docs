@@ -85,7 +85,7 @@
     * [Functional Requirements](programs/mukta/functional-requirements.md)
     * [MuktaSoft User Manual](programs/mukta/muktasoft-user-manual/README.md)
       * [Getting Started](programs/mukta/muktasoft-user-manual/getting-started.md)
-      * [CBO User Manual](programs/mukta/muktasoft-user-manual/cbo-user-manual/README.md)
+      * [CBO User Manual](programs/mukta/muktasoft-user-manual/cbo-user-manual.md)
         * [Getting Started For CBO](programs/mukta/muktasoft-user-manual/cbo-user-manual/getting-started-for-cbo.md)
         * [My Works](programs/mukta/muktasoft-user-manual/cbo-user-manual/my-works.md)
         * [Track Attendance](programs/mukta/muktasoft-user-manual/cbo-user-manual/track-attendance.md)

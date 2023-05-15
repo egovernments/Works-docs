@@ -1,6 +1,19 @@
 # Roadmap
 
+On this page -
+
+* [Illustrated roadmap](roadmap.md#illustrated-roadmap)
+* [Detailed roadmap](roadmap.md#detailed-roadmap)
+
+### Illustrated Roadmap&#x20;
+
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/High Level Diagram for MUKTA.pptx.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Detailed Roadmap
 
 The detailed product roadmap is as below:
 
