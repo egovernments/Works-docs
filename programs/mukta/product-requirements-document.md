@@ -993,3 +993,400 @@ Checklist comes with a few predefined questions for which answers are to be upda
 | WO\_APPROVER   | <p>• Search</p><p>• View </p><p>• Approve</p><p>• Send Back </p><p>• Reject</p>   | Municipal Engineer                  |
 | SHG\_ADMIN     | <p>Accept</p><p>Decline</p>                                                       | Organisation President/ Secretary   |
 | SITE\_HANDOVER | <p>• Search</p><p>• View </p><p>• Update Checklist </p>                           | Junior Engineer/ Assistant Engineer |
+
+### 3.7 SHG Organization Portal
+
+#### 3.7.1 SHG Login
+
+Each SHG organisation whose record is already available with the ULB will have an account open in the SHG Portal and will be able to login into it using its SPOC’s (President/ Secretary) mobile number available in ULB’s record. Once logged in they will be able to perform below activities.
+
+1. Accept/ Decline the Work Order issued in SHGs/JE’s name.
+2. Register a wage seeker/ add wage seeker to SHG organisation.
+3. Update/ Modify wage seekers and move from one SHG to another SHG.
+4. Add wage seeker to a Work (To be started/ In Progress).
+5. Update the attendance and create a muster roll.
+6. Create a bill and send it for approval to JE/AE.
+7. Initiate a request for closure/ completion of work.
+
+#### 3.7.2 My Wage Seekers
+
+A Wage Seeker Master is needed in Mukta to assign work, track attendance and process DBTs.\
+
+
+| S.No. | Business/Functional Requirements                                                                                                                                                                                                                                                                                                               | Interface   |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1     | The system allows the creation of new wage seekers with details.                                                                                                                                                                                                                                                                               | Web/ Mobile |
+| 2     | The system will allow them to search for existing wage seekers and modify details.                                                                                                                                                                                                                                                             | Web/ Mobile |
+| 3     | Bulk upload of wage Seeker master at the time of system setup is possible.                                                                                                                                                                                                                                                                     | Backend     |
+| 4     | Aadhar Number will be a unique identifier for each wage seeker and the system will ensure that duplicate records are not created. Every wage seeker is also given a reference wage seeker ID upon registration.                                                                                                                                | Web/ Mobile |
+| 5     | <p>Wage seekers will get an SMS upon registering to MuktaSoft on their registered mobile number.</p><p>“Dear &#x3C;wage seeker’s name>, Congratulations! You have been successfully registered as a Wage Seeker on MuktaSoft with registration ID &#x3C;ID>. Please connect with your local SHG’s or MUKTA Coordinators for more details. </p> | SMS         |
+
+Wage Seeker Card
+
+1. Wage Seeker ID
+2. Aadhar
+3. Name
+4. Guardian Name
+5. Enroll With
+6. Working On
+7. Total Days Worked
+8. Total Wage Paid
+9. Action - View Details
+
+{% hint style="info" %}
+**Note:** The option to register a wage seeker is provided from the My Wage Seekers Page.
+{% endhint %}
+
+**Register Wage Seeker**
+
+**Attributes**
+
+| S.No.       | Field Name                                                      | Data Type      | Required    | Description                                                                                   |
+| ----------- | --------------------------------------------------------------- | -------------- | ----------- | --------------------------------------------------------------------------------------------- |
+| 1           | Aadhar                                                          | Numeric        | Y           | OTP based eKYC and validation.                                                                |
+| 2           | Name                                                            | Alphabet       | Y           | Max character limit to 120                                                                    |
+| 3           | Mobile No.                                                      | Numeric        | Y           | Standard phone number Validation                                                              |
+| 4           | Gender                                                          | Dropdown       | Y           | Male, Female, Transgender, Others                                                             |
+| 5           | Date of Birth                                                   | Date           | Y           | <p>Only previous date selectable. </p><p>Show warning for individuals less than 18 years.</p> |
+| 6           | Father/ Husband Name                                            | Alphabet       | N           | Max character limit to 120                                                                    |
+| <p><br></p> | relationship                                                    | <p><br></p>    | <p><br></p> | <p><br></p>                                                                                   |
+| 7           | Social Category                                                 | Dropdown       | N           | OBC, SC, ST - List to be given by the department                                              |
+| 8           | Photograph                                                      | Attachments    | N           | Size: 2 MB.                                                                                   |
+| <p><br></p> | <mark style="background-color:orange;">Skills Details</mark>    | <p><br></p>    | <p><br></p> | <p><br></p>                                                                                   |
+| 9           | Skill Categories                                                | Multi-select   | Y           | <p><br></p>                                                                                   |
+| 10          | Skills                                                          | Multi-select   | Y           | <p><br></p>                                                                                   |
+| <p><br></p> | <mark style="background-color:orange;">Address/ Location</mark> | <p><br></p>    | <p><br></p> | <p><br></p>                                                                                   |
+| 11          | Pincode                                                         | Numeric        | N           | Pincode of the area organisation belongs to.                                                  |
+| 12          | City                                                            | Dropdown       | Y           | Standard. List to be given by the department                                                  |
+| 13          | Ward                                                            | Dropdown       | Y           | Standard. List to be given by the department                                                  |
+| 14          | Locality                                                        | Dropdown       | Y           | Standard. List to be given by the department                                                  |
+| 15          | Street Name                                                     | Text           | N           | <p><br></p>                                                                                   |
+| 16          | Door No.                                                        | Alphanumeric   | N           | HN/ Door no. from the organisation's address.                                                 |
+| <p><br></p> | <mark style="background-color:orange;">Accounts Details</mark>  | <p><br></p>    | <p><br></p> | <p><br></p>                                                                                   |
+| 14          | Account Holder’s Name                                           | Alphabet (256) | Y           | Bank account holder’s name.                                                                   |
+| 15          | Account No.                                                     | Numeric        | Y           | Bank account no.                                                                              |
+| 16          | Account No.                                                     | Numeric        | Y           | Re-enter the bank account no.                                                                 |
+| 17          | IFSC                                                            | Search Box     | Y           | Bank and branch details are searched on entry of IFSC code. IFSC validation to be added.      |
+| 18          | Branch Details                                                  | Display        | Y           | Branch details are shown as searched according to IFSC code.                                  |
+| 19          | Effective From                                                  | Date           | Y           | Account details are effective from date.                                                      |
+| 20          | Effective To                                                    | Date           | Y           | Account details are effective to date.                                                        |
+| 21          | Status                                                          | Drop-down      | Y           | Validation status of bank account, Valid/ Invalid.                                            |
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+Dear \<wage seeker’s name>, Congratulations! You have been successfully registered as a Wage Seeker on MuktaSoft, your registration ID is  \<ID>. Please connect with your local SHG’s or MUKTA Coordinators for more details.
+
+**View Details**
+
+**Modify**
+
+#### 3.7.3 My Works
+
+My work will list all the works being done or to be done and the new work order which has been received to accept/decline. It will be divided into 2 sections In Progress and Completed works.
+
+**Work Order Acceptance**
+
+To accept or decline a WO the user will open My Works and see all the newly assigned WO in the In Progress works.
+
+**Attributes**
+
+Work Order Card
+
+1. Work Order No.
+2. Work Description
+3. Organisation Role
+4. Officer In-charge
+5. Issue Date
+6. Due Date
+7. Work Start Date
+8. WO Amount
+9. Accept - Action button, this button will allow the user to accept the WO.
+10. Decline - Action button, this button will allow the user to decline the WO.
+
+{% hint style="info" %}
+**Note:** The accepted Work Order remains visible to SHG in its login while declined Work Order is removed from its login.
+{% endhint %}
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Wage Seeker’s Engagement**
+
+An accepted work order is open to adding the wage seeker. Users click on ‘Add Wage Seeker’ to start adding wage seekers.
+
+**Attributes**
+
+Work Order Card
+
+1. Work Order No.
+2. Work Description
+3. Organisation Role
+4. Officer In Charge
+5. Issue Date
+6. Due Date
+7. Work Start Date
+8. WO Amount
+9. Add Wage Seeker - Action button, this button is displayed only when no wage seekers are added to an ACTIVE WO.
+
+Add Wage Seeker Page
+
+1. Work Order No.
+2. Work Description
+3. Search Wage Seeker
+   * Name
+   * Guardian’s Name
+   * Mobile No.
+4. Submit - Action button to link all the search wage seekers with the work.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+Not applicable.
+
+**Update Attendance**
+
+Once a work order has the wage seekers added it is open to capture the attendance of wage seekers.
+
+**Attributes**
+
+Work Order Card
+
+1. Work Order No.
+2. Work Description
+3. Organisation Role
+4. Officer In Charge
+5. Issue Date
+6. Due Date
+7. Work Start Date
+8. WO Amount
+9. Update Attendance - Action button, this button is displayed only when the wage seekers are added to work and work is not yet closed.
+
+Update Attendance
+
+1. Work Order No.
+2. Work Description
+3. Last Muster Roll Period
+4. Current Muster Roll Period
+5. Search Component
+6. Date/Day \[Week Days]
+   * Name/ Guardian’s Name - Display
+   * Skill - Drop-down - To select the skill name.
+   * Attendance
+7. Submit - Action button to link all the search wage seekers with the work.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Work’s Closure**
+
+For a work order which has come to an end, the option to initiate closure is enabled.
+
+**Attributes**
+
+1. Work Order No.
+2. Work Description
+3. Organisation Role
+4. Officer In Charge
+5. Due Date
+6. Start Date
+7. End Date
+8. WO Amount
+9. Request for Closure - Action button, this button is displayed only when the WO is fully paid and no amount is pending payment now.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.7.4 Muster Rolls
+
+Once the attendance of wage seekers is marked for a week period it is placed under Muster Rolls and available for correction until the bill associated with it is processed and approved. Once a bill associated with it is approved and put for payment it can not be modified.
+
+**Attributes**
+
+Muster Roll Card
+
+1. Muster Roll ID
+2. Work Order No.
+3. Work Description
+4. No. of wage seekers
+5. Period
+6. Status \[Open, Bill Prepared, Bill Approved, Bill Paid]
+7. Show Details - Action button to see the muster roll details.
+
+Muster Roll Details Page
+
+1. Muster Roll ID
+2. Work Order ID
+3. Work Description
+4. Period
+5. Total Wage Seekers
+6. No. of Days Worked
+7. No. of Actual Days Worked
+8. Status \[Open, Bill Prepared, Bill Approved, Bill Paid]
+9. Wage Seekers Details
+   * Name/ Guardian’s Name - Display
+   * Skill - Drop-down - To select the skill name.
+   * Attendance
+10. Submit - Action button, save the changes in the attendance.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+Not applicable
+
+3.7.5 Create Bill
+
+The SHG user will login into account and then open the Muster Rolls to see all the muster rolls which are pending for bill creation and can select one or multiple muster rolls to create a bill. The create bill page will have all the attributes as explained in the [Create Bill](https://docs.google.com/document/d/1lD5LJiJAaCQr\_DfXqe7\_VTKDs8n4oLKlQmr5VrqUUmU/edit#heading=h.21hqpznw8w6n) Section.
+
+#### 3.7.6 My Bills
+
+SHG will have the option to see all the bills in one place related to works that have been completed or in progress. Bills are shown in 2 different tabs segregating them by status, Paid and In Progress.
+
+**Attributes**
+
+Work Bill Card
+
+1. Bill No.
+2. Work Order No.
+3. Work Description
+4. Wage Amount
+5. Material Amount
+6. Commission Amount
+7. Total Deductions
+8. Total Amount
+9. Status \[Open, In Progress, Approved, Paid]
+10. View Details - Action button to see the bill details.
+
+\
+
+
+On click of View Detail, View Bill Detail Page is shown with the below given details.
+
+Bill Details Page
+
+1. WIN
+2. Work Description
+3. MB No.
+
+Muster Rolls
+
+1. Muster Roll ID
+2. Period
+3. No. of wage seekers
+4. No. of actual man days
+5. Amount
+6. Total Wage Amount
+
+Material Invoices
+
+1. Invoice No.
+2. Vendor ID
+3. Vendor's Name
+4. Amount
+5. Total Material Amount
+
+Organisation Commission &#x20;
+
+1. SHG Commission&#x20;
+
+Deductions
+
+1. Labour Cess
+2. IT TDS
+3. Security Deposit
+4. Royalty on minerals
+5. Empty cement bag
+6. GST TDS
+
+Amount Payable
+
+Attachments
+
+1. Vendor Invoices
+2. MB
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+Not applicable
+
+\
+
+
+#### 3.7.7 Search/View Closure Request
+
+#### 3.7.8 Edit Closure Request
+
+#### 3.7.9 Role Action Mapping
+
+\
+
+
+| Role Name          | Actions                                                                                                                                                                                                                                                                                                                                                                                                      | User Persona  |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
+| Organisation Admin | <p>• Create Wage Seekers</p><p>• My Works - View Work Orders</p><p>• Accept/ Decline Work Order</p><p>• Engage wage seekers</p><p>• Update Attendance</p><p>• Create Muster Roll</p><p>• Search/ View Muster Rolll</p><p>• Edit Muster Roll</p><p>• Create Bill</p><p>• My Bills - View Bills</p><p>• Edit Bill</p><p>• Create Closure Request</p><p>• Search/ View Closure Request</p><p>• Edit Closure</p> | SHG President |
+
+\
+
+
+### 3.8 Billing Management
+
+The system shall be able to automatically prepare bills and generate payment advice for each beneficiary.&#x20;
+
+1. invoicesThe beneficiaries are:
+2.
+   1. Wage seekers for their wage-earned days as recorded in the muster-roll are considered for billing.
+   2. Vendors/ Suppliers for their invoice duly approved those are considered for billing.
+   3. The community organisation for their service charge @7.5% towards wage bill and material bill.&#x20;
+3. &#x20;A bill can be prepared for a single muster roll as well as multiple muster rolls.
+4. Wages are calculated based on the attendance and skill a wage seeker has worked.It is calculated automatically.
+5. Vender’s/ Supplier’s amount is calculated manually and then added to the bill.
+6. Commission to SHG is calculated automatically at the rate configured in the system automatically.
+7. Other deductions are being added by JE when the bill is sent for approval. All the muster rolls by default are attached with the bills. Bill will have the following attachments.
+8.
+   1. Muster Rolls - From the system itself.
+   2. Vendor’s/ Supplier’s Invoice against the purchase. To be uploaded while creating a bill.
+   3. Measurement Book - It will be attached by the JE while verifying the bill and approving payment.
+9. JE can send the bill back to SHG for correction in attendance, this correction is made separately marking actual working days. No change in original attendance is made.
+
+| S.No. | Functional Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | <p>Bill is prepared in the system by SHG and then to JE for verification. JE also can initiate the bill for those work orders which are issued in JE’s name.</p><ol><li>In case WO was issued in the name of SHG, all the beneficiaries are added to the bill by SHG.</li><li>In case WO was issued in the name of JE, Wages part of the bill is added by SHG while Vendor/ Supplier is added by JE.</li></ol>                                                                                                                                                                                                                                    |
+| 2     | <p>When the Organisation (SHG) is working as IA.</p><ol><li>Wage Seeker component - SHG will add it to the bill.</li><li>Materials Component - SHG will add it to the bill.</li><li>Commission Component - Auto calculated, 7.5 % of both material and wages component.</li><li>Total Value = Wages + Material + Commission.</li></ol>                                                                                                                                                                                                                                                                                                            |
+| 3     | <p>When the Organisation (SHG) is working as IP.</p><ol><li>Wage Seeker component - SHG will add it to the bill.</li><li>Materials Component - JE will add it to the bill.</li><li>Commission Component - Auto calculated, 7.5 % of wages component.</li><li>Total Value = Wages + Material + Commission.</li></ol>                                                                                                                                                                                                                                                                                                                               |
+| 4     | <p>The following documents are attached to the bill as these activities are manual in V1.</p><ol><li>Vendor invoice for material supply.</li><li>Work measurements in Measurement Book.</li></ol>                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 5     | <p>All statutory deductions applicable for the vendor shall be computed automatically and be deducted from the vendor's bill amount. All such rates are configurable and predefined in the system.</p><ol><li>Labour cess @1% of the material supply</li><li>IT-TDS @1% of the material supply</li><li>Security Deposit @3% or as applicable as per A/B/C/D class contractor</li><li>Royalty on minerals (@Rs.130/cum on stone product, @Rs.35/cum on sand/morum/crusher dust or as per rates applicable)</li><li>Empty cement bag @Rs.3.19/ bag</li><li>GS-TDS @2% of the material invoice if invoice amount is more than Rs.2.5lakhs.</li></ol> |
+| 6     | Bill is prepared and then sent to JE for approval. JE can send it back for correction and forward it for approval.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 7     | Once approved, payment advice is sent to IFMS automatically. Payment transfers to beneficiaries are done in IFMS and status is updated back to MUKTA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+\
+
+
+#### 3.8.1 Process Maps  
