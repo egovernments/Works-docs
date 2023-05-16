@@ -11,7 +11,7 @@ The Estimate option enables employee users to -
 
 Click on the Estimate Inbox Page on the home page.
 
-![](<../../../../.gitbook/assets/0 (2).png>)
+![](<../../../../.gitbook/assets/0 (2) (1).png>)
 
 ![](<../../../../.gitbook/assets/1 (1).png>)
 
@@ -56,7 +56,7 @@ The search estimate enables ULB employees to find specific estimates using multi
 5. Status
 6. Estimated Amount (₹)
 
-![](../../../../.gitbook/assets/3.png)
+![](<../../../../.gitbook/assets/3 (1).png>)
 
 ### View Estimate <a href="#_x27l4m714yv4" id="_x27l4m714yv4"></a>
 
@@ -66,9 +66,9 @@ Click on the applicable **Estimate Number** from the search results to view the 
 
 ![](<../../../../.gitbook/assets/4 (2).png>)
 
-![](<../../../../.gitbook/assets/5 (2).png>)
+![](<../../../../.gitbook/assets/5 (3).png>)
 
-![](<../../../../.gitbook/assets/6 (2).png>)
+![](<../../../../.gitbook/assets/6 (2) (1).png>)
 
 ![](<../../../../.gitbook/assets/7 (2).png>)
 

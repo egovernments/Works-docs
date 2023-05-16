@@ -50,7 +50,7 @@ Sidebar Menu / Homepage > Wage Seeker > Search Wage Seeker > Wage Seeker Result 
 
 ![](<../../../../.gitbook/assets/2 (2) (1).png>)
 
-![](<../../../../.gitbook/assets/3 (2) (1).png>)
+![](<../../../../.gitbook/assets/3 (2) (2).png>)
 
 ![](<../../../../.gitbook/assets/4 (1) (1).png>)
 

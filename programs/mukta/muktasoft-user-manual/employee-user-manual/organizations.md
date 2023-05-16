@@ -12,11 +12,11 @@ To Create Organization for a project
 2. This will display the Create Organization Page with various details such as name of organization, functional details, contact, financial and location details to be filled.
 3. Click on Create Organization after filling the details.
 
-![](<../../../../.gitbook/assets/0 (4).png>)
+![](<../../../../.gitbook/assets/0 (3).png>)
 
 ![](<../../../../.gitbook/assets/1 (4).png>)
 
-![](<../../../../.gitbook/assets/2 (4).png>)
+![](<../../../../.gitbook/assets/2 (3).png>)
 
 ![](<../../../../.gitbook/assets/3 (1) (1).png>)
 

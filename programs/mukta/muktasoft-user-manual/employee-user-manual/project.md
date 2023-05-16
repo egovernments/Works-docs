@@ -22,7 +22,7 @@ The search project option enables ULB employees to find specific projects using 
 5. Created From
 6. Created To
 
-![](<../../../../.gitbook/assets/0 (1).png>)
+![](<../../../../.gitbook/assets/0 (2).png>)
 
 * At least one parameter is mandatory. Enter any one or more to search for a Project.
 * The system fetches the estimates created between the specified period by entering the date range in created from and created to. The Created From and Created To are considered one parameter.
@@ -44,11 +44,11 @@ The search project option enables ULB employees to find specific projects using 
 
 Search for the project to view details. Click on the **Project ID** to open and view the project page.
 
-![](<../../../../.gitbook/assets/2 (1).png>)
+![](<../../../../.gitbook/assets/2 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/3 (2).png>)
+![](<../../../../.gitbook/assets/3 (2) (1).png>)
 
-![](../../../../.gitbook/assets/4.png)
+![](<../../../../.gitbook/assets/4 (1).png>)
 
 ### Create Projects <a href="#_knxsefvb7ee7" id="_knxsefvb7ee7"></a>
 
@@ -58,11 +58,11 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../.gitbook/assets/5 (1).png>)
 
-![](../../../../.gitbook/assets/6.png)
+![](<../../../../.gitbook/assets/6 (1).png>)
 
 ![](../../../../.gitbook/assets/7.png)
 
-![](<../../../../.gitbook/assets/8 (2).png>)
+![](../../../../.gitbook/assets/8.png)
 
 ![](<../../../../.gitbook/assets/9 (1).png>)
 

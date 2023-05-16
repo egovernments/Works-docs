@@ -413,14 +413,583 @@ On search, the result is shown as given below.
 
 **Actions**
 
-1. On search, search is performed and search result is displayed based on the parameters supplied.
+1. On search, a search is performed and the search result is displayed based on the parameters supplied.
 2. On clear, values entered are cleared.
 
 **Mockups**
 
 \<To be updated>
 
-\
-\
-\
-\
+#### 3.5.5 Revise Estimate
+
+In the case of less/excess deviation a revised estimate is created which could lead to creating a revised WO in case the proposed total estimate value exceeds the approved total estimate value.
+
+To create a revised estimate, the original estimate is searched from the action menu ‘Create Revise Estimate’.&#x20;
+
+**Attributes**
+
+| S.No.       | Field                                                            | Data Type       | Required    | Description                                                                                           |
+| ----------- | ---------------------------------------------------------------- | --------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
+| 1           | Estimate Type                                                    | Auto-selected   | Y           | Options are Original, Revised, Deviated.                                                              |
+| 2           | Original Estimate No.                                            | Display Only    | Y           | <p><br></p>                                                                                           |
+| 2           | Work Description                                                 | Display Only    | Y           | This value is populated from work list of work proposal                                               |
+| 3           | Work Type                                                        | Display Only    | Y           | This value is populated from work list of work proposal                                               |
+| <p><br></p> | Location Details                                                 | <p><br></p>     | <p><br></p> | <p><br></p>                                                                                           |
+| 4           | Location                                                         | Display Only    | Y           | Name of locality with ward.                                                                           |
+| <p><br></p> | <mark style="background-color:orange;">Estimation Details</mark> | <p><br></p>     | <p><br></p> | <p><br></p>                                                                                           |
+| 5           | Estimated Amount                                                 | Numeric         | Y           | Estimated amount of work from the detail estimate prepared by JE.                                     |
+| 6           | Display Board Cost                                               | Numeric         | N           | The cost of a display board on the site.                                                              |
+| 7           | Supervision Charge                                               | Display Only    | Y           | It is a commission to IA/AP, calculated by the commission rate defined on the estimated amount.       |
+| 8           | Unforeseen Item’s Contingency                                    | Numeric         | N           | This is the amount for any unforeseen items.                                                          |
+| 9           | GST Amount                                                       | Display Only    | Y           | Autocal calculated. The GST rate is configurable and the amount is calculated on the configured rate. |
+| 10          | Total Works Value                                                | Display Only    | Y           | Total works value = (5)+(6)+(7)+(8)+(9).                                                              |
+| <p><br></p> | <mark style="background-color:orange;">Attachments</mark>        | <p><br></p>     | <p><br></p> | <p><br></p>                                                                                           |
+| 11          | File Name                                                        | File Attachment | N           | Allow to attach up to 5 files each not greater than 5 MB. Files can be of type doc, xls, pdf          |
+
+**Actions**
+
+\<To be updated>
+
+**Mockups**
+
+\<To be updated>
+
+#### 3.5.6 Workflow Actions
+
+**Edit Estimate**
+
+Editing of estimates is only allowed till the time the estimate is under workflow and only the Estimation Details can be modified.
+
+**Attributes**
+
+1. Estimated Amount - It can be changed only by the user who has prepared the estimate.
+2. Display Board Cost - It can be changed only by the user who has prepared the estimate.
+3. IA/ IP Supervision Charge  - Read Only.
+4. Unforeseen Item’s Contingency - It can be changed only by the user who has prepared the estimate.
+5. GST Amount - Read Only.
+6. Total Works Value - Read Only.
+7. Technical Sanction No. - It can be changed only by the user who is allowed to approve the estimate technically.
+8. Administrative Approval No. - It can be changed only by the user who is allowed to approve the estimate administratively.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Save as draft**
+
+On save of an estimate, the estimate is saved into the system and is available in the draft of the logged-in user.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Submit**
+
+On submission, the estimate is created and moved to the next user’s inbox for further processing. If the estimate is already saved into a draft, it saves the changes and moves the estimate to the next user’s inbox for further processing.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Verify and Forward**
+
+A verifier of the estimate will receive the estimate in the inbox and then the verify and forward action is performed.
+
+**Attributes**
+
+1. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the technical sanction approver.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Verify and Forward - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back**
+
+It will allow a workflow user to send the estimate back to the previous user for any correction/clarification.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Send Back - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back To Originator**
+
+It will allow a workflow user to send the estimate back to the creator of the estimate for any correction/clarification.
+
+**Attributes**
+
+5. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+6. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+7. Send Back To Originator - Action Button
+8. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Technical Sanction**
+
+It will allow a workflow user to technically sanction the estimate and forward it for approval.
+
+**Attributes**
+
+1. Technical Sanction No. - Textbox - Mandatory - Technical sanctioner will enter the technical sanction no.
+2. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the approver.
+3. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+4. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+5. Technical Sanction - Action Button
+6. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Reject**
+
+It will allow a workflow user to reject the estimate to cancel it.&#x20;
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Reject - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### **Approve**
+
+It will allow a workflow user to approve the estimate.
+
+**Attributes**
+
+1. Administrative Approval  No. - Textbox - Mandatory - Estimate approver will enter the technical sanction no.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Approve - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.5.7 Role Action Mapping
+
+| Role                  | Role-Action Mapping                                                                         | User Persona                              |
+| --------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| ESTIMATE\_CREATOR     | <p>• Save as draft</p><p>• Submit/ Re-submit</p><p>• Search</p><p>• View</p><p>• Modify</p> | Junior Engineer/ Assistant Engineer       |
+| ESTIMATE\_VERIFIER    | <p>• Search</p><p>• View</p><p>• Verify and Forward</p><p>• Send Back</p>                   | Executive Engineer                        |
+| TECHNICAL\_SANCTIONER | <p>• Search</p><p>• View</p><p>• Technical Sanction</p><p>• Send Back</p><p>• Reject</p>    | Municipal Engineer                        |
+| ESTIMATE\_ APPROVER   | <p>• Search</p><p>• View</p><p>• Approve</p><p>• Send Back</p><p>• Reject</p>               | Executive Officer/ Municipal Commissioner |
+
+### 3.6 Work Order
+
+In the process of awarding the work to an SHG organisation, a work order is created and then verified and approved. The process mentioned in the below-given table is followed for the V1 solution.
+
+| S.No. | Business/Functional Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Interface   |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1     | The system allows the creation of new Work Order with details including Project Details, Financial Details, Agreement Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Web         |
+| 2     | Search Work Order  allows to search for In workflow, Rejected, and approved work orders                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Web         |
+| 3     | <p>Work Order has an approval workflow. Each user has to approve it to go to the next stage. </p><ul><li>Create Work Order is role based access and provided to JE/AE create it.</li><li>Work order attains the state of ‘Draft’ and save.</li><li>On submit, it is sent for verification and attains the status of Pending for Verification.</li><li>Send Back Work Orders will always go into the inbox of the previous user in the flow.</li><li>On rejection, work order is rejected and will no longer be available for further actions.</li><li>A verified work order is sent for approval, and once approved is available for SHG organisation to accept/ decline.</li><li>Once accepted by SHG, It will be available to JE/AE which is again role based, to perform the site visit and update the checklist and update work start date.</li><li>On decline by SHG, It will be available to the creator of WO, and the creator can take an action to re-assign the work order to some other organisation and send for approval again or reject the work order and create a new one.</li></ul> | Web/ Mobile |
+| 4     | <p>Work Order creation is validated against the estimated amount. </p><ul><li>In case the total estimated amount is more than 10 lakhs, work order is issued in the name JE (Office-in-charge)</li><li>In case the total estimated amount is 10 or less than 10 lakhs, a work order is issued in the name organisation.</li><li>The amount limit is configurable and configured in the system.</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Backend     |
+| 5     | <p>SMS to the SHG on the issuance of the work Order</p><p>Dear &#x3C;name>, &#x3C;Organisation name> has been chosen as the &#x3C;IA/IP> for the project &#x3C;project name>. Please login to MuktaSoft account to accept the Work Order &#x3C;WO_NUMBER>. To login please click on &#x3C;Organization Login URL>.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | SMS         |
+| 6     | Purchase of material if any, to be handled offline as of now.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Manual      |
+
+#### 3.6.1 Process Flow
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/unnamed-4.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 3.6.2 Create Work Order
+
+To create a work order, an estimate is searched using search estimate and then open to view the estimate details. From the action list select ‘Create Work Order’.
+
+**Attributes**
+
+| S.No.       | Field                       | Data Type         | Required    | Description                                                                                                                                                                                                                                                                                                                                  |
+| ----------- | --------------------------- | ----------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | WIN                         | Display Only      | NA          | Work Identification No. from the list of works in WP.                                                                                                                                                                                                                                                                                        |
+| 2           | Work Description            | Display Only      | NA          | Work description from the work listed in WP.                                                                                                                                                                                                                                                                                                 |
+| 3           | Work Type                   | Display Only      | NA          | Work type from the work listed in WP. for the selected WIN.                                                                                                                                                                                                                                                                                  |
+| 4           | File No.                    | Alphanumeric (64) | N           | This is a number of the file that is used in offline modes.                                                                                                                                                                                                                                                                                  |
+| 5           | File Date                   | Date              | N           | Date when the offline file is created. This cannot be a future date.                                                                                                                                                                                                                                                                         |
+| <p><br></p> | Agreement Details           | <p><br></p>       | <p><br></p> | <p><br></p>                                                                                                                                                                                                                                                                                                                                  |
+| 6           | Organisation Name           | Drop-down         | Y           | The name of the organisation from the organisation master maintained at the ULB level. The name is searchable in the drop-down                                                                                                                                                                                                               |
+| 7           | Organisation Role           | Auto-populated    | Y           | <p>The system decides the role of a Community Organisation based on the estimated amount. It is configurable in the system.</p><ol><li>IP (Implementation Partner) - If the estimated cost of the works is more than Rs.10 Lakhs</li><li>IA (Implementation Agency) -  If the estimated cost of the works is less than Rs.10 Lakhs</li></ol> |
+| 8           | Officer-in-charge           | Dropdown          | Y           | The drop-down values are population based on the role assigned. The name is searchable in the drop-down.                                                                                                                                                                                                                                     |
+| 9           | Completion Period (in days) | Integer           | Y           | This is the given period within which work to be completed. It cannot be negative or zero. This period is calculated from the date of start of the work.                                                                                                                                                                                     |
+| 10          | WO Amount                   | Read Only         | Y           | Total estimated cost of the selected work.                                                                                                                                                                                                                                                                                                   |
+| <p><br></p> | Attachments                 | <p><br></p>       | <p><br></p> | <p><br></p>                                                                                                                                                                                                                                                                                                                                  |
+| 11          | File Attachment             | File Picker       | N           | Allow to attach upto 5 files, each not greater than 5 MB. Files can be of type doc, xls, pdf                                                                                                                                                                                                                                                 |
+
+**Actions**
+
+On save following activities are performed.
+
+1. The work order is saved as a draft and will be available to the creator for further modifications.
+2. A  work order no. is generated in a specified format.
+3. Work Order PDF is available to download in the specified format.
+
+On submit following activities are performed.
+
+1. Work Order is saved and forwarded to the verifier/ approver and removed from the creator’s draft. It won't be available anymore for the creator to take action.
+2. A work order no. is generated in a specified format if not generated already.
+3. Work Order PDF is available to download from the view Work Order page in the given format.
+
+**Mockups**
+
+\<To be updated>
+
+#### 3.6.3 Create Revised WO
+
+In the revised estimate is created and the total revised amount is more than the initially approved amount a revised WO is created.
+
+{% hint style="info" %}
+**Note:** The details are not available of all the use cases regarding the revised WO.
+{% endhint %}
+
+**Attribute**
+
+\<To be updated>
+
+**Mockups**
+
+\<To be Updated>
+
+#### 3.6.4 Workflow Actions
+
+**Save as draft**
+
+On save, the WO is saved into the system and is available as a draft for the logged-in user to edit and submit it for further processing.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Submit**
+
+On submission, the WO is created and moved to the next user’s inbox for further processing. If the WO is already saved as a draft, It moves the WO to the next user’s inbox for further processing.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Edit WO**
+
+On Edit, the Work Order is edited to make the then save changes during the workflow.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Verify and Forward**
+
+A verifier will receive the WO in the inbox and perform the action verify and forward.
+
+**Attributes**
+
+1. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the approver.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Verify and Forward - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back**
+
+It will allow a workflow user to send the WO back to the previous user for any corrections/ clarifications.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Send Back - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back To Originator**
+
+**Reject**
+
+It will allow a workflow user to reject the WO to cancel it.&#x20;
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Reject - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Approve**
+
+It will allow a workflow user to approve the WO.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Approve - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Accept**
+
+Once approved, Work Order is placed into SHGs portal for acceptance declination, accepted Work Order is then placed to the next user's inbox who is responsible to perform a ground visit and update the checklist and handover the site.&#x20;
+
+**Attributes**
+
+Not applicable.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Decline**
+
+Once approved, Work Order is placed into SHGs portal for acceptance declination, declined WO is then placed back to the creator’s inbox who will either reject the WO or re-assign it to another SHG organisation.
+
+**Attributes**
+
+Not applicable.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.6.5 Search Work Order
+
+Search Work Order will enable the user to search for a WO and then view the details.
+
+**Search Criteria**
+
+| S.No. | Field        | Data Type   | Required | Description                                                        |
+| ----- | ------------ | ----------- | -------- | ------------------------------------------------------------------ |
+| 1     | Location     | Drop-down   | N        | Auto-complete, matching search.                                    |
+| 2     | WIN          | Textbox     | N        | Work identification no. generated for a work in Finalised Worklist |
+| 3     | Estimate No. | Drop-down   | N        | Estimate no. of the linked estimate.                               |
+| 4     | WO No.       | <p><br></p> | N        | WO number, unique identification no.                               |
+| 5     | Status       | Drop-down   | N        | Workflow status of an WO.                                          |
+| 6     | From Date    | Date Picker | N        | WO creation date.                                                  |
+| 7     | To Date      | Date Picker | N        | WO creation date.                                                  |
+
+**Search Result**
+
+On search, the result is shown as given below.
+
+| S.No. | Field             | Data Type    | Description                                                        |
+| ----- | ----------------- | ------------ | ------------------------------------------------------------------ |
+| 1     | WO No.            | Display Only | A hyperlink to open the work order  in view mode.                  |
+| 2     | WIN               | Display Only | Work identification no. generated for a work in Finalised Worklist |
+| 3     | Prepared By       | Display Only | Name of user who has prepared the work order.                      |
+| 4     | Organisation Name | Display Only | Name of the organisation to whom Work Order is awarded.            |
+| 5     | Location          | Display Only | Locality name along with ward name.                                |
+| 6     | WO Amount         | Display Only | Total WO amount.                                                   |
+
+**Mockups**
+
+\<To be updated>
+
+#### 3.6.6 View Work Order
+
+**Attributes**
+
+On click of WO No./ Identification no.(Inbox) user is taken to view the WO page and the following details are displayed.
+
+1. WO No.
+2. WIN
+3. Estimate No.
+4. Work Description
+5. Work Type
+6. File No.
+7. File Date
+8. Location Details
+   * Locality
+   * Ward
+9. Agreement Details
+   * Name of Organisation
+   * Role of Organisation
+   * Name of Office-in-charge
+   * Completion Period (In days)
+   * Work Start Date
+   * Work Order Amount
+10. Attachments
+    * File Attachments - allow to download and view the documents
+11. Timelines
+    * Preparation Date
+    * Prepared By
+    * Verification Date
+    * Verified By
+    * Approval Date
+    * Approved By
+    * Acceptance Date
+    * Accepted By
+    * Decline Date
+    * Declined By
+    * Checklist Updated Date
+    * Checklist Updated By
+
+**Mockups**
+
+\<To be updated>
+
+#### 3.6.7 Update Checklist
+
+Accepted Work Orders by the SHG will, by default, come into the inbox of the checklist filler. The checklist is a predefined MDMS questionnaire that can be built using the Surveys Service. Checklists can be filled using both web and mobile interfaces.
+
+Checklist comes with a few predefined questions for which answers are to be updated into Yes/ No. It is configurable and to be configured into the system ULB-wise.
+
+**Attributes**
+
+| S.No.       | Questions                                                         | Description                                                                                           |
+| ----------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| <p><br></p> | Commencement Checklist                                            | <p><br></p>                                                                                           |
+| 1           | Is the orientation programme to community organisation completed? | Orientation programme for explaining the works components and work plan to the Community Organisation |
+| 2           | Laying out the project?                                           | <p><br></p>                                                                                           |
+| 3           | Is verification of the worksite facility completed?               | <p><br></p>                                                                                           |
+| 4           | Is the site handed over?                                          | <p><br></p>                                                                                           |
+| <p><br></p> | Worksite Facility Checklist                                       | <p><br></p>                                                                                           |
+| 5           | Is first aid available?                                           | <p><br></p>                                                                                           |
+| 6           | Is the rest shade available?                                      | <p><br></p>                                                                                           |
+| 7           | Is the rest shade available?                                      | <p><br></p>                                                                                           |
+| 8           | Are water facilities available?                                   | <p><br></p>                                                                                           |
+| 9           | Is the child case support available?                              | <p><br></p>                                                                                           |
+| 10          | Is the MUKTA display board available?                             | <p><br></p>                                                                                           |
+| 11          | Site Photos                                                       | 4 photos, max up to 2 MB each.                                                                        |
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.6.8 Role Action Mapping
+
+| Role           | Role-Action Mapping                                                               | User Persona                        |
+| -------------- | --------------------------------------------------------------------------------- | ----------------------------------- |
+| WO\_CREATOR    | <p>• Create </p><p>• Search </p><p>• View </p><p>• Modify </p><p>• Re-submit </p> | Junior Engineer/ Assistant Engineer |
+| WO\_CHECKER    | <p>• Search</p><p>• View </p><p>• Verify and Forward </p><p>• Send Back </p>      | Executive Officer                   |
+| WO\_APPROVER   | <p>• Search</p><p>• View </p><p>• Approve</p><p>• Send Back </p><p>• Reject</p>   | Municipal Engineer                  |
+| SHG\_ADMIN     | <p>Accept</p><p>Decline</p>                                                       | Organisation President/ Secretary   |
+| SITE\_HANDOVER | <p>• Search</p><p>• View </p><p>• Update Checklist </p>                           | Junior Engineer/ Assistant Engineer |

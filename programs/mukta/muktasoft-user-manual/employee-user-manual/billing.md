@@ -8,7 +8,7 @@ Home Page > Bills
 
 From the Home Page on click of the Bills, the Inbox Page is displayed.
 
-![](<../../../../.gitbook/assets/0 (2) (1).png>)
+![](<../../../../.gitbook/assets/0 (2) (2).png>)
 
 1. On the left side on the top feature menus are displayed.
 2. On the left side on the bottom Filters Panel is displayed with the filters.
@@ -47,7 +47,7 @@ The search Bill enables ULB employees to search for a specific Bill using differ
 6. Status
 7. Bill Amount
 
-![](<../../../../.gitbook/assets/2 (1) (1).png>)
+![](<../../../../.gitbook/assets/2 (1) (2).png>)
 
 #### View <a href="#_l58uqzt3r1td" id="_l58uqzt3r1td"></a>
 
