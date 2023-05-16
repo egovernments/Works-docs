@@ -175,6 +175,7 @@
       * [Pilot Sucess Metrics](programs/mukta/program-details/pilot-sucess-metrics.md)
       * [SoP for Issue Management](programs/mukta/program-details/sop-for-issue-management.md)
       * [Adoption Metrics](programs/mukta/program-details/adoption-metrics.md)
+      * [Implementation Plan](programs/mukta/program-details/implementation-plan.md)
 
 ## COMMUNITY
 
