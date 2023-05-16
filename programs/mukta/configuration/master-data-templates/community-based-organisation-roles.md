@@ -6,15 +6,14 @@ description: Role definition master data templates
 
 ## Introduction
 
-In MUKA community based organizations have different roles to play based on the work value. The role defined are Implementation Agengency and Implementation Partner.&#x20;
+In MUKA community-based organizations have different roles to play based on the work value. The role defined is Implementation Agengency and Implementation Partner.&#x20;
 
 ## Data Table
 
-| Sr. No. | Code\* | Description                                                | Description (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | ------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                     |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                     |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                     |                |              |           |
+| Sr. No. | Code | Description            | Description (Odiya)        | Effective From | Effective To | Is Active |
+| ------- | ---- | ---------------------- | -------------------------- | -------------- | ------------ | --------- |
+| 1       | IA   | Implementation Agency  | କାର୍ଯ୍ୟକାରୀ ଏଜେନ୍ସି/ସଂସ୍ଥା |                |              |           |
+| 2       | IP   | Implementation Partner | କାର୍ଯ୍ୟକାରୀ ସହଭାଗୀ         |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -32,3 +31,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active           | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

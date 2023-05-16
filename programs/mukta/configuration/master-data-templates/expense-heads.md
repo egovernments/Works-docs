@@ -6,11 +6,13 @@ These are the heads under which MUKTA expenditure is booked.&#x20;
 
 ## Data Table
 
-| Sr. No. | Code\* | Description                                                | Description (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | ------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                     |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                     |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                     |                |              |           |
+| Sr. No. | Code | Description           | Description (Odiya) | Effective From | Effective To | Is Active |
+| ------- | ---- | --------------------- | ------------------- | -------------- | ------------ | --------- |
+| 1       | WEG  | Wages                 | ମଜୁରୀ               |                |              |           |
+| 2       | SC   | Supervision Charge    | ତଦାରଖ ଦେୟ           |                |              |           |
+| 3       | GST  | Goods and Service Tax | ଦ୍ରବ୍ୟ ଏବଂ ସେବା କର  |                |              |           |
+| 4       | MC   | Material Cost         | ସାମଗ୍ରୀ ମୂଲ୍ୟ       |                |              |           |
+| 5       | PA   | Purchase              | କ୍ରୟ ପରିମାଣ         |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +30,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active           |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

@@ -6,11 +6,13 @@ Target demography are the areas which are on prime focus of Government for the e
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Code | Project Type                 | Project Type (Odiya)                               | Effective From | Effective To | Is Active |
+| ------- | ---- | ---------------------------- | -------------------------------------------------- | -------------- | ------------ | --------- |
+| 1       | SM   | Slum                         | ବସ୍ତି                                              |                |              |           |
+| 2       | SC   | Area inhabited by SC         | ଅନୁସୂଚିତ ଜାତି (ଏସ.ସି)ସମ୍ପ୍ରଦାୟ ବାସ କରୁଥିବା ଅଞ୍ଚଳ   |                |              |           |
+| 3       | ST   | Area inhabited by ST         | ଅନୁସୂଚିତ ଜନଜାତି (ଏସ.ଟି)ସମ୍ପ୍ରଦାୟ ବାସ କରୁଥିବା ଅଞ୍ଚଳ |                |              |           |
+| 4       | MN   | Area inhabited by Minorities | ସଂଖ୍ୟାଲଘୁ ସମ୍ପ୍ରଦାୟ ବାସ କରୁଥିବା ଅଞ୍ଚଳ              |                |              |           |
+|         |      |                              |                                                    |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +30,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

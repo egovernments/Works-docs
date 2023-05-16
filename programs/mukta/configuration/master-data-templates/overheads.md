@@ -6,11 +6,10 @@ Overheads are the items other than SOR and Non-SOR which are included in the est
 
 ## Data Table
 
-| Sr. No. | Code\* | Description\*                                              | Description (Odiya) | Is work order value? | Calculation Method | Percentage/Value | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | ------------------- | -------------------- | ------------------ | ---------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                     |                      |                    |                  |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                     |                      |                    |                  |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                     |                      |                    |                  |                |              |           |
+| Sr. No. | Code | Description           | Description (Odiya) | Is work order value? | Calculation Method | Percentage/ Value | Effective From | Effective To | Is Active |
+| ------- | ---- | --------------------- | ------------------- | -------------------- | ------------------ | ----------------- | -------------- | ------------ | --------- |
+| 1       | SC   | Supervision Charge    | ତଦାରଖ ଦେୟ           | Yes                  | Percentage         | 7.5               |                |              |           |
+| 2       | GST  | Goods and Service Tax | ଦ୍ରବ୍ୟ ଏବଂ ସେବା କର  | Yes                  | Percentage         | 18                |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -31,3 +30,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

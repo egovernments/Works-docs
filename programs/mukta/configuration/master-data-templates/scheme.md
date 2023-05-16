@@ -2,15 +2,14 @@
 
 ## Introduction
 
-MUKTA is known as scheme and it is configured in the system along with its HOAs.
+MUKTA is known as a scheme and it is configured in the system along with its HOAs.
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Code  | Description | Description (Odiya) | Effective From | Effective To | Is Active |
+| ------- | ----- | ----------- | ------------------- | -------------- | ------------ | --------- |
+| 1       | MUKTA | MUKTA       | ମୁକ୍ତା              |                |              |           |
+|         |       |             |                     |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +27,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active      | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

@@ -2,15 +2,20 @@
 
 ## Introduction
 
-Unit of measurements are the units which are used to capture the measurement and create the estimate for a work in MUKTA.
+Unit of measurements is the units used to capture the measurement and create the estimate for work in MUKTA.
 
 ## Data Table
 
-| Sr. No. | Code\* | Description\*                                              | Description (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | ------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                     |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                     |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                     |                |              |           |
+| Sr. No. | Code | Description   | Description (Odiya) | Effective From | Effective To | Is Active |
+| ------- | ---- | ------------- | ------------------- | -------------- | ------------ | --------- |
+| 1       | CUM  | Cubic Meter   | ଘନ ମିଟର             |                |              |           |
+| 2       | SQM  | Square Meter  | ବର୍ଗ ମିଟର           |                |              |           |
+| 3       | RMT  | Running Meter | ରନିଙ୍ଗ ମିଟର         |                |              |           |
+| 4       | KG   | Kilogram      | କିଲୋଗ୍ରାମ           |                |              |           |
+| 5       | NOS  | Numbers       | ସଂଖ୍ୟାଗୁଡିକ         |                |              |           |
+| 6       | CFT  | Cubic Feet    | ଘନ ଫୁଟ              |                |              |           |
+| 7       | SFT  | Square Feet   | ବର୍ଗ ଫୁଟ            |                |              |           |
+| 8       | FT   | Feet          | ଫୁଟ                 |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,4 +33,6 @@ The data given in the table is sample data for reference.
 | 6       | Is Active           | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}
 

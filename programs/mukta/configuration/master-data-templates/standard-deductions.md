@@ -6,11 +6,13 @@ These are deductions which are made from the purchase bills and then remitted to
 
 ## Data Table
 
-| Sr. No. | Code\* | Description                                                | Description (Odiya) | Applicable | Calculation Method | Percentage/Value | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | ------------------- | ---------- | ------------------ | ---------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                     |            |                    |                  |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                     |            |                    |                  |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                     |            |                    |                  |                |              |           |
+| Sr. No. | Code   | Description         | Description (Odiya)     | Applicable  | Calculation Method | Percentage/ Value | Effective From | Effective To | Is Active |
+| ------- | ------ | ------------------- | ----------------------- | ----------- | ------------------ | ----------------- | -------------- | ------------ | --------- |
+| 1       | LC     | Labour Cess         | ଶ୍ରମ ଉପକର (ସେସ୍)        | Vendor      | Percentage         | 1                 |                |              |           |
+| 2       | ITTDS  | IT TDS              | ଆଇ.ଟି ଟି.ଡ଼ି.ଏସ୍         | Vendor      | Percentage         | 10                |                |              |           |
+| 3       | ROM    | Royalty on minerals | ଖଣିଜ ପଦାର୍ଥ ଉପରେ ଲାଭାଂଶ | Vendor      | Not Calculated     |                   |                |              |           |
+| 4       | ECB    | Empty Cement Bag    | ଖାଲି ସିମେଣ୍ଟ ବ୍ୟାଗ୍     | Vendor      | Not Calculated     |                   |                |              |           |
+| 5       | GSTTDS | GST TDS             | ଜି.ଏସ୍.ଟି ଟି.ଡ଼ି.ଏସ୍     | Vendor      | Percentage         | 2                 |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -31,3 +33,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active          | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}
