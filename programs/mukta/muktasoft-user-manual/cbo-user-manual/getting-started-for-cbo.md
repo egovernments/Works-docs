@@ -38,7 +38,7 @@ Users can change the language of the application from English to Odia or vice-ve
 
 To change language
 
-1. From the home page, tap on the menu icon (![](../../../../.gitbook/assets/6.png)) on the left side top corner.
+1. From the home page, tap on the menu icon (![](<../../../../.gitbook/assets/6 (5).png>)) on the left side top corner.
 
 | <img src="../../../../.gitbook/assets/7 (2).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/8.jpeg" alt="" data-size="original"> |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ To change language
 
 To view org profile
 
-1. From the home page, tap on the menu icon (![](../../../../.gitbook/assets/9.png)) on the left side top corner.
+1. From the home page, tap on the menu icon (![](<../../../../.gitbook/assets/9 (3).png>)) on the left side top corner.
 
 | <img src="../../../../.gitbook/assets/10.jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/11.jpeg" alt="" data-size="original"> |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -64,7 +64,7 @@ To view org profile
 
 To log out from the app
 
-1. From the home page, tap on the menu icon (![](../../../../.gitbook/assets/14.png)) on the left side top corner.
+1. From the home page, tap on the menu icon (![](<../../../../.gitbook/assets/14 (1).png>)) on the left side top corner.
 
 | <img src="../../../../.gitbook/assets/15.jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/16.jpeg" alt="" data-size="original"> |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |

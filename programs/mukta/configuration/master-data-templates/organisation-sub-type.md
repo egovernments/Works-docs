@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The Community Based Organization are further categories and refered as sub type.
 
 ## Data Table
 

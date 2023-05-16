@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+These are the heads under which MUKTA expenditure is booked.&#x20;
 
 ## Data Table
 

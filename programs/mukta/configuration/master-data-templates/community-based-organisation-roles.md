@@ -6,7 +6,7 @@ description: Role definition master data templates
 
 ## Introduction
 
-
+In MUKA community based organizations have different roles to play based on the work value. The role defined are Implementation Agengency and Implementation Partner.&#x20;
 
 ## Data Table
 
@@ -27,8 +27,8 @@ The data given in the table is sample data for reference.
 | 1       | Code                | Alphanumeric | 64        | Yes           | A unique code that identifies the project type. |
 | 2       | Description         | Text         | 256       | Yes           | Provides the name of the project type           |
 | 3       | Description (Odiya) | Text         | 256       | No            | Project type name in local language             |
-| 4       | Effective From      |              |           |               | Date from which the project is effective        |
-| 5       | Effective To        |              |           |               | Date till which the project is effective        |
-| 6       | Is Active           |              |           |               | Whether the project is active or not            |
+| 4       | Effective From      | Date         |           |               | Date from which the project is effective        |
+| 5       | Effective To        | Date         |           |               | Date till which the project is effective        |
+| 6       | Is Active           | Boolean      |           |               | Whether the project is active or not            |
 
 ## Attachments

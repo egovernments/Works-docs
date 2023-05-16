@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The rank/ class of the organization defined helps the government to choose the right organization for a work.
 
 ## Data Table
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+Wage seekers are the people who are looking for employment and willing to work on MUKTA works.
 
 ## Data Table
 

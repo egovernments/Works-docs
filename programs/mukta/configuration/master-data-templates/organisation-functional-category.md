@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The organization functional category define the functional area of an organization.
 
 ## Data Table
 
