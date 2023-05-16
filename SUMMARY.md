@@ -122,6 +122,7 @@
         * [HRMS Employment Type](programs/mukta/configuration/master-data-templates/hrms-employment-type.md)
         * [User Role](programs/mukta/configuration/master-data-templates/user-role.md)
         * [Organization](programs/mukta/configuration/master-data-templates/community-based-organization.md)
+        * [Vendor/Supplier - MDT](programs/mukta/configuration/master-data-templates/vendor-supplier-mdt.md)
         * [Wage Seeker](programs/mukta/configuration/master-data-templates/wage-seeker.md)
         * [Tenants](programs/mukta/configuration/master-data-templates/tenants.md)
         * [Ward Boundary](programs/mukta/configuration/master-data-templates/ward-dhenkanal.md)

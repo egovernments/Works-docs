@@ -2,15 +2,17 @@
 
 ## Introduction
 
-The rank/ class of the organization defined helps the government to choose the right organization for a work.
+The rank/ class of the organization defined helps the government to choose the right organization for work.
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Code | Description    | Description (Odiya) | Effective From | Effective To | Is Active |
+| ------- | ---- | -------------- | ------------------- | -------------- | ------------ | --------- |
+| 1       | A    | Class A        | ଶ୍ରେଣୀ କ            |                |              |           |
+| 2       | B    | Class B        | ଶ୍ରେଣୀ ଖ            |                |              |           |
+| 3       | C    | Class C        | ଶ୍ରେଣୀ ଗ            |                |              |           |
+| 4       | D    | Class D        | ଶ୍ରେଣୀ ଘ            |                |              |           |
+| 5       | NA   | Not Applicable | ପ୍ରଯୁଜ୍ୟ ନୁହେଁ      |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +30,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

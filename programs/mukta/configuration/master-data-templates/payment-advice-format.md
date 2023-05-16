@@ -6,11 +6,17 @@ This the template to generate the payment advice from the system. After download
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Project ID | Work Order ID | Bill Number       | Bill Type   | Gross Amount | Beneficiary Type | Beneficiary Name | Beneficiary ID | Account Type | Bank Account Number | IFSC | Payable Amount |
+| ------- | ---------- | ------------- | ----------------- | ----------- | ------------ | ---------------- | ---------------- | -------------- | ------------ | ------------------- | ---- | -------------- |
+| 1       |            |               | PB/2023-24/000001 | Purchase    | 1010         | ORG              |                  |                |              |                     |      | 1000           |
+| 2       |            |               | PB/2023-24/000001 | Purchase    | 1010         | ULB              |                  |                |              |                     |      | 10             |
+| 3       |            |               | SB/2023-24/000002 | Supervision | 900          | ORG              |                  |                |              |                     |      | 900            |
+|         |            |               | WB/2023-24/00001  | WAGE        | 100          | IND              | A                |                |              |                     |      |                |
+|         |            |               | WB/2023-24/00001  | WAGE        | 200          | IND              | B                |                |              |                     |      |                |
+|         |            |               | WB/2023-24/00001  | WAGE        | 300          | IND              | C                |                |              |                     |      |                |
+|         |            |               |                   |             |              |                  |                  |                |              |                     |      |                |
+|         |            |               |                   |             |              |                  |                  |                |              |                     |      |                |
+|         |            |               |                   |             |              |                  |                  |                |              |                     |      |                |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.

@@ -6,11 +6,16 @@ These are name of sections/ departments within the ULBs which set the functional
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Code | Description                       | Description (Odiya)        | Effective From | Effective To | Is Active |
+| ------- | ---- | --------------------------------- | -------------------------- | -------------- | ------------ | --------- |
+| 1       | ADM  | Administration                    | ପ୍ରଶାସନ                    |                |              |           |
+| 2       | REV  | Tax                               | କର                         |                |              |           |
+| 3       | ACC  | Accounts                          | ଆୟ ବ୍ୟୟ ହିସାବ              |                |              |           |
+| 4       | PHS  | Public Health and Sanitation      | ଜନସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ପରିମଳ      |                |              |           |
+| 5       | WRK  | Works                             | କାର୍ଯ୍ୟସମୂହ                |                |              |           |
+| 6       | TWP  | Town Planning                     | ଟାଉନ୍ ଯୋଜନା                |                |              |           |
+| 7       | NULM | National Urban Livelihood Mission | ଜାତୀୟ ସହରାଞ୍ଚଳ ଜୀବିକା ମିଶନ |                |              |           |
+| 8       | PR   | Public Relations                  | ଜନ ସମ୍ପର୍କ                 |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.

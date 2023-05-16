@@ -2,15 +2,15 @@
 
 ## Introduction
 
-The organization functional category define the functional area of an organization.
+The organization's functional category define the functional area of an organization.
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Parent Code (Org Type) | Code | Description     | Description (Odiya)   | Effective From | Effective To | Is Active |
+| ------- | ---------------------- | ---- | --------------- | --------------------- | -------------- | ------------ | --------- |
+| 1       | VEN                    | CW   | Civil Works     | ବେସାମରିକ କାର୍ଯ୍ୟସମୂହ  |                |              |           |
+| 2       | VEN                    | EW   | Electical Works | ବୈଦ୍ୟୁତିକ କାର୍ଯ୍ୟସମୂହ |                |              |           |
+| 3       | CBO                    | NA   | Not Applicable  | ପ୍ରଯୁଜ୍ୟ ନୁହେଁ        |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +28,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

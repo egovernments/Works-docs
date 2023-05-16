@@ -6,11 +6,14 @@ The Community Based Organization are further categories and refered as sub type.
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Parent Code (Org Type) | Code | Description                    | Description (Odiya)       | Effective From | Effective To | Is Active |
+| ------- | ---------------------- | ---- | ------------------------------ | ------------------------- | -------------- | ------------ | --------- |
+| 1       | VEN                    | CMS  | Construction Material Supplier | ନିର୍ମାଣ ସାମଗ୍ରୀ ଯୋଗାଣକାରୀ |                |              |           |
+| 2       | VEN                    | NA   | Not Applicable                 | ପ୍ରଯୁଜ୍ୟ ନୁହେଁ            |                |              |           |
+| 3       | CBO                    | MSG  | Mission Shakti Group           | ମିଶନ୍ ଶକ୍ତି ଗୋଷ୍ଠୀ        |                |              |           |
+| 4       | CBO                    | SDA  | Slum Dwellers Association      | ବସ୍ତି ବାସିନ୍ଦା ସଂଘ        |                |              |           |
+| 5       | CBO                    | ALF  | Area Level Federation          | କ୍ଷେତ୍ର ସ୍ତରୀୟ ମହାସଂଘ     |                |              |           |
+| 6       | CBO                    | CLF  | Clustor Level Federation       | କ୍ଲଷ୍ଟର ସ୍ତରୀୟ ମହାସଂଘ     |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
@@ -28,3 +31,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

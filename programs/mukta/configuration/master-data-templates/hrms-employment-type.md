@@ -6,11 +6,12 @@ These are the employment types for the employees working in ULBs like Temporary,
 
 ## Data Table
 
-| Sr. No. | Code\* | Project Type\*                                             | Project Type (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ------ | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | --------- |
-| 1       | DR     | Drainage and sewerage work \[Except de-siltation]          |                      |                |              |           |
-| 2       | SN     | Sanitation work \[Except road sweeping and drain cleaning] |                      |                |              |           |
-| 3       | WT     | Water conservation and rain water harvesting structures    |                      |                |              |           |
+| Sr. No. | Code | Description | Description (Odiya) | Effective From | Effective To | Is Active |
+| ------- | ---- | ----------- | ------------------- | -------------- | ------------ | --------- |
+| 1       | PNT  | Permanent   | ସ୍ଥାୟୀ              |                |              |           |
+| 2       | TMP  | Temporary   | ଅସ୍ଥାୟୀ             |                |              |           |
+| 3       | DEP  | Deputation  | ପ୍ରତିନିଯୁକ୍ତି       |                |              |           |
+| 4       | CNT  | Contractual | ଚୁକ୍ତିଭିତ୍ତିକ       |                |              |           |
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
