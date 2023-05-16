@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The roles defined in the system carry specific functionality and need to map with users when created in the system to enable the user to use the respective functionality.
 
 ## Data Table
 
@@ -28,3 +28,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

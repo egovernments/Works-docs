@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The enties which are working for the MUKTA schemes like supervision of work, supply of materials etc. are known as organization the ULBs maintained the registries of them.
 
 ## Data Table
 

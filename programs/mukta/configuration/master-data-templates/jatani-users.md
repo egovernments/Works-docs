@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+Users are the employees of the ULB which are supposed to use the system. Hence their details is collected and created into system.
 
 ## Data Table
 

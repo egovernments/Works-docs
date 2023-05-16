@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+This the template to generate the payment advice from the system. After downloading the data accountant will be able to proceed with payments in IFMS system.
 
 ## Data Table
 
@@ -28,3 +28,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

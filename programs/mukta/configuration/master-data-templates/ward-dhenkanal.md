@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+Wards are the smallest adminstrative boundaries with the ULBs. A ULB is divided into multiple wards.
 
 ## Data Table
 

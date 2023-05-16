@@ -167,11 +167,11 @@
       * [UI Technical Design](platform/specifications/technical-specifications/low-level-design/ui-tech-design/README.md)
         * [UI Tech Flow Diagrams](platform/specifications/technical-specifications/low-level-design/ui-tech-design/ui-tech-flow-diagrams.md)
     * [Program Details](programs/mukta/program-details/README.md)
+      * [Pilot Roll Out Plan](programs/mukta/program-details/pilot-roll-out-plan.md)
       * [Pilot Go Live Definition](programs/mukta/program-details/pilot-go-live-definition.md)
-      * [Roll Out Plan](programs/mukta/program-details/roll-out-plan.md)
+      * [Pilot Sucess Metrics](programs/mukta/program-details/pilot-sucess-metrics.md)
+      * [SoP for Issue Management](programs/mukta/program-details/sop-for-issue-management.md)
       * [Adoption Metrics](programs/mukta/program-details/adoption-metrics.md)
-      * [Pilot Sucess Metric](programs/mukta/program-details/pilot-sucess-metrics.md)
-      * [Process Flow for Issue Management](programs/mukta/program-details/process-flow-for-issue-management.md)
 
 ## COMMUNITY
 

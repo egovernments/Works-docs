@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+Tenants are organizations which are taking the responsibilties to perform the functions for an geographical area. In MUKTA these oraganizations are known as ULBs.&#x20;
 
 ## Data Table
 
@@ -28,3 +28,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}

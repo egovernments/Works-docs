@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+Localities are the boundaries within the ULB and citizens are mostly familiar with these.
 
 ## Data Table
 

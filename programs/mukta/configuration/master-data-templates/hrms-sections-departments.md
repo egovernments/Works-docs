@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+These are name of sections/ departments within the ULBs which set the functional scope of employees belong to these sections.
 
 ## Data Table
 
@@ -28,3 +28,5 @@ The data given in the table is sample data for reference.
 | 6       | Is Active            |              |           |               | Whether the project is active or not            |
 
 ## Attachments
+
+{% file src="../../../../.gitbook/assets/MUKTA - Master Data-2.xlsx" %}
