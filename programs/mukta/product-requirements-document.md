@@ -1682,4 +1682,262 @@ The request for the closure of the project can be initiated by SHG/ ULB (JE). Id
 4. The closure will also need to be initiated by ULB by searching for projects in progress and closing them
 5. Once closed projects will move to completed works in SHGs My Works. No new bills, muster rolls, or attendance tracking will be allowed.
 
-#### 3.9.1 Process Maps 
+#### 3.9.1 Process Maps
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/unnamed-6.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 3.9.2 Create Closure Request
+
+**Attributes**
+
+\
+
+
+| S.No.       | Field              | Data Type             | Required    | Description                                                          |
+| ----------- | ------------------ | --------------------- | ----------- | -------------------------------------------------------------------- |
+| <p><br></p> | Work Details       | <p><br></p>           | <p><br></p> | <p><br></p>                                                          |
+| 1           | WIN                | Read Only             | NA          | Work identification no.                                              |
+| 2           | Work Description   | Read Only             | NA          | Work description from the Finalised Worklist                         |
+| 3           | Ward               | Read Only             | NA          | Ward name and no. of the worksite                                    |
+| 4           | Location           | Read Only             | NA          | Locality name of the worksite                                        |
+| 4           | Estimate Amount    | Read Only             | NA          | The estimated amount of the work.                                    |
+| <p><br></p> | Work Order Details | <p><br></p>           | <p><br></p> | <p><br></p>                                                          |
+| 9           | WO No.             | Read Only             | NA          | Work order no.                                                       |
+| 10          | WO Date            | Read Only             | NA          | Work order issue date.                                               |
+| 11          | Organisation       | Read Only             | NA          | Name of the organisation word order is awarded.                      |
+| 12          | Officer Incharge   | Read Only             | NA          | Name of the officer in charge (JE/AE)                                |
+| 13          | Completion Period  | Read Only             | NA          | Completion period defined for the organisation to complete the work. |
+| 14          | WO Amount          | Read Only             | NA          | Work order amount                                                    |
+| <p><br></p> | Field Checklist    | <p><br></p>           | <p><br></p> | <p><br></p>                                                          |
+| 15          | Checklist Items    | Read Only             | NA          | All the checklist items to be shown here with the answers.           |
+| 16          | Work Start Date    | Read Only             | NA          | Work start date.                                                     |
+| <p><br></p> | Work Bills         | List                  | <p><br></p> | List of all the bills                                                |
+| 17          | Bill No.           | Read Only             | NA          | Bill no. for the bill running/ final paid/ in progress.              |
+| 18          | Bill Date          | Read Only             | NA          | Bill creation date                                                   |
+| 19          | Bill Amount        | Read Only             | NA          | Total bill amount                                                    |
+| 20          | Status             | Read Only             | NA          | Current status of bill in progress/ paid.                            |
+| <p><br></p> | Closure Checklist  | List                  | <p><br></p> | <p><br></p>                                                          |
+| 21          | Checklist          | Questions             | Y           | List of all the checklist items                                      |
+| <p><br></p> | Attachments        | <p><br></p>           | <p><br></p> | <p><br></p>                                                          |
+| 22          | Documents          | DIGIT Document Upload | Y           | Configurable at the ULB level to configure the documents for ULBs    |
+
+**Actions**
+
+On submit, the following activities are performed.
+
+1. Work Closure Request is saved and forwarded to the verifier/ approver.
+2. A Work Closure Request  No. is generated in a specified format if not generated already.
+3. Work Closure Request PDF is available to download from the view Work Closure Request page in the given format.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Workflow Actions**
+
+**Submit**
+
+On submit, the closure request is created and moved to the next user’s inbox for further processing.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Edit Work Closure**
+
+On Edit, the Work Order is edited to make the then save changes during the workflow.
+
+**Attributes**
+
+Not applicable
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Verify and Forward**
+
+A verifier will receive the WO in the inbox and perform the action verify and forward.
+
+**Attributes**
+
+1. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the approver.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Verify and Forward - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back**
+
+It will allow a workflow user to send the WO back to the previous user for any corrections/ clarifications.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Send Back - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Reject**
+
+It will allow a workflow user to reject the WO to cancel it.&#x20;
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Reject - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Approve**
+
+It will allow a workflow user to approve the WO.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Approve - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.9.2 Role Action Mapping
+
+| Role                           | Role-Actions                                                                                    | User Persona                                  |
+| ------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Closure Request Creator        | <p>• Create</p><p>• Search</p><p>• View</p><p>• Modify</p>                                      | <p>SHG President / </p><p>Junior Engineer</p> |
+| Closure Request Field Verifier | <p>• Search</p><p>• View</p><p>• Modify</p><p>• Update Field Verification</p><p>• Send Back</p> | Junior Engineer/ Executive Engineer           |
+| Closure Request Verifier       | <p>• Search</p><p>• View</p><p>• Verify and Forward</p><p>• Send Back</p><p>• Reject</p>        | Executive Engineer                            |
+| Closure Request Approver       | <p>• Search</p><p>• View</p><p>• Approve</p><p>• Send Back</p><p>• Reject</p>                   | Municipal Engineer                            |
+
+### 3.10 PDF Downloads
+
+#### 3.10.1 Finalised Worklist
+
+\<To be updated>
+
+#### 3.10.2 Estimate PDF
+
+\<To be updated>
+
+#### 3.10.3 Work Order PDF&#x20;
+
+**SHG as IA**
+
+\<To be updated>
+
+**SHG as IP**
+
+\<To be updated>
+
+#### 3.10.4 Wage Seeker’s Register
+
+\<To be updated>
+
+#### 3.10.5 Muster Roll
+
+\<To be updated>
+
+#### 3.10.6 Work Bill
+
+\<To be updated>
+
+## 4. Master Data Management
+
+Master data management or Master, consists of attribute-level information(data) that is configured at the time of implementation of the system or captured from users in data entry forms. Most of the master data configured can be seen in dropdowns on various screens.  The master's data needs to be configured as listed below.
+
+1. Organization (SHG)
+2. Vendor/ Supplier
+3. Wage Seeker
+4. Skills
+5. Sub Skills
+6. Work Type
+7. Estimate Type (Original, Revision)
+8. Deductions
+9. Boundaries
+   * Ward
+   * Localities
+
+Few other configurations.
+
+1. Work value configuration for IA/IP.
+2. Commission rate configuration for IA/IP.
+
+### 4.1 Wage Seeker Master
+
+Please refer to the SHG portal section for details.
+
+### 4.2 Organisation Master
+
+Organisations are business functions that work with the ULB to execute Projects. These can be typical contractors, SHG or material vendors. All of them are registered under the same Organisation Master.&#x20;
+
+| S.NO. | Business/Functional Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Interface    |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1     | The system allows the creation of new Organisations with details, including Organisation Details, SPOC, and Bank Account details.                                                                                                                                                                                                                                                                                                                                                       | Web          |
+| 2     | The system allows users to search for existing Organisations and modify the details.                                                                                                                                                                                                                                                                                                                                                                                                    | Web          |
+| 3     | <p>Every Organisation of the SHG-type will have only 1 member login. Her/his details will be captured at the time of registering the Organisation and registration notification is sent to the SPOC.</p><p>Dear &#x3C;name>, You have been registered as the &#x3C;Designation> to &#x3C;Organisation Name> on MuktaSoft. Organisation ID &#x3C;ID>. Login to the account to perform MUKTA related activities . Login URL &#x3C;URL>. Contact Mukta Coordinators for more details. </p> | SMS & Mobile |
+| 4     | Bulk upload of Organisation’s Master at the time of system setup is possible                                                                                                                                                                                                                                                                                                                                                                                                            | Backend      |
+
+Community-Based Organisations Types
+
+1. Mission Shakti Women Self-Help Groups (Mission Shakti Groups)
+2. Slum Dwellers Associations (SDAs)
+3. Area Level Federations (ALFs)&#x20;
+4. City Level Federations (CLFs)
+
+Eligibility criteria for MSG
+
+1. MSG must be registered with the Housing and Urban Development Department/ Mission Shakti and following Panchasutra.
+2. MSG must have an active bank account.
+3. MSG must have a PAN in the name of their group.
