@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Wards are the smallest adminstrative boundaries with the ULBs. A ULB is divided into multiple wards.
+Wards are the smallest administrative boundaries with the ULBs. A ULB is divided into multiple wards.
 
 ## Data Table
 
-| Sr. No. | Ward Code | Ward Name | Ward Name (Oria) |
+| Sr. No. | Ward Code | Ward Name | Ward Name (Odia) |
 | ------- | --------- | --------- | ---------------- |
 | 1       | W001      | Ward 1    | ୱାର୍ଡ ୧          |
 | 2       | W002      | Ward 2    | ୱାର୍ଡ ୨          |

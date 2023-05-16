@@ -6,7 +6,7 @@ Localities are the boundaries within the ULB and citizens are mostly familiar wi
 
 ## Data Table
 
-| Sr. No. | Locality Code | Locality Name        | Locality Name (Oria) |
+| Sr. No. | Locality Code | Locality Name        | Locality Name (Odia) |
 | ------- | ------------- | -------------------- | -------------------- |
 | 1       | L001          | Kathagada            | କାଠଗଡା               |
 | 2       | L002          | Shyamacharanpur      | ଶ୍ୟାମଚରଣପୁର          |
