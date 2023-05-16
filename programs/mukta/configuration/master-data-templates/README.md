@@ -1,3 +1,7 @@
+---
+description: Configure master data templates for MuktaSoft
+---
+
 # Master Data Templates
 
 ## Objective

@@ -129,6 +129,8 @@
         * [Locality Boundary](programs/mukta/configuration/master-data-templates/locality-dhenkanal.md)
         * [Payment Advice Format](programs/mukta/configuration/master-data-templates/payment-advice-format.md)
         * [Users Data](programs/mukta/configuration/master-data-templates/jatani-users.md)
+      * [Notifications](programs/mukta/configuration/notifications.md)
+      * [Localisation](programs/mukta/configuration/localisation.md)
       * [UI Configuration](platform/configuration/ux-mock-up-screens.md)
         * [Common Configurations](programs/mukta/configuration/ui-configuration/common-configurations/README.md)
           * [Role Configuration](programs/mukta/configuration/ui-configuration/common-configurations/role-configuration.md)
