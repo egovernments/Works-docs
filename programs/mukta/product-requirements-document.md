@@ -1941,3 +1941,235 @@ Eligibility criteria for MSG
 1. MSG must be registered with the Housing and Urban Development Department/ Mission Shakti and following Panchasutra.
 2. MSG must have an active bank account.
 3. MSG must have a PAN in the name of their group.
+
+#### 4.2.1 Create Organization
+
+**Attributes**
+
+| S.No.       | Field                        | Data Type          | Required    | Description                                                                                    |
+| ----------- | ---------------------------- | ------------------ | ----------- | ---------------------------------------------------------------------------------------------- |
+| 1           | CBO Type                     | Dropdown           | Y           | <p>Applicable to Community Organisation. Options are</p><p>MSG, SDA, ALF, CLF, and Others.</p> |
+| 2           | Registration No.             | Alphanumeric (128) | Y           | <p><br></p>                                                                                    |
+| 3           | CBO Name                     | Alphanumeric (256) | Y           | Name of the CBO as per  governments record.                                                    |
+| 4           | Formation Date               | Date               | Y           | Cannot be a future date                                                                        |
+| 4           | Total Members                | Numeric            | Y           | Count of members the organisation has.                                                         |
+| 15          | PAN                          | Alphanumeric       | Y           | PAN number of the organisation                                                                 |
+| 16          | GSTIN                        | Alphanumeric       | N           | GSTIN of the organisation.                                                                     |
+| <p><br></p> | Location Details             | <p><br></p>        | <p><br></p> | <p><br></p>                                                                                    |
+| 5           | Pincode                      | Numeric            | N           | Pincode of the area organisation belongs to.                                                   |
+| 6           | City                         | Display            | Y           | Standard. List to be given by the department                                                   |
+| 7           | Ward                         | Dropdown           | Y           | Standard. List to be given by the department                                                   |
+| 8           | Locality                     | Dropdown           | Y           | Standard. List to be given by the department                                                   |
+| 9           | Street Name                  | Alphanumeric       | N           | Street name from the organisation’s address.                                                   |
+| 10          | Door No.                     | Alphanumeric       | N           | HN/ Door no. from the organisation's address.                                                  |
+| <p><br></p> | Account Details              | <p><br></p>        | <p><br></p> | <p><br></p>                                                                                    |
+| 11          | Account Holder’s Name        | Alphabet (128)     | Y           | Account holder’s name.                                                                         |
+| 12          | Account Number               | Numeric            | <p><br></p> | Account no. of organisation.                                                                   |
+| 13          | Account Number               | Numeric            | Y           | Re-enter the account no.                                                                       |
+| 14          | IFSC                         | Search box         | Y           | Search box to search the IFSC by bank and branch.                                              |
+| 15          | Search IFSC                  | Search- window     | N           | A link opens in the search window to search the IFSC by Bank Name and Branch Name.             |
+| 16          | Branch Details               | Read Only          | Y           | The name and address of the bank and branch of the searched  IFSC.                             |
+| 17          | Effective From               | Date               | Y           | Account details are effective from date.                                                       |
+| 18          | Effective To                 | Date               | Y           | Account details are effective to date.                                                         |
+| 19          | Status                       | Drop-down          | Y           | Validation status of bank account, Valid/ Invalid.                                             |
+| <p><br></p> | President/ Secretary Detail  | <p><br></p>        | <p><br></p> | <p><br></p>                                                                                    |
+| 17          | Name                         | Alphabet           | Y           | Name of President/ Secretary of the organisation.                                              |
+| 18          | Gender                       | Dropdown           | Y           | Options are Male, Female, Transgender.                                                         |
+| 19          | Mobile Number                | Numeric            | Y           | Mobile no. of the President/ Secretary of the organisation.                                    |
+| 20          | Office Phone Number          | Numeric            | N           | Office phone no. of the Organisation                                                           |
+| 21          | Designation                  | Dropdown           | Y           | Options are President, Secretary, Office Bearer.                                               |
+| 22          | Photograph                   | Attachments        | N           | Phone of President/ Secretary of the organisation.                                             |
+
+**Mockups**
+
+\<To be updated>
+
+**Role Action Mapping**\
+
+
+| Role        | Actions                                                                                                         | User Persona    |
+| ----------- | --------------------------------------------------------------------------------------------------------------- | --------------- |
+| MUKTA Admin | <p>• Create Organisation</p><p>• Search Organisation</p><p>• View Organisation</p><p>• Modify  Organisation</p> | Junior Engineer |
+
+### 4.3 Suppliers/ Vendors Master
+
+#### 4.3.1 Create Vendor
+
+**Attributes**\
+
+
+| S.No.       | Field                              | Data Type          | Required    | Description                                                                         |
+| ----------- | ---------------------------------- | ------------------ | ----------- | ----------------------------------------------------------------------------------- |
+| S.No.       | Field                              | Data Type          | Required    | Description                                                                         |
+| 1           | Entity Type                        | Drop-down          | Y           | Individual List of ‘Type of Entity’:Business, Individual, Sole Proprietor.          |
+| 2           | Name                               | Alphanumeric (256) | Y           | Enter the full name of the vendor as appears in government- approved documents.     |
+| 3           | Vendor’s Class                     | Drop-down          | N           | List of Class: A, B,C, D, as per social audit agency.                               |
+| 4           | Status                             | Drop-down          | Y           | Active, Inactive, Debarred.                                                         |
+| <p><br></p> | Location Details                   | <p><br></p>        | <p><br></p> | <p><br></p>                                                                         |
+| 5           | Pin Code                           | Numeric            | N           | Pincode of area vendors location.                                                   |
+| 6           | ULB                                | Auto-populate      | Y           | Name of ULB auto-populated and read only.                                           |
+| 7           | Locality                           | Drop-down          | Y           | Name of locality from the drop-down.                                                |
+| 8           | Street Name                        | Alphanumeric (128) | N           | Street name in the vendor’s address.                                                |
+| 9           | Door No.                           | Alphanumeric (8)   | Y           | Door no./ House No. in the vendor’s address.                                        |
+| 10          | Address Proof                      | Drop-down          | Y           | List of documents which are used as address proof.                                  |
+| 11          | Upload Document                    | File Picker        | Y           | Document selected above is uploaded.                                                |
+| <p><br></p> | Supporting Documents               | <p><br></p>        | <p><br></p> | <p><br></p>                                                                         |
+| 12          | PAN                                | Alphanumeric (X)   | Y           | Vendor's PAN is captured.                                                           |
+| 13          | Upload PAN                         | File Picker        | Y           | A copy of the vendor's PAN is uploaded.                                             |
+| 14          | GSTN                               | Alphanumeric (X)   | Y           | Vendor's GSTIN is captured.                                                         |
+| 15          | Upload GSTN Certificate            | File Picker        | Y           | A copy of the vendor's GSTIN Certificate is uploaded.                               |
+| 16          | Udyam Aadhar                       | Alphanumeric (256) | Y           | Vendor's Udyam Aadhar is captured.                                                  |
+| 17          | Upload Udyam Aadhar Certificate    | File Picker        | <p><br></p> | A copy of the vendor’s Udyam Registration Certificate is uploaded.                  |
+| <p><br></p> | Contact Person Details             | <p><br></p>        | <p><br></p> | <p><br></p>                                                                         |
+| 18          | Contact Person Name                | Alphanumeric (64)  | Y           | Name of the contact person from the vendor firm.                                    |
+| 19          | Contact Person Phone               | Alphanumeric (10)  | Y           | Contact person phone no.                                                            |
+| 20          | Phone Validation Status            | Status Icon        | Y           | Phone no. validation status.                                                        |
+| 21          | Contact Person Email               | Alphanumeric (256) | Y           | Contact person email address.                                                       |
+| 22          | Email Validation Status            | Status Icon        | Y           | Email mail address validation status.                                               |
+| 23          | Upload Identity Proof              | File Picker        | Y           | Upload identity proof of contact person.                                            |
+| <p><br></p> | Bank Account Details               | <p><br></p>        | <p><br></p> | <p><br></p>                                                                         |
+| 24          | <p>Account</p><p>Holder’s Name</p> | Alphanumeric (64)  | Y           | Vendor’s firm account holder’s name.                                                |
+| 25          | Account Number                     | Numeric            | Y           | Vendor’s firm account holder’s account no.                                          |
+| 26          | Account Number                     | Numeric            | Y           | Vendor’s firm account holder’s account no.                                          |
+| 27          | IFSC                               | Search-box         | Y           | IFSC to search the branch details.                                                  |
+| 28          | Search IFSC                        | Search-window      | N           | A link opens in the search window to search the IFSC by Bank Name and Branch Name.  |
+| 29          | Branch Details                     | Read Only          | Y           | Display of bank and branch details according to IFSC provided.                      |
+| 30          | Effective From                     | Date               | Y           | Account details are effective from date.                                            |
+| 31          | Effective To                       | Date               | Y           | Account details are effective to date.                                              |
+| 32          | Validation Status                  | Drop-down          | Y           | Validation status of bank account, Valid/ Invalid.                                  |
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Role Action Mapping**
+
+\<To be updated>
+
+### 4.4 Skill and Sub-skill Master
+
+PAReSHRAM provides a list of skills. State department has to provide the list.
+
+### 4.5 Work Type
+
+1. Drainage and sewerage work
+2. Sanitation work
+3. Water conservation and rainwater harvesting structures
+4. Development and renovation of water bodies
+5. Development and maintenance of public parks and playgrounds
+6. Wall paintings
+7. Beautification of parks, canals, rivers, gardens, roads and plantation of trees construction
+8. Maintenance of micro-community centres and open space development including Mission Shakti Grihas & Parichaya centres
+
+### 4.6 Estimate Type
+
+1. Original
+2. Revised
+3. Deviated
+
+### 4.7 Worksite Facility&#x20;
+
+1. Rest Shade
+2. Drinking Water
+3. Child care support
+4. MUKTA display board
+5. Set of Photograph&#x20;
+
+### 4.8 Commencement Activity
+
+1. Orientation programme for explaining the components of the work and
+2. project plan for the Community Organisation
+3. Laying out the project
+4. Verification of worksite facility
+5. Any other activity carried out
+
+### 4.9 Boundaries
+
+It is assumed that the same SUJOG-configured data for boundaries is to be used here. There is no need to collect it again from the state.
+
+#### 4.9.1 ULBs/ Tenants
+
+The same SUJOG definition of tenants' data template, data and configuration is to be used.
+
+#### 4.7.1 Wards
+
+The same SUJOG definition of wards data template, data and configuration is to be used.
+
+#### 4.7.2 Localities
+
+The same SUJOG definition of wards data template, data and configuration is to be used.
+
+### 4.10 Scheme
+
+All MUKTA-related works are considered under the MUKTA scheme only. This scheme is to be defined/ configured into the system.
+
+**Attributes**\
+
+
+| S.No.       | Field         | Data Type          | Required    | Description |
+| ----------- | ------------- | ------------------ | ----------- | ----------- |
+| 1           | Name          | Alphanumeric (256) | Y           | <p><br></p> |
+| 2           | Fund Head     | Alphanumeric (256) | Y           | <p><br></p> |
+| <p><br></p> | Fund Code     | Alphanumeric (256) | <p><br></p> | <p><br></p> |
+| <p><br></p> | Function Code | Alphanumeric (256) | <p><br></p> | <p><br></p> |
+| <p><br></p> | Budget Head   | Alphanumeric (256) | <p><br></p> | <p><br></p> |
+
+### 4.11 Standard Deductions
+
+### 4.12 Overheads
+
+### 4.13 Organisation Classifications
+
+## 5. Integrations&#x20;
+
+### 5.1 IFMS
+
+Approach to be defined.
+
+### 5.2 Aadhar e-KYC
+
+Approach to be defined.
+
+### 5.3 NPCI Account Validations
+
+Approach to be defined.
+
+### 5.4 DSC/eSign
+
+Approach to be defined.
+
+### 5.5 SMS Gateway
+
+\<To be updated>
+
+### 5.6 Email Gateway
+
+\<To be updated>
+
+## 6. Dashboards and Reports
+
+### 6.1 Dashboard
+
+#### Attributes
+
+| S.No. | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.    | The Mukta dashboard will be a state level dashboard. Users who have access to this dashboard can see the data and filter through different dimensions                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 2.    | <p>Available attributes, filters and dimensions are as follows.</p><p><br></p><ul><li>Created</li><li>In-progress</li><li>Completed</li><li><p></p><ul><li>Estimates</li><li>Contracts</li><li><p></p><ul><li>WO</li><li>PO</li></ul></li><li>Muster rolls</li><li>Muster roll approvals</li><li>Bills</li></ul></li><li>Masters</li><li><p></p><ul><li>Wage seekers</li><li>Community Organisations</li><li>Locations</li><li><p></p><ul><li>Ward</li><li>ULB </li><li>District</li></ul></li><li>Gender</li><li><p></p><ul><li>Male </li><li>Female</li><li>Transgender</li></ul></li></ul></li><li>Project leaderboard</li></ul> |
+
+#### Mockups
+
+\<To be updated>
+
+### 6.2 MIS Reports
+
+\<To be updated>
+
+## 7. Localisation
+
+
+
