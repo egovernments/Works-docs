@@ -173,7 +173,7 @@
       * [Pilot Roll Out Plan](programs/mukta/program-details/pilot-roll-out-plan.md)
       * [Pilot Go Live Definition](programs/mukta/program-details/pilot-go-live-definition.md)
       * [Pilot Sucess Metrics](programs/mukta/program-details/pilot-sucess-metrics.md)
-      * [SoP for Issue Management](programs/mukta/program-details/sop-for-issue-management.md)
+      * [SOP for Issue Management](programs/mukta/program-details/sop-for-issue-management.md)
       * [Adoption Metrics](programs/mukta/program-details/adoption-metrics.md)
       * [Implementation Plan](programs/mukta/program-details/implementation-plan.md)
 
