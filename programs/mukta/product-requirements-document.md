@@ -1258,13 +1258,13 @@ Muster Roll Details Page
 
 Not applicable
 
-3.7.5 Create Bill
+#### 3.7.5 Create Bill
 
-The SHG user will login into account and then open the Muster Rolls to see all the muster rolls which are pending for bill creation and can select one or multiple muster rolls to create a bill. The create bill page will have all the attributes as explained in the [Create Bill](https://docs.google.com/document/d/1lD5LJiJAaCQr\_DfXqe7\_VTKDs8n4oLKlQmr5VrqUUmU/edit#heading=h.21hqpznw8w6n) Section.
+The SHG user will log in to the account and then open the Muster Rolls to see all the muster rolls which are pending for bill creation and can select one or multiple muster rolls to create a bill. The create bill page will have all the attributes as explained in the [Create Bill](https://docs.google.com/document/d/1lD5LJiJAaCQr\_DfXqe7\_VTKDs8n4oLKlQmr5VrqUUmU/edit#heading=h.21hqpznw8w6n) Section.
 
 #### 3.7.6 My Bills
 
-SHG will have the option to see all the bills in one place related to works that have been completed or in progress. Bills are shown in 2 different tabs segregating them by status, Paid and In Progress.
+SHG will have the option to see all the bills in one place related to works that have been completed or are in progress. Bills are shown in 2 different tabs segregating them by status, Paid and In Progress.
 
 **Attributes**
 
@@ -1281,10 +1281,7 @@ Work Bill Card
 9. Status \[Open, In Progress, Approved, Paid]
 10. View Details - Action button to see the bill details.
 
-\
-
-
-On click of View Detail, View Bill Detail Page is shown with the below given details.
+On click of View Detail, View Bill Detail Page is shown with the below-given details.
 
 Bill Details Page
 
@@ -1297,7 +1294,7 @@ Muster Rolls
 1. Muster Roll ID
 2. Period
 3. No. of wage seekers
-4. No. of actual man days
+4. No. of actual man-days
 5. Amount
 6. Total Wage Amount
 
@@ -1337,44 +1334,33 @@ Attachments
 
 Not applicable
 
-\
-
-
 #### 3.7.7 Search/View Closure Request
 
 #### 3.7.8 Edit Closure Request
 
 #### 3.7.9 Role Action Mapping
 
-\
-
-
 | Role Name          | Actions                                                                                                                                                                                                                                                                                                                                                                                                      | User Persona  |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
 | Organisation Admin | <p>• Create Wage Seekers</p><p>• My Works - View Work Orders</p><p>• Accept/ Decline Work Order</p><p>• Engage wage seekers</p><p>• Update Attendance</p><p>• Create Muster Roll</p><p>• Search/ View Muster Rolll</p><p>• Edit Muster Roll</p><p>• Create Bill</p><p>• My Bills - View Bills</p><p>• Edit Bill</p><p>• Create Closure Request</p><p>• Search/ View Closure Request</p><p>• Edit Closure</p> | SHG President |
-
-\
-
 
 ### 3.8 Billing Management
 
 The system shall be able to automatically prepare bills and generate payment advice for each beneficiary.&#x20;
 
-1. invoicesThe beneficiaries are:
-2.
-   1. Wage seekers for their wage-earned days as recorded in the muster-roll are considered for billing.
-   2. Vendors/ Suppliers for their invoice duly approved those are considered for billing.
-   3. The community organisation for their service charge @7.5% towards wage bill and material bill.&#x20;
-3. &#x20;A bill can be prepared for a single muster roll as well as multiple muster rolls.
-4. Wages are calculated based on the attendance and skill a wage seeker has worked.It is calculated automatically.
-5. Vender’s/ Supplier’s amount is calculated manually and then added to the bill.
-6. Commission to SHG is calculated automatically at the rate configured in the system automatically.
-7. Other deductions are being added by JE when the bill is sent for approval. All the muster rolls by default are attached with the bills. Bill will have the following attachments.
-8.
-   1. Muster Rolls - From the system itself.
-   2. Vendor’s/ Supplier’s Invoice against the purchase. To be uploaded while creating a bill.
-   3. Measurement Book - It will be attached by the JE while verifying the bill and approving payment.
-9. JE can send the bill back to SHG for correction in attendance, this correction is made separately marking actual working days. No change in original attendance is made.
+1. The beneficiaries are:
+   * Wage seekers for their wage-earned days as recorded in the muster-roll are considered for billing.
+   * Vendors/ Suppliers for their invoices duly approved are considered for billing.
+   * The community organisation for their service charge @7.5% towards wage bill and material bill.&#x20;
+2. &#x20;A bill can be prepared for a single muster roll as well as multiple muster rolls.
+3. Wages are calculated based on the attendance and skill a wage seeker has worked.It is calculated automatically.
+4. Vender’s/ Supplier’s amount is calculated manually and then added to the bill.
+5. Commission to SHG is calculated automatically at the rate configured in the system automatically.
+6. Other deductions are being added by JE when the bill is sent for approval. All the muster rolls by default are attached with the bills. Bill will have the following attachments.
+   * Muster Rolls - From the system itself.
+   * Vendor’s/ Supplier’s Invoice against the purchase. To be uploaded while creating a bill.
+   * Measurement Book - It will be attached by the JE while verifying the bill and approving payment.
+7. JE can send the bill back to SHG for correction in attendance, this correction is made separately marking actual working days. No change in original attendance is made.
 
 | S.No. | Functional Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1386,7 +1372,314 @@ The system shall be able to automatically prepare bills and generate payment adv
 | 6     | Bill is prepared and then sent to JE for approval. JE can send it back for correction and forward it for approval.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 7     | Once approved, payment advice is sent to IFMS automatically. Payment transfers to beneficiaries are done in IFMS and status is updated back to MUKTA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-\
+#### 3.8.1 Process Maps
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/unnamed-5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 3.8.2 Create Bill
+
+For SHG, to create a bill, all the muster rolls which have the status OPEN for a work are listed and the user can select one or multiple muster rolls to create a bill.&#x20;
+
+For JE/AE, to create a bill, the user will search the work order and open it to view. The option to create a bill is provided in the action button and on create bill all the open muster rolls are included in the bill. In case there is no muster roll open to create a bill validation message is displayed.
+
+**Attributes**\
 
 
-#### 3.8.1 Process Maps  
+| S.No.       | Field                 | Data Type         | Required    | Description                                                                      |
+| ----------- | --------------------- | ----------------- | ----------- | -------------------------------------------------------------------------------- |
+| 1           | Work Order No.        | Display Only      | <p><br></p> | <p><br></p>                                                                      |
+| 2           | WIN/ Project ID       | Display Only      | NA          | Work identification number of the work listed in the WP.                         |
+| 3           | Location              | Display Only      | <p><br></p> | <p><br></p>                                                                      |
+| <p><br></p> | Work/ Project Type    | Display Only      | <p><br></p> | <p><br></p>                                                                      |
+| 4           | Work Description      | Display Only      | NA          | Work description of the work listed in the WP.                                   |
+| 5           | Bill Type             | Drop Down         | Y           | Running/ Final Bill                                                              |
+| 4           | MB No.                | Alphanumeric (64) | Y           | Measurement book number from the manual MB.                                      |
+| <p><br></p> | MB Date               | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| <p><br></p> | Muster Rolls          | Grid              | <p><br></p> | <p><br></p>                                                                      |
+| 5           | Muster Roll ID        | Link              | NA          | Muster roll ID of the selected muster roll.                                      |
+| 6           | Muster Roll Period    | Read Only         | NA          | Period for which muster roll created.                                            |
+| 7           | No. of wage seekers   | Read Only         | NA          | No. of wage seekers worked during this period on given work.                     |
+| 8           | No. of earn days      | Read Only         | NA          | No. of actual total mandays measured for the work completed in this period.      |
+| 9           | Wage Amount           | Read Only         | NA          | Wage amount for the muster roll                                                  |
+| 10          | Total Wage Amount     | Read Only         | NA          | Total wage amount for all the muster rolls added to bills.                       |
+| 11          | Material Invoices     | Grid              | <p><br></p> | As per the muster rolls selected.                                                |
+| 12          | Invoice No.           | Alphanumeric (64) | NA          | Vendor’s/ Supplier’s invoice no. for the material supplied to work.              |
+| 13          | Invoice Date          | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| 13          | Vendor ID             | Search-box        | NA          | Vendor ID of the vendor registered with ULB. Search facility to search a vendor. |
+| 14          | Vendor's Name         | Read Only         | NA          | Name of the vendor as per the database available with ULB.                       |
+| 15          | Invoice Amount        | Numeric           | NA          | Invoice amount for the supplied material.                                        |
+| 16          | Billed Amount         | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| 16          | Total Material Amount | Read Only         | NA          | Total of all the invoices added to this bill.                                    |
+| 18          | Deductions            | Grid              | <p><br></p> | As per  the configuration, deductions will be listed.                            |
+| 19          | Labour Cess           | Autocalculated    | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 20          | IT TDS                | <p><br></p>       | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 21          | Security Deposit      | <p><br></p>       | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 22          | Royalty on minerals   | <p><br></p>       | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 23          | Empty Cement Bag      | <p><br></p>       | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 24          | GST TDS               | <p><br></p>       | NA          | Deduction as per the configuration, amount is auto calculated.                   |
+| 25          | Amount Payable        | Read Only         | NA          | Total amount payable to three beneficiaries Wage, Supply and Commission.         |
+| <p><br></p> | CBO Details           | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| <p><br></p> | CBO ID                | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| <p><br></p> | CBO Name              | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| <p><br></p> | CBO Role              | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| 17          | Supervision Charge    | Auto-calculated   | NA          | Service Charge/ Commission  for SHG.                                             |
+| <p><br></p> | <p><br></p>           | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| 26          | Attachments           | <p><br></p>       | <p><br></p> | <p><br></p>                                                                      |
+| 27          | Vendor Invoices       | File Picker       | Y           | All the invoices from vendors.                                                   |
+| 28          | MB                    | File Picker       | Y           | Measurement book                                                                 |
+| 29          | Labour Utilisation    | File Picker       | Y           | <p><br></p>                                                                      |
+| 30          | Material Utilisation  | File Picker       | Y           | <p><br></p>                                                                      |
+
+**Actions**
+
+On save following activities are performed.
+
+1. The Work Bill is saved as a draft and will be available to the creator for further modifications.
+2. A  Work Bill no. is generated in a specified format.
+3. Work Bill  PDF is available to download in the specified format.
+
+On submit, the following activities are performed.
+
+1. Work BIll is saved and forwarded to the verifier/ approver and removed from the creator’s draft. It won't be available anymore for the creator to take action.
+2. A Work Bill no. is generated in a specified format if not generated already.
+3. Work Bill PDF is available to download from the view Work Bill page in the given format.
+
+**Workflow Actions**
+
+**Submit**
+
+On submit, the work bill is created and moved to the next user’s inbox for further processing.
+
+**Attributes**
+
+Create a bill page.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Edit Bill**
+
+On Edit, the work bill is opened into editable mode and allows the user to make the changes and save it.
+
+**Attributes**
+
+Create a bill page.
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Verify and Forward**
+
+A verifier will receive the work bill in the inbox and perform the action to verify and forward.
+
+**Attributes**
+
+1. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the approver.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Verify and Forward - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Accounts Verify and Forward**
+
+An account verifier will receive the work bill in the inbox and perform the action to verify and forward.
+
+**Attributes**
+
+1. Assignee Name - Drop-down - Non Mandatory -  It is to choose the assignee name, it will be the name of the approver.
+2. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+3. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+4. Verify and Forward - Action Button
+5. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Send Back**
+
+It will allow a workflow user to send the work bill back to the previous user for any corrections/ clarifications.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Send Back - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Reject**
+
+It will allow a workflow user to reject the work bill to cancel it.&#x20;
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Reject - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+**Approve**
+
+It will allow a workflow user to approve the work bill.
+
+**Attributes**
+
+1. Add Comments - Text area - Non-Mandatory -  In case any comments to be added.
+2. Attach Supporting Document - Non-Mandatory - Any document to be uploaded as a supporting document.
+3. Approve - Action Button
+4. Cancel - Action Button
+
+**Mockups**
+
+\<To be updated>
+
+**Notification**
+
+\<To be updated>
+
+#### 3.8.3 Search Bill
+
+Search Work Bill will enable the user to search for a WO and then view the details.
+
+**Search Criteria**
+
+| S.No. | Field     | Data Type   | Required | Description                                                        |
+| ----- | --------- | ----------- | -------- | ------------------------------------------------------------------ |
+| 1     | Location  | Drop-down   | N        | Auto-complete, matching search.                                    |
+| 2     | WIN       | Textbox     | N        | Work identification no. generated for a work in Finalised Worklist |
+| 3     | WO No.    | <p><br></p> | N        | WO number, unique identification no.                               |
+| 4     | Bill No.  | Drop-down   | N        | Bill no. of the bill to be searched.                               |
+| 5     | Status    | Drop-down   | N        | Workflow status of a work bill.                                    |
+| 6     | From Date | Date Picker | N        | Work bill creation date.                                           |
+| 7     | To Date   | Date Picker | N        | Work bill creation date.                                           |
+
+**Search Result**
+
+On search, the result is shown as given below.
+
+| S.No. | Field             | Data Type    | Description                                             |
+| ----- | ----------------- | ------------ | ------------------------------------------------------- |
+| 1     | Bill No.          | Display Only | A hyperlink to open the work bill  in view mode.        |
+| 2     | WO No.            | Display Only | WO no. for which bill is searched.                      |
+| 3     | Prepared By       | Display Only | Name of user who has prepared the work bill.            |
+| 4     | Organisation Name | Display Only | Name of the organisation to whom Work Order is awarded. |
+| 5     | Location          | Display Only | Locality name along with ward name.                     |
+| 6     | Bill Amount       | Display Only | Total bill amount.                                      |
+
+**Mockups**
+
+#### 3.8.4 View Bill
+
+**Attribute**
+
+1. WIN
+2. Work Description
+3. MB No.
+
+Muster Rolls
+
+1. Muster Roll ID
+2. Period
+3. No. of wage seekers
+4. No. of actual man-days
+5. Amount
+6. Total Wage Amount
+
+Material Invoices
+
+1. Invoice No.
+2. Vendor ID
+3. Vendor's Name
+4. Amount
+5. Total Material Amount
+
+Organisation Commission &#x20;
+
+1. SHG Commission&#x20;
+
+Deductions
+
+1. Labour Cess
+2. TDS
+3. Security Deposit
+4. Royalty on minerals
+5. Empty cement bag
+6. GST
+
+Amount Payable
+
+Attachments
+
+1. Vendor Invoices
+2. MB
+
+**Mockups**
+
+\<To be updated>
+
+#### 3.6.5 Role Action Mapping
+
+| Role              | Role-Action Mapping V1                                                                   | User Persona                                  |
+| ----------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Bill Creator      | <p>• Create</p><p>• Search</p><p>• View</p><p>• Modify</p>                               | <p>SHG President / </p><p>Junior Engineer</p> |
+| Bill Verifier     | <p>• Search</p><p>• View</p><p>• Modify</p><p>• Verify and Forward</p><p>• Send Back</p> | Municipal Engineer                            |
+| Accounts Verifier | <p>• Search</p><p>• View</p><p>• Verify and Forward</p><p>• Send Back</p><p>• Reject</p> | Accountant                                    |
+| Bill Approver     | <p>• Search</p><p>• View</p><p>• Approve</p><p>• Send Back</p><p>• Reject</p>            | Executive Officer/ Municipal Commissioner     |
+
+### 3.9 Work Review and Closure
+
+The work should be declared as completed, only when all work items in that Work are found to be completed. A work item is considered to be completed if the quantity recorded in MB equals the estimated quantity.&#x20;
+
+Hence, declaring a work completed seems to be an automated process but in reality, it does not happen this way as sometimes, ground reality demands an additional quantity of the work item even if the estimated quantity is already completed as per MB, sometimes the work-items are found completed on the ground even if the estimated quantity is not achieved in MB, and sometimes the Works demands additional work items to be included in the estimate. These scenarios are called deviations and a proposal to revise the estimate is prepared.
+
+The request for the closure of the project can be initiated by SHG/ ULB (JE). Ideally, it is initiated by SHG and then the request is reviewed by ULB. The final bill has to be submitted if any payment is pending before approval of completion. The functional requirement is as given below.
+
+1. Project closure will be initiated by SHG by clicking on in-progress Work Orders. This will take SHGs to fill out a closure checklist form.
+2. Initiated project closure will land in the inbox of the checker for project closure. He/she will check related details to closure and submit them to the approver for closing approval.&#x20;
+3. Approver upon marking the project as closed will finally close/complete the project. &#x20;
+4. The closure will also need to be initiated by ULB by searching for projects in progress and closing them
+5. Once closed projects will move to completed works in SHGs My Works. No new bills, muster rolls, or attendance tracking will be allowed.
+
+#### 3.9.1 Process Maps 
