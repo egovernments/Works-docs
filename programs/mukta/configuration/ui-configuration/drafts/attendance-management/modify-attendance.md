@@ -10,7 +10,7 @@ description: Screen to update muster roll status based on different roles
 
 Users can navigate to this screen by clicking on the muster roll id on the inbox page.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Attendance_View_With_Actions.png" alt=""><figcaption><p>View Attendance Screen</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Attendance_View_With_Actions.png" alt=""><figcaption><p>View Attendance Screen</p></figcaption></figure>
 
 Initially, the muster has '_**Submitted**_' status. Junior Engineer can view, Edit, Verify and Reject the Attendance.
 
@@ -19,20 +19,20 @@ Initially, the muster has '_**Submitted**_' status. Junior Engineer can view, Ed
 
 
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Edit_mode.png" alt=""><figcaption><p>View Attendance in Edit mode</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Edit_mode.png" alt=""><figcaption><p>View Attendance in Edit mode</p></figcaption></figure>
 
     As soon as the user updates anything ‘_Action_’ button changes to the ‘_Save_’ button. On click of Save, muster is verified with updated details and the user is redirected to the success page. &#x20;
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Verified.png" alt=""><figcaption><p>Attendance Verified Success Screen</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Verified.png" alt=""><figcaption><p>Attendance Verified Success Screen</p></figcaption></figure>
 
 
 *   **Reject:** Clicking on the ‘Reject’ action displays a popup where the user can provide any comments and reject the muster.           &#x20;
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Reject.png" alt=""><figcaption><p>Attendance Reject Modal</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Reject.png" alt=""><figcaption><p>Attendance Reject Modal</p></figcaption></figure>
 
     On 'Confirm Reject', muster will be rejected and the user will be redirected to the success page.
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Rejected.png" alt=""><figcaption><p>Attendance Rejected Success Screen</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Rejected.png" alt=""><figcaption><p>Attendance Rejected Success Screen</p></figcaption></figure>
 
 
 
@@ -40,11 +40,11 @@ The municipal Engineer can view, Approve, and Reject the attendance which is ver
 
 *   **Approve:** Clicking on the ‘Approve action displays a popup where the user can provide any comments and approve the muster.&#x20;
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Approve.png" alt=""><figcaption><p>Attendance Approve Modal</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Approve.png" alt=""><figcaption><p>Attendance Approve Modal</p></figcaption></figure>
 
     On 'Approve Attendance', the muster will be approved and the user will be redirected to the success page.&#x20;
 
-    <figure><img src="../../../../.gitbook/assets/Attendance_Approved.png" alt=""><figcaption><p>Attendance Approved Success Screen</p></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Attendance_Approved.png" alt=""><figcaption><p>Attendance Approved Success Screen</p></figcaption></figure>
 
 
 * The municipal Engineer can also reject the attendance verified by Jr Engineer by clicking on the 'Reject' action.

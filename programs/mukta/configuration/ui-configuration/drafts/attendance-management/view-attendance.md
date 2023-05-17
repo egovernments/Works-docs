@@ -15,7 +15,7 @@ Users can navigate to this screen by clicking on the muster roll id on the inbox
 
 The view screen consists of register details on top, Enrolled user details in tabular format, Workflow history and Actions that can be performed on selected muster. Initially, muster has ‘Submitted’ status.
 
-<figure><img src="../../../../.gitbook/assets/Attendance_View_With_Actions.png" alt=""><figcaption><p>View Attendance Screen</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Attendance_View_With_Actions.png" alt=""><figcaption><p>View Attendance Screen</p></figcaption></figure>
 
 ## Technical Implementation Details
 

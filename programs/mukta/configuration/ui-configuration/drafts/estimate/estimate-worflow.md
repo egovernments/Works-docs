@@ -6,18 +6,18 @@ description: >-
 
 # Estimate Worflow
 
-<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p>Estimate Workflow</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p>Estimate Workflow</p></figcaption></figure>
 
 Once the Estimate are created they will move to the respective checker and approver's inbox as pending items.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 17-20-16.png" alt=""><figcaption><p>Estimate Proposal InboxView Estimate</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 17-20-16.png" alt=""><figcaption><p>Estimate Proposal InboxView Estimate</p></figcaption></figure>
 
 #### View Estimate
 
 * From Estimate Proposal Inbox, User can come into Estimate View Screen where Details of Estimate present while creating the estimate and Workflow history will be displayed.
 * User can take necessary actions by clicking on Actions Menu.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>View Estimate Screen</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>View Estimate Screen</p></figcaption></figure>
 
 Sample ProcessInstance Worflow Object as given below:
 
@@ -211,11 +211,11 @@ An Action bar on the View Estimate Screen shows the list of actions&#x20;
 
 When any action is clicked respective popup is rendered according to the selected action. We have created three popups for approve, forward and reject. They are shown below
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Forward Processing Modal</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Forward Processing Modal</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 19-36-48.png" alt=""><figcaption><p>Reject Processing Modal</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 19-36-48.png" alt=""><figcaption><p>Reject Processing Modal</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Approve Estimate Modal</p></figcaption></figure>
 
 When these popups are submitted, Update Estimate API is called containing the relevant updates in the workflow object contained in request body. Estimate service internally calls the workflow service and updates the status of application.
 
@@ -334,7 +334,7 @@ _Users must have the respective roles for taking actions on the Estimate, Otherw
 
 Upon successful update a response screen is displayed as follows
 
-<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 20-55-19.png" alt=""><figcaption><p>Estimate Updation Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 20-55-19.png" alt=""><figcaption><p>Estimate Updation Acknowledgement Screen</p></figcaption></figure>
 
 ### Role-Action Mapping
 

@@ -62,7 +62,7 @@ The DIGIT Works Platform is designed to enable delivery at scale, across various
 
 * [Platform Architecture](platform/architecture/)
 * [Setup](platform/setup.md)
-* [Configuration](<platform/configuration/README (1).md>)
+* [Configuration](platform/configuration/)
 * [Release Notes](platform/release-notes/)
 * [Mukta](programs/mukta/)
 

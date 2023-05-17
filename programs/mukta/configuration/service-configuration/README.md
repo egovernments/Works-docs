@@ -6,8 +6,8 @@ description: Configuring platform services
 
 Click on the doc link below to access the service configuration details for the platform services.
 
-{% content-ref url="../../../../platform/configuration/README (1).md" %}
-[README (1).md](<../../../../platform/configuration/README (1).md>)
+{% content-ref url="../../../../platform/configuration/" %}
+[configuration](../../../../platform/configuration/)
 {% endcontent-ref %}
 
 Click on the individual service links below to access the Mukta-specific service configuration details.
