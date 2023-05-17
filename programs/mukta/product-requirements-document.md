@@ -33,7 +33,7 @@ The purpose of this document is to give a detailed description of the requiremen
 
 1\. MUKTA FRS (click on the file link below to access)&#x20;
 
-{% file src="../../../.gitbook/assets/MUKTA-Soft_FRS.pdf" %}
+{% file src="../../.gitbook/assets/MUKTA-Soft_FRS.pdf" %}
 
 2\. Field visit to JATNI ULB \[15th - 18th November 2022]
 
@@ -95,7 +95,7 @@ The purpose of this document is to give a detailed description of the requiremen
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -130,7 +130,7 @@ The user’s inbox is the DIGIT standard design which enables the workflow users
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed-2.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -335,7 +335,7 @@ Once the work proposal is approved with all the listed work in it, JE/AE has to 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed-3.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -657,7 +657,7 @@ In the process of awarding the work to an SHG organisation, a work order is crea
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed-4.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -1378,7 +1378,7 @@ The system shall be able to automatically prepare bills and generate payment adv
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed-5.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -1688,7 +1688,7 @@ The request for the closure of the project can be initiated by SHG/ ULB (JE). Id
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/unnamed-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed-6.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

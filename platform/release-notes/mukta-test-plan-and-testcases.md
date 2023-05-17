@@ -2,10 +2,10 @@
 
 On this page:
 
-* [Test plan](test-plan-and-test-cases.md#test-plan)
-* [Test cases](test-plan-and-test-cases.md#test-cases)
-* [UI test cases](test-plan-and-test-cases.md#ui-test-cases)
-* [Download test cases](test-plan-and-test-cases.md#download-test-cases)
+* [Test plan](mukta-test-plan-and-testcases.md#test-plan)
+* [Test cases](mukta-test-plan-and-testcases.md#test-cases)
+* [UI test cases](mukta-test-plan-and-testcases.md#ui-test-cases)
+* [Download test cases](mukta-test-plan-and-testcases.md#download-test-cases)
 
 ### **Test Plan**
 

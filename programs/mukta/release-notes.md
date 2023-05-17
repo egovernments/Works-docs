@@ -6,7 +6,7 @@ description: MUKTASoft V1.0
 
 ## Overview
 
-<mark style="color:red;">This release note covers the functionality of first version of MUKTASoft known as V1.0. MUKTA is a flagship scheme of Odisha governments designed to provide the employment opportunity for the urban poor. It has basically 2 types of users, ULB employees and community based organizations.</mark>
+This release note covers the functionality of the first version of MUKTASoft known as V1.0. MUKTA is a flagship scheme of the Odisha government designed to provide employment opportunities to the urban poor. It has basically 2 types of users, ULB employees and community-based organizations.
 
 ## Release Highlights
 
@@ -121,13 +121,13 @@ Fund Allocation Register
 
 ## Related Docs & Links
 
-| Doc Links | Description           |
-| --------- | --------------------- |
-|           | PRD                   |
-|           | Users Stories         |
-|           | Test Case Document    |
-|           | Master Data Template  |
-|           | Localization Document |
-|           | SMS Templates         |
-|           |                       |
+| Doc links                                                                           |
+| ----------------------------------------------------------------------------------- |
+| [Product Requirements Document](product-requirements-document.md)                   |
+| [Users Stories](user-stories/)                                                      |
+| [Test Case Document](../../platform/release-notes/mukta-test-plan-and-testcases.md) |
+| [Master Data Template](configuration/master-data-templates/)                        |
+| [Localization Document](configuration/localisation.md)                              |
+| [SMS Templates](configuration/notifications.md)                                     |
+|                                                                                     |
 
