@@ -42,19 +42,19 @@ The below diagram shows the interaction between the estimate service and the per
 
 {% tabs %}
 {% tab title="Create Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Create.png>)
+![](<../../../../.gitbook/assets/Estimate Create.png>)
 
 
 {% endtab %}
 
 {% tab title="Update Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Update.png>)
+![](<../../../../.gitbook/assets/Estimate Update.png>)
 
 
 {% endtab %}
 
 {% tab title="Search Estimate" %}
-![](<../../../../../.gitbook/assets/Estimate Search.png>)
+![](<../../../../.gitbook/assets/Estimate Search.png>)
 
 
 {% endtab %}
@@ -72,7 +72,7 @@ Inbox is needed when there is a workflow enabled for the service.&#x20;
 
 The proposed sequence diagram is below.
 
-![](../../../../../.gitbook/assets/Estimate-PDF.png)
+![](../../../../.gitbook/assets/Estimate-PDF.png)
 
 #### Postman Collections
 
