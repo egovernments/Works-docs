@@ -213,12 +213,12 @@ Ex. Template to build 100 mt of 20 ft road, Template to build 8\*10 sq ft standa
 
 ## **Mockups**
 
-| Create Estimate               | ![](<../../../.gitbook/assets/image (19).png>)     |
-| ----------------------------- | -------------------------------------------------- |
-| Estimate Successfully Created | ![](<../../../.gitbook/assets/image (42).png>)     |
-| Estimates Inbox               | ![](<../../../.gitbook/assets/image (14) (2).png>) |
-| Inbox Table                   | ![](<../../../.gitbook/assets/image (29).png>)     |
-| SOR Data entry screen         | ![](<../../../.gitbook/assets/image (39).png>)     |
+| Create Estimate               | ![](<../../../.gitbook/assets/image (28).png>) |
+| ----------------------------- | ---------------------------------------------- |
+| Estimate Successfully Created | ![](<../../../.gitbook/assets/image (41).png>) |
+| Estimates Inbox               | ![](<../../../.gitbook/assets/image (40).png>) |
+| Inbox Table                   | ![](<../../../.gitbook/assets/image (9).png>)  |
+| SOR Data entry screen         | ![](<../../../.gitbook/assets/image (6).png>)  |
 
 ## **User Acceptance Criteria**
 

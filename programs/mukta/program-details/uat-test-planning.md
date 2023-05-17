@@ -32,7 +32,7 @@ The various phases of UAT are illustrated in the diagram below:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -306,7 +306,7 @@ The test team will be provided with instructions on how to effectively execute t
 
 Defects must be clearly captured and escalated to ensure prompt resolution by development.  Each defect submitted by UAT will be assigned a priority, worked by development, resolved, and re-tested by UAT prior to closure.  The following is a snapshot of the standard defect lifecycle:
 
-![](<../../../.gitbook/assets/image (12).png>)
+![](<../../../.gitbook/assets/image (12) (2).png>)
 
 eGov and HUDD together will prioritize and classify defects.  Defects found in UAT can be assigned one of three (3) levels of severity:
 
@@ -329,7 +329,7 @@ As a non-profit, we are unable to make any commitment on how long issues will ta
 CR must be clearly captured and reported for analysis to identify effort and impact in the eGov team. Each CR submitted will be validated and categorised for acceptance and then assigned with a priority. The development team will work on it and will be made available for testing. Following is a snapshot of the standard CR lifecycle:
 
 \
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 #### Categorisation&#x20;
 
@@ -352,6 +352,3 @@ The following are reference documents which have been leveraged for project-spec
 | Training Feedback                         | [Training Feedback From](https://docs.google.com/forms/d/1It266KQECgzUtU8uVjSJGCryTuUlpMGlOYHtG4RCw3I/edit?ts=64620419)                                                                                                                                                     |
 | UAT Feedback form                         | <p>English - <a href="https://docs.google.com/forms/d/1hJh9Idye7CX-2zghcF2IgT2_VMIbq03PJjWt3JSC5hM/edit?ts=645dc757">Click Here</a></p><p>Odia - <a href="https://docs.google.com/forms/d/1YAAO4tfHADly26ThKKB-JYsxUKKY9IlB_vWYh6f1aLU/edit?ts=64634b8c">Click Here</a></p> |
 
-\
-\
-\
