@@ -14,5 +14,7 @@ Works aim to expedite payments for public works projects undertaken by different
 
 The platform design provides the capability to integrate smart payments with [iFIX](https://pfm.digit.org/).  The integration enables departments to track project milestones and simplify vendor payments. The multi-layer architecture design ensures transparency, visibility and fast decisions all of which translate to an accelerated pace of development. The registries and APIs ensure information flows seamlessly across channels removing the challenges of siloed data structures and facilitating interoperability. &#x20;
 
+Click on the page link below to learn more about our platform architecture.
 
+{% embed url="https://core.digit.org/platform/architecture" %}
 
