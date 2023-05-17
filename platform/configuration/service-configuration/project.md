@@ -158,15 +158,34 @@ The following role-action mappings derived from the above table are configured f
     },
 ```
 
+#### IdGen Format
+
+Add Id Format as configured in the ‘IdFormat.json’ file of the ‘common-masters’ module [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/IdFormat.json#L25-L28).
+
+```json
+{
+    "format": "PJ/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
+    "idname": "project.number"
+}
+```
+
+### Persister Configuration
+
+Add persister file [`project-management-system-persister.yml`](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/project-management-system-persister.yml) as defined [here](https://github.com/egovernments/works-configs/tree/DEV/egov-persister).
+
+### Indexer Configuration
+
+Add indexer file [projectmanagementsystem-indexer.yml](https://github.com/egovernments/works-configs/blob/DEV/egov-indexer/projectmanagementsystem-indexer.yml) as defined [here](https://github.com/egovernments/works-configs/tree/DEV/egov-indexer).
+
 ### Other Master Data Configuration
 
 1\. [ProjectType ](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ProjectType.json)&#x20;
 
-2\. [ProjectSubType](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ProjectSubType.json)
+2\. [Department](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Department.json#L55-L59)
 
-3\. [Department](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Department.json#L55-L59)
+3\. [Boundary Data](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/citya/egov-location/boundary-data.json)
 
-4\. [Boundary Data](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/citya/egov-location/boundary-data.json)
+4\. [Nature of Work](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/NatureOfWork.json)
 
 ## Deployment Details
 
@@ -174,18 +193,20 @@ The image name of the service is available in the release charts in the DevOps r
 
 Environment variables to be configured in the Helm chart for the service are:
 
-1. Add the ‘db-host’,’db-name’,’db-url’,’domain’ and all the digit core platform services configurations (Idgen, workflow, user etc.) in respective environments yaml file.
-2. Add project-management-system related environment variables values. A sample from a[ ‘dev](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml)’ environment yaml file is provided below:
-   * [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L78](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L78)&#x20;
-   * [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L200-L205](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L200-L205)&#x20;
-   * [https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system)&#x20;
-3. Add the ‘[egov-mdms-service](https://github.com/egovernments/DIGIT-DevOps/blob/5a9eb4c6141e19bd747238889ceed9bc9fffdc6f/deploy-as-code/helm/environments/works-dev.yaml#L190)’ related configuration to the respective environment yaml file. Make sure you change the git-sync branch name to one that is appropriate for the environment.
-4. Check the project management system persister file is added in the egov-persister.persister-yml-path variable. If not, please add the way it's done[ here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L266).
-5. Make sure to add the DB(Postgres and flyway) username & password in the respective environment secrets yaml file the way it's done[ here](https://github.com/egovernments/DIGIT-DevOps/blob/e742a292f2966bb1affb3b03edd643a777917ba1/deploy-as-code/helm/environments/works-dev-secrets.yaml#L3).
-6. Make sure to add the DIGIT core service-related secrets that are configured in the respective environment secret file the way it's done[ here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev-secrets.yaml).
+* Add the ‘db-host’,’db-name’,’db-url’,’domain’ and all the digit core platform services configurations (Idgen, workflow, user etc.) in respective environments yaml file.
+* Add project-management-system related environment variables values. A sample from a[ ‘dev](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml)’ environment yaml file is provided below:
+  1. [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L80](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L80)
+  2. [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L223-L230](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L223-L230)
+  3. [https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system)&#x20;
+* Add the ‘[egov-mdms-service](https://github.com/egovernments/DIGIT-DevOps/blob/5a9eb4c6141e19bd747238889ceed9bc9fffdc6f/deploy-as-code/helm/environments/works-dev.yaml#L190)’ related configuration to the respective environment yaml file. Make sure you change the git-sync branch name to one that is appropriate for the environment.
+* Check the project management system persister file is added in the egov-persister.persister-yml-path variable. If not, please add the way it's done [here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L352).
+* Check the project management system indexer file is added in the egov-indexer.egov-indexer-yaml-repo-path variable. If not, please add the way it's done [here](https://github.com/egovernments/DIGIT-DevOps/commit/8fa730b0a2586c553e597bd77a4a4b19caac99af#diff-9e3afadcf906194e9b3fbeede6ea73eaf1c1f8e93f145f9a37a6630121395de0R308).
+* Check the project management system persister file is added in the audit-service.persist-yml-path variable. If not, please add the way it's done [here](https://github.com/egovernments/DIGIT-DevOps/commit/044aeda0d05d91fbc1267368d1154f2c7da3878c).
+* Make sure to add the DB(Postgres and flyway) username & password in the respective environment secrets yaml file the way it's done[ here](https://github.com/egovernments/DIGIT-DevOps/blob/e742a292f2966bb1affb3b03edd643a777917ba1/deploy-as-code/helm/environments/works-dev-secrets.yaml#L3).
+* Make sure to add the DIGIT core service-related secrets that are configured in the respective environment secret file the way it's done[ here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev-secrets.yaml).
 
 {% hint style="warning" %}
-**NOTE:** Restart egov-mdms-service, egov-persister and zuul after the above changes are performed.
+**NOTE:** Restart egov-mdms-service, egov-accesscontrol, egov-persister, audit-service, egov-indexer and zuul after the above changes are performed.
 {% endhint %}
 
 ## Integration Details

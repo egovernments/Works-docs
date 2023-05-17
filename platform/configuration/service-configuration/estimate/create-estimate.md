@@ -35,7 +35,7 @@ When creating a works module, the module needs to be enabled in `citymodule.json
 
 Estimate Creator will have link to create estimate from estimate inbox screen.
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 17-20-16.png" alt=""><figcaption><p>Estimate Proposal Inbox</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 17-20-16.png" alt=""><figcaption><p>Estimate Proposal Inbox</p></figcaption></figure>
 
 Clicking on this will open create estimate screen.
 
@@ -107,17 +107,17 @@ MDMS config for location
 }
 ```
 
-<figure><img src="../../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Create Estimate Form</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p>Create Estimate Form</p></figcaption></figure>
 
 Once the above details are filled, user needs to forward estimate to concerned department and official for checking. Forwarding is considered as part of estimate creation.Fill in the details and click “Forward Estimate”.
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 17-50-38.png" alt="Processing Modal"><figcaption><p>Workflow Modal</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 17-50-38.png" alt="Processing Modal"><figcaption><p>Workflow Modal</p></figcaption></figure>
 
 Each Work detail will be referred to as Sub-Estimate & sub Estimate will back track to all details of Estimate as-is. At least 1 Sub-Estimate has to be created to create an Estimate. Sum of All Amounts of Sub-Estimates is the Estimate Amount.
 
 Once Create Estimate API call is successful, an acknowledgement screen is shown.
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot from 2022-11-07 18-10-18.png" alt=""><figcaption><p>Create Estimate Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-11-07 18-10-18.png" alt=""><figcaption><p>Create Estimate Acknowledgement Screen</p></figcaption></figure>
 
 **API Call Roll action-mapping**
 
