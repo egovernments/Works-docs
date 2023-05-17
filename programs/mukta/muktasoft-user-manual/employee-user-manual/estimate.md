@@ -11,9 +11,9 @@ The Estimate option enables employee users to -
 
 Click on the Estimate Inbox Page on the home page.
 
-![](<../../../../../.gitbook/assets/0 (2) (1).png>)
+![](<../../../../.gitbook/assets/0 (2) (1).png>)
 
-![](<../../../../../.gitbook/assets/1 (1).png>)
+![](<../../../../.gitbook/assets/1 (1).png>)
 
 * On the left side on the top feature menus are displayed.
 * On the left side, the bottom panel displays the filters.
@@ -40,7 +40,7 @@ The search estimate enables ULB employees to find specific estimates using multi
 6. From Date
 7. To Date
 
-![](<../../../../../.gitbook/assets/2 (2).png>)
+![](<../../../../.gitbook/assets/2 (2).png>)
 
 * At least one parameter is mandatory. Enter any one filter or more to search for an estimate.
 * The system fetches the estimates created between the specified period by entering the date range in created from and created to. The From Date and To Date field is considered one parameter.
@@ -56,7 +56,7 @@ The search estimate enables ULB employees to find specific estimates using multi
 5. Status
 6. Estimated Amount (₹)
 
-![](<../../../../../.gitbook/assets/3 (1).png>)
+![](<../../../../.gitbook/assets/3 (1).png>)
 
 ### View Estimate <a href="#_x27l4m714yv4" id="_x27l4m714yv4"></a>
 
@@ -64,15 +64,15 @@ The search estimate enables ULB employees to find specific estimates using multi
 
 Click on the applicable **Estimate Number** from the search results to view the estimate details.
 
-![](<../../../../../.gitbook/assets/4 (2).png>)
+![](<../../../../.gitbook/assets/4 (2).png>)
 
-![](<../../../../../.gitbook/assets/5 (3).png>)
+![](<../../../../.gitbook/assets/5 (3).png>)
 
-![](<../../../../../.gitbook/assets/6 (2) (1).png>)
+![](<../../../../.gitbook/assets/6 (2) (1).png>)
 
-![](<../../../../../.gitbook/assets/7 (2).png>)
+![](<../../../../.gitbook/assets/7 (2).png>)
 
-![](<../../../../../.gitbook/assets/8 (1).png>)
+![](<../../../../.gitbook/assets/8 (1).png>)
 
 ### Create Estimate <a href="#_3bh6o6q4ckbs" id="_3bh6o6q4ckbs"></a>
 
@@ -84,33 +84,33 @@ To create an estimate for a project, search for the project using the search pro
 * Click on the applicable Project ID from the search results list to view the project details.
 * The complete project detail is displayed along with the attached documents and the Actions menu.
 
-![](../../../../../.gitbook/assets/9.png)
+![](../../../../.gitbook/assets/9.png)
 
 * Click on the Create Estimate option. This opens the Create Estimate page.
 
-![](<../../../../../.gitbook/assets/10 (1).png>)
+![](<../../../../.gitbook/assets/10 (1).png>)
 
 * The basic project details are displayed at the top of the page.
 * The project details tab displays the full project details.
 * Estimate details are captured in 2 grids - SOR/Non-SOR items and overhead.
 * Enter the Item Description, Unit, Rate, and Estimated Quantity in the SOR/Non-SOR Grid. Click on Add Line Item button to append additional items.
 
-![](<../../../../../.gitbook/assets/11 (1).png>)
+![](<../../../../.gitbook/assets/11 (1).png>)
 
 * An overhead grid is provided to capture the GST and Supervision Charges.
 
-![](<../../../../../.gitbook/assets/12 (1).png>)
+![](<../../../../.gitbook/assets/12 (1).png>)
 
 * The total of SOR/ Non-SOR and overheads grids are displayed as Total Estimate Amount.
 * An option to enter the Labour and Material cost is provided. Total these 2 can not be more than the total estimated amount.
 
-![](../../../../../.gitbook/assets/13.png)
+![](../../../../.gitbook/assets/13.png)
 
 * Upload the documents in the Relevant Documents section required to verify and approve the estimate.
 
-![](../../../../../.gitbook/assets/14.png)
+![](../../../../.gitbook/assets/14.png)
 
-![](../../../../../.gitbook/assets/15.png)
+![](../../../../.gitbook/assets/15.png)
 
 * Click on Create Estimate button once the details are filled in. All fields marked with an asterisk are mandatory.
 
@@ -129,11 +129,11 @@ EV can
 
 Estimate creator (EC) has the rights to create an estimate for a project and then forward it to the verifier. On creation, the EC gets the forward dialog box from which the user optionally selects the verifier’s name as assignee name, add the comments if any, and then forward the estimate.
 
-![](../../../../../.gitbook/assets/16.png)
+![](../../../../.gitbook/assets/16.png)
 
 On Forward, the estimate is forwarded to the verifier and the success page is displayed with the success message and estimate number.
 
-![](../../../../../.gitbook/assets/17.png)
+![](../../../../.gitbook/assets/17.png)
 
 **Edit**
 
@@ -153,7 +153,7 @@ EV can
 * Verify and forward estimate
 * Send estimate back to EC
 
-![](../../../../../.gitbook/assets/18.png)
+![](../../../../.gitbook/assets/18.png)
 
 **Verify and forward**
 
@@ -165,7 +165,7 @@ To verify and forward the estimate
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Verify and Forward from the Take Action. A pop-up window is opened.
 
-![](../../../../../.gitbook/assets/19.png)
+![](../../../../.gitbook/assets/19.png)
 
 1. Select the estimate’s technical sanctioner’s name as Assignee Name.
 2. Provide any additional information for the assignee in the comments section.
@@ -182,7 +182,7 @@ To send the estimate back to the CE
 2. Click on the estimate number to open the estimate and view the details.
 3. Select the Send Back from the Take Action. Pop-up window is opened.
 
-![](../../../../../.gitbook/assets/20.png)
+![](../../../../.gitbook/assets/20.png)
 
 1. State the reasons for sending the estimate back to the CE in the comments section.
 2. Click on the Choose Files button to upload any supporting documents.
