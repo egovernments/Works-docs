@@ -1,4 +1,4 @@
 # Programs
 
-[MUKTA (Mukhyamantri Karma Tatpara Abhiyan) ](muktasoft/)
+[MUKTA (Mukhyamantri Karma Tatpara Abhiyan) ](mukta/)
 
