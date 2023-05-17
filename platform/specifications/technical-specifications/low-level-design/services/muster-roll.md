@@ -8,7 +8,33 @@ description: Describes a calculator service for computing attendance
 
 The muster roll service aggregates attendance logs from the attendance service based on some rules and presents an attendance aggregate for a time period (week or month) per individual. This can then be used to compute payments or other semantics.&#x20;
 
+### Dependencies
+
+DIGIT backbone services
+
+Idgen
+
+Persister
+
+Indexer
+
+Workflow
+
+User
+
+Attendance
+
+## Code
+
+[Module code](https://github.com/egovernments/DIGIT-Works/tree/master/backend/muster-roll)
+
+[Helm charts](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/muster-roll)
+
 ## API Specifications
+
+#### Path:
+
+/muster-roll
 
 ### API Contract Link
 
@@ -56,11 +82,9 @@ Steps to run the postman collection for the Muster Roll services APIs:
 
 ———————————————————————————————————
 
-1\. Import the postman collection for musterRoll -&#x20;
+1\. Import the [postman collection for Muster Roll](https://github.com/egovernments/DIGIT-Works/blob/master/backend/muster-roll/src/main/resources/Muster%20Roll%20Service.postman\_collection.json).
 
-[https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Roll%20Service.postman\_collection.json](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Roll%20Service.postman\_collection.json)
-
-2\. Import the environment variables required for running the postman collection -  [https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Environment.postman\_environment.json](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Environment.postman\_environment.json)which will create an environment ‘Muster Environment’.
+2\. Import the [environment variables](https://github.com/egovernments/DIGIT-Works/blob/master/backend/muster-roll/src/main/resources/Muster%20Environment.postman\_environment.json) required for running the postman collection which will create an environment ‘Muster Environment’.
 
 3\. MusterRoll requires the below services from Attendance Service API to be run prior to creating muster. So run the below services before running the musterRoll postman collection.
 

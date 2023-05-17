@@ -1,10 +1,11 @@
-# Mukta - Test Plan & Testcases
+# Test Plan & Test Cases
 
 On this page:
 
-* [Test plan](mukta-test-plan-and-testcases.md#test-plan)
-* [Test cases](mukta-test-plan-and-testcases.md#test-cases)
-* [Download test cases](mukta-test-plan-and-testcases.md#download-test-cases)
+* [Test plan](test-plan-and-test-cases.md#test-plan)
+* [Test cases](test-plan-and-test-cases.md#test-cases)
+* [UI test cases](test-plan-and-test-cases.md#ui-test-cases)
+* [Download test cases](test-plan-and-test-cases.md#download-test-cases)
 
 ### **Test Plan**
 
@@ -13,6 +14,10 @@ On this page:
 ### **Test Cases**&#x20;
 
 {% embed url="https://docs.google.com/spreadsheets/d/1b6-_M7TdKyzPPkXM0vVohMcoLBxTTVUlFJ72uIvVmco/edit#gid=0" %}
+
+### UI Test Cases
+
+{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvQF6nY9GOOSp-NITKiO3uxDxZItB-YUSNkKVSLz0ZQGkqj6McC6gQO8JiKvwseQr-hEBR6QfNylsy/pubhtml" %}
 
 ### Download Test Cases
 

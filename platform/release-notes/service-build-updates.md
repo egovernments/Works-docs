@@ -1,45 +1,46 @@
 # Service Build Updates
 
-| Module Name        | Image IDs                                                                         | Namespace |
-| ------------------ | --------------------------------------------------------------------------------- | --------- |
-| Attendance         | egovio/attendance-service:v0.1.0-de0b03ee-9                                       | works     |
-| Bank Account       | egovio/bankaccounts:v0.1.0-de0b03ee-20                                            | works     |
-| Contract           | egovio/contract-service:v0.1.0-de0b03ee-24                                        | works     |
-| Estimate           | egovio/estimate-service:v0.1.0-de0b03ee-47                                        | works     |
-| Muster Roll        | egovio/muster-roll-service:v0.1.0-de0b03ee-30                                     | works     |
-| Project Management | egovio/project-management-system:v0.1.0-de0b03ee-14                               | works     |
-| Organisation       | egovio/organisation:v0.1.0-de0b03ee-30                                            | works     |
-| WMS                | egovio/works-management-service:v0.1.0-2907a747-6                                 | works     |
-| Works UI           | egovio/works-ui:v0.1.0-8d78f96f-218                                               | works     |
-| Works SHG App      | egovio/works-shg-app:v0.1.0-8d78f96f-90                                           | works     |
-| Individual Service | egovio/individual:PFM-1799-d67b1c6958-38                                          | works     |
-| PDF                | /egovio/works-pdf:v0.1.0-9fcdb9a4-6                                               | works     |
-|                    |                                                                                   |           |
-|                    | **Core Services**                                                                 |           |
-|                    |                                                                                   |           |
-| Signed Audit       | egovio/audit-service:signed-audit-fix-fcb96df6ea-2                                | core      |
-| Access Control     | egovio/egov-accesscontrol:v1.1.3-72f8a8f87b-24                                    | core      |
-| Encryption         | egovio/egov-enc-service:v1.1.3-44558a0-3                                          | core      |
-| Filestore          | egovio/egov-filestore:v1.2.4-72f8a8f87b-10                                        | core      |
-| HRMS               | egovio/egov-hrms:v1.2.5-1715164454-6                                              | core      |
-| ID Gen             | egovio/egov-idgen:v1.2.3-72f8a8f87b-7                                             | core      |
-| Indexer            | egovio/egov-indexer:v1.1.7-f52184e6ba-25                                          | core      |
-| Localisation       | egovio/egov-localization:v1.1.3-72f8a8f87b-6                                      | core      |
-| Location           | egovio/egov-location:v1.1.4-72f8a8f87b-6                                          | core      |
-| MDMS               | egovio/egov-mdms-service:v1.3.2-72f8a8f87b-12                                     | core      |
-| Notification-SMS   | egovio/egov-notification-sms:v1.1.3-48a03ad7bb-10                                 | core      |
-| OTP                | egovio/egov-otp:v1.2.3-e30d33c5ee-13                                              | core      |
-| PDF Service (Core) | egovio/pdf-service:v1.2.1-5ad7ffbc29-42                                           | core      |
-| Persister          | egovio/egov-persister:v1.1.5-6cfa52c1f9-3                                         | core      |
-| Searcher           | egovio/egov-searcher:v1.1.5-72f8a8f87b-16                                         | core      |
-| URL Shortener      | egovio/egov-url-shortening:v1.1.3-6cfa52c1f9-1                                    | core      |
-| User               | egovio/egov-user:v1.2.7-cb9eb30-5                                                 | core      |
-| Workflow           | egovio/egov-workflow-v2:v1.2.2-cae8f24502-30                                      | core      |
-| Inbox              | egovio/inbox:v1.3.0-634e9cc-6                                                     | core      |
-| Ingress Controller | egovio/nginx-ingress-controller:0.26.1                                            | core      |
-| Oauth2 Proxy       | [quay.io/pusher/oauth2\_proxy:v5.1.0](http://quay.io/pusher/oauth2\_proxy:v5.1.0) | core      |
-| User OTP           | egovio/user-otp:v1.1.6-e30d33c5ee-8                                               | core      |
-| Zuul               | egovio/zuul:v1.3.1-96b24b0d72-39                                                  | core      |
+| Category                                                                                                                 | Services                 | Git Tags | Docker Artifact ID                         | Remarks                           |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------ | -------- | ------------------------------------------ | --------------------------------- |
+| **Core Services**                                                                                                        | Signed Audit             |          | audit-service-db:v1.0.0-24873ba-4          |                                   |
+|                                                                                                                          | Access Control           |          | egov-accesscontrol:v1.1.3-72f8a8f87b-24    |                                   |
+|                                                                                                                          | Encryption               |          | egov-enc-service:v1.1.3-44558a0-3          |                                   |
+|                                                                                                                          | File store               |          | egov-filestore:v1.2.4-72f8a8f87b-10        |                                   |
+|                                                                                                                          | Hrms                     |          | egov-hrms:v1.2.5-1715164454-6              |                                   |
+|                                                                                                                          | ID Gen                   |          | egov-idgen:v1.2.3-72f8a8f87b-7             |                                   |
+|                                                                                                                          | Indexer                  |          | egov-indexer:v1.1.7-f52184e6ba-25          |                                   |
+|                                                                                                                          | Localization             |          | egov-localization:v1.1.3-72f8a8f87b-6      |                                   |
+|                                                                                                                          | Location                 |          | egov-location:v1.1.4-72f8a8f87b-6          |                                   |
+|                                                                                                                          | MDMS                     |          | egov-mdms-service:v1.3.2-72f8a8f87b-12     |                                   |
+|                                                                                                                          | SMS Notification         |          | egov-notification-sms:v1.1.3-48a03ad7bb-10 |                                   |
+|                                                                                                                          | User OTP                 |          | egov-otp:v1.2.3-e30d33c5ee-13              |                                   |
+|                                                                                                                          | pdf-service              |          | pdf-service:v1.2.1-5ad7ffbc29-42           |                                   |
+|                                                                                                                          | Persister                |          | egov-persister:v1.1.5-6cfa52c1f9-3         |                                   |
+|                                                                                                                          | Searcher                 |          | egov-searcher:v1.1.5-72f8a8f87b-16         |                                   |
+|                                                                                                                          | URL Shortening           |          | egov-url-shortening:v1.1.3-6cfa52c1f9-1    |                                   |
+|                                                                                                                          | User                     |          | egov-user:v1.2.7-cb9eb30-5                 |                                   |
+|                                                                                                                          | Workflow                 |          | egov-workflow-v2:v1.2.2-cae8f24502-3       |                                   |
+|                                                                                                                          | inbox                    |          | inbox:v1.3.0-32c61b6-11                    |                                   |
+|                                                                                                                          | Ingress Controller       |          | nginx-ingress-controller:0.26.1            |                                   |
+|                                                                                                                          | Oauth2 Proxy             |          | quay.io/pusher/oauth2\_proxy:v5.1.0        |                                   |
+|                                                                                                                          | User OTP                 |          | user-otp:v1.1.6-e30d33c5ee-8               |                                   |
+|                                                                                                                          | Zuul - API Gateway       |          | zuul:v1.3.1-96b24b0d72-39                  |                                   |
+| **Works core services**                                                                                                  | Attendance               |          | attendance:v0.1.1-b0028753-3               |                                   |
+|                                                                                                                          | bank accounts            |          | bankaccounts:v0.1.1-b0028753-27            |                                   |
+|                                                                                                                          | Contract                 |          | contracts:v0.1.1-44a81661-20               |                                   |
+|                                                                                                                          | Estimate                 |          | estimates:v0.1.1-44a81661-21               |                                   |
+|                                                                                                                          | Muster Roll              |          | muster-roll:v0.1.1-b0028753-8              |                                   |
+|                                                                                                                          | Project Management       |          | project:v1.0.1-8d350429f4-79               |                                   |
+|                                                                                                                          | Organization             |          | organisation:v0.1.1-b0028753-34            |                                   |
+|                                                                                                                          | works-management-service |          | works-management-service:v0.1.1-b0028753-9 |                                   |
+|                                                                                                                          | Individual Service       |          | individual:v1.1.0-73167482a2-87            |                                   |
+|                                                                                                                          | Works PDF                |          | works-pdf-db:v0.1.2-78a22628-26            |                                   |
+|                                                                                                                          | Expense                  |          | expense:v0.1.1-8e6b342c-61                 |                                   |
+|                                                                                                                          | Expense Calculator       |          | expense-calculator:v0.1.1-8e6b342c-81      |                                   |
+|                                                                                                                          | Expense Cronjob          |          | expense-cronjob:vNA-571c9fb6-8             |                                   |
+| **Works Frontend**                                                                                                       | Works-UI                 |          | works-ui:v0.1.2-249f6580-320               |                                   |
+|                                                                                                                          | Works-SHG                |          | works-shg-app:v0.1.2-2d99acac-160          |                                   |
+| **Localization** [**V1.0**](https://github.com/egovernments/IFIX-releasekit/tree/master/Localization/works/mukta%20v1.0) |                          |          |                                            | Release Kit Repo for Localization |
 
 
 
