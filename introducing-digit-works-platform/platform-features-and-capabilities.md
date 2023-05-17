@@ -124,4 +124,4 @@ Some of these are listed below:
 
 Find the detailed process flow illustrating the steps in Works within various value bundles is given below. Refer to the colour legend on top of the attached diagram for a better understanding.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>

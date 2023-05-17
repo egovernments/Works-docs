@@ -28,7 +28,7 @@ Browse the explainer video (long version) showing payments made to wage seekers 
 
 Find the important Mukta-specific program resources below:
 
-* [Release Notes](release-notes.md)
+* [Release Notes](release-notes/)
 * [User Stories](user-stories/)
 * [Master Data Templates](configuration/master-data-templates/)
 * [UI Configuration](../../platform/configuration/ux-mock-up-screens.md)
