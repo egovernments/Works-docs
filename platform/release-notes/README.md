@@ -6,45 +6,61 @@ description: New release features, enhancements, and fixes
 
 ## Release Summary <a href="#release-summary" id="release-summary"></a>
 
-DIGIT-Works release v1.0 offers....
+DIGIT-Works release v0.1 offers....
 
 **Functional changes**&#x20;
 
-* **Projects** - Create a Project, Modify a Project , View a Project & Search a Project
-* **Estimates** - Create an Estimate, Modify an Estimate , View an Estimate & Search an Estimate
-* **Work** **Orders** - Create a Work Order, Modify a Work Order , View a Work Order & Search  aWork Order
-* **Wage** **Seeker** - Create a Wage seeker, Modify a Wage seeker , View a Wage seeker & Search a Wage Seeker
-* **Organisation** - Create an Organisation, Modify an Organisation , View an Organisation & Search an Organisation
-* **Attendance** - Create an Attendance Register, Modify an Attendance Register , View an Attendance Register & Search an Attendance Register
+* **Projects** - Create a Project, Modify a Project, View a Project & Search a Project
+* **Estimates** - Create an Estimate, Modify an Estimate, View an Estimate & Search an Estimate
+* **Contract** - Create a Contract, Modify a Contract, View a Contract & Search for a Contract
+* **Organisation** - Create an Organisation, Modify an Organisation, View an Organisation & Search for an Organisation
+* **Attendance** - Create an Attendance Register, Modify an Attendance Register, View an Attendance Register & Search an Attendance Register
 * **Muster** **roll -** Create a Muster roll, Update a Muster roll
-* **Billing -** Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill
+* **Expense (Bill) -** Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill
+* **Individual** - Create an Individual, Modify an Individual, View an Individual & Search an Individual.
+* **Bank account** - Create a Bank account, Modify a Bank account, View a Bank account & Search a Bank account.
 
 **Non-functional changes**&#x20;
 
-* <mark style="color:red;">Add list in bullet points</mark>
+* NA
 
 ## New ‌Feature Additions <a href="#new-feature-additions" id="new-feature-additions"></a>
 
-| Feature | Description |
-| ------- | ----------- |
-|         |             |
-|         |             |
-|         |             |
+| Feature        | Description                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Projects       | Create a Project, Modify a Project, View a Project & Search a Project                                                     |
+| Estimates      | Create an Estimate, Modify an Estimate, View an Estimate & Search an Estimate                                             |
+| Contract       | Create a Contract, Modify a Contract, View a Contract & Search for a Contract                                             |
+| Organisation   | Create an Organisation, Modify an Organisation, View an Organisation & Search for an Organisation                         |
+| Attendance     | Create an Attendance Register, Modify an Attendance Register, View an Attendance Register & Search an Attendance Register |
+| Muster roll    | Create a Muster roll, Update a Muster roll                                                                                |
+| Expense (Bill) | Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill                  |
+| Individual     | Create an Individual, Modify an Individual, View an Individual & Search an Individual.                                    |
+| Bank account   | Create a Bank account, Modify a Bank account, View a Bank account & Search a Bank account.                                |
 
 ## Enhancements
 
-| Updated Feature | Description |
-| --------------- | ----------- |
-|                 |             |
-|                 |             |
-|                 |             |
+It is a fresh development and getting released first time.
 
 ## Document Resources and Links <a href="#document-resources-and-links" id="document-resources-and-links"></a>
 
 ### Technical Documents
 
-<mark style="color:red;">Add page links to the docs</mark>
+| Doc links                                                                                          |
+| -------------------------------------------------------------------------------------------------- |
+| [High Level Design](../architecture/high-level-design.md)                                          |
+| [Individual](../specifications/technical-specifications/low-level-design/registries/individual.md) |
 
 ### Backend Service Documents
 
-<mark style="color:red;">Add page links to the docs</mark>
+| Doc Links                                                                                  |
+| ------------------------------------------------------------------------------------------ |
+| [Project](../configuration/service-configuration/project.md)                               |
+| [Estimate](../../programs/mukta/configuration/service-configuration/estimate.md)           |
+| [Contract](../../programs/mukta/configuration/service-configuration/contract.md)           |
+| [Attendance](../../programs/mukta/configuration/service-configuration/attendance.md)       |
+| [Muster Roll](../../programs/mukta/configuration/service-configuration/muster-roll.md)     |
+| [Expense](../configuration/service-configuration/expense.md)                               |
+| [Bank Accounts](../../programs/mukta/configuration/service-configuration/bank-accounts.md) |
+| [Organization](../../programs/mukta/configuration/service-configuration/organisation.md)   |
+| [Individual](../configuration/service-configuration/individual.md)                         |

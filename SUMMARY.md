@@ -61,7 +61,7 @@
 * [Programs](programs/README.md)
   * [MUKTA](programs/mukta/README.md)
     * [Roadmap](programs/mukta/roadmap.md)
-    * [Release Notes](programs/mukta/release-notes/README.md)
+    * [Release Notes](programs/mukta/release-notes.md)
       * [Service Build Updates](programs/mukta/release-notes/service-build-updates.md)
       * [MDMS & Configuration Updates](programs/mukta/release-notes/mdms-and-configuration-updates.md)
       * [Test Cases](programs/mukta/release-notes/test-cases.md)

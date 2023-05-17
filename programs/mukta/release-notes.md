@@ -121,13 +121,13 @@ Fund Allocation Register
 
 ## Related Docs & Links
 
-| Doc links                                                            |
-| -------------------------------------------------------------------- |
-| [Product Requirements Document](../product-requirements-document.md) |
-| [Users Stories](../user-stories/)                                    |
-| [Test Case Document](test-cases.md)                                  |
-| [Master Data Template](../configuration/master-data-templates/)      |
-| [Localization Document](../configuration/localisation.md)            |
-| [SMS Templates](../configuration/notifications.md)                   |
-|                                                                      |
+| Doc links                                                         |
+| ----------------------------------------------------------------- |
+| [Product Requirements Document](product-requirements-document.md) |
+| [Users Stories](user-stories/)                                    |
+| [Test Case Document](release-notes/test-cases.md)                 |
+| [Master Data Template](configuration/master-data-templates/)      |
+| [Localization Document](configuration/localisation.md)            |
+| [SMS Templates](configuration/notifications.md)                   |
+|                                                                   |
 
