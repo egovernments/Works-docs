@@ -12,44 +12,50 @@ The high-level design (refer image above) of the Works System can be divided int
 
 ## Master (Reference) Data
 
-Based on the complexity required to maintain Master Data it is categorized into the following:
+Below are classifications of some of the master data used in the Works platform. For a comprehensive list, please refer to the promotion document or each of the individual services.
 
 1. Simple Masters:
-   1. Contractor Class
-   2. Department
-   3. Nature of Work
-   4. Mode of Entrustment&#x20;
-   5. Beneficiary Type
-   6. Designations
+   1. Organisation Class
+   2. Organisation Functional Area
+   3. Organisation Type
+   4. Department
+   5. Nature of Work
+   6. Project Type
+   7. Wage Seeker Skills
+   8. Labour Charges
+   9. Overheads
+   10. Headcodes
+   11. Applicable Charges
+   12. Mode of Entrustment&#x20;
+   13. Beneficiary Type
+   14. Designations
 2. Hierarchical Masters&#x20;
    1. Type of work&#x20;
    2. Sub-type of work
-3. Finance Masters - Same as DIGIT
-   1. Budget Head&#x20;
-   2. Scheme&#x20;
-   3. Sub-scheme&#x20;
-   4. Fund&#x20;
-   5. Function
-4. Location - Same as DIGIT
+3. Location - Same as DIGIT
 
 ## Works Registries
 
 1. Individual
 2. Organisation
-3. Financial
+3. Bank Accounts
 
 ## Works Services
 
-The following domain services are developed as part of the Works platform:
+The following domain services have been developed/are being planned as part of the Works platform:
 
 1. Project
 2. Estimate&#x20;
-3. Work Package
-4. Contracts
-5. Milestones
-6. Payment Calendar
-7. Measurement Book
-8. Expenditure or Billing
+3. Contracts
+4. Attendance
+5. Muster roll
+6. Expense/Billing
+7. JIT Adapter (Roadmap)
+8. Milestones (roadmap)
+9. Payment Calendar (roadmap)
+10. Measurement Book (roadmap)
+
+
 
 ## Reused/Enhanced DIGIT Services
 
