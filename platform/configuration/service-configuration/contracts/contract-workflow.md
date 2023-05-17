@@ -58,4 +58,4 @@ When these popups are submitted, Update Contract API is called containing the re
 
 Upon successful update a response screen is displayed as follows
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Contract Updation Acknowledgement Screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Contract Updation Acknowledgement Screen</p></figcaption></figure>
