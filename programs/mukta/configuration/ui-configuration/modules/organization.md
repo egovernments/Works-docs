@@ -1,5 +1,5 @@
 ---
-description: <WORK IN PROGRESS>
+description: Organization Tech Document
 ---
 
 # Organization
@@ -98,34 +98,34 @@ NA
 
 &#x20;     TransferCodeTable -
 
-* This component is a common component used to show Tax identifiers and     Transfer Codes input options in ‘Financial Details’ section in create screen
-* Dropdown options for tax identifier and transfer codes are populated by MDMS data
-* Used can select type via dropdown and value needs to be entered for corresponding type
-* Users can add and delete rows for tax identifiers since there can be multiple identifiers.First row won't be deleted.
-* Refer Component : [TransferCodeComponent](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/micro-ui/web/micro-ui-internals/packages/modules/Masters/src/components/TransferCodeTable.js)\
+* This component is a common component used to show Tax identifiers and     Transfer Codes input options in the ‘Financial Details’ section in Create screen
+* Dropdown options for tax identifiers and transfer codes are populated by MDMS data
+* Used can select type via dropdown and value needs to be entered for the corresponding type
+* Users can add and delete rows for tax identifiers since there can be multiple identifiers. First row won't be deleted.
+* Refer Component: [TransferCodeComponent](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/micro-ui/web/micro-ui-internals/packages/modules/Masters/src/components/TransferCodeTable.js)\
 
 
-#### 2.Create Organization Screen
+#### 2. Create Organization Screen
 
 * Please use the common Utility “PreProcessMDMSConfig”.&#x20;
 * Pass the associated dependencies for the config.
-* The utility will return a config which will run through FormComposer.
-* Refer docs for Pre-Process config in Component comments.
-* Tax Identifiers and Transfer codes are MDMS data.&#x20;
+* The utility will return a config that will run through FormComposer.
+* Refer to docs for Pre-Process config in Component comments.
+* Tax Identifiers and Transfer Codes are MDMS data.&#x20;
 
-3.Search Organization Screen
+3\. Search Organization Screen
 
 * Please use the common utility “preProcessMDMSConfigInboxSearch”.
 * Pass the associated dependencies for the config.
-* The utility will return a config which will run through RenderFormFields.
-* Refer docs for Pre-Process config in Component comments.
+* The utility will return a config that will run through RenderFormFields.
+* Refer to docs for Pre-Process config in Component comments.
 * All the Inbox and Search Screens throughout the app are rendered using this component [Inbox/Search Composer](https://github.com/egovernments/DIGIT-Works/blob/c2a234bb4b21f0e54ca9664ee3e99d72ce871168/frontend/micro-ui/web/micro-ui-internals/packages/react-components/src/hoc/InboxSearchComposer.js)
 * Validations added
 * All Form validations are being added in the Screen Configurations. Add the populators for respective validations and mention the JSON path for the Pre-Process to work.
 * IFSC code has 2 validations as below
 
 1. Pattern validation (given in config)
-2. Third party API is being used to get band and branch name based on entered valid IFSC code, This API throws 404 if code is not valid, in that case valid error message is displayed below input field
-3. Tax identifiers are not mandatory while creating Organisation. But as per API implementation it's required in payload hence we send a dummy identifier value if the user has not entered anything in Tax identifier input. In the View Organisation screen if PAN value is above dummy value then ‘NA’ is displayed on screen.
+2. Third-party API is being used to get band and branch name based on entered valid IFSC code, This API throws 404 if the code is not valid, in that case the valid error message is displayed below the input field
+3. Tax identifiers are not mandatory while creating Organisation. But as per API implementation, it's required in payload hence we send a dummy identifier value if the user has not entered anything in Tax identifier input. In the View Organisation screen if the PAN value is above the dummy value then ‘NA’ is displayed on the screen.
 
 * Default value: Type => PAN, Value => XXXXX0123X
