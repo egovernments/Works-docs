@@ -61,13 +61,13 @@ A project can be divided into multiple sub-projects, each with its own workflows
 
 ## Mockups
 
-| Create Project with no sub projects                              | ![](<../../../.gitbook/assets/image (22).png>)    |
-| ---------------------------------------------------------------- | ------------------------------------------------- |
-| Create Project with Sub projects                                 | ![](<../../../.gitbook/assets/image (1) (3).png>) |
-| Capturing Financial details of project (Part of Program service) | ![](<../../../.gitbook/assets/image (3).png>)     |
-| Capturing Sub Project Details                                    | ![](<../../../.gitbook/assets/image (8).png>)     |
-| Project Created Successfully                                     | ![](<../../../.gitbook/assets/image (34).png>)    |
-| View Project                                                     | ![](<../../../.gitbook/assets/image (1).png>)     |
-| Projects Inbox                                                   | ![](<../../../.gitbook/assets/image (21).png>)    |
-| Inbox Table                                                      | ![](<../../../.gitbook/assets/image (32).png>)    |
+| Create Project with no sub projects                              | ![](<../../../.gitbook/assets/image (29).png>) |
+| ---------------------------------------------------------------- | ---------------------------------------------- |
+| Create Project with Sub projects                                 | ![](<../../../.gitbook/assets/image (30).png>) |
+| Capturing Financial details of project (Part of Program service) | ![](<../../../.gitbook/assets/image (43).png>) |
+| Capturing Sub Project Details                                    | ![](<../../../.gitbook/assets/image (20).png>) |
+| Project Created Successfully                                     | ![](<../../../.gitbook/assets/image (33).png>) |
+| View Project                                                     | ![](<../../../.gitbook/assets/image (25).png>) |
+| Projects Inbox                                                   | ![](<../../../.gitbook/assets/image (52).png>) |
+| Inbox Table                                                      | ![](<../../../.gitbook/assets/image (22).png>) |
 

@@ -60,7 +60,7 @@ It is a fresh development and getting released first time.
 | [Contract](../../programs/mukta/configuration/service-configuration/contract.md)           |
 | [Attendance](../../programs/mukta/configuration/service-configuration/attendance.md)       |
 | [Muster Roll](../../programs/mukta/configuration/service-configuration/muster-roll.md)     |
-| [Expense](../../programs/mukta/configuration/service-configuration/expense.md)             |
+| [Expense](../configuration/service-configuration/expense.md)                               |
 | [Bank Accounts](../../programs/mukta/configuration/service-configuration/bank-accounts.md) |
 | [Organization](../../programs/mukta/configuration/service-configuration/organisation.md)   |
-| [Individual](../../programs/mukta/configuration/service-configuration/individual.md)       |
+| [Individual](../configuration/service-configuration/individual.md)                         |
