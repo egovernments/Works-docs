@@ -74,7 +74,7 @@
       * [Service Build Updates](programs/mukta/release-notes/service-build-updates.md)
       * [MDMS & Configuration Updates](programs/mukta/release-notes/mdms-and-configuration-updates.md)
       * [Gate 2 Release Checklist](platform/release-notes/product-release-gate-checklist.md)
-    * [Test Cases](programs/muktasoft/test-cases.md)
+      * [Test Cases](programs/muktasoft/release-notes/test-cases.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
       * [Product Requirements Document](programs/mukta/product-requirements-document.md)
       * [User Stories](programs/mukta/user-stories/README.md)
