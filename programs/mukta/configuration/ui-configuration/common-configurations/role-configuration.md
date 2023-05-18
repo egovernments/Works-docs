@@ -1,7 +1,7 @@
 ---
 description: >-
-  Find the details on roles configurations required to perform action in Works
-  frontend app
+  This Document says about the Roles Required to Perform action in Works
+  Frontend App
 ---
 
 # Role Configuration
@@ -38,8 +38,8 @@ description: >-
 **Note:**
 
 1. Employee Common (**EMPLOYEE\_COMMON**) role is to be added for all the users since it provides them with all employees' common actions mentioned as in table SNo 22.
-2. Bill Accountant and Mukta admin should not be added for any Employee who performs an action in Muster, Bill, or COntract Modules.
-3. There are few restricted roles which should be given to any Employees
+2. Bill Accountant and Mukta admin should not be added for any Employee who performs an action in Muster, Bill, Project,Estimate, or  Contract Modules.
+3. There are few restricted roles which should not be given to any Employees
 
 <pre><code><strong> ["CBO_ADMIN","STADMIN","ORG_ADMIN","ORG_STAFF","SYSTEM"] 
 </strong><strong>
