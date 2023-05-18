@@ -4,13 +4,11 @@ description: Steps to generate APK
 
 # APK Generation
 
-Overview:
+## Overview
 
-This document says how to generate APK and its configuration
+This document says how to generate APK and its configuration.
 
-
-
-### Steps to generate APK
+## Steps To Generate APK
 
 1. Add the .env file at the root of the project with the required config based on the env in the file.
 
@@ -24,27 +22,16 @@ ENV_NAME="DEV"
 
 ```
 
-2. Run below commands  in your terminal from root of the project&#x20;
-
-
+2. Run the below commands  in your terminal from the root of the project&#x20;
 
 ```
 flutter clean
 flutter pub get
 ```
 
-
-
-3. Run the below command in your terminal from root of the project to generate the APK&#x20;
+3. Run the below command in your terminal from the root of the project to generate the APK&#x20;
 
 ```
 flutter build apk --release
 ```
-
-
-
-\
-
-
-
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This Document says about the Roles Required to Perform action in Works
-  Frontend App
+  This document contains details on the roles required to perform action in
+  Works Frontend App
 ---
 
 # Role Configuration

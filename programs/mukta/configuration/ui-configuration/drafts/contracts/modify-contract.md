@@ -24,4 +24,4 @@ Upon Successful update relevant acknowledgement screen displayed.
 
 <figure><img src="../../../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Contract Modify Acknowledgement Screen</p></figcaption></figure>
 
-A Contract that is approved and sent to next stage wont be editable.
+A contract that is approved and sent to next stage wont be editable.
