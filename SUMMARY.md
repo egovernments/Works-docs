@@ -162,6 +162,7 @@
           * [Project](programs/mukta/configuration/ui-configuration/modules/project.md)
           * [Estimate](programs/mukta/configuration/ui-configuration/modules/estimate.md)
           * [Workorder](programs/mukta/configuration/ui-configuration/modules/workorder.md)
+          * [Muster Roll Web](programs/muktasoft/configuration/ui-configuration/modules/muster-roll-web.md)
           * [Attendance](programs/mukta/configuration/ui-configuration/modules/attendance.md)
           * [MusterRoll](programs/mukta/configuration/ui-configuration/modules/musterroll.md)
           * [Bill](programs/muktasoft/configuration/ui-configuration/modules/bill.md)
