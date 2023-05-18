@@ -6,7 +6,7 @@ description: New release features, enhancements, and fixes
 
 ## Release Summary <a href="#release-summary" id="release-summary"></a>
 
-DIGIT-Works release v0.1 offers....
+DIGIT-Works release v0.1 is a new release that offers new platform features and functions, the details of which are provided below.
 
 **Functional changes**&#x20;
 
@@ -40,7 +40,7 @@ DIGIT-Works release v0.1 offers....
 
 ## Enhancements
 
-It is a fresh development and getting released first time.
+It is a fresh development and getting released the first time.
 
 ## Document Resources and Links <a href="#document-resources-and-links" id="document-resources-and-links"></a>
 

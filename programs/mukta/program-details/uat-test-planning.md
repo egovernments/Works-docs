@@ -8,7 +8,7 @@ description: Test planning for MuktaSoft V1.0, HUDD
 
 The purpose of this document is to outline the User Acceptance Testing (UAT) process for the MUKTA application developed on the DIGIT-Works platform for the implementation of the MUKTA scheme notified by the Government of Odisha. This will enable the ULB and CBO users to validate that the MUKTASoft application meets the agreed-upon acceptance criteria for various functionalities.
 
-It will ensure that the system satisfies the needs of the business as specified in the [functional requirements ](../../../mukta/functional-requirements.md)([PRD](../../../mukta/product-requirements-document.md)/ [User Stories](../../../mukta/user-stories/)) and provides confidence in its use. It will also help to identify defects with associated risks and suggest enhancements(change requests), communicate all known defects/enhancements to the project team, and ensure that all issues are addressed in an appropriate manner prior to go-live.
+It will ensure that the system satisfies the needs of the business as specified in the [functional requirements ](../functional-requirements.md)([PRD](../product-requirements-document.md)/ [User Stories](../user-stories/)) and provides confidence in its use. It will also help to identify defects with associated risks and suggest enhancements(change requests), communicate all known defects/enhancements to the project team, and ensure that all issues are addressed in an appropriate manner prior to go-live.
 
 ## 2.0 UAT Methodology
 
@@ -32,7 +32,7 @@ The various phases of UAT are illustrated in the diagram below:
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -286,7 +286,7 @@ The CR analysis may take more than the anticipated timelines. The CR analysis if
 
 ## 6.0 UA Test  Scenarios
 
-Test cases provide a high-level description of the functionality to be tested.  All regression and new functionality test cases are contained in the Excel spreadsheet “UA Test Cases” available at: \[[UAT Test Scenarios](uat-test-case-scenarios.md)]. &#x20;
+Test cases provide a high-level description of the functionality to be tested.  All regression and new functionality test cases are contained in the Excel spreadsheet “UA Test Cases” available at: \[[UAT Test Scenarios](../../muktasoft/program-details/uat-test-planning/uat-test-case-scenarios.md)]. &#x20;
 
 The team will leverage relevant QA test cases for project-specific functionality.  Each test case based on new functionality will reference a specific functional requirement.
 
@@ -306,7 +306,7 @@ The test team will be provided with instructions on how to effectively execute t
 
 Defects must be clearly captured and escalated to ensure prompt resolution by development.  Each defect submitted by UAT will be assigned a priority, worked by development, resolved, and re-tested by UAT prior to closure.  The following is a snapshot of the standard defect lifecycle:
 
-![](<../../../../.gitbook/assets/image (12) (2).png>)
+![](<../../../.gitbook/assets/image (12) (2).png>)
 
 eGov and HUDD together will prioritize and classify defects.  Defects found in UAT can be assigned one of three (3) levels of severity:
 
@@ -329,7 +329,7 @@ As a non-profit, we are unable to make any commitment on how long issues will ta
 CR must be clearly captured and reported for analysis to identify effort and impact in the eGov team. Each CR submitted will be validated and categorised for acceptance and then assigned with a priority. The development team will work on it and will be made available for testing. Following is a snapshot of the standard CR lifecycle:
 
 \
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 #### Categorisation&#x20;
 
@@ -347,8 +347,8 @@ The following are reference documents which have been leveraged for project-spec
 
 | Document                                  | Document Link                                                                                                                                                                                                                                                                |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Test Case Document                        | [Test case scenarios](../../test-cases/test-case-scenarios.md)                                                                                                                                                                                                               |
-| Defect/ Change Request Reporting Template | [Issue Reporting Template](../../test-cases/issue-reporting-template.md)                                                                                                                                                                                                     |
+| Test Case Document                        | [Test case scenarios](../../muktasoft/test-cases/test-case-scenarios.md)                                                                                                                                                                                                     |
+| Defect/ Change Request Reporting Template | [Issue Reporting Template](../../muktasoft/test-cases/issue-reporting-template.md)                                                                                                                                                                                           |
 | Training Feedback                         | [Click here ](https://docs.google.com/forms/d/1It266KQECgzUtU8uVjSJGCryTuUlpMGlOYHtG4RCw3I/viewform?ts=64620419\&edit\_requested=true)                                                                                                                                       |
 | UAT Feedback form                         | <p>English - <a href="https://docs.google.com/forms/d/1hJh9Idye7CX-2zghcF2IgT2_VMIbq03PJjWt3JSC5hM/edit?ts=645dc757">Click Here</a></p><p>Odiya - <a href="https://docs.google.com/forms/d/1YAAO4tfHADly26ThKKB-JYsxUKKY9IlB_vWYh6f1aLU/edit?ts=64634b8c">Click Here</a></p> |
 
