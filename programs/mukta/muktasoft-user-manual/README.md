@@ -1,6 +1,6 @@
 # User Manual
 
-The MUKTASoft module is a standardized solution offered on the DIGIT platform for managing MUKTA works related activities.&#x20;
+The MuktaSoft module is a standardized solution offered on the DIGIT platform for managing MUKTA works related activities.&#x20;
 
 ## Key Features
 
