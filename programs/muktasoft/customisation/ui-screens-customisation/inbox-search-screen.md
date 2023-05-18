@@ -63,45 +63,45 @@ To fetch inbox details, ‘useCustomAPIHook’ is used which takes all the API d
 
 1.  Create config based on the sections that need to be displayed on the screen. The basic structure for Inbox and Search screens is as below.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/inboxConfig.png" alt=""><figcaption><p>Base Inbox config</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/inboxConfig.png" alt=""><figcaption><p>Base Inbox config</p></figcaption></figure>
 
 
 
-    <figure><img src="../../../.gitbook/assets/searchConfig (1).png" alt=""><figcaption><p>Base Search config</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/searchConfig (1).png" alt=""><figcaption><p>Base Search config</p></figcaption></figure>
 
 
 2. Based on the flag given for each section its visibility is controlled. If the ‘show’ flag is true, then the section is visible, else it is hidden.&#x20;
 3.  Add API details in the top section, this API will be called via _useCustomAPIHook_ and return the data. This consists of the below details.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2023-02-13 at 11.44.02 AM.png" alt=""><figcaption><p>Api details section</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2023-02-13 at 11.44.02 AM.png" alt=""><figcaption><p>Api details section</p></figcaption></figure>
 
 
 4.  Add search form config which can be used in both inbox/search screen. It consists of UIconfig containing label info, styling info, default form values, and fields which need to be rendered in the form. Refer below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/search_Section (1).png" alt=""><figcaption><p>search </p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/search_Section (1).png" alt=""><figcaption><p>search </p></figcaption></figure>
 
 
 5.  Add Links config consists of link info, logo to be shown and title. Refer below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/links_config.png" alt=""><figcaption><p>Links</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/links_config.png" alt=""><figcaption><p>Links</p></figcaption></figure>
 
 
 6.  Add Filter form config which is similar to the search form. Refer below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/filter_config.png" alt=""><figcaption><p>Filter</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/filter_config.png" alt=""><figcaption><p>Filter</p></figcaption></figure>
 7.  Add Table (Search result) config consists of labels, column data and related jsonpaths to access the data passed. Refer below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/table_config.png" alt=""><figcaption><p>Results Table</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/table_config.png" alt=""><figcaption><p>Results Table</p></figcaption></figure>
 
 
 8.  To add any customisations on query params, request body, table columns or to add any custom validations in forms, related code can be added in the _UICustomisations_ file as below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/Ui_customizations.png" alt=""><figcaption><p>Ui customisations for Search project screen</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Ui_customizations.png" alt=""><figcaption><p>Ui customisations for Search project screen</p></figcaption></figure>
 
 
 9.  Once the above config is defined, created an index file/ Component in the pages folder. Fetch the config from MDMS and pass it to the _inboxSearchComposer_ component as below&#x20;
 
-    <figure><img src="../../../.gitbook/assets/search_project_index.png" alt=""><figcaption><p>Sample code for project search page</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/search_project_index.png" alt=""><figcaption><p>Sample code for project search page</p></figcaption></figure>
 
 ## Limitations&#x20;
 

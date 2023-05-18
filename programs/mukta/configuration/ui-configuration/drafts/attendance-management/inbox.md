@@ -152,8 +152,8 @@ Localisation keys are added under the ‘_rainmaker-attendencemgmt_’ locale mo
 
 The content on this screen is rendered based on configuration passed via MDMS. Its implementation can be found in the below file. &#x20;
 
-{% content-ref url="../../../../../../platform/customisation/ui-screens/inbox-search-screen.md" %}
-[inbox-search-screen.md](../../../../../../platform/customisation/ui-screens/inbox-search-screen.md)
+{% content-ref url="../../../../../muktasoft/customisation/ui-screens-customisation/inbox-search-screen.md" %}
+[inbox-search-screen.md](../../../../../muktasoft/customisation/ui-screens-customisation/inbox-search-screen.md)
 {% endcontent-ref %}
 
 ## API Role Action Mapping
