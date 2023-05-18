@@ -2,17 +2,7 @@
 description: Description of the attendance service
 ---
 
-# Attendance Technical Docs
-
-## Overview
-
-This is a generic attendance module that allows creation of an attendance register, enrolment of staff and attendees and capture of attendance records with entry/exit times. To compute attendance based on the logs, a calculator service should be built with specific business logic.&#x20;
-
-### Code
-
-[Module code](https://github.com/egovernments/DIGIT-Works/tree/master/backend/attendance)
-
-[Deployment Helm Charts](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/attendance)
+# Attendance
 
 ## API Specifications
 
@@ -110,9 +100,7 @@ This is a generic attendance module that allows creation of an attendance regist
 
 
 
-### Master Data Types
+###
 
-### Postman Collection
 
-Postman collection can be imported from [here](https://github.com/egovernments/DIGIT-Works/blob/master/backend/attendance/Attendace%20Service%20Postman%20Scripts.postman\_collection.json).
 

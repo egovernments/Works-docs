@@ -1,4 +1,4 @@
-# Organisation Technical Docs
+# Organisation
 
 ### Overview
 

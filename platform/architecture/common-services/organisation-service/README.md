@@ -1,4 +1,4 @@
-# Organisation Service
+# Organisation
 
 ## Overview
 

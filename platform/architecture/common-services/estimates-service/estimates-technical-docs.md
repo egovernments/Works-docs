@@ -1,8 +1,8 @@
 ---
-description: This service hosts estimates for projects.
+description: This service models estimates for Works projects.
 ---
 
-# Estimates Technical Docs
+# Estimates
 
 ## Overview
 

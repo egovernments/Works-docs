@@ -1,5 +1,5 @@
 ---
-description: Steps to configure platform services
+description: Common steps to configure platform services
 ---
 
 # Configuration
@@ -175,8 +175,6 @@ Make sure to restart MDMS and the persister service after adding the file at the
 {% endhint %}
 
 ## Indexer Configuration
-
-
 
 [^1]: Continuous Integration/Continuous Deployment
 

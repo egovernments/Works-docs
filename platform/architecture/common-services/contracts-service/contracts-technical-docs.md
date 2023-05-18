@@ -2,31 +2,13 @@
 description: Work related contracts
 ---
 
-# Contracts Technical Docs
-
-## Overview
-
-The contract service captures work orders or purchase orders. It validates the work order against the estimate(s).  Line items from one estimate can be put in a contract. Line items from multiple estimates can be aggregated into one work order as well. The contract service validates the line items from each estimate as part of create and update.
-
-### Dependencies
-
-* Estimate service
-* IDGen
-* MDMS
-* Workflow
-* User
-* HRMS
-* Organisation
-
-### Code:
-
-Code for this module resides [here](https://github.com/egovernments/DIGIT-Works/tree/master/backend/contracts).
+# Contracts
 
 ## API Specifications
 
 #### Base path:
 
-/contracts
+`/contracts`
 
 ### API Contract Link
 
@@ -58,17 +40,7 @@ API spec YAML is [here](https://raw.githubusercontent.com/egovernments/DIGIT-Wor
 {% endtab %}
 {% endtabs %}
 
-### Master Data Types
-
-Contract Type - defines different contract types
-
-OIC Roles - defines Officer-in-charge roles
-
-CBO Roles - defines the capacities in which an organisation can accept the contract.
-
-### Postman Collection
-
-TBD
+###
 
 
 

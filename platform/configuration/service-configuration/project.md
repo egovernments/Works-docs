@@ -12,33 +12,6 @@ The project service provides APIs to create, update and manage a generic project
 
 [Functional specifications](https://works.digit.org/platform/specifications/functional-specifications/projects-service)
 
-## Pre-requisites
-
-* DIGIT backbone services&#x20;
-* Persister
-* Indexer
-* MDMS
-
-## Functionalities
-
-The project service provides the below functionalities. Currently, only APIs to create, update, search and delete projects are used by the Works platform. The remaining APIs are consumed by other platforms.&#x20;
-
-* Provides APIs to create, update, delete, and search projects.&#x20;
-* Provides APIs to create, update, delete, and search project beneficiaries.&#x20;
-* Provides APIs to bulk create, update, and delete project beneficiaries.&#x20;
-* Provides APIs to create, update, delete, and search project facilities.&#x20;
-* Provides APIs to bulk create, bulk update, bulk delete project facility&#x20;
-* Provides APIs to create, update, delete, and search project staff.&#x20;
-* Provides APIs to bulk create, update, and delete project staff.&#x20;
-* Provides APIs to create, update, delete and search project tasks.&#x20;
-* Provides APIs to bulk create, update, and delete project tasks.&#x20;
-* Provides APIs to create, update, delete, and search project resources.&#x20;
-* Provides APIs to bulk create, update, and delete project tasks.
-
-## API Details
-
-**Base URL:** pms/project/v1
-
 ## Configuration Details
 
 ### MDMS Configuration
@@ -160,7 +133,7 @@ The following role-action mappings derived from the above table are configured f
 
 #### IdGen Format
 
-Add Id Format as configured in the ‘IdFormat.json’ file of the ‘common-masters’ module [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/IdFormat.json#L25-L28).
+Add Id Format as configured in the ‘IdFormat.json’ file of the ‘common-masters’ module [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/IdFormat.json#L25-L28). This format is used to generate the unique ID of the project.&#x20;
 
 ```json
 {

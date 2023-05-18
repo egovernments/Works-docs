@@ -12,7 +12,11 @@ The high-level design (refer image above) of the Works System can be divided int
 
 ## Master (Reference) Data
 
-Below are classifications of some of the master data used in the Works platform. For a comprehensive list, please refer to the promotion document or each of the individual services.
+Below are classifications of some of the master data used in the Works platform. For a comprehensive list, please refer to the service documentation
+
+{% hint style="info" %}
+DIGIT Core service masters are not covered below.&#x20;
+{% endhint %}
 
 1. Simple Masters:
    1. Organisation Class
@@ -20,15 +24,14 @@ Below are classifications of some of the master data used in the Works platform.
    3. Organisation Type
    4. Department
    5. Nature of Work
-   6. Project Type
-   7. Wage Seeker Skills
-   8. Labour Charges
-   9. Overheads
-   10. Headcodes
-   11. Applicable Charges
-   12. Mode of Entrustment&#x20;
-   13. Beneficiary Type
-   14. Designations
+   6. Wage Seeker Skills
+   7. Labour Charges
+   8. Overheads
+   9. Headcodes
+   10. Applicable Charges
+   11. Mode of Entrustment&#x20;
+   12. Beneficiary Type
+   13. Designations
 2. Hierarchical Masters&#x20;
    1. Type of work&#x20;
    2. Sub-type of work
@@ -36,9 +39,9 @@ Below are classifications of some of the master data used in the Works platform.
 
 ## Works Registries
 
-1. Individual
-2. Organisation
-3. Bank Accounts
+1. Individual - stores details of individual citizens. Individuals may or may not be users of the DIGIT system. If they need login access, they will be created in the User registry.&#x20;
+2. Organisation - This registry holds details of all types of organisations, their functional areas and class.
+3. Bank Accounts - This registry stores bank account details to be used for online payments in a safe and secure manner.&#x20;
 
 ## Works Services
 

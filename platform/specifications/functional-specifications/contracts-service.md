@@ -1,4 +1,4 @@
-# Contracts Service
+# Contracts
 
 ## **Overview**
 
