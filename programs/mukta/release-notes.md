@@ -125,7 +125,7 @@ Fund Allocation Register
 | ----------------------------------------------------------------- |
 | [Product Requirements Document](product-requirements-document.md) |
 | [Users Stories](user-stories/)                                    |
-| [Test Case Document](../muktasoft/test-cases/)                    |
+| [Test Case Document](../muktasoft/test-cases.md)                  |
 | [Master Data Template](configuration/master-data-templates/)      |
 | [Localization Document](configuration/localisation.md)            |
 | [SMS Templates](configuration/notifications.md)                   |
