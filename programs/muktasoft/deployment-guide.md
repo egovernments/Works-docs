@@ -71,7 +71,7 @@ MDMS configuration is listed for each service.
 
 [Project](../../platform/architecture/low-level-design/services/project.md)
 
-[Estimates](../../platform/services/estimates.md)
+[Estimates](../../platform/platform-services/estimates.md)
 
 [Contracts](../mukta/configuration/service-configuration/contract.md#mdms-configuration)
 
@@ -81,5 +81,5 @@ MDMS configuration is listed for each service.
 
 [Expense](../mukta/configuration/service-configuration/expense.md#configuration)
 
-[Expense Calculator](services/expense-calculator.md)
+[Expense Calculator](muktasoft-services/expense-calculator.md)
 
