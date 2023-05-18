@@ -81,5 +81,5 @@ MDMS configuration is listed for each service.
 
 [Expense](../mukta/configuration/service-configuration/expense.md#configuration)
 
-[Expense Calculator](muktasoft-services/expense-calculator.md)
+[Expense Calculator](services/expense-calculator.md)
 
