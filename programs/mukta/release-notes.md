@@ -103,7 +103,20 @@ It is a fresh development and getting released for the first time.
 
 ## Known Issues
 
+1\.      [Issues](https://digit-discuss.atlassian.net/jira/dashboards/10230) reported during the Bug Bash.
 
+2\.      [Observations](https://digit-discuss.atlassian.net/browse/PFM-2868) recorded during product showcase.
+
+Critical issues to be fixed before Go Live.
+
+[https://digit-discuss.atlassian.net/browse/PFM-3234\
+https://digit-discuss.atlassian.net/browse/PFM-3118\
+https://digit-discuss.atlassian.net/browse/PFM-3113\
+https://digit-discuss.atlassian.net/browse/PFM-3115\
+https://digit-discuss.atlassian.net/browse/PFM-3108\
+https://digit-discuss.atlassian.net/browse/PFM-3335\
+https://digit-discuss.atlassian.net/browse/PFM-3336\
+https://digit-discuss.atlassian.net/browse/PFM-3337](https://digit-discuss.atlassian.net/browse/PFM-3234https:/digit-discuss.atlassian.net/browse/PFM-3118https:/digit-discuss.atlassian.net/browse/PFM-3113https:/digit-discuss.atlassian.net/browse/PFM-3115https:/digit-discuss.atlassian.net/browse/PFM-3108https:/digit-discuss.atlassian.net/browse/PFM-3335https:/digit-discuss.atlassian.net/browse/PFM-3336https:/digit-discuss.atlassian.net/browse/PFM-3337)
 
 ## Upcoming Release Features
 
