@@ -16,9 +16,9 @@ Estimate Service will allow users to create estimates and forward them for Workf
 
 ### Key Functionality
 
-* Create/update/search for Works estimates for a project.&#x20;
+* Create/update/search for Work estimates for a project.&#x20;
 * Allows upload of offline documents related to estimate creation as part of create.
-* Workflow and Inbox integration
+* Workflow and inbox integration
 
 ### Code
 

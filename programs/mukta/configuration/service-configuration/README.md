@@ -6,9 +6,7 @@ description: Configuring platform services
 
 Click on the doc link below to access the service configuration details for the platform services.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://core.digit.org/platform/core-services" %}
 
 Click on the individual service links below to access the Mukta-specific service configuration details.
 

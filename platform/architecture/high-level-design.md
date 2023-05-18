@@ -19,22 +19,22 @@ DIGIT Core service masters are not covered below.&#x20;
 {% endhint %}
 
 1. Simple Masters:
-   1. Organisation Class
-   2. Organisation Functional Area
-   3. Organisation Type
-   4. Department
-   5. Nature of Work
-   6. Wage Seeker Skills
-   7. Labour Charges
-   8. Overheads
-   9. Headcodes
-   10. Applicable Charges
-   11. Mode of Entrustment&#x20;
-   12. Beneficiary Type
-   13. Designations
+   * Organisation Class
+   * Organisation Functional Area
+   * Organisation Type
+   * Department
+   * Nature of Work
+   * Wage Seeker Skills
+   * Labour Charges
+   * Overheads
+   * Headcodes
+   * Applicable Charges
+   * Mode of Entrustment&#x20;
+   * Beneficiary Type
+   * Designations
 2. Hierarchical Masters&#x20;
-   1. Type of work&#x20;
-   2. Sub-type of work
+   * Type of work&#x20;
+   * Sub-type of work
 3. Location - Same as DIGIT
 
 ## Works Registries
@@ -57,8 +57,6 @@ The following domain services have been developed/are being planned as part of t
 8. Milestones (roadmap)
 9. Payment Calendar (roadmap)
 10. Measurement Book (roadmap)
-
-
 
 ## Reused/Enhanced DIGIT Services
 
