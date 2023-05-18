@@ -2,9 +2,9 @@
 
 On this page:
 
-* [Test plan](test-cases.md#test-plan)
-* [UI test cases](test-cases.md#ui-test-cases)
-* [Download test cases](test-cases.md#download-test-cases)
+* [Test plan](./#test-plan)
+* [UI test cases](./#ui-test-cases)
+* [Download test cases](./#download-test-cases)
 
 ### **Test Plan**
 

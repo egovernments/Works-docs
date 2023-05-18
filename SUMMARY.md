@@ -9,7 +9,7 @@
     * [Service Build Updates](platform/release-notes/service-build-updates.md)
     * [MDMS & Configuration Updates](platform/release-notes/mdms-and-configuration-updates.md)
     * [Architecture Known Issues](platform/release-notes/architecture-known-issues.md)
-    * [Test cases](platform/release-notes/test-cases.md)
+    * [Test cases](platform/test-cases.md)
   * [Architecture](platform/architecture/README.md)
     * [High Level Design](platform/architecture/high-level-design.md)
     * [Low Level Design](platform/architecture/low-level-design/README.md)
@@ -74,7 +74,7 @@
       * [Service Build Updates](programs/mukta/release-notes/service-build-updates.md)
       * [MDMS & Configuration Updates](programs/mukta/release-notes/mdms-and-configuration-updates.md)
       * [Gate 2 Release Checklist](platform/release-notes/product-release-gate-checklist.md)
-      * [Test Cases](programs/muktasoft/release-notes/test-cases.md)
+      * [Test Cases](programs/muktasoft/test-cases/README.md)
       * [Known Architectural Issues](programs/muktasoft/release-notes/known-architectural-issues.md)
     * [Functional Requirements](programs/mukta/functional-requirements.md)
       * [Product Requirements Document](programs/mukta/product-requirements-document.md)
@@ -196,9 +196,9 @@
       * [Implementation Checklist](programs/muktasoft/program-details/implementation-checklist.md)
       * [Issue Management - Standard Operating Procedures](programs/mukta/program-details/sop-for-issue-management.md)
       * [UAT Test Planning](programs/muktasoft/program-details/uat-test-planning/README.md)
-        * [Test Case Scenarios](programs/muktasoft/program-details/uat-test-planning/test-case-scenarios.md)
+        * [Test Case Scenarios](programs/muktasoft/test-cases/test-case-scenarios.md)
         * [UAT Test Case Scenarios](programs/muktasoft/program-details/uat-test-planning/uat-test-case-scenarios.md)
-        * [Issue Reporting Template](programs/muktasoft/program-details/uat-test-planning/issue-reporting-template.md)
+        * [Issue Reporting Template](programs/muktasoft/test-cases/issue-reporting-template.md)
 
 ## COMMUNITY
 
