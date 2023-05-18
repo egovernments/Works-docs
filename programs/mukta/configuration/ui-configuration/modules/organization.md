@@ -84,9 +84,12 @@ This module has 4 associated screens :&#x20;
 
 ### Localization Configuration and Modules
 
-| TenantID | Module            |
-| -------- | ----------------- |
-| pg       | rainmaker-masters |
+| TenantID | Module                   |
+| -------- | ------------------------ |
+| pg       | rainmaker-masters        |
+| pg       | rainmaker-common-masters |
+| pg       | rainmaker-common         |
+| pg.citya | rainmaker-pg.citya       |
 
 ### &#x20;Workflow Configuration
 

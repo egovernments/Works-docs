@@ -1,8 +1,8 @@
 ---
-description: Muster Roll Web UI Tech Documentation
+description: Muster Roll UI Tech Documentation
 ---
 
-# Muster Roll Web
+# Muster Roll
 
 ### Overview
 
@@ -11,14 +11,10 @@ This module helps in processing muster rolls through the workflow. Muster rolls 
 
 This module has 5 associated screens :&#x20;
 
-
-
 1. Inbox
 2. Edit
 3. View
 4. Search
-
-
 
 #### Module enablement configuration&#x20;
 
@@ -94,6 +90,7 @@ This module has 5 associated screens :&#x20;
 | TenantID | Module                   |
 | -------- | ------------------------ |
 | statea   | rainmaker-attendencemgmt |
+|          |                          |
 
 ### &#x20;Workflow Configuration
 
@@ -105,11 +102,11 @@ This module has 5 associated screens :&#x20;
 
 1\. API-based Data -&#x20;
 
-* Total Wage Amount - Amount shown in view muster roll screen is fetched from expense-calculator
+* The amountTotal Wage Amount - Amount shown in the view muster roll screen is fetched from expense-calculator
 
 2**.  Inbox / Search Screen :**&#x20;
 
 1. Please use the common utility “preProcessMDMSConfigInboxSearch”.
 2. Pass the associated dependencies for the config.
-3. The utility will return a config which will run through RenderFormFields.
-4. Refer docs for Pre-Process config in Component comments.
+3. The utility will return a config that will run through RenderFormFields.
+4. Refer to docs for Pre-Process config in Component comments.

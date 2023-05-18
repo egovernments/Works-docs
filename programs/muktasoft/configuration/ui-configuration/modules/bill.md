@@ -90,12 +90,9 @@ Sample object for a sidebar action define in MDMS (containing navigationUrl)
 
 ```
 
-\
 
 
 #### Screen configuration&#x20;
-
-
 
 | S.No | Screen                      | Configuration                                                                                                                            |
 | ---- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -103,9 +100,13 @@ Sample object for a sidebar action define in MDMS (containing navigationUrl)
 
 ### Localization Configuration and Modules
 
-| TenantID | Module                |
-| -------- | --------------------- |
-| pg       | rainmaker-expenditure |
+| TenantID | Module                   |
+| -------- | ------------------------ |
+| pg       | rainmaker-expenditure    |
+| pg       | rainmaker-common         |
+| pg       | rainmaker-common-masters |
+| pg       | rainmaker-workflow       |
+| pg.citya | rainmaker-pg.citya       |
 
 ### &#x20;Workflow Configuration
 
