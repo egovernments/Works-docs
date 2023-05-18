@@ -8,9 +8,9 @@
   * [Release Notes](platform/release-notes/README.md)
     * [Service Build Updates](platform/release-notes/service-build-updates.md)
     * [MDMS & Configuration Updates](platform/release-notes/mdms-and-configuration-updates.md)
+    * [Known Issues & Roadmap](platform/release-notes/known-issues-and-roadmap.md)
     * [Implementation Checklist](platform/release-notes/implementation-checklist.md)
   * [Architecture](platform/architecture/README.md)
-    * [Known Issues & Roadmap](platform/architecture/known-issues-and-roadmap.md)
     * [High Level Design](platform/architecture/high-level-design.md)
     * [Low Level Design](platform/architecture/low-level-design/README.md)
       * [Registries](platform/specifications/technical-specifications/low-level-design/registries/README.md)
@@ -197,7 +197,8 @@
       * [Implementation Plan](programs/mukta/program-details/implementation-plan.md)
       * [Implementation Checklist](programs/muktasoft/program-details/implementation-checklist.md)
       * [Issue Management - Standard Operating Procedures](programs/mukta/program-details/sop-for-issue-management.md)
-      * [UAT Test Planning](programs/mukta/program-details/uat-test-planning.md)
+      * [UAT Test Planning](programs/muktasoft/program-details/uat-test-planning/README.md)
+        * [UAT Test Case Scenarios](programs/muktasoft/program-details/uat-test-planning/uat-test-case-scenarios.md)
 
 ## COMMUNITY
 

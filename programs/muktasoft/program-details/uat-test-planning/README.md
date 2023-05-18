@@ -6,9 +6,9 @@ description: Test planning for MuktaSoft V1.0, HUDD
 
 ## 1.0 Objective
 
-The purpose of this document is to outline the User Acceptance Testing (UAT) process for the MUKTA application developed on the DIGIT-Works platform for the implementation of the MUKTA scheme notified by the Government of Odisha. This will enable the ULB and CBO users to validate that the MUKTASoft application meets the agreed upon acceptance criteria for various functionalities.
+The purpose of this document is to outline the User Acceptance Testing (UAT) process for the MUKTA application developed on the DIGIT-Works platform for the implementation of the MUKTA scheme notified by the Government of Odisha. This will enable the ULB and CBO users to validate that the MUKTASoft application meets the agreed-upon acceptance criteria for various functionalities.
 
-It will ensure that the system satisfies the needs of the business as specified in the functional requirements(PRD/ User Stories) and provides confidence in its use. It will also help to identify defects with associated risks and suggest enhancements(change requests), communicate all known defects/enhancements to the project team, and ensure that all issues are addressed in an appropriate manner prior to go-live.
+It will ensure that the system satisfies the needs of the business as specified in the [functional requirements ](../../../mukta/functional-requirements.md)([PRD](../../../mukta/product-requirements-document.md)/ [User Stories](../../../mukta/user-stories/)) and provides confidence in its use. It will also help to identify defects with associated risks and suggest enhancements(change requests), communicate all known defects/enhancements to the project team, and ensure that all issues are addressed in an appropriate manner prior to go-live.
 
 ## 2.0 UAT Methodology
 
@@ -32,7 +32,7 @@ The various phases of UAT are illustrated in the diagram below:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -77,8 +77,8 @@ Following is the list of prerequisites for conducting the UAT
 2. Installation of the MuktaSoft app on CBO user mobiles (Android 10 and Above)
 3. Configuration of MuktaSoft mobile app in UAT environment with master data
 4. Readiness of handouts
-   * Test Case document
-   * Defect/Change request reporting template&#x20;
+   * Test case document
+   * Defect/change request reporting template&#x20;
 5. Availability of teams from HUDD, SUDA, UMC and CBOs for user acceptance testing
 6. Nomination of participants for the UAT session so that test accounts can be created by eGov.
 7. Configuration of ticket tracking tool for UAT (JIRA)
@@ -97,32 +97,32 @@ Each test participant will be provided with a checklist to verify access to the 
 
 Access to test data is a vital component in conducting a comprehensive test of the system.  All UAT participants will require the usage of test accounts and other actual files from the ULBs with the project's data to use as the test data.  All user roles should fully emulate production in the UAT path. The test accounts and role mapping shall be done for the users identified by eGov. Following are sample test data for UA testing:
 
-* Sample Master Data
-  * Tenant configuration data
-  * Location/boundary master (Ward/ Locality )
-  * Application configuration master data
-    * Project Type
-    * Target Demography
-    * Unit of Measurement
-    * Overheads
-    * Skill Category
-    * Skills
-    * CBO Role
-    * Deductions
-    * Organization Type
-    * Organization Sub Type
-    * Organization Functional Category
-    * Organization Class/ Rank
-    * ULBs Sections/ Departments
-    * Designations
-  * User data for test login creation
-    * Employees
-    * Community-Based Organizations
-  * Wage seeker’s master data
-* Testing Data&#x20;
-  * MUKTA works manual files - to use the data in the files as test data
+1. Sample Master Data
+   * Tenant configuration data
+   * Location/boundary master (Ward/ Locality )
+   * Application configuration master data
+     * Project Type
+     * Target Demography
+     * Unit of Measurement
+     * Overheads
+     * Skill Category
+     * Skills
+     * CBO Role
+     * Deductions
+     * Organization Type
+     * Organization Sub Type
+     * Organization Functional Category
+     * Organization Class/ Rank
+     * ULBs Sections/ Departments
+     * Designations
+   * User data for test login creation
+     * Employees
+     * Community-Based Organizations
+   * Wage seeker’s master data
+2. Testing Data&#x20;
+   * MUKTA works manual files - to use the data in the files as test data
 
-## 4.0 [Roles and Responsibilities](https://docs.google.com/spreadsheets/d/12HeAoJE4woXYfrpXRzZdQVB70cE2Y15FRHnZulicRtM/edit#gid=648235051)
+## 4.0 Roles and Responsibilities
 
 HUDD
 
@@ -187,41 +187,41 @@ The following sections detail milestones crucial to the completion of the UAT ph
 
 ### Detailed Functional Scope
 
-Employee and CBO Portals are deployed into UAT instance with the features listed below
+Employee and CBO Portals are deployed into the UAT instance with the features listed below
 
-| S.No. | Details                                                                                                                                                                                                                                                                        |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1     | Employee Portal: The list of features which a employee users will be able to perform                                                                                                                                                                                           |
-| 1.1   | Project: Create, Search, View and Modify a project, download project details PDF                                                                                                                                                                                               |
-| 1.2   | Estimate: Create, Search, View, and Process the estimate for approval, download estimate PDF                                                                                                                                                                                   |
-| 1.3   | <p>Estimate: While processing estimate below are the actions enabled based on the role a user has</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Technical Sanction</p><p>4. Approve</p><p>5. Send Back</p><p>6. Send Back To Originator</p><p>7. Reject</p> |
-| 1.4   | Work Order: Create, Search, View, and Process the work order for approval, download work order PDF                                                                                                                                                                             |
-| 1.5   | <p>Work Order: While processing work order below are the actions enabled based on the role a user has</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Approve</p><p>4. Send Back</p><p>5. Send Back To Originator</p><p>6. Reject</p>                         |
-| 1.6   | Muster Roll: Search, View, and Process the muster roll for approval, download muster roll PDF                                                                                                                                                                                  |
-| 1.7   | <p>Muster Roll: While processing muster roll below are the actions enabled based on the role a user has</p><p>1. Verify and Forward</p><p>2. Approve</p><p>3. Send Back</p><p>4. Send Back To CBO</p>                                                                          |
-| 1.8   | Billing: Create, Search, View, and Process the purchase bill for approval                                                                                                                                                                                                      |
-| 1.9   | <p>Billing: While processing purchase bill below are the actions enabled based on the role a user has</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Approve</p><p>4. Send Back</p><p>5. Send Back To Originator</p><p>6. Reject</p>                         |
-| 1.10  | Auto creation of wage bill on approval of a muster roll                                                                                                                                                                                                                        |
-| 1.11  | Auto creation of supervision bill on approval of a muster roll                                                                                                                                                                                                                 |
-| 1.12  | Payment Advice: Search for bill and download the payment advice to enable the user for processing of payments                                                                                                                                                                  |
-| 1.13  | Organization: Create, Search, View, and Modify of organization (CBOs/ Vendors)                                                                                                                                                                                                 |
-| 1.14  | Wage Seeker: Search, View, and Modify of a wage seekers                                                                                                                                                                                                                        |
-| 1.15  | Employee/ Users: Create, Search, View, and Modify of employee users with the role mapping                                                                                                                                                                                      |
-| 2     | CBO Portal/ Mobile App: The list of features which a CBO user will be able to perform                                                                                                                                                                                          |
-| 2.1   | My Works: View, Accept, Decline work order which was awarded to CBO                                                                                                                                                                                                            |
-| 2.2   | Engage/ Disengage wage seekers to the work order accepted                                                                                                                                                                                                                      |
-| 2.3   | Attendance Tracking: Track attendance daily, and create muster roll weekly                                                                                                                                                                                                     |
-| 2.4   | Muster Rolls: View, and Edit muster roll                                                                                                                                                                                                                                       |
-| 2.5   | My Bills: View bills                                                                                                                                                                                                                                                           |
-| 2.6   | Wage Seeker: Register a wage seeker                                                                                                                                                                                                                                            |
-| 3     | Application supports English and Odia language.                                                                                                                                                                                                                                |
-|       | <mark style="background-color:orange;">**Pre-requisites**</mark>                                                                                                                                                                                                               |
-| 1     | UAT users are created into UAT and the username and password is shared.                                                                                                                                                                                                        |
-| 2     | CBO mobile UAT app is released and APK is shared with the UAT CBO users.                                                                                                                                                                                                       |
-| 3     | UAT application URLs are shared with the users.                                                                                                                                                                                                                                |
-| 4     | Participating CBO organizations are created during UAT.                                                                                                                                                                                                                        |
-| 5     | Help manuals are created and shared.                                                                                                                                                                                                                                           |
-| 6     | Change management mechanism defined.                                                                                                                                                                                                                                           |
+| S.No. | Details                                                                                                                                                                                                                                                                                               |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Employee Portal:** The list of features to which an employee user has access to                                                                                                                                                                                                                     |
+| 1.1   | **Project:** Create, Search, View and Modify a project, download project details PDF                                                                                                                                                                                                                  |
+| 1.2   | **Estimate:** Create, Search, View, and Process the estimate for approval, download the estimate PDF                                                                                                                                                                                                  |
+| 1.3   | <p><strong>Estimate:</strong> The below actions are available for processing the estimate based on specific user roles -</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Technical Sanction</p><p>4. Approve</p><p>5. Send Back</p><p>6. Send Back To Originator</p><p>7. Reject</p> |
+| 1.4   | **Work Order:** Create, Search, View, and Process the work order for approval, download the work order PDF                                                                                                                                                                                            |
+| 1.5   | <p><strong>Work Order:</strong> While processing the work order below are the actions enabled based on the role a user has</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Approve</p><p>4. Send Back</p><p>5. Send Back To Originator</p><p>6. Reject</p>                           |
+| 1.6   | **Muster Roll:** Search, View, and Process the muster roll for approval, download the muster roll PDF                                                                                                                                                                                                 |
+| 1.7   | <p><strong>Muster Roll:</strong> While processing the muster roll below are the actions enabled based on the role a user has</p><p>1. Verify and Forward</p><p>2. Approve</p><p>3. Send Back</p><p>4. Send Back To CBO</p>                                                                            |
+| 1.8   | **Billing:** Create, Search, View, and Process the purchase bill for approval                                                                                                                                                                                                                         |
+| 1.9   | <p><strong>Billing:</strong> While processing the purchase bill below are the actions enabled based on the role a user has</p><p>1. Create and Forward</p><p>2. Verify and Forward</p><p>3. Approve</p><p>4. Send Back</p><p>5. Send Back To Originator</p><p>6. Reject</p>                           |
+| 1.10  | Auto creation of wage bill on approval of a muster roll                                                                                                                                                                                                                                               |
+| 1.11  | Auto creation of supervision bill on approval of a muster roll                                                                                                                                                                                                                                        |
+| 1.12  | **Payment Advice:** Search for the bill and download the payment advice to enable the user for processing payments                                                                                                                                                                                    |
+| 1.13  | **Organization:** Create, Search, View, and Modify organization details (CBOs/ Vendors)                                                                                                                                                                                                               |
+| 1.14  | **Wage Seeker:** Search, View, and Modify of a wage seekers                                                                                                                                                                                                                                           |
+| 1.15  | **Employee/ Users:** Create, Search, View, and Modify employee users with the role mapping                                                                                                                                                                                                            |
+| 2     | **CBO Portal/ Mobile App:** The list of features which a CBO user will be able to perform                                                                                                                                                                                                             |
+| 2.1   | **My Works:** View, Accept, Decline work order which was awarded to CBO                                                                                                                                                                                                                               |
+| 2.2   | Engage/ Disengage wage seekers to the work order accepted                                                                                                                                                                                                                                             |
+| 2.3   | **Attendance Tracking:** Track attendance daily, and create muster roll weekly                                                                                                                                                                                                                        |
+| 2.4   | **Muster Rolls:** View, and Edit muster roll                                                                                                                                                                                                                                                          |
+| 2.5   | **My Bills:** View bills                                                                                                                                                                                                                                                                              |
+| 2.6   | **Wage Seeker:** Register a wage seeker                                                                                                                                                                                                                                                               |
+| 3     | Application supports English and Odia language.                                                                                                                                                                                                                                                       |
+|       | <mark style="background-color:orange;">**Pre-requisites**</mark>                                                                                                                                                                                                                                      |
+| 1     | UAT users are created into UAT and the username and password is shared.                                                                                                                                                                                                                               |
+| 2     | CBO mobile UAT app is released and APK is shared with the UAT CBO users.                                                                                                                                                                                                                              |
+| 3     | UAT application URLs are shared with the users.                                                                                                                                                                                                                                                       |
+| 4     | Participating CBO organizations are created during UAT.                                                                                                                                                                                                                                               |
+| 5     | Help manuals are created and shared.                                                                                                                                                                                                                                                                  |
+| 6     | Change management mechanism defined.                                                                                                                                                                                                                                                                  |
 
 ### 5.2 UAT - Session structure
 
@@ -265,7 +265,7 @@ The UAT session will be conducted physically in Bhubaneswar, Odisha at the HUDD 
 
 The CR analysis may take more than the anticipated timelines. The CR analysis if exceeding more than Day 2, the analysis results, acceptance and prioritisation will be discussed in a subsequent meeting.
 
-### 5.3 UAT Sign off Checklist
+### 5.3 UAT Sign-off Checklist
 
 * The signoff shall be provided at the end of UAT by HUDD via email communication or official orders/memo to the eGov.
 * All UAT Test cases completed: Verified that all UAT test cases, as defined in the UAT plan, have been executed and completed
@@ -286,7 +286,7 @@ The CR analysis may take more than the anticipated timelines. The CR analysis if
 
 ## 6.0 UA Test  Scenarios
 
-Test cases provide a high-level description of the functionality to be tested.  All regression and new functionality test cases are contained in the Excel spreadsheet “UA Test Cases” available at: \[[UAT Test Scenarios](https://docs.google.com/spreadsheets/d/1sFz-1voz66bvMG4i9q1t\_gaUD6u4f\_dpvvJyDT\_LbxY/edit#gid=432600966)]. &#x20;
+Test cases provide a high-level description of the functionality to be tested.  All regression and new functionality test cases are contained in the Excel spreadsheet “UA Test Cases” available at: \[[UAT Test Scenarios](uat-test-case-scenarios.md)]. &#x20;
 
 The team will leverage relevant QA test cases for project-specific functionality.  Each test case based on new functionality will reference a specific functional requirement.
 
@@ -298,7 +298,7 @@ The UA test scripts are contained within the UAT test case spreadsheet and can b
 
 Defects and Change Requests will be entered and tracked in JIRA by the eGov team during the UAT process.  Each entry will include detailed information about each defect/CR.
 
-UAT Defect/CR Tracking
+#### UAT Defect/CR Tracking
 
 The test team will be provided with instructions on how to effectively execute test scripts, as well as identify, capture, and report defects/observations by the eGov team at the beginning of the UAT session. The test team will present their findings during the UAT session.&#x20;
 
@@ -306,13 +306,13 @@ The test team will be provided with instructions on how to effectively execute t
 
 Defects must be clearly captured and escalated to ensure prompt resolution by development.  Each defect submitted by UAT will be assigned a priority, worked by development, resolved, and re-tested by UAT prior to closure.  The following is a snapshot of the standard defect lifecycle:
 
-![](<../../../.gitbook/assets/image (12) (2).png>)
+![](<../../../../.gitbook/assets/image (12) (2).png>)
 
 eGov and HUDD together will prioritize and classify defects.  Defects found in UAT can be assigned one of three (3) levels of severity:
 
-* P1, Work Halted – Testing defects that due to the complexity of the function or the scheduled dates are putting the implementation date at risk.  No workaround exists.
-* P2, Work Slowed – Testing defects occurring in a less complex function of the application with sufficient time to resolve before the implementation date – but must be implemented as scheduled.  A workaround has been identified and is listed in the defect.
-* P3 and lower, Work Unaffected – Testing defects occurring in a function that is simple to fix or could be excluded if not resolved by the scheduled implementation date.
+* **P1, Work Halted** – Testing defects that due to the complexity of the function or the scheduled dates are putting the implementation date at risk.  No workaround exists.
+* **P2, Work Slowed** – Testing defects occurring in a less complex function of the application with sufficient time to resolve before the implementation date – but must be implemented as scheduled.  A workaround has been identified and is listed in the defect.
+* **P3 and lower, Work Unaffected** – Testing defects occurring in a function that is simple to fix or could be excluded if not resolved by the scheduled implementation date.
 
 Response (acknowledgement of the issue) Commitments for Defects
 
@@ -329,7 +329,7 @@ As a non-profit, we are unable to make any commitment on how long issues will ta
 CR must be clearly captured and reported for analysis to identify effort and impact in the eGov team. Each CR submitted will be validated and categorised for acceptance and then assigned with a priority. The development team will work on it and will be made available for testing. Following is a snapshot of the standard CR lifecycle:
 
 \
-![](<../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 #### Categorisation&#x20;
 
@@ -345,10 +345,10 @@ eGov to endeavour to cover Must Have changes before distribution. Lower priority
 
 The following are reference documents which have been leveraged for project-specific information in the design of the UAT plan:
 
-| Document                                  | Document Link                                                                                                                                                                                                                                                               |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Test Case Document                        | [Test case scenarios](https://docs.google.com/spreadsheets/d/1sFz-1voz66bvMG4i9q1t\_gaUD6u4f\_dpvvJyDT\_LbxY/edit#gid=322388285)                                                                                                                                            |
-| Defect/ Change Request Reporting Template | [Issue Reporting Template](https://docs.google.com/spreadsheets/d/1CuPRVUe5Wy0NjBmq8NVdTZWiP8yt\_0ciNMq4WIa2uwo/edit#gid=0)                                                                                                                                                 |
-| Training Feedback                         | [Training Feedback From](https://docs.google.com/forms/d/1It266KQECgzUtU8uVjSJGCryTuUlpMGlOYHtG4RCw3I/edit?ts=64620419)                                                                                                                                                     |
-| UAT Feedback form                         | <p>English - <a href="https://docs.google.com/forms/d/1hJh9Idye7CX-2zghcF2IgT2_VMIbq03PJjWt3JSC5hM/edit?ts=645dc757">Click Here</a></p><p>Odia - <a href="https://docs.google.com/forms/d/1YAAO4tfHADly26ThKKB-JYsxUKKY9IlB_vWYh6f1aLU/edit?ts=64634b8c">Click Here</a></p> |
+| Document                                  | Document Link                                                                                                                                                                                                                                                                |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Test Case Document                        | [Test case scenarios](../../test-cases/test-case-scenarios.md)                                                                                                                                                                                                               |
+| Defect/ Change Request Reporting Template | [Issue Reporting Template](../../test-cases/issue-reporting-template.md)                                                                                                                                                                                                     |
+| Training Feedback                         | [Click here ](https://docs.google.com/forms/d/1It266KQECgzUtU8uVjSJGCryTuUlpMGlOYHtG4RCw3I/viewform?ts=64620419\&edit\_requested=true)                                                                                                                                       |
+| UAT Feedback form                         | <p>English - <a href="https://docs.google.com/forms/d/1hJh9Idye7CX-2zghcF2IgT2_VMIbq03PJjWt3JSC5hM/edit?ts=645dc757">Click Here</a></p><p>Odiya - <a href="https://docs.google.com/forms/d/1YAAO4tfHADly26ThKKB-JYsxUKKY9IlB_vWYh6f1aLU/edit?ts=64634b8c">Click Here</a></p> |
 
