@@ -29,6 +29,12 @@ The expense module implements the functionality of bills and payments. A bill or
 
 [Helm Chart](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/expense)
 
+### Master Data&#x20;
+
+HeadCodes
+
 ### Integration
+
+[API spec](../specifications/technical-specifications/low-level-design/services/expense.md#api-specifications)
 
 Postman TBD

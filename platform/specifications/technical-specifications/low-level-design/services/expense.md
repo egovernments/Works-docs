@@ -1,15 +1,5 @@
 # Expense
 
-## Overview
-
-The expense module implements the functionality of bills and payments. A bill or a group of bills can be aggregated together as payments. Payments advice can be submitted through integration with IFMS (Integrated Financial Management Systems) or any other third party payments provider. The expense module always works in combination with a calculator service. The calculator service is implementation specific and provides business logic to compute bills. The calculator calls into the expense service to create bills. In general, the expense create/update APIs are not called by any other module other than the calculator. For more information on the sample calculator provided with the Works platform, please navigate here.&#x20;
-
-## Code
-
-[Expense Module](https://github.com/egovernments/DIGIT-Works/tree/master/backend/expense)
-
-[Helm Chart](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/expense)
-
 ## API Specifications
 
 **Base path**: `/expense/bill/`
@@ -30,6 +20,8 @@ API specification is available [here](https://github.com/egovernments/DIGIT-Spec
 
 
 
+TBD
+
 ### Persister
 
 [Expense persister](https://github.com/egovernments/works-configs/blob/UAT/egov-persister/expense-bill-payment-persister.yaml)
@@ -40,14 +32,4 @@ Indexer Config: [Expense indexer](https://github.com/egovernments/works-configs/
 
 Index Name: expense-bill-index
 
-### Master Data&#x20;
-
-HeadCodes
-
-ApplicableCharges
-
-LabourCharges
-
-BusinessService
-
-PayerList
+###
