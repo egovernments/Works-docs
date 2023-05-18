@@ -55,11 +55,11 @@ UAT is conducted by distributing all test case scenarios to various roles. The U
 For the below-mentioned functionalities, separate demos and/or training sessions will be conducted for the targeted user groups.
 
 1. Helpdesk for complaints and user management
-   * User Management module to add/update/ activate/deactivate users and role mapping
+   * User management module to add/update/ activate/deactivate users and role mapping
    * Handling complaints via inbox functionality
 2. HUDD and ULB dashboards and reports.&#x20;
-3. Project Closure, Work Order Revision, and Bill PDFs.
-4. JIT-FS and Aadhar Integrations.
+3. Project closure, work order revision, and bill PDFs.
+4. JIT-FS and Aadhar integrations.
 
 During UAT, the team will validate the end-to-end flow and features of the application to validate:&#x20;
 
@@ -71,7 +71,7 @@ During UAT, the team will validate the end-to-end flow and features of the appli
 
 ### 2.3 Prerequisites for UAT
 
-Following is the list of prerequisites for conducting the UAT
+Following is the list of pre-requisites for conducting the UAT
 
 1. The MuktaSoft mobile app for UAT deployed in the UAT environment
 2. Installation of the MuktaSoft app on CBO user mobiles (Android 10 and Above)
@@ -91,7 +91,7 @@ Applicable IP addresses and URLs will be provided by eGov team to the UAT Team a
 
 ### 3.1 UAT Process
 
-Each test participant will be provided with a checklist to verify access to the applications within the defined scope of testing.  The tester will then log in, perform the prescribed steps and generate the expected results for each activity.  Any feature identified as missing or a bug during testing from the UAT environment should be reported back to eGov.
+Each test participant will be provided with a checklist to verify access to the applications within the defined scope of testing.  The tester then logs in, performs the prescribed steps and generates the expected results for each activity.  Any feature identified as missing or a bug during testing from the UAT environment should be reported back to eGov.
 
 ### 3.2 UAT Data
 
@@ -187,7 +187,7 @@ The following sections detail milestones crucial to the completion of the UAT ph
 
 ### Detailed Functional Scope
 
-Employee and CBO Portals are deployed into the UAT instance with the features listed below
+Employee and CBO portals are deployed in the UAT instance with the below-listed features:
 
 | S.No. | Details                                                                                                                                                                                                                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -208,20 +208,20 @@ Employee and CBO Portals are deployed into the UAT instance with the features li
 | 1.14  | **Wage Seeker:** Search, View, and Modify of a wage seekers                                                                                                                                                                                                                                           |
 | 1.15  | **Employee/ Users:** Create, Search, View, and Modify employee users with the role mapping                                                                                                                                                                                                            |
 | 2     | **CBO Portal/ Mobile App:** The list of features which a CBO user will be able to perform                                                                                                                                                                                                             |
-| 2.1   | **My Works:** View, Accept, Decline work order which was awarded to CBO                                                                                                                                                                                                                               |
-| 2.2   | Engage/ Disengage wage seekers to the work order accepted                                                                                                                                                                                                                                             |
+| 2.1   | **My Works:** View, accept, decline work order which was awarded to CBO                                                                                                                                                                                                                               |
+| 2.2   | Engage/ disengage wage seekers to the work order accepted                                                                                                                                                                                                                                             |
 | 2.3   | **Attendance Tracking:** Track attendance daily, and create muster roll weekly                                                                                                                                                                                                                        |
-| 2.4   | **Muster Rolls:** View, and Edit muster roll                                                                                                                                                                                                                                                          |
+| 2.4   | **Muster Rolls:** View and edit muster roll                                                                                                                                                                                                                                                           |
 | 2.5   | **My Bills:** View bills                                                                                                                                                                                                                                                                              |
 | 2.6   | **Wage Seeker:** Register a wage seeker                                                                                                                                                                                                                                                               |
-| 3     | Application supports English and Odia language.                                                                                                                                                                                                                                                       |
+| 3     | Application supports English and Odiya language                                                                                                                                                                                                                                                       |
 |       | <mark style="background-color:orange;">**Pre-requisites**</mark>                                                                                                                                                                                                                                      |
-| 1     | UAT users are created into UAT and the username and password is shared.                                                                                                                                                                                                                               |
-| 2     | CBO mobile UAT app is released and APK is shared with the UAT CBO users.                                                                                                                                                                                                                              |
-| 3     | UAT application URLs are shared with the users.                                                                                                                                                                                                                                                       |
-| 4     | Participating CBO organizations are created during UAT.                                                                                                                                                                                                                                               |
-| 5     | Help manuals are created and shared.                                                                                                                                                                                                                                                                  |
-| 6     | Change management mechanism defined.                                                                                                                                                                                                                                                                  |
+| 1     | UAT users are created into UAT and the username and password is shared                                                                                                                                                                                                                                |
+| 2     | CBO mobile UAT app is released and APK is shared with the UAT CBO users                                                                                                                                                                                                                               |
+| 3     | UAT application URLs are shared with the users                                                                                                                                                                                                                                                        |
+| 4     | Participating CBO organizations are created during UAT                                                                                                                                                                                                                                                |
+| 5     | Help manuals are created and shared                                                                                                                                                                                                                                                                   |
+| 6     | Change management mechanism defined                                                                                                                                                                                                                                                                   |
 
 ### 5.2 UAT - Session structure
 
@@ -268,7 +268,7 @@ The CR analysis may take more than the anticipated timelines. The CR analysis if
 ### 5.3 UAT Sign-off Checklist
 
 * The signoff shall be provided at the end of UAT by HUDD via email communication or official orders/memo to the eGov.
-* All UAT Test cases completed: Verified that all UAT test cases, as defined in the UAT plan, have been executed and completed
+* All UAT test cases completed: Verified that all UAT test cases, as defined in the UAT plan, have been executed and completed
 * Business requirements validated: Validated that all business requirements, as defined in the requirements documentation - all features, functions, workflows, calculations, and translations have been thoroughly tested and verified
 * Compatibility tested: Verified that the application has been tested on the specified devices, Operating System (Windows 10  Pro, Android 10 and Above), and browser Chrome (Latest version)  and any compatibility issues have been addressed.
 * All feedback has been identified and documented. Agreed on the priority.
@@ -282,7 +282,7 @@ The CR analysis may take more than the anticipated timelines. The CR analysis if
 * Training on the UAT environment was completed with 100% participation as per the plan. In case some of the participants are not available, prior intimation with reason is to be captured.
 * No P1 bugs were found during the execution of the test scenarios.
 * 90% of the total test cases should be executed successfully and the observed behaviour was found to match the expected results.
-* Post Training and UAT sessions, a quiz will be administered to check the familiarity of the participants with MUKTASoft. The quiz must be completed with at least 75% correct responses.
+* Post training and UAT sessions, a quiz will be administered to check the familiarity of the participants with MuktaSoft. The quiz must be completed with at least 75% correct responses.
 
 ## 6.0 UA Test  Scenarios
 
@@ -296,11 +296,11 @@ The UA test scripts are contained within the UAT test case spreadsheet and can b
 
 ## 7.0 UAT Feedback&#x20;
 
-Defects and Change Requests will be entered and tracked in JIRA by the eGov team during the UAT process.  Each entry will include detailed information about each defect/CR.
+Defects and change requests are entered and tracked in JIRA by the eGov team during the UAT process.  Each entry includes detailed information about each defect/CR.
 
 #### UAT Defect/CR Tracking
 
-The test team will be provided with instructions on how to effectively execute test scripts, as well as identify, capture, and report defects/observations by the eGov team at the beginning of the UAT session. The test team will present their findings during the UAT session.&#x20;
+The test team is provided with instructions on how to effectively execute test scripts, as well as identify, capture, and report defects/observations by the eGov team at the beginning of the UAT session. The test team present their findings during the UAT session.&#x20;
 
 #### UAT Defect Life Cycle&#x20;
 
