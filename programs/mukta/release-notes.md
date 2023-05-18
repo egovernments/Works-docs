@@ -134,13 +134,24 @@ Fund Allocation Register
 
 ## Related Docs & Links
 
-| Doc links                                                         |
-| ----------------------------------------------------------------- |
-| [Product Requirements Document](product-requirements-document.md) |
-| [Users Stories](user-stories/)                                    |
-| [Test Case Document](../muktasoft/test-cases/)                    |
-| [Master Data Template](configuration/master-data-templates/)      |
-| [Localization Document](configuration/localisation.md)            |
-| [SMS Templates](configuration/notifications.md)                   |
-|                                                                   |
+| Doc links                                                                                             |
+| ----------------------------------------------------------------------------------------------------- |
+| [Product Requirements Document](product-requirements-document.md)                                     |
+| [Users Stories](user-stories/)                                                                        |
+| [Test Case Document](../muktasoft/test-cases/)                                                        |
+| [Master Data Template](configuration/master-data-templates/)                                          |
+| [Localization Document](configuration/localisation.md)                                                |
+| [SMS Templates](configuration/notifications.md)                                                       |
+| [UI Configurations](../../platform/configuration/ux-mock-up-screens.md#overview)                      |
+| [APK Generation](../muktasoft/configuration/ui-configuration/common-configurations/apk-generation.md) |
+| [Project UI](muktasoft-user-manual/employee-user-manual/project.md)                                   |
+| [Estimate UI](configuration/ui-configuration/modules/estimate.md#overview)                            |
+| [Workorder UI](configuration/ui-configuration/modules/workorder.md#overview)                          |
+| [Muster Roll UI](muktasoft-user-manual/cbo-user-manual/muster-roll-2.md#\_sragxiwui1hb)               |
+| [Bill UI](../muktasoft/configuration/ui-configuration/modules/bill.md#overview)                       |
+| [Organization UI](configuration/ui-configuration/modules/organization.md#customization)               |
+| [Roles Configuration ](configuration/ui-configuration/common-configurations/role-configuration.md)    |
+| [Work PDF](../muktasoft/muktasoft-services/works-pdf.md)                                              |
+| [Bill Scheduler](../muktasoft/muktasoft-services/bill-scheduler.md)                                   |
+| [Expense Calculator](../muktasoft/muktasoft-services/expense-calculator.md)                           |
 
