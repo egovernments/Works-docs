@@ -1,5 +1,18 @@
 # UAT Test Case Scenarios
 
+On this page:
+
+* [Roles](uat-test-case-scenarios.md#roles)
+* [Login & home page](uat-test-case-scenarios.md#login-and-home-page)
+* [Organisation](uat-test-case-scenarios.md#organisation)
+* [Wage Seeker](uat-test-case-scenarios.md#wage-seeker)
+* [Project](uat-test-case-scenarios.md#project)
+* [Estimate](uat-test-case-scenarios.md#estimate)
+* [Work Order](uat-test-case-scenarios.md#work-order)
+* [Muster Roll](uat-test-case-scenarios.md#muster-roll)
+* [Billing & Payments](uat-test-case-scenarios.md#billing-and-payments)
+* [CBO Portal](uat-test-case-scenarios.md#cbo-portal)
+
 ## Roles
 
 | Sr. No. | Code                   | Role Description     | Actions                                                                                                                                                       | Designations/ Users                                                             |
