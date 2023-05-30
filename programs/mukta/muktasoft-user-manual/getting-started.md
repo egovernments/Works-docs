@@ -18,16 +18,7 @@ This section of the user manual guides you through the user login process and gu
 
 ### Change Password <a href="#_b8qo749mn030" id="_b8qo749mn030"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td><p></p><p>Profile icon<strong>> Edit Profile > Change Password</strong></p><p>Click on the <strong>Profile</strong> icon on the homepage.</p><ul><li> Two options are displayed - <strong>Edit Profile</strong> and <strong>Logout</strong>.</li><li>Click on <strong>Edit Profile</strong>.</li><li>This opens the Edit Profile page with the employee picture on the left and the details on the right.</li></ul></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (4).png" alt=""></td><td><p>Click on the <strong>Change Password</strong> option at the bottom. </p><p>Enter the current password and new password and confirm the new password. </p><p>Click on the <strong>Save</strong> button to reset the password.</p></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
-
-
-
-* Click on the **Change Password** option at the bottom.
-
-![](<../../../.gitbook/assets/5 (2).png>)
-
-* Enter the current password and new password and confirm the new password.
-* Click on the **Save** button to reset the password.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td><p></p><p>Profile icon<strong>> Edit Profile > Change Password</strong></p><p>Click on the <strong>Profile</strong> icon on the homepage.</p><ul><li> Two options are displayed - <strong>Edit Profile</strong> and <strong>Logout</strong>.</li><li>Click on <strong>Edit Profile</strong>.</li><li>This opens the Edit Profile page with the employee picture on the left and the details on the right.</li></ul></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (4).png" alt=""></td><td></td><td><p>Click on the <strong>Change Password</strong> option at the bottom. </p><p>Enter the current password and new password and confirm the new password. </p><p>Click on the <strong>Save</strong> button to reset the password.</p></td></tr></tbody></table>
 
 ### Reset password <a href="#_c78bky4bw4uc" id="_c78bky4bw4uc"></a>
 
