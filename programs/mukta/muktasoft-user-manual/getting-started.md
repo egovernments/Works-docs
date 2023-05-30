@@ -1,8 +1,19 @@
+---
+description: MuktaSoft - how to get started
+---
+
 # Getting Started
 
-## Getting Started with MUKTASoft <a href="#_25ucugk0n5t1" id="_25ucugk0n5t1"></a>
-
 This section of the user manual guides you through the user login process and guides you through the details of using the MUKTASoft application for each role.
+
+On this page:
+
+* [Logging in](getting-started.md#\_ak2iff6svn1)
+* [Home page](getting-started.md#\_y9ihxiqjb66c)
+* [Change language](getting-started.md#\_vhz5bczfaqjw)
+* [Change password](getting-started.md#\_b8qo749mn030)
+* [Reset password](getting-started.md#\_c78bky4bw4uc)
+* [Logging out](getting-started.md#\_viqhetl2a1py)
 
 ### Logging In <a href="#_ak2iff6svn1" id="_ak2iff6svn1"></a>
 
