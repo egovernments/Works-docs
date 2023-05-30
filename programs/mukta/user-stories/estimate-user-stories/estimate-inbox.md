@@ -75,7 +75,4 @@ Not applicable.
 
 ## Acceptance Criteria
 
-| Acceptance Criteria | Description                                                   |
-| ------------------- | ------------------------------------------------------------- |
-| 1                   | It should be a service-wise inbox for all the employee users. |
-| 2                   | Must follow the DIGIT standard inbox design.                  |
+<table><thead><tr><th width="203">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>It should be a service-wise inbox for all the employee users.</td></tr><tr><td>2</td><td>Must follow the DIGIT standard inbox design.</td></tr></tbody></table>

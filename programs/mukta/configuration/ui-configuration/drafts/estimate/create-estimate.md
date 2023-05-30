@@ -121,9 +121,7 @@ Once Create Estimate API call is successful, an acknowledgement screen is shown.
 
 **API Call Roll action-mapping**
 
-| API                                    | Action Id | Roles        |
-| -------------------------------------- | --------- | ------------ |
-| /estimate-service/estimate/v1/\_create | 9         | EST\_CREATOR |
+<table><thead><tr><th width="353.3333333333333">API</th><th width="193">Action Id</th><th>Roles</th></tr></thead><tbody><tr><td>/estimate-service/estimate/v1/_create</td><td>9</td><td>EST_CREATOR</td></tr></tbody></table>
 
 #### Sample Curl for Create API
 
@@ -212,14 +210,7 @@ jcurl 'https://works-dev.digit.org/estimate-service/estimate/v1/_create' \
 
 Some of the dropdown data is fetched from mdms and hrms search API
 
-| PageComponent                                | Data Source | API                                                                                                                                                                                                                      |
-| -------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Executing Department                         | mdms        | <p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Department" } ]</p><p>}</p>                                                                                                                         |
-| Ward, Location                               | mdms        | <p>{</p><p>"pb.amritsar", </p><p>"egov-location", </p><p>     [ { "name": "TenantBoundary" }]</p><p>}</p>                                                                                                                |
-| Beneficiary, Nature of Work, Type of Work    | mdms        | <p>{</p><p>"pb, </p><p>"works", </p><p>     [ { "name": "BeneficiaryType" },</p><p>       { "name": "EntrustmentMode" }, </p><p>       { "name": "NatureOfWork" }, </p><p>       { "name": "TypeOfWork" }, ]</p><p>}</p> |
-| Fund, Function, Budget Head,Scheme, subSchem | mdms        | <p>{</p><p>"pb", </p><p>"finance", </p><p>       [ { "name": "BudgetHead" },</p><p>          { "name": "Functions" }, </p><p>          { "name": "Fund" },</p><p>          { "name": "Scheme"} ] </p><p>}</p>            |
-| Designation of officer in charge             | hrms        | /egov-hrms/employees/\_search                                                                                                                                                                                            |
-| Name of officer in charge                    | hrms        | /egov-hrms/employees/\_search                                                                                                                                                                                            |
+<table><thead><tr><th>PageComponent</th><th width="133.33333333333331">Data Source</th><th>API</th></tr></thead><tbody><tr><td>Executing Department</td><td>mdms</td><td><p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Department" } ]</p><p>}</p></td></tr><tr><td>Ward, Location</td><td>mdms</td><td><p>{</p><p>"pb.amritsar", </p><p>"egov-location", </p><p>     [ { "name": "TenantBoundary" }]</p><p>}</p></td></tr><tr><td>Beneficiary, Nature of Work, Type of Work</td><td>mdms</td><td><p>{</p><p>"pb, </p><p>"works", </p><p>     [ { "name": "BeneficiaryType" },</p><p>       { "name": "EntrustmentMode" }, </p><p>       { "name": "NatureOfWork" }, </p><p>       { "name": "TypeOfWork" }, ]</p><p>}</p></td></tr><tr><td>Fund, Function, Budget Head,Scheme, subSchem</td><td>mdms</td><td><p>{</p><p>"pb", </p><p>"finance", </p><p>       [ { "name": "BudgetHead" },</p><p>          { "name": "Functions" }, </p><p>          { "name": "Fund" },</p><p>          { "name": "Scheme"} ] </p><p>}</p></td></tr><tr><td>Designation of officer in charge</td><td>hrms</td><td>/egov-hrms/employees/_search</td></tr><tr><td>Name of officer in charge</td><td>hrms</td><td>/egov-hrms/employees/_search</td></tr></tbody></table>
 
 Localization keys are added under the ‘_rainmaker-works_’ locale module. In future if any new labels are implemented in works module that should also be pushed in the locale DB under _rainmaker-works_ locale module. Below is the example of few locale labels for hindi and English.
 

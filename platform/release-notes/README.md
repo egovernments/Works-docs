@@ -26,17 +26,7 @@ DIGIT-Works release v0.1 is a new release that offers new platform features and 
 
 ## New ‌Feature Additions <a href="#new-feature-additions" id="new-feature-additions"></a>
 
-| Feature        | Description                                                                                                               |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Projects       | Create a Project, Modify a Project, View a Project & Search a Project                                                     |
-| Estimates      | Create an Estimate, Modify an Estimate, View an Estimate & Search an Estimate                                             |
-| Contract       | Create a Contract, Modify a Contract, View a Contract & Search for a Contract                                             |
-| Organisation   | Create an Organisation, Modify an Organisation, View an Organisation & Search for an Organisation                         |
-| Attendance     | Create an Attendance Register, Modify an Attendance Register, View an Attendance Register & Search an Attendance Register |
-| Muster roll    | Create a Muster roll, Update a Muster roll                                                                                |
-| Expense (Bill) | Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill                  |
-| Individual     | Create an Individual, Modify an Individual, View an Individual & Search an Individual.                                    |
-| Bank account   | Create a Bank account, Modify a Bank account, View a Bank account & Search a Bank account.                                |
+<table><thead><tr><th width="210">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Projects</td><td>Create a Project, Modify a Project, View a Project &#x26; Search a Project</td></tr><tr><td>Estimates</td><td>Create an Estimate, Modify an Estimate, View an Estimate &#x26; Search an Estimate</td></tr><tr><td>Contract</td><td>Create a Contract, Modify a Contract, View a Contract &#x26; Search for a Contract</td></tr><tr><td>Organisation</td><td>Create an Organisation, Modify an Organisation, View an Organisation &#x26; Search for an Organisation</td></tr><tr><td>Attendance</td><td>Create an Attendance Register, Modify an Attendance Register, View an Attendance Register &#x26; Search an Attendance Register</td></tr><tr><td>Muster roll</td><td>Create a Muster roll, Update a Muster roll</td></tr><tr><td>Expense (Bill)</td><td>Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill</td></tr><tr><td>Individual</td><td>Create an Individual, Modify an Individual, View an Individual &#x26; Search an Individual.</td></tr><tr><td>Bank account</td><td>Create a Bank account, Modify a Bank account, View a Bank account &#x26; Search a Bank account.</td></tr></tbody></table>
 
 ## Enhancements
 

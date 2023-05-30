@@ -25,9 +25,7 @@ Estimate Verifier
   4. The workflow state changes accordingly and timelines show the current state of the estimate.
   5. The estimate is removed from the currently logged-in user’s inbox.
 
-| Role              | From State               | To State                       | Status   |
-| ----------------- | ------------------------ | ------------------------------ | -------- |
-| Estimate Verifier | Pending for verification | Pending for technical sanction | Verified |
+<table><thead><tr><th width="174">Role</th><th width="148">From State</th><th>To State</th><th>Status</th></tr></thead><tbody><tr><td>Estimate Verifier</td><td>Pending for verification</td><td>Pending for technical sanction</td><td>Verified</td></tr></tbody></table>
 
 * On cancel, the pop-up window is closed and the toast cancel message is displayed on the view estimate page.
 
@@ -55,9 +53,4 @@ Not applicable.
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                                                                  |
-| ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1                   | Clicking on Verify and Forward moves the estimate to the next user in the flow                               |
-| 2                   | The pop-up window is closed and the view estimate page is refreshed. Toast success message is displayed.     |
-| 3                   | The View Estimate page is refreshed based on the changes in the workflow status and the existing user role.  |
-| 4                   | On cancel the pop-up window is closed. A toast cancel message is displayed.                                  |
+<table><thead><tr><th width="210">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Clicking on Verify and Forward moves the estimate to the next user in the flow</td></tr><tr><td>2</td><td>The pop-up window is closed and the view estimate page is refreshed. Toast success message is displayed.</td></tr><tr><td>3</td><td>The View Estimate page is refreshed based on the changes in the workflow status and the existing user role. </td></tr><tr><td>4</td><td>On cancel the pop-up window is closed. A toast cancel message is displayed.</td></tr></tbody></table>

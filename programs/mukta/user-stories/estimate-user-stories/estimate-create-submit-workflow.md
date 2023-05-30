@@ -59,9 +59,4 @@ Not applicable.
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                                                              |
-| ------------------- | -------------------------------------------------------------------------------------------------------- |
-| 1                   | On Submit, the application is forwarded to the next user in the workflow.                                |
-| 2                   | The pop-up window is closed and the application page is refreshed. A toast success message is displayed. |
-| 3                   | On Cancel closes the pop-up window. A toast cancel message is displayed.                                 |
-| 4                   | Workflow state changes and the view estimate page refreshes based on the logged-in user role.            |
+<table><thead><tr><th width="209">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>On Submit, the application is forwarded to the next user in the workflow.</td></tr><tr><td>2</td><td>The pop-up window is closed and the application page is refreshed. A toast success message is displayed.</td></tr><tr><td>3</td><td>On Cancel closes the pop-up window. A toast cancel message is displayed.</td></tr><tr><td>4</td><td>Workflow state changes and the view estimate page refreshes based on the logged-in user role.</td></tr></tbody></table>

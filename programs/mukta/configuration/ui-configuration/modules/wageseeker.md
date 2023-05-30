@@ -18,13 +18,7 @@ This module has 3  associated screens :&#x20;
 
 ####
 
-| S.No. | Data             | MDMS Link                                                                                                                                                                                                                                                                                    |
-| ----- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Relationship     | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Relationship.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Relationship.json)                                                                                       |
-| 2     | GenderType       | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/GenderType.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/GenderType.json)                                                                                           |
-| 3     | SocialCategory   | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/SocialCategory.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/SocialCategory.json)                                                                                   |
-| 4     | WageSeekerSkills | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json)                                                                               |
-| 5     | TenantBoundary   | [https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json](https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json) |
+<table data-header-hidden><thead><tr><th width="98.99999999999997"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>S.No.</td><td>Data</td><td>MDMS Link</td></tr><tr><td>1</td><td>Relationship</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Relationship.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/Relationship.json</a></td></tr><tr><td>2</td><td>GenderType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/GenderType.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/GenderType.json</a></td></tr><tr><td>3</td><td>SocialCategory</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/SocialCategory.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/SocialCategory.json</a></td></tr><tr><td>4</td><td>WageSeekerSkills</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json</a></td></tr><tr><td>5</td><td>TenantBoundary</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json">https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json</a></td></tr></tbody></table>
 
 #### Module enablement configuration&#x20;
 
@@ -57,19 +51,13 @@ This module has 3  associated screens :&#x20;
 
 
 
-| S.No | API                                      | <p>Action ID</p><p><br></p> | Roles                            |
-| ---- | ---------------------------------------- | --------------------------- | -------------------------------- |
-| 1    | <p>/individual/v1/_search</p><p><br></p> | 71                          | <p>MUKTA_ADMIN,<br>ORG_ADMIN</p> |
-| 2    | /individual/v1/\_update                  | 72                          | <p>MUKTA_ADMIN,<br>ORG_ADMIN</p> |
-| 3    | /individual/v1/\_delete                  | 74                          | <p>MUKTA_ADMIN,<br>ORG_ADMIN</p> |
+<table data-header-hidden><thead><tr><th width="82"></th><th></th><th width="147"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td><p>/individual/v1/_search</p><p><br></p></td><td>71</td><td>MUKTA_ADMIN,<br>ORG_ADMIN</td></tr><tr><td>2</td><td>/individual/v1/_update</td><td>72</td><td>MUKTA_ADMIN,<br>ORG_ADMIN</td></tr><tr><td>3</td><td>/individual/v1/_delete</td><td>74</td><td>MUKTA_ADMIN,<br>ORG_ADMIN</td></tr></tbody></table>
 
 #### Sidebar configuration&#x20;
 
 
 
-| S.No | Screen            | Navigation URL                               | <p>LeftIcon Updates</p><p><br></p> | Roles        |
-| ---- | ----------------- | -------------------------------------------- | ---------------------------------- | ------------ |
-| 1    | Search Individual | /works-ui/employee/masters/search-wageseeker | dynamic:WageseekerIcon             | MUKTA\_ADMIN |
+<table data-header-hidden><thead><tr><th width="83"></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Search Individual</td><td>/works-ui/employee/masters/search-wageseeker</td><td>dynamic:WageseekerIcon</td><td>MUKTA_ADMIN</td></tr></tbody></table>
 
 Sample object for a sidebar action define in MDMS (containing navigationUrl)
 
@@ -98,10 +86,7 @@ Sample object for a sidebar action define in MDMS (containing navigationUrl)
 
 
 
-| S.No | Screen        | Configuration                                                                                                                                |
-| ---- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Create/Modify | [Modify Individual Config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateWageSeekerConfig.json) |
-| 2    | Search        | [Search Individual Config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchIndividualConfig.json) |
+<table data-header-hidden><thead><tr><th width="97.99999999999997"></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Configuration</td></tr><tr><td>1</td><td>Create/Modify</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateWageSeekerConfig.json">Modify Individual Config</a></td></tr><tr><td>2</td><td>Search</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchIndividualConfig.json">Search Individual Config</a></td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 

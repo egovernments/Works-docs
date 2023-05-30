@@ -18,11 +18,7 @@ This module has 5 associated screens :&#x20;
 
 ### MDMS Configurations
 
-| **S.No.**           | **Data**                 | **MDMS Link**                                                                                                                                                |
-| ------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1                   | UOM(Unit of Measurement) | [Unit of Measurement Masters](https://github.com/egovernments/works-mdms-data/blob/7e35616d8b0a21261854de7a38a4e814a2934888/data/pg/common-masters/uom.json) |
-| <p>2</p><p><br></p> | Overheads                | [Overheads Masters](https://github.com/egovernments/works-mdms-data/blob/fa1435e1757c544f9a71a4455e3f9df5a595b802/data/pg/works/Overheads.json)              |
-| 3                   | Document Config          | [Document Upload Config](https://github.com/egovernments/works-mdms-data/blob/677f82c458acefc1c7484387e056f1e8f7ad99b4/data/pg/works/DocumentConfig.json)    |
+<table data-header-hidden><thead><tr><th width="103"></th><th width="181.99999999999997"></th><th></th></tr></thead><tbody><tr><td><strong>S.No.</strong></td><td><strong>Data</strong></td><td><strong>MDMS Link</strong></td></tr><tr><td>1</td><td>UOM(Unit of Measurement)</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/7e35616d8b0a21261854de7a38a4e814a2934888/data/pg/common-masters/uom.json">Unit of Measurement Masters</a></td></tr><tr><td><p>2</p><p><br></p></td><td>Overheads</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/fa1435e1757c544f9a71a4455e3f9df5a595b802/data/pg/works/Overheads.json">Overheads Masters</a></td></tr><tr><td>3</td><td>Document Config</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/677f82c458acefc1c7484387e056f1e8f7ad99b4/data/pg/works/DocumentConfig.json">Document Upload Config</a></td></tr></tbody></table>
 
 #### Module enablement configuration&#x20;
 
@@ -53,22 +49,13 @@ This module has 5 associated screens :&#x20;
 
 #### Role-action mapping
 
-| S.No | API                                    | <p>Action ID</p><p><br></p> | Roles                                                                                                                                |
-| ---- | -------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | /estimate-service/estimate/v1/\_create | 9                           | <p>ESTIMATE_CREATOR</p><p><br></p>                                                                                                   |
-| 2    | /estimate-service/estimate/v1/\_search | 10                          | <p>ESTIMATE_CREATOR, ESTIMATE_VERIFIER, TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p>ESTIMATE_VIEWER</p><p>EMPLOYEE_COMMON</p> |
-| 3    | /estimate-service/estimate/v1/\_update | 11                          | ESTIMATE\_VERIFIER, TECHNICAL\_SANCTIONER, ESTIMATE\_APPROVER                                                                        |
-| 4    | /wms/estimate/\_search                 | 77                          | EMPLOYEE\_COMMON                                                                                                                     |
-| 5    | /pms/project/v1/\_search               | 52                          | PROJECT\_VIEWER                                                                                                                      |
+<table data-header-hidden><thead><tr><th width="77"></th><th width="275"></th><th width="108"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>/estimate-service/estimate/v1/_create</td><td>9</td><td><p>ESTIMATE_CREATOR</p><p><br></p></td></tr><tr><td>2</td><td>/estimate-service/estimate/v1/_search</td><td>10</td><td><p>ESTIMATE_CREATOR, ESTIMATE_VERIFIER, TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p>ESTIMATE_VIEWER</p><p>EMPLOYEE_COMMON</p></td></tr><tr><td>3</td><td>/estimate-service/estimate/v1/_update</td><td>11</td><td>ESTIMATE_VERIFIER, TECHNICAL_SANCTIONER, ESTIMATE_APPROVER</td></tr><tr><td>4</td><td>/wms/estimate/_search</td><td>77</td><td>EMPLOYEE_COMMON</td></tr><tr><td>5</td><td>/pms/project/v1/_search</td><td>52</td><td>PROJECT_VIEWER</td></tr></tbody></table>
 
 
 
 #### Sidebar configuration&#x20;
 
-| S.No | Screen          | Navigation URL                                                | <p>LeftIcon Updates</p><p><br></p>     | Roles                                                                                                                   |
-| ---- | --------------- | ------------------------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1    | Search Estimate | <p>/works-ui/employee/estimate/search-estimate</p><p><br></p> | <p>dynamic:EstimateIcon</p><p><br></p> | <p>ESTIMATE_VIEWER</p><p><br></p>                                                                                       |
-| 2    | Estimate Inbox  | /works-ui/employee/estimate/inbox                             | dynamic:EstimateIcon                   | <p>ESTIMATE_VERIFIER</p><p>TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p></p><p></p><p></p><p>ESTIMATE_CREATOR</p> |
+<table data-header-hidden><thead><tr><th width="65"></th><th width="118"></th><th width="197"></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Search Estimate</td><td><p>/works-ui/employee/estimate/search-estimate</p><p><br></p></td><td><p>dynamic:EstimateIcon</p><p><br></p></td><td><p>ESTIMATE_VIEWER</p><p><br></p></td></tr><tr><td>2</td><td>Estimate Inbox</td><td>/works-ui/employee/estimate/inbox</td><td>dynamic:EstimateIcon</td><td><p>ESTIMATE_VERIFIER</p><p>TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p></p><p></p><p></p><p>ESTIMATE_CREATOR</p></td></tr></tbody></table>
 
 * Sample object for a sidebar action define in MDMS( containing navigationUrl )
 
@@ -92,22 +79,11 @@ This module has 5 associated screens :&#x20;
 
 #### Screen configuration&#x20;
 
-| S.No | Screen              | Configuration                                                                                                                                                                        |
-| ---- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | Create Estimate     | [Create Estimate Config](https://github.com/egovernments/works-mdms-data/blob/85f0eccb705dbb0b5e8756c96531782e1ba6da10/data/pg/commonMuktaUiConfig/CreateEstimateConfig.json)        |
-| 2    | Search Estimate     | [Search Estimate Config](https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/SearchEstimateConfig.json)        |
-| 3    | Estimate Inbox      | [Estimate Inbox Config](https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/EstimateInboxConfig.json)          |
-| 4    | WMS Estimate Search | [Estimate WMS Search Config](https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/SearchEstimateWMSConfig.json) |
+<table data-header-hidden><thead><tr><th width="93.66666666666666"></th><th width="278"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Configuration</td></tr><tr><td>1</td><td>Create Estimate</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/85f0eccb705dbb0b5e8756c96531782e1ba6da10/data/pg/commonMuktaUiConfig/CreateEstimateConfig.json">Create Estimate Config</a></td></tr><tr><td>2</td><td>Search Estimate</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/SearchEstimateConfig.json">Search Estimate Config</a></td></tr><tr><td>3</td><td>Estimate Inbox</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/EstimateInboxConfig.json">Estimate Inbox Config</a></td></tr><tr><td>4</td><td>WMS Estimate Search</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/766b3aa37999fb9c671aa6dbe4c8b9d922d28264/data/pg/commonMuktaUiConfig/SearchEstimateWMSConfig.json">Estimate WMS Search Config</a></td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 
-| TenantID | Module                   |
-| -------- | ------------------------ |
-| pg       | rainmaker-common         |
-| pg       | rainmaker-estimate       |
-| pg       | rainmaker-common-masters |
-| pg       | rainmaker-workflow       |
-| pg.citya | rainmaker-pg.citya       |
+<table data-header-hidden><thead><tr><th width="247"></th><th></th></tr></thead><tbody><tr><td>TenantID</td><td>Module</td></tr><tr><td>pg</td><td>rainmaker-common</td></tr><tr><td>pg</td><td>rainmaker-estimate</td></tr><tr><td>pg</td><td>rainmaker-common-masters</td></tr><tr><td>pg</td><td>rainmaker-workflow</td></tr><tr><td>pg.citya</td><td>rainmaker-pg.citya</td></tr></tbody></table>
 
 ### &#x20;Workflow Configuration
 

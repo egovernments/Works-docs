@@ -12,38 +12,15 @@ Work order preparation for a work by the Work Order Creator and then its verific
 
 ### Role (Actors) - Action Mapping
 
-| # | Role                | Action                                                                                                                   | User Persona                                                       |
-| - | ------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 1 | WORK ORDER CREATOR  | <ul><li>Create </li><li>Search </li><li>View </li><li>Edit/ Re-submit</li><li>Submit </li><li>Reject</li></ul>           | Junior Engineer/ Assistant Engineer                                |
-| 2 | WORK ORDER VERIFIER | <ul><li>Search</li><li>View </li><li>Verify and Forward</li><li>Send Back </li></ul>                                     | Executive Officer                                                  |
-| 3 | WORK ORDER APPROVER | <ul><li>Search</li><li>View </li><li>Approve</li><li>Send Back </li><li>Send Back To Originator</li><li>Reject</li></ul> | Municipal Engineer                                                 |
-| 4 | CBO ADMIN           | <ul><li>Accept</li><li>Decline</li></ul>                                                                                 | Community based organization contact person (President/ Secretary) |
+<table><thead><tr><th width="76">#</th><th width="165">Role</th><th width="231">Action</th><th>User Persona</th></tr></thead><tbody><tr><td>1</td><td>WORK ORDER CREATOR</td><td><ul><li>Create </li><li>Search </li><li>View </li><li>Edit/ Re-submit</li><li>Submit </li><li>Reject</li></ul></td><td>Junior Engineer/ Assistant Engineer</td></tr><tr><td>2</td><td>WORK ORDER VERIFIER</td><td><ul><li>Search</li><li>View </li><li>Verify and Forward</li><li>Send Back </li></ul></td><td>Executive Officer</td></tr><tr><td>3</td><td>WORK ORDER APPROVER</td><td><ul><li>Search</li><li>View </li><li>Approve</li><li>Send Back </li><li>Send Back To Originator</li><li>Reject</li></ul></td><td>Municipal Engineer</td></tr><tr><td>4</td><td>CBO ADMIN</td><td><ul><li>Accept</li><li>Decline</li></ul></td><td>Community based organization contact person (President/ Secretary)</td></tr></tbody></table>
 
 ### Workflow States
 
-| #  | Action                  | Role                           | From State                | To State                  | Status       |
-| -- | ----------------------- | ------------------------------ | ------------------------- | ------------------------- | ------------ |
-| 1  | Submit                  | Work Order Creator             |                           | Pending for verification  | Submitted    |
-| 2  | Verify and Forward      | Work Order Verifier            | Pending for verification  | Pending for approval      | Verified     |
-| 3  | Send Back               | Work Order Verifier            | Pending for verification  | Pending for correction    | Sent Back    |
-| 4  | Send Back               | Work Order Approver            | Pending for approval      | Pending for verification  | Sent Back    |
-| 5  | Send Back To Originator | **\<any roles having access>** | **\<Current Status>**     | Pending for correction    | Sent Back    |
-| 6  | Edit/ Re-submit         | Work Order Creator             | Pending for correction    | Pending for verification  | Re-submitted |
-| 7  | Approve                 | Work Order Approver            | Pending for approval      | Approved                  | Approved     |
-| 8  | Reject                  | **\<any roles having access>** | **\<Current Status>**     | Rejected                  | Rejected     |
-| 9  | Accept                  | CBO Admin                      | Approved                  | Accepted                  | Accepted     |
-| 10 | Decline                 | CBO Admin                      | Approved                  | Pending for re-assignment | Declined     |
-| 11 | Edit/ Re-submit         | Work Order Creator             | Pending for re-assignment | Pending for verification  | Re-submitted |
+<table><thead><tr><th width="75">#</th><th>Action</th><th>Role</th><th>From State</th><th>To State</th><th>Status</th></tr></thead><tbody><tr><td>1</td><td>Submit</td><td>Work Order Creator</td><td> </td><td>Pending for verification</td><td>Submitted</td></tr><tr><td>2</td><td>Verify and Forward</td><td>Work Order Verifier</td><td>Pending for verification</td><td>Pending for approval</td><td>Verified</td></tr><tr><td>3</td><td>Send Back</td><td>Work Order Verifier</td><td>Pending for verification</td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>4</td><td>Send Back</td><td>Work Order Approver</td><td>Pending for approval</td><td>Pending for verification</td><td>Sent Back</td></tr><tr><td>5</td><td>Send Back To Originator</td><td><strong>&#x3C;any roles having access></strong></td><td><strong>&#x3C;Current Status></strong></td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>6</td><td>Edit/ Re-submit</td><td>Work Order Creator</td><td>Pending for correction</td><td>Pending for verification</td><td>Re-submitted</td></tr><tr><td>7</td><td>Approve</td><td>Work Order Approver</td><td>Pending for approval</td><td>Approved</td><td>Approved</td></tr><tr><td>8</td><td>Reject</td><td><strong>&#x3C;any roles having access></strong></td><td><strong>&#x3C;Current Status></strong></td><td>Rejected</td><td>Rejected</td></tr><tr><td>9</td><td>Accept</td><td>CBO Admin</td><td>Approved</td><td>Accepted</td><td>Accepted</td></tr><tr><td>10</td><td>Decline</td><td>CBO Admin</td><td>Approved</td><td>Pending for re-assignment</td><td>Declined</td></tr><tr><td>11</td><td>Edit/ Re-submit</td><td>Work Order Creator</td><td>Pending for re-assignment</td><td>Pending for verification</td><td>Re-submitted</td></tr></tbody></table>
 
 ### SLAs
 
-| Service Name | Action             | Current State             | SLAs (In Days) |
-| ------------ | ------------------ | ------------------------- | -------------- |
-| Work Order   | Edit/ Re-submit    | Pending for correction    | 1              |
-|              | Edit/ Re-submit    | Pending for re-assignment | 1              |
-|              | Verify and Forward | Pending for verification  | 2              |
-|              | Approve            | Pending for approval      | 1              |
-|              | Accept             | Approved                  | 7              |
+<table><thead><tr><th width="161">Service Name</th><th width="178">Action</th><th width="264">Current State</th><th>SLAs (In Days)</th></tr></thead><tbody><tr><td>Work Order</td><td>Edit/ Re-submit</td><td>Pending for correction</td><td>1</td></tr><tr><td> </td><td>Edit/ Re-submit</td><td>Pending for re-assignment</td><td>1</td></tr><tr><td> </td><td>Verify and Forward</td><td>Pending for verification</td><td>2</td></tr><tr><td> </td><td>Approve</td><td>Pending for approval</td><td>1</td></tr><tr><td> </td><td>Accept</td><td>Approved</td><td>7</td></tr></tbody></table>
 
 ## **User Interface (UI)**
 
@@ -51,7 +28,4 @@ UI design is going to be the same as the estimate workflow. Only the workflow st
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                                           |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| 1                   | Actions are configured based on role-action mapping.                                  |
-| 2                   | Workflow states are defined as provided and the state transition is done accordingly. |
+<table><thead><tr><th width="135">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Actions are configured based on role-action mapping.</td></tr><tr><td>2</td><td>Workflow states are defined as provided and the state transition is done accordingly.</td></tr></tbody></table>

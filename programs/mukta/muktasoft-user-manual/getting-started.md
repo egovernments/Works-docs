@@ -6,31 +6,21 @@ This section of the user manual guides you through the user login process and gu
 
 ### Logging In <a href="#_ak2iff6svn1" id="_ak2iff6svn1"></a>
 
-![](<../../../.gitbook/assets/0 (1).png>)
-
-![](<../../../.gitbook/assets/1 (3).png>)
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (5).png" alt="" data-size="original"></td><td>Select language and click on <strong>Continue</strong>.</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (1).png" alt=""></td><td>Enter <strong>User Name</strong>, <strong>Password</strong>, &#x26; <strong>City</strong>. Click on <strong>Continue</strong>.</td><td></td></tr></tbody></table>
 
 ### Home Page <a href="#_y9ihxiqjb66c" id="_y9ihxiqjb66c"></a>
 
-![](<../../../.gitbook/assets/2 (1).png>)
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (3).png" alt=""></td><td>Mukta home page</td><td></td></tr></tbody></table>
 
 ### Change Language <a href="#_vhz5bczfaqjw" id="_vhz5bczfaqjw"></a>
 
-Click on the right corner of your screen on “English” to view other languages.
-
-![](<../../../.gitbook/assets/3 (2).png>)
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image.png" alt=""></td><td>Click on <strong>English</strong> in the top right corner to view other language options. Select the preferred language from the list. </td><td></td></tr></tbody></table>
 
 ### Change Password <a href="#_b8qo749mn030" id="_b8qo749mn030"></a>
 
-Profile icon**> Edit Profile > Change Password**
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td><p></p><p>Profile icon<strong>> Edit Profile > Change Password</strong></p><p>Click on the <strong>Profile</strong> icon on the homepage.</p><ul><li> Two options are displayed - <strong>Edit Profile</strong> and <strong>Logout</strong>.</li><li>Click on <strong>Edit Profile</strong>.</li><li>This opens the Edit Profile page with the employee picture on the left and the details on the right.</li></ul></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (4).png" alt=""></td><td><p>Click on the <strong>Change Password</strong> option at the bottom. </p><p>Enter the current password and new password and confirm the new password. </p><p>Click on the <strong>Save</strong> button to reset the password.</p></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-Click on the **Profile** icon on the homepage.
 
-* &#x20;Two options are displayed - **Edit Profile** and **Logout**.
-* Click on **Edit Profile**.
-* This opens the Edit Profile page with the employee picture on the left and the details on the right.
-
-![](<../../../.gitbook/assets/4 (3).png>)
 
 * Click on the **Change Password** option at the bottom.
 

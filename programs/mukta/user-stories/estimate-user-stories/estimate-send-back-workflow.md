@@ -55,10 +55,5 @@ Not applicable.
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                                                                             |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1                   | On send back, the Pop-up window is closed, a toast success message is displayed and the view estimate page is refreshed |
-| 2                   | The estimate is sent back to the previous user in the workflow                                                          |
-| 3                   | Workflow state changes based on the role as mentioned in the story above                                                |
-| 4                   | On cancel, the pop-up window is closed and the toast cancel message is displayed                                        |
+<table><thead><tr><th width="236">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>On send back, the Pop-up window is closed, a toast success message is displayed and the view estimate page is refreshed</td></tr><tr><td>2</td><td>The estimate is sent back to the previous user in the workflow</td></tr><tr><td>3</td><td>Workflow state changes based on the role as mentioned in the story above</td></tr><tr><td>4</td><td>On cancel, the pop-up window is closed and the toast cancel message is displayed</td></tr></tbody></table>
 

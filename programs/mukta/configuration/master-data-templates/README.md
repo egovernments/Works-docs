@@ -38,18 +38,13 @@ The checklist is a set of activities to be performed once the data is filled int
 
 This checklist covers all the activities which are common across the entities.
 
-| Sr. No | Checklist Parameter                                                               | Example                                                                                                                              |
-| ------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1      | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://urban.digit.org/platform/configure-digit/configuring-master-data-templates/module-setup/common-config/checklist) |
+<table><thead><tr><th width="103.33333333333331">Sr. No</th><th>Checklist Parameter</th><th>Example</th></tr></thead><tbody><tr><td>1</td><td>Make sure that each and every point in this reference list has been taken care of</td><td><a href="https://urban.digit.org/platform/configure-digit/configuring-master-data-templates/module-setup/common-config/checklist">Checklist</a></td></tr></tbody></table>
 
 #### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
-| Sr. No. | Activity                                           | Example |
-| ------- | -------------------------------------------------- | ------- |
-| 1       | The Code should be alphanumeric and unique         | DR      |
-| 2       | The Name should not contain any special characters |         |
+<table><thead><tr><th width="115.33333333333331">Sr. No.</th><th width="238">Activity</th><th>Example</th></tr></thead><tbody><tr><td>1</td><td>The Code should be alphanumeric and unique</td><td>DR</td></tr><tr><td>2</td><td>The Name should not contain any special characters</td><td></td></tr></tbody></table>
 
 ###
 

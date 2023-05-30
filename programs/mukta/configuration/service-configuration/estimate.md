@@ -32,23 +32,7 @@ Please refer to the functional specifications for an overview of functionality p
 
 Configure roles, actions and role-action mappings as per the table below by referring to this doc [here](./):
 
-| Role                  | APIs                                   |
-| --------------------- | -------------------------------------- |
-| ESTIMATE\_CREATOR     | /estimate-service/estimate/v1/\_create |
-|                       | /estimate-service/estimate/v1/\_search |
-|                       | /wms/estimate/\_search                 |
-| ESTIMATE\_VERIFIER    | /estimate-service/estimate/v1/\_update |
-|                       | /estimate-service/estimate/v1/\_search |
-|                       | /wms/estimate/\_search                 |
-| TECHNICAL\_SANCTIONER | /estimate-service/estimate/v1/\_update |
-|                       | /estimate-service/estimate/v1/\_search |
-|                       | /wms/estimate/\_search                 |
-| ESTIMATE\_APPROVER    | /estimate-service/estimate/v1/\_update |
-|                       | /estimate-service/estimate/v1/\_search |
-|                       | /wms/estimate/\_search                 |
-| ESTIMATE\_VIEWER      | /estimate-service/estimate/v1/\_search |
-|                       | /wms/estimate/\_search                 |
-| EMPLOYEE\_COMMON      | /inbox/v2/\_search                     |
+<table><thead><tr><th width="340.3333333333333">Role</th><th width="514">APIs</th></tr></thead><tbody><tr><td>ESTIMATE_CREATOR</td><td>/estimate-service/estimate/v1/_create</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VERIFIER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>TECHNICAL_SANCTIONER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_APPROVER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VIEWER</td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
 Sample is [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
 

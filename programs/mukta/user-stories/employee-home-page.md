@@ -67,9 +67,5 @@ Not applicable
 
 ## Acceptance Criteria
 
-| Acceptance Criteria | Description                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------- |
-| 1                   | The home page will have one card keeping MUKTA-specific menu links                  |
-| 2                   | The LHS, menu tree gives the user option to navigate through the menu tree as well. |
-| 3                   | Branding and multi-tenancy aspects are taken care of.                               |
+<table><thead><tr><th width="206">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>The home page will have one card keeping MUKTA-specific menu links</td></tr><tr><td>2</td><td>The LHS, menu tree gives the user option to navigate through the menu tree as well.</td></tr><tr><td>3</td><td>Branding and multi-tenancy aspects are taken care of.</td></tr></tbody></table>
 

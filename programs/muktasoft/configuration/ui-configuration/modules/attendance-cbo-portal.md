@@ -1,4 +1,4 @@
-# Attendance
+# Attendance (CBO Portal)
 
 ### Overview
 
@@ -10,11 +10,7 @@ This module has 2 associated screens : View Register Inbox Track Attendance Tabl
 
 ### MDMS Configurations
 
-| S.No.               | Data                | MDMS Link                                                                                                                          |
-| ------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1                   | AttendanceHours     | [Attendance Hours](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/AttendanceHours.json)           |
-| <p>2</p><p><br></p> | WageSeekerSkills    | [Wage Seeker Skills](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json)        |
-| 3                   | CBOMusterSubmission | [Muster Roll Submission](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonUiConfig/CBOMusterSubmission.json) |
+<table data-header-hidden><thead><tr><th width="103.99999999999997"></th><th></th><th></th></tr></thead><tbody><tr><td>S.No.</td><td>Data</td><td>MDMS Link</td></tr><tr><td>1</td><td>AttendanceHours</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/AttendanceHours.json">Attendance Hours</a></td></tr><tr><td><p>2</p><p><br></p></td><td>WageSeekerSkills</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json">Wage Seeker Skills</a></td></tr><tr><td>3</td><td>CBOMusterSubmission</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonUiConfig/CBOMusterSubmission.json">Muster Roll Submission</a></td></tr></tbody></table>
 
 #### User actions&#x20;
 
@@ -45,14 +41,7 @@ Track Attendance page will be a view page, else it will allow to log attendance 
 
 #### API Details
 
-| S.No | API                                                                | <p>Body / Query Params</p><p><br></p>                                                                                                                 | Description                                                                       |
-| ---- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 1    | <p>attendance/v1/_search</p><p><br></p>                            | <p>{</p><p>"tenantId":””,</p><p> "ids":””</p><p>}</p><p><br></p>                                                                                      | <p>Gives the list of registers linked to the org </p><p><br></p>                  |
-| 2    | <p>muster-roll/v1/_estimate</p><p><br></p>                         | <p>{</p><p> "musterRoll": {</p><p>   "tenantId":,</p><p>   "registerId":,</p><p>   "startDate":,</p><p>   "endDate": </p><p> }</p><p>}</p><p><br></p> | To get the attendance log for the selected Date range                             |
-| 3    | <p>attendance/log/v1/_create</p><p><br></p>                        | <p>{"attendance": []}</p><p><br></p>                                                                                                                  | To log the attendance of the individuals for the week                             |
-| 4    | <p>attendance/log/v1/_update</p><p><br></p>                        | <p><br></p>                                                                                                                                           | To update the attendance log of the individuals for Sent Back To CBO Muster Rolls |
-| 5    | <p>muster-roll/v1/_search</p><p><br></p>                           | <p><br></p>                                                                                                                                           | To check if any existing muster rolls present for the selected week               |
-| 6    | <p>egov-workflow-v2/egov-wf/businessservice/_search</p><p><br></p> | <p>{</p><p> "tenantId":,</p><p> "businessServices": “musterRollId”,</p><p>}</p><p><br></p>                                                            | To check the workflow status of the Muster Roll                                   |
+<table data-header-hidden><thead><tr><th width="109"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Body / Query Params</p><p><br></p></td><td>Description</td></tr><tr><td>1</td><td><p>attendance/v1/_search</p><p><br></p></td><td><p>{</p><p>"tenantId":””,</p><p> "ids":””</p><p>}</p><p><br></p></td><td><p>Gives the list of registers linked to the org </p><p><br></p></td></tr><tr><td>2</td><td><p>muster-roll/v1/_estimate</p><p><br></p></td><td><p>{</p><p> "musterRoll": {</p><p>   "tenantId":,</p><p>   "registerId":,</p><p>   "startDate":,</p><p>   "endDate": </p><p> }</p><p>}</p><p><br></p></td><td>To get the attendance log for the selected Date range</td></tr><tr><td>3</td><td><p>attendance/log/v1/_create</p><p><br></p></td><td><p>{"attendance": []}</p><p><br></p></td><td>To log the attendance of the individuals for the week</td></tr><tr><td>4</td><td><p>attendance/log/v1/_update</p><p><br></p></td><td><br></td><td>To update the attendance log of the individuals for Sent Back To CBO Muster Rolls</td></tr><tr><td>5</td><td><p>muster-roll/v1/_search</p><p><br></p></td><td><br></td><td>To check if any existing muster rolls present for the selected week</td></tr><tr><td>6</td><td><p>egov-workflow-v2/egov-wf/businessservice/_search</p><p><br></p></td><td><p>{</p><p> "tenantId":,</p><p> "businessServices": “musterRollId”,</p><p>}</p><p><br></p></td><td>To check the workflow status of the Muster Roll</td></tr></tbody></table>
 
 #### Sidebar configuration&#x20;
 
@@ -60,23 +49,11 @@ Track Attendance page will be a view page, else it will allow to log attendance 
 
 #### **DIGIT Components and Custom Components Used**&#x20;
 
-| S.No | Component                             | Path                                                                                                                                                                           | Description                                                       |
-| ---- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| 1    | <p>DigitTable</p><p><br><br></p>      | [DigitTable.dart](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works\_shg\_app/lib/widgets/molecules/digit\_table.dart)                                    | Custom Table with fixed first column and other columns scrollable |
-| 2    | <p>DropDownDialog</p><p><br></p>      | [DropDownDialog](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works\_shg\_app/lib/widgets/atoms/table\_dropdown.dart)                                      | A dialog with dropdown options                                    |
-| 3    | <p>DateRangePicker</p><p><br></p>     | [DateRangePicker](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works\_shg\_app/lib/widgets/atoms/date\_range\_picker.dart)                                 | A custom Date Range picker to select a range of the month / year  |
-| 4    | <p>DigitElevatedButton</p><p><br></p> | [DigitElevatedButton](https://github.com/egovernments/health-campaign-field-worker-app/blob/main-parallel/packages/digit\_components/lib/widgets/digit\_elevated\_button.dart) | An Elevated Submit Button                                         |
-| 6    | <p>WorkDetailsCard</p><p><br></p>     | [DetailsCard](https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works\_shg\_app/lib/widgets/WorkDetailsCard.dart)                                               | Details Card based on DIGIT Figma design                          |
+<table data-header-hidden><thead><tr><th width="92"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Component</td><td>Path</td><td>Description</td></tr><tr><td>1</td><td><p>DigitTable</p><p><br><br></p></td><td><a href="https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works_shg_app/lib/widgets/molecules/digit_table.dart">DigitTable.dart</a></td><td>Custom Table with fixed first column and other columns scrollable</td></tr><tr><td>2</td><td><p>DropDownDialog</p><p><br></p></td><td><a href="https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works_shg_app/lib/widgets/atoms/table_dropdown.dart">DropDownDialog</a></td><td>A dialog with dropdown options</td></tr><tr><td>3</td><td><p>DateRangePicker</p><p><br></p></td><td><a href="https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works_shg_app/lib/widgets/atoms/date_range_picker.dart">DateRangePicker</a></td><td>A custom Date Range picker to select a range of the month / year</td></tr><tr><td>4</td><td><p>DigitElevatedButton</p><p><br></p></td><td><a href="https://github.com/egovernments/health-campaign-field-worker-app/blob/main-parallel/packages/digit_components/lib/widgets/digit_elevated_button.dart">DigitElevatedButton</a></td><td>An Elevated Submit Button </td></tr><tr><td>6</td><td><p>WorkDetailsCard</p><p><br></p></td><td><a href="https://github.com/egovernments/DIGIT-Works/blob/master/frontend/works_shg_app/lib/widgets/WorkDetailsCard.dart">DetailsCard</a></td><td>Details Card based on DIGIT Figma design</td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 
-| TenantID | Module                   |
-| -------- | ------------------------ |
-| pg       | rainmaker-common         |
-| pg       | rainmaker-attendance     |
-| pg       | rainmaker-common-masters |
-| pg       | rainmaker-workflow       |
-| pg.citya | rainmaker-pg.citya       |
+<table data-header-hidden><thead><tr><th width="227"></th><th></th></tr></thead><tbody><tr><td>TenantID</td><td>Module</td></tr><tr><td>pg</td><td>rainmaker-common</td></tr><tr><td>pg</td><td>rainmaker-attendance</td></tr><tr><td>pg</td><td>rainmaker-common-masters</td></tr><tr><td>pg</td><td>rainmaker-workflow</td></tr><tr><td>pg.citya</td><td>rainmaker-pg.citya</td></tr></tbody></table>
 
 
 

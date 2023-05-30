@@ -44,22 +44,11 @@ This module has 5 associated screens :&#x20;
 
 #### Role-action mapping
 
-| S.No | API                                       | <p>Action ID</p><p><br></p> | Roles                                         |
-| ---- | ----------------------------------------- | --------------------------- | --------------------------------------------- |
-| 2    | /muster-roll/v1/\_search                  | 37                          | MUSTER\_ROLL\_VERIFIER,MUSTER\_ROLL\_APPROVER |
-| 3    | /muster-roll/v1/\_update                  | 38                          | MUSTER\_ROLL\_VERIFIER,MUSTER\_ROLL\_APPROVER |
-| 5    | /egov-pdf/download/musterRoll/muster-roll | 104                         | MUSTER\_ROLL\_APPROVER,MUSTER\_ROLL\_VERIFIER |
-| 6    | /egov-hrms/employees/\_search             | 4                           | EMPLOYEE\_COMMON                              |
-| 7    | /expense-calculator/v1/\_estimate         | 108                         | MUSTER\_ROLL\_APPROVER,MUSTER\_ROLL\_VERIFIER |
-| 8    | /inbox/v2/\_search                        | 65                          | EMPLOYEE\_COMMON                              |
+<table data-header-hidden><thead><tr><th width="91"></th><th width="260"></th><th width="110"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>2</td><td>/muster-roll/v1/_search</td><td>37</td><td>MUSTER_ROLL_VERIFIER,MUSTER_ROLL_APPROVER</td></tr><tr><td>3</td><td>/muster-roll/v1/_update</td><td>38</td><td>MUSTER_ROLL_VERIFIER,MUSTER_ROLL_APPROVER</td></tr><tr><td>5</td><td>/egov-pdf/download/musterRoll/muster-roll</td><td>104</td><td>MUSTER_ROLL_APPROVER,MUSTER_ROLL_VERIFIER</td></tr><tr><td>6</td><td>/egov-hrms/employees/_search</td><td>4</td><td>EMPLOYEE_COMMON</td></tr><tr><td>7</td><td>/expense-calculator/v1/_estimate</td><td>108</td><td>MUSTER_ROLL_APPROVER,MUSTER_ROLL_VERIFIER</td></tr><tr><td>8</td><td>/inbox/v2/_search</td><td>65</td><td>EMPLOYEE_COMMON</td></tr></tbody></table>
 
 #### Sidebar configuration&#x20;
 
-| S.No | Screen             | Navigation URL                                      | <p>LeftIcon Updates</p><p><br></p> | Roles                                         |
-| ---- | ------------------ | --------------------------------------------------- | ---------------------------------- | --------------------------------------------- |
-| 1    | Muster Roll Search | /works-ui/employee/attendencemgmt/search-attendance | dynamic:AttendanceIcon             | MUSTER\_ROLL\_APPROVER,MUSTER\_ROLL\_VERIFIER |
-| 2    | Muster Roll Inbox  | /works-ui/employee/attendencemgmt/inbox             | dynamic:AttendanceIcon             | EMPLOYEE\_COMMON                              |
-|      |                    |                                                     |                                    |                                               |
+<table data-header-hidden><thead><tr><th width="87"></th><th width="124"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Muster Roll Search</td><td>/works-ui/employee/attendencemgmt/search-attendance</td><td>dynamic:AttendanceIcon</td><td>MUSTER_ROLL_APPROVER,MUSTER_ROLL_VERIFIER</td></tr><tr><td>2</td><td>Muster Roll Inbox</td><td>/works-ui/employee/attendencemgmt/inbox</td><td>dynamic:AttendanceIcon</td><td>EMPLOYEE_COMMON</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ```json
 {
@@ -80,17 +69,11 @@ This module has 5 associated screens :&#x20;
 
 #### Screen configuration&#x20;
 
-| S.No | Screen | Configuration                                                                                                                                                                                                                                                                  |
-| ---- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1    | Search | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchContractConfig.json](https://github.com/egovernments/works-mdms-data/blob/c4be764c33afd9fbffacb631fb5343cb0f8c28eb/data/statea/commonMuktaUiConfig/SearchAttendanceWMSConfig.json) |
-| 2    | Inbox  | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/InboxConfigContracts.json](https://github.com/egovernments/works-mdms-data/blob/9871717c016cf8a6311d752c9390e7ea00692077/data/statea/commonMuktaUiConfig/InboxMusterConfig.json)         |
+<table data-header-hidden><thead><tr><th width="71.99999999999997"></th><th width="139"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Configuration</td></tr><tr><td>1</td><td>Search</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/c4be764c33afd9fbffacb631fb5343cb0f8c28eb/data/statea/commonMuktaUiConfig/SearchAttendanceWMSConfig.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchContractConfig.json</a></td></tr><tr><td>2</td><td>Inbox</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/9871717c016cf8a6311d752c9390e7ea00692077/data/statea/commonMuktaUiConfig/InboxMusterConfig.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/InboxConfigContracts.json</a></td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 
-| TenantID | Module                   |
-| -------- | ------------------------ |
-| statea   | rainmaker-attendencemgmt |
-|          |                          |
+<table data-header-hidden><thead><tr><th width="198"></th><th></th></tr></thead><tbody><tr><td>TenantID</td><td>Module</td></tr><tr><td>statea</td><td>rainmaker-attendencemgmt</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ### &#x20;Workflow Configuration
 

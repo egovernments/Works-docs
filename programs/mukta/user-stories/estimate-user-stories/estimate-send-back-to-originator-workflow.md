@@ -54,8 +54,4 @@ _Not applicable._
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                             |
-| ------------------- | ----------------------------------------------------------------------- |
-| 1                   | The estimate is moved to Estimate Creator’s inbox.                      |
-| 2                   | Estimate Creator- Edit Estimate action is enabled to edit the estimate. |
-| 3                   | Workflow state changes as mentioned in the ticket.                      |
+<table><thead><tr><th width="198">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>The estimate is moved to Estimate Creator’s inbox.</td></tr><tr><td>2</td><td>Estimate Creator- Edit Estimate action is enabled to edit the estimate.</td></tr><tr><td>3</td><td>Workflow state changes as mentioned in the ticket.</td></tr></tbody></table>

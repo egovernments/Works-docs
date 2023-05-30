@@ -82,13 +82,7 @@ Below are the actions or APIs exposed by the Project service used by the Works p
 
 The following table shows the mapping between the APIs and the roles:
 
-| Role Code        | Description     | API                  |
-| ---------------- | --------------- | -------------------- |
-| PROJECT\_CREATOR | Project Creator | /project/v1/\_create |
-|                  |                 | /project/v1/\_update |
-|                  |                 | /project/v1/\_search |
-| PROJECT\_VIEWER  | Project Viewer  | /project/v1/\_search |
-| EMPLOYEE\_COMMON | Employee Common | /inbox/v2/\_search   |
+<table><thead><tr><th width="215">Role Code</th><th width="140">Description</th><th>API</th></tr></thead><tbody><tr><td>PROJECT_CREATOR</td><td>Project Creator</td><td>/project/v1/_create</td></tr><tr><td></td><td></td><td>/project/v1/_update</td></tr><tr><td></td><td></td><td>/project/v1/_search</td></tr><tr><td>PROJECT_VIEWER</td><td>Project Viewer</td><td>/project/v1/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>Employee Common</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
 The following role-action mappings derived from the above table are configured for the Project service in the roleactions.json in MDMS. A sample is provided below. Make sure the action ID is correct and corresponds to actions.json.&#x20;
 

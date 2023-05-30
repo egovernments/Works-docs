@@ -54,7 +54,4 @@ Estimate \<estimate no.> for the project \<projectname> of the location \<locati
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| 1                   | On approval, estimate workflow state changes accordingly.    |
-| 2                   | On approval, a notification is sent to the estimate creator. |
+<table><thead><tr><th width="194">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>On approval, estimate workflow state changes accordingly.</td></tr><tr><td>2</td><td>On approval, a notification is sent to the estimate creator.</td></tr></tbody></table>

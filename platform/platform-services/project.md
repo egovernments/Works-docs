@@ -35,7 +35,5 @@ Click [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/
 
 The following primary masters are defined by this module and used for validations. Other common masters such as department, tenant etc..are also used by this module.&#x20;
 
-| Module Name | Master Name | Sample Data                                                                                                                                                                                |
-| ----------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| works       | ProjectType | [https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json](https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json) |
+<table><thead><tr><th width="172.66666666666669">Module Name</th><th width="155">Master Name</th><th>Sample Data</th></tr></thead><tbody><tr><td>works</td><td>ProjectType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json">https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json</a></td></tr></tbody></table>
 

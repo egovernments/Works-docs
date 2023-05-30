@@ -61,8 +61,4 @@ Not applicable.
 
 ## Acceptance Criteria
 
-| Acceptance Criteria | Description                                                 |
-| ------------------- | ----------------------------------------------------------- |
-| 1                   | Project details are displayed as described in the story.    |
-| 2                   | Actions are enabled as per the role the logged-in user has. |
-| 3                   |                                                             |
+<table><thead><tr><th width="206">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Project details are displayed as described in the story.</td></tr><tr><td>2</td><td>Actions are enabled as per the role the logged-in user has.</td></tr><tr><td>3</td><td></td></tr></tbody></table>

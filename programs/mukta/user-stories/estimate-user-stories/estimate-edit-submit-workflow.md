@@ -17,39 +17,7 @@ Estimate Creator
 3. The estimate which is in a workflow can only be edited. Rejected and approved estimates can not be edited.
 4. Edit Estimate allows the user to edit the below-given estimate details.
 
-| S.No. | Field                              | Data Type         | Required | Description                                                |
-| ----- | ---------------------------------- | ----------------- | -------- | ---------------------------------------------------------- |
-| 1     | Estimate No.                       | Display Only      | Y        |                                                            |
-| 2     | Estimate Type                      | Display Only      | Y        |                                                            |
-| 3     | Project ID                         | Display Only      | Y        |                                                            |
-| 4     | Date of proposal                   | Display Only      | Y        |                                                            |
-| 5     | Project Name                       | Display Only      | Y        | This value is populated from project                       |
-| 6     | Project Description                | Display Only      | Y        | This value is populated from project                       |
-| 7     | **Project Details**                | **Tab/ Display**  |          | Same to project view                                       |
-| 8     | **Estimation Details**             | **Tab**           |          |                                                            |
-| 9     | _**Line Items**_                   | Grid              |          | SOR/ Non-SOR items.                                        |
-| 10    | Description                        | Textbox           | Y        | The description of SOR/ Non-SOR item.                      |
-| 11    | UOM                                | Drop-down         | Y        | Unit of measurement from the drop-down.                    |
-| 12    | Rate                               | Numeric           | Y        | Rate per unit                                              |
-| 13    | Quantity                           | Numeric           | Y        | Quantity estimated                                         |
-| 14    | Amount                             | Auto-calculated   | Y        | Amount calculated, Rate\*Quantity.                         |
-| 15    | Total                              | Auto-calculated   | Y        | Grid total                                                 |
-| 16    | _**Overhead**_                     | **Section/ Grid** |          |                                                            |
-| 17    | Overhead                           | Drop-down         | Y        | The values are populated from the configuration            |
-| 18    | Percentage/ Lump-sum               | Display           | Y        | The value is displayed per the configuration.              |
-| 19    | Amount                             | Auto-calculated   | Y        | Auto-calculated/ User Entered, based on the configuration. |
-| 20    | Total                              | Auto-calculated   | Y        | Grid Total                                                 |
-| 21    | Total Estimated Amount             | Auto-calculated   | Y        | Total estimated value of the project.                      |
-| 22    | _**Labour and Material Analysis**_ | _**Section**_     |          |                                                            |
-| 23    | Material Cost                      | Numeric           | Y        | Cost of the material component                             |
-| 24    | Labour Cost                        | Numeric           | Y        | Cost of the labour component                               |
-| 25    | _**Relevant Documents**_           |                   |          |                                                            |
-| 26    | Detailed Estimate                  | File Attachment   | Y        | DIGIT standard file attachment component, file size 5MB.   |
-| 27    | Labor Analysis                     | File Attachment   | Y        | DIGIT standard file attachment component, file size 5MB.   |
-| 28    | Material Analysis                  | File Attachment   | Y        | DIGIT standard file attachment component, file size 5MB.   |
-| 29    | Project Design                     | File Attachment   | N        | DIGIT standard file attachment component, file size 5MB.   |
-| 30    | Others                             | Texbox            | N        | To capture the file which is to be uploaded.               |
-|       |                                    | File Attachment   | N        | DIGIT standard file attachment component, file size 5MB.   |
+<table><thead><tr><th width="110">S.No.</th><th>Field</th><th width="158">Data Type</th><th width="89">Required</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Estimate No.</td><td>Display Only</td><td>Y</td><td> </td></tr><tr><td>2</td><td>Estimate Type</td><td>Display Only</td><td>Y</td><td> </td></tr><tr><td>3</td><td>Project ID</td><td>Display Only</td><td>Y</td><td> </td></tr><tr><td>4</td><td>Date of proposal</td><td>Display Only</td><td>Y</td><td> </td></tr><tr><td>5</td><td>Project Name</td><td>Display Only</td><td>Y</td><td>This value is populated from project</td></tr><tr><td>6</td><td>Project Description</td><td>Display Only</td><td>Y</td><td>This value is populated from project</td></tr><tr><td>7</td><td><strong>Project Details</strong></td><td><strong>Tab/ Display</strong></td><td> </td><td>Same to project view</td></tr><tr><td>8</td><td><strong>Estimation Details</strong></td><td><strong>Tab</strong></td><td> </td><td> </td></tr><tr><td>9</td><td><em><strong>Line Items</strong></em></td><td>Grid</td><td> </td><td>SOR/ Non-SOR items.</td></tr><tr><td>10</td><td>Description</td><td>Textbox</td><td>Y</td><td>The description of SOR/ Non-SOR item.</td></tr><tr><td>11</td><td>UOM</td><td>Drop-down</td><td>Y</td><td>Unit of measurement from the drop-down.</td></tr><tr><td>12</td><td>Rate</td><td>Numeric</td><td>Y</td><td>Rate per unit</td></tr><tr><td>13</td><td>Quantity</td><td>Numeric</td><td>Y</td><td>Quantity estimated</td></tr><tr><td>14</td><td>Amount</td><td>Auto-calculated</td><td>Y</td><td>Amount calculated, Rate*Quantity.</td></tr><tr><td>15</td><td>Total</td><td>Auto-calculated</td><td>Y</td><td>Grid total</td></tr><tr><td>16</td><td><em><strong>Overhead</strong></em></td><td><strong>Section/ Grid</strong></td><td> </td><td> </td></tr><tr><td>17</td><td>Overhead</td><td>Drop-down</td><td>Y</td><td>The values are populated from the configuration</td></tr><tr><td>18</td><td>Percentage/ Lump-sum</td><td>Display</td><td>Y</td><td>The value is displayed per the configuration.</td></tr><tr><td>19</td><td>Amount</td><td>Auto-calculated</td><td>Y</td><td>Auto-calculated/ User Entered, based on the configuration.</td></tr><tr><td>20</td><td>Total</td><td>Auto-calculated</td><td>Y</td><td>Grid Total</td></tr><tr><td>21</td><td>Total Estimated Amount</td><td>Auto-calculated</td><td>Y</td><td>Total estimated value of the project.</td></tr><tr><td>22</td><td><em><strong>Labour and Material Analysis</strong></em></td><td><em><strong>Section</strong></em></td><td> </td><td> </td></tr><tr><td>23</td><td>Material Cost</td><td>Numeric</td><td>Y</td><td>Cost of the material component</td></tr><tr><td>24</td><td>Labour Cost</td><td>Numeric</td><td>Y</td><td>Cost of the labour component</td></tr><tr><td>25</td><td><em><strong>Relevant Documents</strong></em></td><td> </td><td> </td><td> </td></tr><tr><td>26</td><td>Detailed Estimate</td><td>File Attachment</td><td>Y</td><td>DIGIT standard file attachment component, file size 5MB. </td></tr><tr><td>27</td><td>Labor Analysis </td><td>File Attachment</td><td>Y</td><td>DIGIT standard file attachment component, file size 5MB.</td></tr><tr><td>28</td><td>Material Analysis</td><td>File Attachment</td><td>Y</td><td>DIGIT standard file attachment component, file size 5MB.</td></tr><tr><td>29</td><td>Project Design</td><td>File Attachment</td><td>N</td><td>DIGIT standard file attachment component, file size 5MB.</td></tr><tr><td>30</td><td>Others</td><td>Texbox</td><td>N</td><td>To capture the file which is to be uploaded.</td></tr><tr><td> </td><td> </td><td>File Attachment</td><td>N</td><td>DIGIT standard file attachment component, file size 5MB.</td></tr></tbody></table>
 
 Once the estimate is edited, it is re-submitted again for approval process using the **Submit** action.
 
@@ -61,12 +29,7 @@ Not applicable.
 
 **On submit** a workflow pop-up window is displayed based on the logged-in user role.
 
-| Role                 | Workflow window                  |
-| -------------------- | -------------------------------- |
-| Estimate Creator     | Submit pop-up window             |
-| Estimate Verifier    | Verify and Forward pop-up window |
-| Technical Sanctioner | Technical Sanction pop-up window |
-| Approver             | Approval pop-up window           |
+<table><thead><tr><th width="250">Role</th><th>Workflow window</th></tr></thead><tbody><tr><td>Estimate Creator</td><td>Submit pop-up window</td></tr><tr><td>Estimate Verifier</td><td>Verify and Forward pop-up window</td></tr><tr><td>Technical Sanctioner</td><td>Technical Sanction pop-up window</td></tr><tr><td>Approver</td><td>Approval pop-up window</td></tr></tbody></table>
 
 On taking respective workflow action, changes get saved and the estimate is forwarded to the next user in the workflow.
 
@@ -80,11 +43,5 @@ Messages are displayed as per workflow stories.
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria | Description                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------- |
-| 1                   | Configurable role-based access                                                      |
-| 2                   | Only the estimates in workflow can be edited                                        |
-| 3                   | Estimate is opened in editable mode                                                 |
-| 4                   | The details given in the table can be edited by user                                |
-| 5                   | On Submit the estimate is again forwarded to the next user for the approval process |
+<table><thead><tr><th width="207">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Configurable role-based access</td></tr><tr><td>2</td><td>Only the estimates in workflow can be edited</td></tr><tr><td>3</td><td>Estimate is opened in editable mode</td></tr><tr><td>4</td><td>The details given in the table can be edited by user</td></tr><tr><td>5</td><td>On Submit the estimate is again forwarded to the next user for the approval process</td></tr></tbody></table>
 

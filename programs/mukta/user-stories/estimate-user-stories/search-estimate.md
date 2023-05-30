@@ -21,17 +21,7 @@ Role: Estimate Creator, Estimate Verifier, Technical Sanctioner, Approver.
 
 ### Search Criteria
 
-| S.No. | Field Name       | Data Type  | Description                     |
-| ----- | ---------------- | ---------- | ------------------------------- |
-| 1     | Ward             | Drop-down  | Auto-complete, matching search. |
-| 2     | Project Type     | Drop-down  | Project type                    |
-| 3     | Project Name     | Textbox    | Project name.                   |
-| 4     | Estimate No.     | Textbox    | Estimate no.                    |
-| 5     | Status           | Drop-down  | Workflow status of an estimate. |
-| 6     | From Date        | Date Range | Estimate creation date.         |
-| 7     | To Date          | Date Range | Estimate creation date.         |
-| 8     | **Search**       | Button     |                                 |
-| 9     | **Clear Search** | Button     |                                 |
+<table><thead><tr><th width="110">S.No.</th><th width="157">Field Name</th><th width="153">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Ward</td><td>Drop-down</td><td>Auto-complete, matching search.</td></tr><tr><td>2</td><td>Project Type</td><td>Drop-down</td><td>Project type</td></tr><tr><td>3</td><td>Project Name</td><td>Textbox</td><td>Project name.</td></tr><tr><td>4</td><td>Estimate No.</td><td>Textbox</td><td>Estimate no.</td></tr><tr><td>5</td><td>Status</td><td>Drop-down</td><td>Workflow status of an estimate.</td></tr><tr><td>6</td><td>From Date</td><td>Date Range</td><td>Estimate creation date.</td></tr><tr><td>7</td><td>To Date</td><td>Date Range</td><td>Estimate creation date.</td></tr><tr><td>8</td><td><strong>Search</strong></td><td>Button</td><td> </td></tr><tr><td>9</td><td><strong>Clear Search</strong></td><td>Button</td><td> </td></tr></tbody></table>
 
 &#x20;
 
@@ -47,14 +37,7 @@ Role: Estimate Creator, Estimate Verifier, Technical Sanctioner, Approver.
 2. Pagination is displayed to handle the big result set. 10 records per page are displayed.
 3. The option to download the result set in Excel/ PDF is provided.
 
-| S.No. | Field Name       | Data Type    | Description                                                                      |
-| ----- | ---------------- | ------------ | -------------------------------------------------------------------------------- |
-| 1     | Estimate No.     | Display Only | A hyperlink to open the estimate  in view mode.                                  |
-| 2     | Project Name     | Display Only | Mouseover action on the project name shows the project description as a tooltip. |
-| 3     | Location         | Display Only | Locality name along with ward name. Locality + Ward                              |
-| 4     | Prepared By      | Display Only | Name of user who has prepared it.                                                |
-| 5     | Status           | Display Only | Status of the estimate.                                                          |
-| 6     | Estimated Amount | Display Only | Total estimated amount.                                                          |
+<table><thead><tr><th width="94">S.No.</th><th width="143">Field Name</th><th width="148">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Estimate No.</td><td>Display Only</td><td>A hyperlink to open the estimate  in view mode.</td></tr><tr><td>2</td><td>Project Name</td><td>Display Only</td><td>Mouseover action on the project name shows the project description as a tooltip.</td></tr><tr><td>3</td><td>Location</td><td>Display Only</td><td>Locality name along with ward name. Locality + Ward</td></tr><tr><td>4</td><td>Prepared By</td><td>Display Only</td><td>Name of user who has prepared it.</td></tr><tr><td>5</td><td>Status</td><td>Display Only</td><td>Status of the estimate.</td></tr><tr><td>6</td><td>Estimated Amount</td><td>Display Only</td><td>Total estimated amount.</td></tr></tbody></table>
 
 ## Validations
 
@@ -76,9 +59,5 @@ Not applicable.
 
 ## Acceptance Criteria
 
-| Acceptance Criteria | Description                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------------------- |
-| 1                   | At least one parameter is required to perform the search.                                         |
-| 2                   | Search results are displayed on matching records found else no record found message is displayed. |
-| 3                   | Pagination is applied if more than 10 records are found.                                          |
+<table><thead><tr><th width="199">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>At least one parameter is required to perform the search.</td></tr><tr><td>2</td><td>Search results are displayed on matching records found else no record found message is displayed.</td></tr><tr><td>3</td><td>Pagination is applied if more than 10 records are found.</td></tr></tbody></table>
 

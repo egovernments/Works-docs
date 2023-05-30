@@ -19,15 +19,7 @@ This module has 4 associated screens :&#x20;
 
 #### MDMS Configurations
 
-| S.No. | Data                | MDMS Link                                                                                                                                                                                                                                                                                    |
-| ----- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | OrgType             | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgType.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgType.json)                                                                                                 |
-| 2     | OrgFunctionCategory | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionCategory.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionCategory.json)                                                                         |
-| 3     | OrgFunctionClass    | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionClass.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionClass.json)                                                                               |
-| 4     | OrgTaxIdentifier    | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTaxIdentifier.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTaxIdentifier.json)                                                                               |
-| 5     | BankAccType         | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/BankAccType.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/BankAccType.json)                                                                                                           |
-| 6     | OrgTransferCode     | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTransferCode.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTransferCode.json)                                                                                 |
-| 7     | TenantBoundary      | [https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json](https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json) |
+<table data-header-hidden><thead><tr><th width="98.99999999999997"></th><th width="191"></th><th></th></tr></thead><tbody><tr><td>S.No.</td><td>Data</td><td>MDMS Link</td></tr><tr><td>1</td><td>OrgType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgType.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgType.json</a></td></tr><tr><td>2</td><td>OrgFunctionCategory</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionCategory.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionCategory.json</a></td></tr><tr><td>3</td><td>OrgFunctionClass</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionClass.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgFunctionClass.json</a></td></tr><tr><td>4</td><td>OrgTaxIdentifier</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTaxIdentifier.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTaxIdentifier.json</a></td></tr><tr><td>5</td><td>BankAccType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/BankAccType.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/BankAccType.json</a></td></tr><tr><td>6</td><td>OrgTransferCode</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTransferCode.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/OrgTransferCode.json</a></td></tr><tr><td>7</td><td>TenantBoundary</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json">https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json</a></td></tr></tbody></table>
 
 #### Module enablement configuration&#x20;
 
@@ -60,36 +52,21 @@ This module has 4 associated screens :&#x20;
 
 
 
-| S.No | API                                                     | <p>Action ID</p><p><br></p> | Roles                                                |
-| ---- | ------------------------------------------------------- | --------------------------- | ---------------------------------------------------- |
-| 1    | <p>/org-services/organisation/v1/_create</p><p><br></p> | 100                         | MUKTA\_ADMIN                                         |
-| 2    | /org-services/organisation/v1/\_search                  | 91                          | <p>MUKTA_ADMIN,<br>ORG_ADMIN, WORK_ORDER_CREATOR</p> |
-| 3    | /org-services/organisation/v1/\_update                  | 101                         | MUKTA\_ADMIN                                         |
+<table data-header-hidden><thead><tr><th width="87"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td><p>/org-services/organisation/v1/_create</p><p><br></p></td><td>100</td><td>MUKTA_ADMIN</td></tr><tr><td>2</td><td>/org-services/organisation/v1/_search</td><td>91</td><td>MUKTA_ADMIN,<br>ORG_ADMIN, WORK_ORDER_CREATOR</td></tr><tr><td>3</td><td>/org-services/organisation/v1/_update</td><td>101</td><td>MUKTA_ADMIN</td></tr></tbody></table>
 
 #### Sidebar configuration&#x20;
 
 
 
-| S.No | Screen              | Navigation URL                                 | <p>LeftIcon Updates</p><p><br></p> | Roles        |
-| ---- | ------------------- | ---------------------------------------------- | ---------------------------------- | ------------ |
-| 1    | Create Organisation | /works-ui/employee/masters/create-organization | dynamic:OrganisationIcon           | MUKTA\_ADMIN |
-| 2    | Search Organisation | /works-ui/employee/masters/search-organization | dynamic:OrganisationIcon           | MUKTA\_ADMIN |
+<table data-header-hidden><thead><tr><th width="96"></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Create Organisation</td><td>/works-ui/employee/masters/create-organization</td><td>dynamic:OrganisationIcon</td><td>MUKTA_ADMIN</td></tr><tr><td>2</td><td>Search Organisation</td><td>/works-ui/employee/masters/search-organization</td><td>dynamic:OrganisationIcon</td><td>MUKTA_ADMIN</td></tr></tbody></table>
 
 #### Screen configuration&#x20;
 
-| S.No | Screen        | Configuration                                                                                                                           |
-| ---- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Create/Modify | [Create Org Config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateOrganizationConfig.json) |
-| 2    | Search        | [Search Org Config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchOrganisationConfig.json) |
+<table data-header-hidden><thead><tr><th width="129.99999999999997"></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Configuration</td></tr><tr><td>1</td><td>Create/Modify</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateOrganizationConfig.json">Create Org Config</a></td></tr><tr><td>2</td><td>Search</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchOrganisationConfig.json">Search Org Config</a></td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 
-| TenantID | Module                   |
-| -------- | ------------------------ |
-| pg       | rainmaker-masters        |
-| pg       | rainmaker-common-masters |
-| pg       | rainmaker-common         |
-| pg.citya | rainmaker-pg.citya       |
+<table data-header-hidden><thead><tr><th width="234"></th><th></th></tr></thead><tbody><tr><td>TenantID</td><td>Module</td></tr><tr><td>pg</td><td>rainmaker-masters</td></tr><tr><td>pg</td><td>rainmaker-common-masters</td></tr><tr><td>pg</td><td>rainmaker-common</td></tr><tr><td>pg.citya</td><td>rainmaker-pg.citya</td></tr></tbody></table>
 
 ### &#x20;Workflow Configuration
 

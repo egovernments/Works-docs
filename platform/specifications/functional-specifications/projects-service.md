@@ -38,22 +38,7 @@ Projects may not focus on just construction or civil works. A health campaign, a
 
 The table below provides the list of project attributes.
 
-| Field               | Data Type    | Required (Y/N) | Validations / Comments                                                                                                              |
-| ------------------- | ------------ | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Id                  | NA           | Y              | System generated UUID                                                                                                               |
-| Name                | Alphanumeric | Y              | <p>MinChar 2 - Max Char - NA<br>Ex - Construction of School Building</p>                                                            |
-| Project Type        | MDMS Data    | Y              | <p>Should be pre-defined master data<br>Ex - Building</p>                                                                           |
-| Project Sub Type    | MDMS Data    | N              | <p>Should be pre-defined master data. Estimate templates are linked to a project subtype<br>Ex - School Building</p>                |
-| Project Group       | MDMS Data    | Y              | <p>Should be pre-defined master data. Contract &#x26; Assetisation terms are defined based on this value.<br>Ex - Capital Works</p> |
-| Address             |              | Y              | Address of the main project.                                                                                                        |
-| Proposed Start date | Date         | N              |                                                                                                                                     |
-| Proposed End date   | Date         | N              |                                                                                                                                     |
-| Parent              | ID           | N              | Parent Project ID                                                                                                                   |
-| Status              | MDMS Data    | Y              | Created, Rejected, Cancelled, In-progress, Completed                                                                                |
-| Owning Department   | MDMS Data    | Y              |                                                                                                                                     |
-| Reference No        | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Reference No to Offline File if any</p>                                                         |
-| Description         | Alphanumeric | N              | <p>MinChar 2 - Max Char - NA<br><br>Description of the Project</p>                                                                  |
-| Documents           | Attachments  | N              | <p>Upto 5 Documents each of 5 MB<br><br>Document Attachments</p>                                                                    |
+<table><thead><tr><th width="148">Field</th><th width="138">Data Type</th><th width="111">Required (Y/N)</th><th>Validations / Comments</th></tr></thead><tbody><tr><td>Id</td><td>NA</td><td>Y</td><td>System generated UUID</td></tr><tr><td>Name</td><td>Alphanumeric</td><td>Y</td><td>MinChar 2 - Max Char - NA<br>Ex - Construction of School Building</td></tr><tr><td>Project Type</td><td>MDMS Data</td><td>Y</td><td>Should be pre-defined master data<br>Ex - Building</td></tr><tr><td>Project Sub Type</td><td>MDMS Data</td><td>N</td><td>Should be pre-defined master data. Estimate templates are linked to a project subtype<br>Ex - School Building</td></tr><tr><td>Project Group</td><td>MDMS Data</td><td>Y</td><td>Should be pre-defined master data. Contract &#x26; Assetisation terms are defined based on this value.<br>Ex - Capital Works</td></tr><tr><td>Address</td><td></td><td>Y</td><td>Address of the main project.</td></tr><tr><td>Proposed Start date</td><td>Date</td><td>N</td><td></td></tr><tr><td>Proposed End date</td><td>Date</td><td>N</td><td></td></tr><tr><td>Parent</td><td>ID</td><td>N</td><td>Parent Project ID</td></tr><tr><td>Status</td><td>MDMS Data</td><td>Y</td><td>Created, Rejected, Cancelled, In-progress, Completed</td></tr><tr><td>Owning Department</td><td>MDMS Data</td><td>Y</td><td></td></tr><tr><td>Reference No</td><td>Alphanumeric</td><td>N</td><td>MinChar 2 - Max Char - NA<br><br>Reference No to Offline File if any</td></tr><tr><td>Description</td><td>Alphanumeric</td><td>N</td><td>MinChar 2 - Max Char - NA<br><br>Description of the Project</td></tr><tr><td>Documents</td><td>Attachments</td><td>N</td><td>Upto 5 Documents each of 5 MB<br><br>Document Attachments</td></tr></tbody></table>
 
 ## Use Cases
 
@@ -61,13 +46,5 @@ A project can be divided into multiple sub-projects, each with its own workflows
 
 ## Mockups
 
-| Create Project with no sub projects                              | ![](<../../../.gitbook/assets/image (22).png>)    |
-| ---------------------------------------------------------------- | ------------------------------------------------- |
-| Create Project with Sub projects                                 | ![](<../../../.gitbook/assets/image (1) (3).png>) |
-| Capturing Financial details of project (Part of Program service) | ![](<../../../.gitbook/assets/image (3).png>)     |
-| Capturing Sub Project Details                                    | ![](<../../../.gitbook/assets/image (8).png>)     |
-| Project Created Successfully                                     | ![](<../../../.gitbook/assets/image (34).png>)    |
-| View Project                                                     | ![](<../../../.gitbook/assets/image (1).png>)     |
-| Projects Inbox                                                   | ![](<../../../.gitbook/assets/image (21).png>)    |
-| Inbox Table                                                      | ![](<../../../.gitbook/assets/image (32).png>)    |
+<table data-header-hidden><thead><tr><th width="235">Description</th><th>Mockups</th></tr></thead><tbody><tr><td>Create Project with no sub projects</td><td><img src="../../../.gitbook/assets/image (22).png" alt=""></td></tr><tr><td>Create Project with Sub projects</td><td><img src="../../../.gitbook/assets/image (1) (3) (1).png" alt=""></td></tr><tr><td>Capturing Financial details of project (Part of Program service)</td><td><img src="../../../.gitbook/assets/image (3) (2).png" alt=""></td></tr><tr><td>Capturing Sub Project Details</td><td><img src="../../../.gitbook/assets/image (8).png" alt=""></td></tr><tr><td>Project Created Successfully</td><td><img src="../../../.gitbook/assets/image (34).png" alt=""></td></tr><tr><td>View Project</td><td><img src="../../../.gitbook/assets/image (1) (3).png" alt=""></td></tr><tr><td>Projects Inbox</td><td><img src="../../../.gitbook/assets/image (21).png" alt=""></td></tr><tr><td>Inbox Table</td><td><img src="../../../.gitbook/assets/image (32).png" alt=""></td></tr></tbody></table>
 

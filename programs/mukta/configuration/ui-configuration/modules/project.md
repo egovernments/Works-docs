@@ -19,14 +19,7 @@ This module has 4 associated screens :
 
 ### MDMS Configurations
 
-| S.No.       | Data                | MDMS Link                                                                                               |
-| ----------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1           | Project Type        | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ProjectType.json                 |
-| 2           | Target Demography   | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/TargetDemography.json            |
-| 3           | ULB, City, Locality | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/citya/egov-location/boundary-data.json |
-| <p><br></p> | <p><br></p>         | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/cityb/egov-location/boundary-data.json |
-| <p><br></p> | <p><br></p>         | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/cityc/egov-location/boundary-data.json |
-| 4           | Document Config     | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/DocumentConfig.json              |
+<table data-header-hidden><thead><tr><th width="124.99999999999997"></th><th width="209"></th><th></th></tr></thead><tbody><tr><td>S.No.</td><td>Data</td><td>MDMS Link</td></tr><tr><td>1</td><td>Project Type</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ProjectType.json</td></tr><tr><td>2</td><td>Target Demography</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/TargetDemography.json</td></tr><tr><td>3</td><td>ULB, City, Locality</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/citya/egov-location/boundary-data.json</td></tr><tr><td><br></td><td><br></td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/cityb/egov-location/boundary-data.json</td></tr><tr><td><br></td><td><br></td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/cityc/egov-location/boundary-data.json</td></tr><tr><td>4</td><td>Document Config</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/DocumentConfig.json</td></tr></tbody></table>
 
 #### Module enablement configuration&#x20;
 
@@ -63,18 +56,11 @@ The Project created can be downloaded in PDF format from the View Project Screen
 
 #### Role-action mapping
 
-| S.No | API                                       | <p>Action ID</p><p><br></p> | Roles                             |
-| ---- | ----------------------------------------- | --------------------------- | --------------------------------- |
-| 1    | <p>/pms/project/v1/_create</p><p><br></p> | <p>51</p><p><br></p>        | <p>PROJECT_CREATOR</p><p><br></p> |
-| 2    | /pms/project/v1/\_search                  | 52                          | PROJECT\_VIEWER                   |
-| 3    | /pms/project/v1/\_update                  | 52                          | PROJECT\_CREATOR                  |
+<table data-header-hidden><thead><tr><th width="84"></th><th width="283"></th><th width="101"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td><p>/pms/project/v1/_create</p><p><br></p></td><td><p>51</p><p><br></p></td><td><p>PROJECT_CREATOR</p><p><br></p></td></tr><tr><td>2</td><td>/pms/project/v1/_search</td><td>52</td><td>PROJECT_VIEWER</td></tr><tr><td>3</td><td>/pms/project/v1/_update</td><td>52</td><td>PROJECT_CREATOR</td></tr></tbody></table>
 
 **Sidebar configuration**&#x20;
 
-| S.No | Screen         | Navigation URL                                              | <p>LeftIcon Updates</p><p><br></p>    | Roles                             |
-| ---- | -------------- | ----------------------------------------------------------- | ------------------------------------- | --------------------------------- |
-| 1    | Create Project | <p>/works-ui/employee/project/create-project</p><p><br></p> | <p>dynamic:ProjectIcon</p><p><br></p> | <p>PROJECT_CREATOR</p><p><br></p> |
-| 2    | Search Project | /works-ui/employee/project/search-project                   | <p>dynamic:ProjectIcon</p><p><br></p> | PROJECT\_VIEWER                   |
+<table data-header-hidden><thead><tr><th width="79"></th><th width="128"></th><th></th><th width="125"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Create Project</td><td><p>/works-ui/employee/project/create-project</p><p><br></p></td><td><p>dynamic:ProjectIcon</p><p><br></p></td><td><p>PROJECT_CREATOR</p><p><br></p></td></tr><tr><td>2</td><td>Search Project</td><td>/works-ui/employee/project/search-project</td><td><p>dynamic:ProjectIcon</p><p><br></p></td><td>PROJECT_VIEWER</td></tr></tbody></table>
 
 #### Sample Configuration
 
@@ -98,10 +84,7 @@ The Project created can be downloaded in PDF format from the View Project Screen
 
 #### Screen configuration&#x20;
 
-| S.No | Screen          | Configuration                                                                                                 |
-| ---- | --------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1    | Create / Update | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateProjectConfig.json |
-| 2    | Search          | https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchProjectConfig.json |
+<table data-header-hidden><thead><tr><th width="64.66666666666666"></th><th width="185"></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Configuration</td></tr><tr><td>1</td><td>Create / Update</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/CreateProjectConfig.json</td></tr><tr><td>2</td><td>Search</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/commonMuktaUiConfig/SearchProjectConfig.json</td></tr></tbody></table>
 
 ### Localization Configuration and Modules
 
@@ -114,7 +97,7 @@ The Project created can be downloaded in PDF format from the View Project Screen
 
 ### &#x20;Workflow Configuration
 
-NA
+&#x20; NA
 
 
 

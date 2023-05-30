@@ -157,4 +157,4 @@ The content on this screen is rendered based on the configuration passed on _App
 
 ## API Role Action Mapping
 
-<table><thead><tr><th>API</th><th>Role Code</th><th data-type="number">Action Id</th><th>Actions</th></tr></thead><tbody><tr><td>/muster-roll/v1/_update</td><td>JUNIOR_ENGINEER</td><td>38</td><td><ul><li>Reject</li><li>Send for Approval</li><li>Modify/Verify Muster Roll</li></ul></td></tr><tr><td>/muster-roll/v1/_update</td><td>MUNICIPAL_ENGINEER</td><td>38</td><td><ul><li>Approve</li><li>Reject</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="159">API</th><th width="201">Role Code</th><th width="101" data-type="number">Action Id</th><th width="179">Actions</th></tr></thead><tbody><tr><td>/muster-roll/v1/_update</td><td>JUNIOR_ENGINEER</td><td>38</td><td><ul><li>Reject</li><li>Send for Approval</li><li>Modify/Verify Muster Roll</li></ul></td></tr><tr><td>/muster-roll/v1/_update</td><td>MUNICIPAL_ENGINEER</td><td>38</td><td><ul><li>Approve</li><li>Reject</li></ul></td></tr></tbody></table>

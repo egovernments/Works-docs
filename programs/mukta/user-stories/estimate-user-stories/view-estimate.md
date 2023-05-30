@@ -86,7 +86,4 @@ Not applicable.
 
 ## Acceptance Criteria
 
-| Acceptance Criteria | Description                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| 1                   | Estimate details are displayed as described in the story.                               |
-| 2                   | Actions are enabled as per the estimated workflow state and role of the logged-in user. |
+<table><thead><tr><th width="195">Acceptance Criteria</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Estimate details are displayed as described in the story.</td></tr><tr><td>2</td><td>Actions are enabled as per the estimated workflow state and role of the logged-in user.</td></tr></tbody></table>

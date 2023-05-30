@@ -338,8 +338,4 @@ Upon successful update a response screen is displayed as follows
 
 ### Role-Action Mapping
 
-| Role               | Action                                         |
-| ------------------ | ---------------------------------------------- |
-| EST\_CHECKER       | CHECK (Check and Forward) / REJECT             |
-| EST\_TECH\_SANC    | TECHNICALSANCTION (Check and Forward) / REJECT |
-| EST\_ADMIN_\__SANC | ADMINSANCTION (Approve) / REJECT               |
+<table><thead><tr><th width="216">Role</th><th width="415.3333333333333">Action</th></tr></thead><tbody><tr><td>EST_CHECKER</td><td>CHECK (Check and Forward) / REJECT</td></tr><tr><td>EST_TECH_SANC</td><td>TECHNICALSANCTION (Check and Forward) / REJECT</td></tr><tr><td>EST_ADMIN<em>_</em>SANC</td><td>ADMINSANCTION (Approve) / REJECT</td></tr></tbody></table>

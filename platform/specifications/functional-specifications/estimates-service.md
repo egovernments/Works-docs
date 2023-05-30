@@ -10,14 +10,7 @@ Estimates are created for each project/sub-project entity.
 2. Estimates are created for each project/sub-project entity.
 3. There are multiple estimate types for each project prepared with different levels of abstraction.
 
-| Estimate Type | Definition                                                                                                                                                                                                                                                                                   |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Proposal      | A single line item has the overall project cost against the project title. This requires in-principal Admin sanction. Once approved detailed estimate for the same is created.                                                                                                               |
-| Detailed      | A detailed estimate contains engineering drawings done on AutoCAD & other drawing tools. Modern tools also abstract out many measurements and materials from drawings created by these tools.                                                                                                |
-| Abstract      | An abstract estimate is prepared using standard SOR & Non-SOR Items defined by PWD (mostly ULBs customise SOR and have their own copies). SOR items are created internally using item rates.                                                                                                 |
-| Revised       | When a project's finances are increasing then to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have the same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost |
-| Deviation     | A deviation statement is a type of estimation when the scope of the project changes but the project cost is meant to remain the same. The deviation statement and revised estimate are the same as far as the estimation process is concerned. The approving authority changes only.         |
-| Spill Over    | For a multi-year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating the entire budget in the first year.                                                                                                          |
+<table><thead><tr><th width="174">Estimate Type</th><th>Definition</th></tr></thead><tbody><tr><td>Proposal</td><td>A single line item has the overall project cost against the project title. This requires in-principal Admin sanction. Once approved detailed estimate for the same is created.</td></tr><tr><td>Detailed</td><td>A detailed estimate contains engineering drawings done on AutoCAD &#x26; other drawing tools. Modern tools also abstract out many measurements and materials from drawings created by these tools.</td></tr><tr><td>Abstract</td><td>An abstract estimate is prepared using standard SOR &#x26; Non-SOR Items defined by PWD (mostly ULBs customise SOR and have their own copies). SOR items are created internally using item rates.</td></tr><tr><td>Revised</td><td>When a project's finances are increasing then to what is initially estimated, revision estimates are created and approved. revision estimates may or may not have the same SORs as initial estimates. Revised estimate line items added to initial line items will give overall project cost</td></tr><tr><td>Deviation</td><td>A deviation statement is a type of estimation when the scope of the project changes but the project cost is meant to remain the same. The deviation statement and revised estimate are the same as far as the estimation process is concerned. The approving authority changes only.</td></tr><tr><td>Spill Over</td><td>For a multi-year project, an estimate is financially broken down into pieces and budget allocation is done for each year instead of allocating the entire budget in the first year.</td></tr></tbody></table>
 
 ## Functional Requirements
 
@@ -63,16 +56,7 @@ Estimates are created for each project/sub-project entity.
 3. Each SOR Item may have multiple variants with slight changes in description and amounts.
    * Ex. Estimate of tiling for the ground floor and estimate of tiling for the first floor will change by 15 Rs to capture the carriage charges. These should be captured with .serial\_number. (Parent.Child)
 
-| Field                               | Data Type    | Required (Y/N) | Comments                                                                                                                                          |
-| ----------------------------------- | ------------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SOR Category ID                     | Drop down    | Y              | <p>Options will be the list of Category Code from the SOR category type master</p><p>The combination of category Code and Item code is unique</p> |
-| Item ID                             | Alphanumeric | Y              | System generated                                                                                                                                  |
-| Item Description                    |              | Y              | Item description of the selected Item                                                                                                             |
-| Unit of Measurement                 |              | Y              | Options will be the list from Unit of measurement master                                                                                          |
-| _\[Array] for specific date ranges_ |              |                |                                                                                                                                                   |
-| Item Rate                           | Numeric      | Y              | Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates                                 |
-| Item rate Applicable From           | Date         | Y              | To be entered in the format dd/mm/yyyy                                                                                                            |
-| Item rate Applicable To             | Date         | N              | To be entered in the format dd/mm/yyyy                                                                                                            |
+<table><thead><tr><th width="154">Field</th><th width="143">Data Type</th><th width="97">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>SOR Category ID</td><td>Drop down</td><td>Y</td><td><p>Options will be the list of Category Code from the SOR category type master</p><p>The combination of category Code and Item code is unique</p></td></tr><tr><td>Item ID</td><td>Alphanumeric</td><td>Y</td><td>System generated</td></tr><tr><td>Item Description</td><td></td><td>Y</td><td>Item description of the selected Item</td></tr><tr><td>Unit of Measurement</td><td></td><td>Y</td><td>Options will be the list from Unit of measurement master</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Item Rate</td><td>Numeric</td><td>Y</td><td>Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates</td></tr><tr><td>Item rate Applicable From</td><td>Date</td><td>Y</td><td>To be entered in the format dd/mm/yyyy</td></tr><tr><td>Item rate Applicable To</td><td>Date</td><td>N</td><td>To be entered in the format dd/mm/yyyy</td></tr></tbody></table>
 
 **Analysis of Rates**
 
@@ -86,35 +70,13 @@ Estimates are created for each project/sub-project entity.
 
 **Basic Rates of Materials Master**
 
-| **Field**                           | **Data Type** | **Required (Y/N)** | **Comments**                                                                                                      |
-| ----------------------------------- | ------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| ID                                  | NA            | Na                 | System generated ID                                                                                               |
-| Department                          | Dropdown      | Y                  | Labour rates may vary by each department                                                                          |
-| Material Category                   | Dropdown      | Y                  | brick and tile, stone and road, metal and iron etc                                                                |
-| Description of Material             | Alphanumeric  | Y                  | <p>Second Class Table Moulded Chamber Burnt Bricks 9" x 41<br>/2" x 3"</p>                                        |
-| Quantity                            | Numeric       | Y                  | Quantity for which base rate is defined. Default to 1                                                             |
-| Unit                                | Dropdown      | Y                  | Nos, Ton, etc                                                                                                     |
-| _\[Array] for specific date ranges_ |               |                    |                                                                                                                   |
-| Item Rate                           | Numeric       | Y                  | Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates |
-| Item rate Applicable From           | Date          | Y                  | To be entered in the format dd/mm/yyyy                                                                            |
-| Item rate Applicable To             | Date          | N                  | To be entered in the format dd/mm/yyyy                                                                            |
+<table data-header-hidden><thead><tr><th width="160"></th><th width="138"></th><th width="109"></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Data Type</strong></td><td><strong>Required (Y/N)</strong></td><td><strong>Comments</strong></td></tr><tr><td>ID</td><td>NA</td><td>Na</td><td>System generated ID</td></tr><tr><td>Department</td><td>Dropdown</td><td>Y</td><td>Labour rates may vary by each department</td></tr><tr><td>Material Category</td><td>Dropdown</td><td>Y</td><td>brick and tile, stone and road, metal and iron etc</td></tr><tr><td>Description of Material</td><td>Alphanumeric</td><td>Y</td><td>Second Class Table Moulded Chamber Burnt Bricks 9" x 41<br>/2" x 3"</td></tr><tr><td>Quantity</td><td>Numeric</td><td>Y</td><td>Quantity for which base rate is defined. Default to 1</td></tr><tr><td>Unit</td><td>Dropdown</td><td>Y</td><td>Nos, Ton, etc</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Item Rate</td><td>Numeric</td><td>Y</td><td>Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates</td></tr><tr><td>Item rate Applicable From</td><td>Date</td><td>Y</td><td>To be entered in the format dd/mm/yyyy</td></tr><tr><td>Item rate Applicable To</td><td>Date</td><td>N</td><td>To be entered in the format dd/mm/yyyy</td></tr></tbody></table>
 
 **Note**: There are roughly about 200 materials and some of whose rates change quarterly.
 
 **Labour Rate Master**
 
-| **Field**                           | **Data Type** | **Required (Y/N)** | **Comments**                                          |
-| ----------------------------------- | ------------- | ------------------ | ----------------------------------------------------- |
-| ID                                  | NA            | Na                 | System generated ID                                   |
-| Department                          | Dropdown      | Y                  | Labour rates may vary by each department              |
-| Skill Category                      | Dropdown      | Y                  | Highly Skilled, Semi Skilled Unskilled etc            |
-| Description of Labour               | Alphanumeric  | Y                  | Technical Assistant, Stone Polisher, Smith etc        |
-| Quantity                            | Numeric       | Y                  | Quantity for which base rate is defined. Default to 1 |
-| Unit                                | Dropdown      | Y                  | Day/Week/Month                                        |
-| _\[Array] for specific date ranges_ |               |                    |                                                       |
-| Rate                                | Numeric       | Y                  | Rate of Labour for specified (Quantity' units)        |
-| From Date                           | Date          | Y                  | Date from which these rates are applicable            |
-| To Date                             | Date          | Y                  | Date to which these rates are applicable              |
+<table data-header-hidden><thead><tr><th width="142"></th><th width="138"></th><th width="147"></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Data Type</strong></td><td><strong>Required (Y/N)</strong></td><td><strong>Comments</strong></td></tr><tr><td>ID</td><td>NA</td><td>Na</td><td>System generated ID</td></tr><tr><td>Department</td><td>Dropdown</td><td>Y</td><td>Labour rates may vary by each department</td></tr><tr><td>Skill Category</td><td>Dropdown</td><td>Y</td><td>Highly Skilled, Semi Skilled Unskilled etc</td></tr><tr><td>Description of Labour</td><td>Alphanumeric</td><td>Y</td><td>Technical Assistant, Stone Polisher, Smith etc</td></tr><tr><td>Quantity</td><td>Numeric</td><td>Y</td><td>Quantity for which base rate is defined. Default to 1</td></tr><tr><td>Unit</td><td>Dropdown</td><td>Y</td><td>Day/Week/Month</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Rate</td><td>Numeric</td><td>Y</td><td>Rate of Labour for specified (Quantity' units)</td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td>Date to which these rates are applicable</td></tr></tbody></table>
 
 There are about 80 types of labour.
 
@@ -122,18 +84,7 @@ There are about 80 types of labour.
 
 Lead Master will have the carriage and royalty details of each item that goes into the individual SOR items.
 
-| Field           | Data Type         | Required (Y/N) | Comments                                                                                         |
-| --------------- | ----------------- | -------------- | ------------------------------------------------------------------------------------------------ |
-| ID              | NA                | NA             | System Generated                                                                                 |
-| Item ID         | Dropdown          |                | Item for which Lead SOR is present                                                               |
-| Item Name       | Autofill/Dropdown | Y              | Item for which Lead SOR is present                                                               |
-| Name of Quarry  | Dropdown          | N              | For Materials. Doesnt appy for labour                                                            |
-| Unit            | Dropdown          | Y              | Unit of Measurement                                                                              |
-| Lead (Km.)      | Numeric           | N              | Distance from quarry                                                                             |
-| Basic Cost      | Autofill          | Y              | Basic cost pulled from material rate master or labour rate master                                |
-| Conveyance Cost | Numeric           | N              |                                                                                                  |
-| Royalty         | Numeric           | N              | Royalty on applicable material, abstracted, will go into specific head defined during estimation |
-| Total           | Calculation       | Y              | Total new cost of line item                                                                      |
+<table data-header-hidden><thead><tr><th width="136"></th><th width="171"></th><th width="120"></th><th></th></tr></thead><tbody><tr><td>Field</td><td>Data Type</td><td>Required (Y/N)</td><td>Comments</td></tr><tr><td>ID</td><td>NA</td><td>NA</td><td>System Generated</td></tr><tr><td>Item ID</td><td>Dropdown</td><td></td><td>Item for which Lead SOR is present</td></tr><tr><td>Item Name</td><td>Autofill/Dropdown</td><td>Y</td><td>Item for which Lead SOR is present</td></tr><tr><td>Name of Quarry</td><td>Dropdown</td><td>N</td><td>For Materials. Doesnt appy for labour</td></tr><tr><td>Unit</td><td>Dropdown</td><td>Y</td><td>Unit of Measurement</td></tr><tr><td>Lead (Km.)</td><td>Numeric</td><td>N</td><td>Distance from quarry</td></tr><tr><td>Basic Cost</td><td>Autofill</td><td>Y</td><td>Basic cost pulled from material rate master or labour rate master</td></tr><tr><td>Conveyance Cost</td><td>Numeric</td><td>N</td><td></td></tr><tr><td>Royalty</td><td>Numeric</td><td>N</td><td>Royalty on applicable material, abstracted, will go into specific head defined during estimation</td></tr><tr><td>Total</td><td>Calculation</td><td>Y</td><td>Total new cost of line item</td></tr></tbody></table>
 
 When a lead master is set on a particular material in a particular ULB, all SOR line items that contain this item will take the amount from the lead master and not from the basic rate master
 
@@ -154,16 +105,7 @@ Overheads can be of two types.
 
 We should be able to abstract out similar overheads from multiple SOR line items and groups to form a single overall overhead for the estimate.
 
-| **Field**                           | **Data Type** | **Required (Y/N)** | **Comments**                                                        |
-| ----------------------------------- | ------------- | ------------------ | ------------------------------------------------------------------- |
-| ID                                  | NA            | NA                 | ID generated for each overhead type                                 |
-| Name                                | Alphanumeric  | Y                  | <p>Name of the overhead</p><p>Ex. Labour Cess, GST, Royalty etc</p> |
-| Description                         | Alphanumeric  | N                  | Description                                                         |
-| Account head                        | Dropdown      | Y                  | Account head to which overheads should be credited                  |
-| _\[Array] for specific date ranges_ |               |                    |                                                                     |
-| From Date                           | Date          | Y                  | Date from which these rates are applicable                          |
-| To Date                             | Date          | Y                  |                                                                     |
-| Percentage/ Lumpsum                 | Numeric       | Y                  | Percentage or Lumpsum amount of estimate including value            |
+<table data-header-hidden><thead><tr><th width="138"></th><th width="142"></th><th width="120"></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Data Type</strong></td><td><strong>Required (Y/N)</strong></td><td><strong>Comments</strong></td></tr><tr><td>ID</td><td>NA</td><td>NA</td><td>ID generated for each overhead type</td></tr><tr><td>Name</td><td>Alphanumeric</td><td>Y</td><td><p>Name of the overhead</p><p>Ex. Labour Cess, GST, Royalty etc</p></td></tr><tr><td>Description</td><td>Alphanumeric</td><td>N</td><td>Description</td></tr><tr><td>Account head</td><td>Dropdown</td><td>Y</td><td>Account head to which overheads should be credited</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td></td></tr><tr><td>Percentage/ Lumpsum</td><td>Numeric</td><td>Y</td><td>Percentage or Lumpsum amount of estimate including value</td></tr></tbody></table>
 
 **Revised Estimates**
 
@@ -182,10 +124,7 @@ A schedule category is a grouping of SORs for easy identification and filtering.
 
 Examples - Earth Work, Masonry, Brick Work, Painting, etc
 
-| Field         | Data Type    | Required (Y/N) | Comments                                      |
-| ------------- | ------------ | -------------- | --------------------------------------------- |
-| Category Code | Alphanumeric | Y              | Unique Code Assigned to the Schedule Category |
-| Category Name | Alphanumeric | Y              | Name Assigned to the Schedule Category        |
+<table data-header-hidden><thead><tr><th width="158"></th><th width="145"></th><th width="133"></th><th></th></tr></thead><tbody><tr><td>Field</td><td>Data Type</td><td>Required (Y/N)</td><td>Comments</td></tr><tr><td>Category Code</td><td>Alphanumeric</td><td>Y</td><td>Unique Code Assigned to the Schedule Category</td></tr><tr><td>Category Name</td><td>Alphanumeric</td><td>Y</td><td>Name Assigned to the Schedule Category</td></tr></tbody></table>
 
 **Estimate Template**
 
@@ -195,30 +134,11 @@ Examples - Earth Work, Masonry, Brick Work, Painting, etc
 
 Ex. Template to build 100 mt of 20 ft road, Template to build 8\*10 sq ft standard room. &#x20;
 
-| Field                         | Data Type    | Required (Y/N) | Comments                                                                                       |
-| ----------------------------- | ------------ | -------------- | ---------------------------------------------------------------------------------------------- |
-| Template Code                 | Alphanumeric | Y              | Define the template code                                                                       |
-| Name                          | Alphanumeric | Y              | Name for template                                                                              |
-| Description                   | Alphanumeric | Y              | Description of the template                                                                    |
-| Status                        | Dropdown     | Y              | <p>Status of the template</p><ul><li>Active</li><li>Inactive</li></ul>                         |
-| Work Type                     | Dropdown     | Y              | Select the Type of work. All the work types defined in the system should be shown              |
-| Work Sub Type                 | Dropdown     | Y              | Select the Sub type of work. All the work sub types defined in the system should be shown here |
-| _\[Array] for each line item_ |              |                |                                                                                                |
-| Schedule Category             | Dropdown     | Y              | Options are the list of SOR categories from the SOR category master.                           |
-| SOR                           | Alphanumeric | Y              | Enter the template code and search for it                                                      |
-| Non\_SOR Code                 | Alphanumeric | N              |                                                                                                |
-| Non\_SOR Description          | Alphanumeric | N              |                                                                                                |
-| Non\_SOR UOM                  | Dropdown     | N              | lenght--KM; Area--SQM                                                                          |
-| Non\_SOR Unit Rate            | Numeric      | N              |                                                                                                |
+<table data-header-hidden><thead><tr><th width="148"></th><th width="150"></th><th width="114"></th><th></th></tr></thead><tbody><tr><td>Field</td><td>Data Type</td><td>Required (Y/N)</td><td>Comments</td></tr><tr><td>Template Code</td><td>Alphanumeric</td><td>Y</td><td>Define the template code</td></tr><tr><td>Name</td><td>Alphanumeric</td><td>Y</td><td>Name for template</td></tr><tr><td>Description</td><td>Alphanumeric</td><td>Y</td><td>Description of the template</td></tr><tr><td>Status</td><td>Dropdown</td><td>Y</td><td><p>Status of the template</p><ul><li>Active</li><li>Inactive</li></ul></td></tr><tr><td>Work Type</td><td>Dropdown</td><td>Y</td><td>Select the Type of work. All the work types defined in the system should be shown</td></tr><tr><td>Work Sub Type</td><td>Dropdown</td><td>Y</td><td>Select the Sub type of work. All the work sub types defined in the system should be shown here</td></tr><tr><td><em>[Array] for each line item</em></td><td></td><td></td><td></td></tr><tr><td>Schedule Category</td><td>Dropdown</td><td>Y</td><td>Options are the list of SOR categories from the SOR category master.</td></tr><tr><td>SOR</td><td>Alphanumeric</td><td>Y</td><td>Enter the template code and search for it</td></tr><tr><td>Non_SOR Code</td><td>Alphanumeric</td><td>N</td><td></td></tr><tr><td>Non_SOR Description</td><td>Alphanumeric</td><td>N</td><td></td></tr><tr><td>Non_SOR UOM</td><td>Dropdown</td><td>N</td><td>lenght--KM; Area--SQM</td></tr><tr><td>Non_SOR Unit Rate</td><td>Numeric</td><td>N</td><td></td></tr></tbody></table>
 
 ## **Mockups**
 
-| Create Estimate               | ![](<../../../.gitbook/assets/image (19).png>) |
-| ----------------------------- | ---------------------------------------------- |
-| Estimate Successfully Created | ![](<../../../.gitbook/assets/image (42).png>) |
-| Estimates Inbox               | ![](<../../../.gitbook/assets/image (14).png>) |
-| Inbox Table                   | ![](<../../../.gitbook/assets/image (29).png>) |
-| SOR Data entry screen         | ![](<../../../.gitbook/assets/image (39).png>) |
+<table data-header-hidden><thead><tr><th width="280">Description</th><th>Mockups</th></tr></thead><tbody><tr><td>Create Estimate</td><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td></tr><tr><td>Estimate Successfully Created</td><td><img src="../../../.gitbook/assets/image (42).png" alt=""></td></tr><tr><td>Estimates Inbox</td><td><img src="../../../.gitbook/assets/image (14).png" alt=""></td></tr><tr><td>Inbox Table</td><td><img src="../../../.gitbook/assets/image (29).png" alt=""></td></tr><tr><td>SOR Data entry screen</td><td><img src="../../../.gitbook/assets/image (39).png" alt=""></td></tr></tbody></table>
 
 ## **User Acceptance Criteria**
 

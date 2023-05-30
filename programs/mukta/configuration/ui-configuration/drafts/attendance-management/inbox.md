@@ -158,5 +158,5 @@ The content on this screen is rendered based on configuration passed via MDMS. I
 
 ## API Role Action Mapping
 
-<table><thead><tr><th>API</th><th>Role Code</th><th data-type="number">Action Id</th><th>Actions</th></tr></thead><tbody><tr><td>/inbox/v2/_search</td><td>JUNIOR_ENGINEER</td><td>65</td><td><ul><li>View inbox for Muster Rolls</li></ul></td></tr><tr><td>/inbox/v2/_search</td><td>MUNICIPAL_ENGINEER</td><td>65</td><td><ul><li>View inbox for Muster Rolls</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="183">API</th><th width="201">Role Code</th><th width="99" data-type="number">Action Id</th><th width="179">Actions</th></tr></thead><tbody><tr><td>/inbox/v2/_search</td><td>JUNIOR_ENGINEER</td><td>65</td><td><ul><li>View inbox for Muster Rolls</li></ul></td></tr><tr><td>/inbox/v2/_search</td><td>MUNICIPAL_ENGINEER</td><td>65</td><td><ul><li>View inbox for Muster Rolls</li></ul></td></tr></tbody></table>
 

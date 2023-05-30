@@ -40,12 +40,7 @@ Once Create Contract API call is successful, an acknowledgement screen is shown.
 
 Some of the dropdown data is fetched from mdms and hrms search API
 
-| PageComponent                    | Data Source | API / MDMS Object                                                                                 |
-| -------------------------------- | ----------- | ------------------------------------------------------------------------------------------------- |
-| Executing Department             | MDMS        | <p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Department" } ]</p><p>}</p>  |
-| Designation                      | MDMS        | <p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Designation" } ]</p><p>}</p> |
-| Designation of officer in charge | hrms        | /egov-hrms/employees/\_search                                                                     |
-| Name of officer in charge        | hrms        | /egov-hrms/employees/\_search                                                                     |
+<table><thead><tr><th width="292.3333333333333">PageComponent</th><th>Data Source</th><th>API / MDMS Object</th></tr></thead><tbody><tr><td>Executing Department</td><td>MDMS</td><td><p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Department" } ]</p><p>}</p></td></tr><tr><td>Designation</td><td>MDMS</td><td><p>{</p><p>tenant, </p><p>"common-masters", </p><p>     [ { "name": "Designation" } ]</p><p>}</p></td></tr><tr><td>Designation of officer in charge</td><td>hrms</td><td>/egov-hrms/employees/_search</td></tr><tr><td>Name of officer in charge</td><td>hrms</td><td>/egov-hrms/employees/_search</td></tr></tbody></table>
 
 Localization keys are added under the ‘_rainmaker-works_’ locale module. In future if any new labels are implemented in works module that should also be pushed in the locale DB under _rainmaker-works_ locale module. Below is the example of few locale labels for hindi and English.
 

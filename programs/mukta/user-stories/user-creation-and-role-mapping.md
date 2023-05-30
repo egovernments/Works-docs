@@ -47,11 +47,7 @@ Not applicable.
 
 ## Acceptance Criteria
 
-| Acceptance Criteria  | Description                                                              |
-| -------------------- | ------------------------------------------------------------------------ |
-| 1                    | User creation flows to be tested and validated for working without error |
-| 2                    |                                                                          |
-|                      |                                                                          |
+<table><thead><tr><th width="207">Acceptance Criteria </th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>User creation flows to be tested and validated for working without error</td></tr><tr><td>2</td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 
 

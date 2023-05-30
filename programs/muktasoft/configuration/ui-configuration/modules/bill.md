@@ -14,10 +14,7 @@ This module has 5  associated screens :&#x20;
 
 ### MDMS Configurations
 
-| S.No. | Data           | MDMS Link                                                                                                                                                                                                                                                                                    |
-| ----- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | BillType       | [https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/expense/BusinessService.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/expense/BusinessService.json)                                                                                               |
-| 2     | TenantBoundary | [https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json](https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json) |
+<table data-header-hidden><thead><tr><th width="119.99999999999997"></th><th></th><th></th></tr></thead><tbody><tr><td>S.No.</td><td>Data</td><td>MDMS Link</td></tr><tr><td>1</td><td>BillType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/expense/BusinessService.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/expense/BusinessService.json</a></td></tr><tr><td>2</td><td>TenantBoundary</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json">https://github.com/egovernments/works-mdms-data/blob/8285bc63aac7f056326165897ac18918520c9723/data/pg/citya/egov-location/boundary-data.json</a></td></tr></tbody></table>
 
 #### Module enablement configuration&#x20;
 
@@ -50,25 +47,13 @@ This module has 5  associated screens :&#x20;
 
 
 
-| S.No | API                                          | <p>Action ID</p><p><br></p> | Roles                                                                    |
-| ---- | -------------------------------------------- | --------------------------- | ------------------------------------------------------------------------ |
-| 1    | /expense-calculator/purchase/v1/\_createbill | 112                         | BILL\_CREATOR                                                            |
-| 2    | /expense-calculator/v1/\_search              | 113                         | <p>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_VIEWER<br>BILL_ACCOUNTANT</p>   |
-| 3    | /expense/bill/v1/\_search                    | 106                         | <p>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_APPROVER<br>BILL_ACCOUNTANT</p> |
-| 4    | /wms/expense/\_search                        | 110                         | <p>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_APPROVER<br>BILL_ACCOUNTANT</p> |
-| 5    | /expense/payment/v1/\_create                 | 116                         | BILL\_ACCOUNTANT                                                         |
-| 6    | /egov-pdf/bill/\_search                      | 114                         | BILL\_CREATOR                                                            |
-| 7    | /expense/payment/v1/\_search                 | 122                         | BILL\_ACCOUNTANT                                                         |
-| 8    | /expense/payment/v1/\_update                 | 125                         | BILL\_ACCOUNTANT                                                         |
-|      |                                              |                             |                                                                          |
+<table data-header-hidden><thead><tr><th width="105"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>API</td><td><p>Action ID</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>/expense-calculator/purchase/v1/_createbill</td><td>112</td><td>BILL_CREATOR</td></tr><tr><td>2</td><td>/expense-calculator/v1/_search</td><td>113</td><td>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_VIEWER<br>BILL_ACCOUNTANT</td></tr><tr><td>3</td><td>/expense/bill/v1/_search</td><td>106</td><td>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_APPROVER<br>BILL_ACCOUNTANT</td></tr><tr><td>4</td><td>/wms/expense/_search</td><td>110</td><td>BILL_CREATOR<br>BILL_VERIFIER<br>BILL_APPROVER<br>BILL_ACCOUNTANT</td></tr><tr><td>5</td><td>/expense/payment/v1/_create</td><td>116</td><td>BILL_ACCOUNTANT</td></tr><tr><td>6</td><td>/egov-pdf/bill/_search</td><td>114</td><td>BILL_CREATOR</td></tr><tr><td>7</td><td>/expense/payment/v1/_search</td><td>122</td><td>BILL_ACCOUNTANT</td></tr><tr><td>8</td><td>/expense/payment/v1/_update</td><td>125</td><td>BILL_ACCOUNTANT</td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### Sidebar configuration&#x20;
 
 
 
-| S.No | Screen       | Navigation URL                             | <p>LeftIcon Updates</p><p><br></p> | Roles                     |
-| ---- | ------------ | ------------------------------------------ | ---------------------------------- | ------------------------- |
-| 1    | Search Bills | /works-ui/employee/expenditure/search-bill | dynamic:ExpenditureIcon            | <p></p><p>BILL_VIEWER</p> |
+<table data-header-hidden><thead><tr><th width="105"></th><th width="121"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>S.No</td><td>Screen</td><td>Navigation URL</td><td><p>LeftIcon Updates</p><p><br></p></td><td>Roles</td></tr><tr><td>1</td><td>Search Bills</td><td>/works-ui/employee/expenditure/search-bill</td><td>dynamic:ExpenditureIcon</td><td><p></p><p>BILL_VIEWER</p></td></tr></tbody></table>
 
 Sample object for a sidebar action define in MDMS (containing navigationUrl)
 

@@ -54,9 +54,4 @@ Not applicable.
 
 ## **Acceptance Criteria**
 
-| Acceptance Criteria |                                                                                                              |
-| ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1                   | On technical sanction, the estimate is forwarded to the next user in the workflow                            |
-| 2                   | The pop-up window is closed, a toast success message is displayed, and the estimate page is refreshed        |
-| 3                   | The View Estimate page is refreshed based on the changes in the workflow status and the logged-in user role. |
-| 4                   | Clicking on cancel closes the pop-up window. A toast cancel message is displayed.                            |
+<table><thead><tr><th width="181">Acceptance Criteria</th><th></th></tr></thead><tbody><tr><td>1</td><td>On technical sanction, the estimate is forwarded to the next user in the workflow</td></tr><tr><td>2</td><td>The pop-up window is closed, a toast success message is displayed, and the estimate page is refreshed</td></tr><tr><td>3</td><td>The View Estimate page is refreshed based on the changes in the workflow status and the logged-in user role.</td></tr><tr><td>4</td><td>Clicking on cancel closes the pop-up window. A toast cancel message is displayed.</td></tr></tbody></table>
