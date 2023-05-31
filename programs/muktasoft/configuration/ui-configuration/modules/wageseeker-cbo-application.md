@@ -2,7 +2,7 @@
 description: Wageseeker TechDocument
 ---
 
-# WageSeeker (CBO Portal)
+# WageSeeker (CBO Application)
 
 ## Overview
 
@@ -12,9 +12,9 @@ ROLE: ORG\_ADMIN
 
 This module contains 4 linked forms&#x20;
 
-1. [Individual Details](wageseeker-cbo-portal.md#individual-details)
-2. [Address Details](wageseeker-cbo-portal.md#address-details)
-3. [Financial Details](wageseeker-cbo-portal.md#financial-details)
+1. [Individual Details](wageseeker-cbo-application.md#individual-details)
+2. [Address Details](wageseeker-cbo-application.md#address-details)
+3. [Financial Details](wageseeker-cbo-application.md#financial-details)
 4. Summary Details
 
 ## **Individual Details**
