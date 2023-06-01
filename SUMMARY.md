@@ -108,7 +108,7 @@
     * [User Manual](programs/mukta/muktasoft-user-manual/README.md)
       * [Getting Started](programs/mukta/muktasoft-user-manual/getting-started.md)
       * [CBO User Manual](programs/mukta/muktasoft-user-manual/cbo-user-manual.md)
-        * [Getting Started For CBO](programs/mukta/muktasoft-user-manual/cbo-user-manual/getting-started-for-cbo.md)
+        * [CBO - Getting Started](programs/muktasoft/user-manual/cbo-user-manual/cbo-getting-started.md)
         * [My Works](programs/mukta/muktasoft-user-manual/cbo-user-manual/my-works.md)
         * [Track Attendance](programs/mukta/muktasoft-user-manual/cbo-user-manual/track-attendance.md)
         * [Muster Rolls](programs/mukta/muktasoft-user-manual/cbo-user-manual/muster-roll-2.md)

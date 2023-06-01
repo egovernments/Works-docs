@@ -2,7 +2,7 @@
 description: Illustrative MuktaSoft guide for community based organisations
 ---
 
-# Getting Started For CBO
+# CBO - Getting Started
 
 ## Overview <a href="#_25ucugk0n5t1" id="_25ucugk0n5t1"></a>
 
@@ -10,11 +10,11 @@ This section of the user manual guides you through the CBO login process. CBO re
 
 On this page:
 
-* [Log in](getting-started-for-cbo.md#\_q7o9e4i82bi2)
-* [Home page](getting-started-for-cbo.md#\_th0pisijzcww)
-* [Change language](getting-started-for-cbo.md#\_id3wlre5gufw)
-* [View organisation profile](getting-started-for-cbo.md#\_95zo2uhk62j3)
-* [Log out](getting-started-for-cbo.md#\_4crhlnimv28n)
+* [Log in](cbo-getting-started.md#\_q7o9e4i82bi2)
+* [Home page](cbo-getting-started.md#\_th0pisijzcww)
+* [Change language](cbo-getting-started.md#\_id3wlre5gufw)
+* [View organisation profile](cbo-getting-started.md#\_95zo2uhk62j3)
+* [Log out](cbo-getting-started.md#\_4crhlnimv28n)
 
 ## Log in <a href="#_q7o9e4i82bi2" id="_q7o9e4i82bi2"></a>
 
