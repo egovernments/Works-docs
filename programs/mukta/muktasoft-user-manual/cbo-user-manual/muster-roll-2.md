@@ -1,6 +1,10 @@
 # Muster Rolls
 
-#### Muster Roll <a href="#_sragxiwui1hb" id="_sragxiwui1hb"></a>
+On this page:
+
+* [View and edit muster rolls](muster-roll-2.md#\_sragxiwui1hb)
+
+## Muster Roll <a href="#_sragxiwui1hb" id="_sragxiwui1hb"></a>
 
 Muster roll service lists all the muster rolls generated all across the works/ projects assigned to the logged in CBO user. The CBO user can view the muster roll details along with its status and edit it in case the muster roll is sent back to CBO for correction by the ULB employee.
 
