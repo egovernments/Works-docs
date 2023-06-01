@@ -1,20 +1,15 @@
 # My Works
 
-#### My Works <a href="#_xeuqq3pmfqdr" id="_xeuqq3pmfqdr"></a>
+On this page:
 
-**View Details**
+* [View details](my-works.md#view-details)
+* [Engage wage seekers](my-works.md#engage-wage-seekers)
 
-CBOs can view their work orders through the portal and the app installed on mobile.
+## **View Details**
 
-To view work order details
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (4).png" alt=""></td><td><p>CBOs can view their work orders through the portal or the mobile app.</p><p>To view work order details - </p><p>Click on the <strong>My Works</strong> option on the home page. </p><p>This displays all the work orders assigned to the logged-in user.</p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (56).png" alt=""></td><td><p>Scroll down to see if the logged-in user has more than one work assigned.</p><p>Click on <strong>View Details</strong> to view the complete details of a work order.</p></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-1. Click on My Works service from the Home Page. The work orders assigned for the logged in user are shown as the result.
 
-| <img src="../../../../.gitbook/assets/0 (4).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/1 (3).jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-
-1. Scroll down to see more if the logged in user has more than one work assigned.
-2. Click on the View Details to view the complete details of work order.
 
 | <img src="../../../../.gitbook/assets/2.jpeg" alt="" data-size="original">     | <img src="../../../../.gitbook/assets/3 (4).jpeg" alt="" data-size="original"> |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
@@ -22,7 +17,7 @@ To view work order details
 
 1. The Work Order Details page displays the details with Contract Details, Work Timelines, Terms and Conditions, and the option to download Work Order PDF.
 
-**Engage Wage Seekers**
+## **Engage Wage Seekers**
 
 A CBO user can engage or disengage the wage seekers for all its running works.
 
