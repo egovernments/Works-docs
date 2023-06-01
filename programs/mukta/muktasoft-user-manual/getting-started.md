@@ -21,7 +21,7 @@ On this page:
 
 ### Home Page <a href="#_y9ihxiqjb66c" id="_y9ihxiqjb66c"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (3) (3).png" alt=""></td><td>Mukta home page</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""></td><td>Mukta home page</td><td></td></tr></tbody></table>
 
 ### Change Language <a href="#_vhz5bczfaqjw" id="_vhz5bczfaqjw"></a>
 
@@ -35,7 +35,7 @@ On this page:
 
 **Login Page > Forgot Password**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (4) (3).png" alt=""></td><td>Click on <strong>Forgot Password</strong> option on the login screen to reset the password.</td><td><p></p><p>Enter the registered <strong>Mobile Number</strong> and <strong>City</strong>. Click on <strong>Continue</strong>.</p></td></tr><tr><td><img src="../../../.gitbook/assets/image (55) (1).png" alt=""></td><td>Enter <strong>OTP</strong> sent on the registered mobile number.</td><td><p>Enter the new passwords and type in the new password again to confirm.</p><p>Click on the <strong>Change Password</strong> button to reset it.</p></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (4) (3).png" alt=""></td><td>Click on <strong>Forgot Password</strong> option on the login screen to reset the password.</td><td><p></p><p>Enter the registered <strong>Mobile Number</strong> and <strong>City</strong>. Click on <strong>Continue</strong>.</p></td></tr><tr><td><img src="../../../.gitbook/assets/image (55) (1) (1).png" alt=""></td><td>Enter <strong>OTP</strong> sent on the registered mobile number.</td><td><p>Enter the new passwords and type in the new password again to confirm.</p><p>Click on the <strong>Change Password</strong> button to reset it.</p></td></tr></tbody></table>
 
 ### Logging out <a href="#_viqhetl2a1py" id="_viqhetl2a1py"></a>
 

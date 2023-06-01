@@ -1,52 +1,19 @@
 # My Bills
 
-#### My Bills <a href="#_r2z7l24o1qad" id="_r2z7l24o1qad"></a>
+On this page:
 
-The bills related to works assigned to a CBO are listed under my bills.
+* [View My Bills](my-bills.md#\_r2z7l24o1qad)
+* [View My Requests](my-bills.md#\_4y89ewm45p4i)
+* [Register Wage Seekers](my-bills.md#\_b1lby82y4j3i)
 
-To view different types of bills
+## My Bills <a href="#_r2z7l24o1qad" id="_r2z7l24o1qad"></a>
 
-1. Click on My Bills service. All types of bills are listed here with their status.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (65).png" alt=""></td><td><p>The bills related to works assigned to a CBO are listed under <strong>My Bills</strong>.</p><p>To view different types of bills - </p><p>Click on the <strong>My Bills</strong> option. All types of bills are listed here with their status.</p></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-| <img src="../../../../.gitbook/assets/0 (2).jpeg" alt="" data-size="original"> |   |
-| ------------------------------------------------------------------------------ | - |
+## My Requests <a href="#_4y89ewm45p4i" id="_4y89ewm45p4i"></a>
 
-#### My Requests <a href="#_4y89ewm45p4i" id="_4y89ewm45p4i"></a>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (67).png" alt=""></td><td><p>There are two types of requests raised by CBOs. </p><ol><li>Request to close the project</li><li>Request for more time to finish the work which is known as time extension. </li></ol><p>Once these requests raised by CBOs are forwarded for approval, the same can be viewed and tracked under My Requests.</p><p>To view all the requests raised -</p><p>Click on the <strong>My Requests</strong> option.</p></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-There are two types of requests which are raised by CBOs. One is the request to close the project, second is to request for more time to finish the work which is known as time extension. Once these requests are raised by CBOs are put for approval, and the same can be seen and tracked under My Requests.
+## Register Wage Seeker <a href="#_b1lby82y4j3i" id="_b1lby82y4j3i"></a>
 
-To view all the requests raised -
-
-1. Click on the My Requests service.
-
-| <img src="../../../../.gitbook/assets/1 (2).jpeg" alt="" data-size="original"> |   |
-| ------------------------------------------------------------------------------ | - |
-
-#### Register Wage Seeker <a href="#_b1lby82y4j3i" id="_b1lby82y4j3i"></a>
-
-Register wage seeker service allows the CBO user to enter the wage seeker details into MUKTASoft who are working for them.
-
-To add a register a wage seeker
-
-1. Tap on the Register Wage Seeker service link from the home page.
-
-| <img src="../../../../.gitbook/assets/2 (4).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/3.jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-
-1. Fill in the individual details. The fields marked with asterisk are mandatory to fill.
-
-| <img src="../../../../.gitbook/assets/4 (2).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/5.jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-
-1. Scroll down to the page and click on Next to fill the address details.
-
-| <img src="../../../../.gitbook/assets/6.jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/7 (1).jpeg" alt="" data-size="original"> |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-
-1. Next fill all the details related to the bank account. Be careful while filling this and do check on the summary page before submitting it.
-
-| <img src="../../../../.gitbook/assets/8 (1).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/9 (1).jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-
-1. Click on the Submit button to save the wage seeker details.
-2. On successful submission, success page is displayed along with the wage seeker’s ID.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image.png" alt=""></td><td><p>Register wage seeker service allows the CBO user to enter the wage seeker details into MUKTASoft who are working for them.</p><p>To add a register a wage seeker - </p><p>Tap on the <strong>Register Wage Seeker</strong> option on the home page.</p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (59).png" alt=""></td><td>Fill in the individual details. The fields marked with an asterisk is mandatory and cannot be left blank.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (61).png" alt=""></td><td><p>Enter the details on the form as indicated. </p><p>Upload a photograph. The supported file format is png, jpg, and jpeg. The max file size should not exceed 5MB.</p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (60).png" alt=""></td><td>Enter the <strong>Address Details</strong>. Click on <strong>Next</strong>.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (56).png" alt=""></td><td><p>Enter the bank account-related information on the <strong>Financial Details</strong> page. </p><p>Make sure to check and confirm the details before clicking on the <strong>Next</strong> button. </p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (57).png" alt=""></td><td><p>Re-check all details displayed on the <strong>Summary Details</strong> page. </p><p>Click on the Edit icon in the corresponding section where you want to make the changes.</p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (55).png" alt=""></td><td>Click on the <strong>Submit</strong> button to save the wage seeker details.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (58).png" alt=""></td><td><p>The Wage Seeker registration is successful acknowledgement is displayed on the screen. The <strong>Wage Seeker ID</strong> is also displayed on the page.</p><p>Click on the <strong>Back to Home</strong> button to navigate to the home page.</p></td><td></td></tr></tbody></table>
