@@ -17,7 +17,7 @@ On this page:
 
 ### Logging In <a href="#_ak2iff6svn1" id="_ak2iff6svn1"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (5) (3) (1).png" alt="" data-size="original"></td><td>Select language and click on <strong>Continue</strong>.</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (1) (4) (1).png" alt=""></td><td>Enter <strong>User Name</strong>, <strong>Password</strong>, &#x26; <strong>City</strong>. Click on <strong>Continue</strong>.</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (5) (3) (1) (1).png" alt="" data-size="original"></td><td>Select language and click on <strong>Continue</strong>.</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (1) (4) (1).png" alt=""></td><td>Enter <strong>User Name</strong>, <strong>Password</strong>, &#x26; <strong>City</strong>. Click on <strong>Continue</strong>.</td><td></td></tr></tbody></table>
 
 ### Home Page <a href="#_y9ihxiqjb66c" id="_y9ihxiqjb66c"></a>
 
@@ -29,7 +29,7 @@ On this page:
 
 ### Change Password <a href="#_b8qo749mn030" id="_b8qo749mn030"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td><p></p><p>Profile icon<strong>> Edit Profile > Change Password</strong></p><p>Click on the <strong>Profile</strong> icon on the homepage.</p><ul><li> Two options are displayed - <strong>Edit Profile</strong> and <strong>Logout</strong>.</li><li>Click on <strong>Edit Profile</strong>.</li><li>This opens the Edit Profile page with the employee picture on the left and the details on the right.</li></ul></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (4) (3) (1).png" alt=""></td><td></td><td><p>Click on the <strong>Change Password</strong> option at the bottom. </p><p>Enter the current password and new password and confirm the new password. </p><p>Click on the <strong>Save</strong> button to reset the password.</p></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (6) (3).png" alt=""></td><td><p></p><p>Profile icon<strong>> Edit Profile > Change Password</strong></p><p>Click on the <strong>Profile</strong> icon on the homepage.</p><ul><li> Two options are displayed - <strong>Edit Profile</strong> and <strong>Logout</strong>.</li><li>Click on <strong>Edit Profile</strong>.</li><li>This opens the Edit Profile page with the employee picture on the left and the details on the right.</li></ul></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (4) (3) (1).png" alt=""></td><td></td><td><p>Click on the <strong>Change Password</strong> option at the bottom. </p><p>Enter the current password and new password and confirm the new password. </p><p>Click on the <strong>Save</strong> button to reset the password.</p></td></tr></tbody></table>
 
 ### Reset password <a href="#_c78bky4bw4uc" id="_c78bky4bw4uc"></a>
 

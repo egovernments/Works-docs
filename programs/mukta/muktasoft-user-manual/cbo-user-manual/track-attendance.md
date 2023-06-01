@@ -1,22 +1,9 @@
 # Track Attendance
 
-#### Track Attendance <a href="#_var757wwyof6" id="_var757wwyof6"></a>
+On this page:
 
-Track attendance service allows the CBO user to capture the attendance on daily basis of the wage seekers at work and at the week-end generate a muster roll and submit it for verification and approval to ULB employees.
+* [View and track attendance](track-attendance.md#\_var757wwyof6)
 
-To View and Track Attendance:
+## Track Attendance <a href="#_var757wwyof6" id="_var757wwyof6"></a>
 
-1. Click on the ‘Track Attendance’ from the homepage.
-2. The page will display different attendance registers.
-
-| <img src="../../../../.gitbook/assets/0 (3).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/1 (1).jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-
-1. Click on ‘Update Attendance’ to view the individual attendance and can Mark Attendance for the week.
-2. Select the week for which attendance to be marked, it will show the list of wage seekers who are engaged for the selected week with the option to mark the attendance.
-
-| <img src="../../../../.gitbook/assets/2 (3).jpeg" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/3 (1).jpeg" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-
-1. During the weekdays mark the attendance and save as draft.
-2. At the weekend mark the attendance, select the skill and submit it for approval. It will generate the muster roll and send for verification and approval.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt=""></td><td><p>Track attendance service allows the CBO user to capture the attendance on a daily basis of the wage seekers at work and at the weekend generate a muster roll and submit it for verification and approval to ULB employees.</p><p>To view and track attendance:</p><ol><li>Click on the <strong>Track Attendance</strong> option on the homepage.</li><li>The page displays the different attendance registers.</li></ol></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (65).png" alt=""></td><td><p>Click on <strong>Update Attendance</strong> to view the individual attendance and <strong>Mark Attendance</strong> for the week.</p><p></p></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (5).png" alt=""></td><td>In the <strong>Mark Attendance for the Week</strong> field - select the week for which attendance is to be marked. This shows the list of wage seekers engaged for the selected week with the option to mark attendance.</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (61).png" alt=""></td><td><p>Mark the attendance and click on <strong>Save as Draft</strong> to save details. </p><p>Once the attendance is marked for the week, select the skill and click on <strong>Submit for Approval</strong>. This generates the muster roll and sends it for verification and approval.</p></td><td></td></tr></tbody></table>
