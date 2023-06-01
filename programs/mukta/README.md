@@ -6,7 +6,7 @@ description: MuktaSoft is an exemplar built on the Works platform
 
 ## Overview
 
-Mukhyamantri Karma Tatpara Abhiyan Yojana ( MUKTA Yojana) is a government scheme aimed towards providing employment to the urban poor and consequently improving the employment rate of the state.
+Mukhyamantri Karma Tatpara Abhiyan Yojana (MUKTA Yojana) is a government scheme aimed towards providing employment to the urban poor and consequently improving the employment rate of the state.
 
 MUKTASoft aims to improve the overall scheme efficiency of MUKTA by identifying & providing equal job opportunities to the urban poor, constructing environment-friendly projects, developing local communities and slums & plan better in the upcoming years.
 

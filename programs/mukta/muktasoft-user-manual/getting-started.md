@@ -17,7 +17,7 @@ On this page:
 
 ### Logging In <a href="#_ak2iff6svn1" id="_ak2iff6svn1"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (5).png" alt="" data-size="original"></td><td>Select language and click on <strong>Continue</strong>.</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (1) (4).png" alt=""></td><td>Enter <strong>User Name</strong>, <strong>Password</strong>, &#x26; <strong>City</strong>. Click on <strong>Continue</strong>.</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (5) (3).png" alt="" data-size="original"></td><td>Select language and click on <strong>Continue</strong>.</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (1) (4).png" alt=""></td><td>Enter <strong>User Name</strong>, <strong>Password</strong>, &#x26; <strong>City</strong>. Click on <strong>Continue</strong>.</td><td></td></tr></tbody></table>
 
 ### Home Page <a href="#_y9ihxiqjb66c" id="_y9ihxiqjb66c"></a>
 
@@ -25,7 +25,7 @@ On this page:
 
 ### Change Language <a href="#_vhz5bczfaqjw" id="_vhz5bczfaqjw"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (3).png" alt=""></td><td>Click on <strong>English</strong> in the top right corner to view other language options. Select the preferred language from the list. </td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (3) (4).png" alt=""></td><td>Click on <strong>English</strong> in the top right corner to view other language options. Select the preferred language from the list. </td><td></td></tr></tbody></table>
 
 ### Change Password <a href="#_b8qo749mn030" id="_b8qo749mn030"></a>
 
@@ -35,10 +35,10 @@ On this page:
 
 **Login Page > Forgot Password**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (4).png" alt=""></td><td>Click on <strong>Forgot Password</strong> option on the login screen to reset the password.</td><td><p></p><p>Enter the registered <strong>Mobile Number</strong> and <strong>City</strong>. Click on <strong>Continue</strong>.</p></td></tr><tr><td><img src="../../../.gitbook/assets/image.png" alt=""></td><td>Enter <strong>OTP</strong> sent on the registered mobile number.</td><td><p>Enter the new passwords and type in the new password again to confirm.</p><p>Click on the <strong>Change Password</strong> button to reset it.</p></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (4).png" alt=""></td><td>Click on <strong>Forgot Password</strong> option on the login screen to reset the password.</td><td><p></p><p>Enter the registered <strong>Mobile Number</strong> and <strong>City</strong>. Click on <strong>Continue</strong>.</p></td></tr><tr><td><img src="../../../.gitbook/assets/image (55).png" alt=""></td><td>Enter <strong>OTP</strong> sent on the registered mobile number.</td><td><p>Enter the new passwords and type in the new password again to confirm.</p><p>Click on the <strong>Change Password</strong> button to reset it.</p></td></tr></tbody></table>
 
 ### Logging out <a href="#_viqhetl2a1py" id="_viqhetl2a1py"></a>
 
 **Home > Profile > Logout**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (1).png" alt=""></td><td>Click on the profile icon on the top right side of the screen. There are two options - <strong>Edit Profile</strong> and <strong>Logout</strong>. </td><td>Click on the <strong>Logout</strong> option. The user is logged out.</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (1) (5).png" alt=""></td><td>Click on the profile icon on the top right side of the screen. There are two options - <strong>Edit Profile</strong> and <strong>Logout</strong>. </td><td>Click on the <strong>Logout</strong> option. The user is logged out.</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
