@@ -2,7 +2,7 @@
 
 ## Overview
 
-Estimate Service will allow users to create estimates and forward them for Workflow approval to higher authorities across departments for technical, financial, and admin sanctions. A prepared estimate can then be tendered out for contracting.
+Estimate Service allows users to create estimates and forward them for Workflow approval to higher authorities across departments for technical, financial, and admin sanctions. A prepared estimate can then be tendered out for contracting.
 
 ### Dependencies
 

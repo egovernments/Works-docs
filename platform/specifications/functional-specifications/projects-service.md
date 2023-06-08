@@ -4,8 +4,6 @@ description: DIGIT - Projects functional details
 
 # Project
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-type="content-ref"></th><th></th><th></th></tr></thead><tbody><tr><td><a href="../../platform-services/project.md">project.md</a></td><td>Click on the link above to explore the technical specifications for the project service.</td><td></td></tr></tbody></table>
-
 ## Overview
 
 **Need**
