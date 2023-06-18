@@ -51,28 +51,6 @@ paths:
               schema:
                 $ref: >-
                   https://raw.githubusercontent.com/egovernments/DIGIT-OSS/master/core-services/docs/common-contract_v1-1.yml#/components/schemas/ErrorRes
-    post:
-      tags:
-        - Fund Allocation
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/FundSearchRequest'
-      responses:
-        '200':
-          description: Successful response sorted by reverse chronological order of creation
-          content:
-            '*/*':
-              schema:
-                $ref: '#/components/schemas/FundSearchResponse'
-        '400':
-          description: Bad Request.
-          content:
-            '*/*':
-              schema:
-                $ref: >-
-                  https://raw.githubusercontent.com/egovernments/DIGIT-OSS/master/core-services/docs/common-contract_v1-1.yml#/components/schemas/ErrorRes
 components:
   schemas:
     Payment:
@@ -96,7 +74,7 @@ components:
           maxLength: 64
         referenceId:
           type: string
-          description: Refers to the Individual or Org ID in the payment advice.
+          description: Refers to the Individual or Org ID in the payees.
           minLength: 2
           maxLength: 64
         bankAccount:
@@ -248,15 +226,31 @@ components:
         paymentInstructions:
           type: array
           items:
-            $ref: '#/components/schemas/PaymentInst'  
+            $ref: '#/components/schemas/PaymentInst'
+    
     PICreateRequest:
       type: object
       properties:
         requestInfo:
           $ref: >-
             https://raw.githubusercontent.com/egovernments/egov-services/master/docs/common/contracts/v1-0-0.yml#/definitions/RequestInfo
+        referenceId:
+          type: string
+          description: The payment advice ID for which a PI is to be created
         payment:
           $ref: '#/components/schemas/Payment'
+        parentPI:
+          type: string
+          description: Parent PI number in case of revised PIs. All fields will be copied from parent PI
+        beneficiaries:
+          type: array
+          description: A list of beneficiaries for whom the revised PI needs to be posted. 
+          items:
+            $ref: '#/components/schemas/Beneficiary'
+      anyOf:
+        - required: [referenceId]
+        - required: [payment]
+        - required: [parentPI, beneficiaries]
     PICreateResponse:
       type: object
       properties:
