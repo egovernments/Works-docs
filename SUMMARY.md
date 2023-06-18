@@ -62,6 +62,7 @@
 * [Programs](programs/README.md)
   * [MuktaSoft](programs/mukta/README.md)
     * [MuktaSoft Services](programs/muktasoft/muktasoft-services/README.md)
+      * [IFMS Adapter](programs/muktasoft/muktasoft-services/ifms-adapter.md)
       * [Expense Calculator](programs/muktasoft/muktasoft-services/expense-calculator.md)
       * [Works PDF](programs/muktasoft/muktasoft-services/works-pdf.md)
       * [Works UI](programs/muktasoft/muktasoft-services/works-ui/README.md)
