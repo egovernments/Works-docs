@@ -106,6 +106,7 @@
           * [Work Order Inbox Page](programs/mukta/user-stories/contracts-user-stories/work-order-inbox-page.md)
           * [Create/ Submit Work Order](programs/mukta/user-stories/contracts-user-stories/create-submit-work-order.md)
           * [Edit/Submit Work Order](programs/mukta/user-stories/contracts-user-stories/edit-submit-work-order.md)
+          * [Verify & Forward](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/verify-and-forward.md)
     * [User Manual](programs/mukta/muktasoft-user-manual/README.md)
       * [Getting Started](programs/mukta/muktasoft-user-manual/getting-started.md)
       * [CBO User Manual](programs/mukta/muktasoft-user-manual/cbo-user-manual.md)
