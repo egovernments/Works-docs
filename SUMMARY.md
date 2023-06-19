@@ -110,6 +110,7 @@
           * [Send Back](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/send-back.md)
           * [Send Back To Originator](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/send-back-to-originator.md)
           * [Reject Work Order](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/reject-work-order.md)
+          * [Work Order PDF](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/work-order-pdf.md)
           * [Approve](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/approve.md)
     * [User Manual](programs/mukta/muktasoft-user-manual/README.md)
       * [Getting Started](programs/mukta/muktasoft-user-manual/getting-started.md)
