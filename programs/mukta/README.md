@@ -16,10 +16,6 @@ MUKTASoft is a customisation of the basic Works platform. Not all base Works pla
 
 MuktaSoft is a work in progress currently with a release targeted in H1 of 2023. Here's a sneak preview of the product demonstrating how daily wage seeker payments are made faster and more efficiently through the use of Mukta. The demos also show wage seekers receiving SMS notifications on receipt of payment in their bank account.&#x20;
 
-Below is a short version of the demo showing payments made to wage seekers.
-
-{% embed url="https://youtu.be/znUUsltEdbA" %}
-
 Browse the explainer video (long version) showing payments made to wage seekers and receipt of SMS notifications by wage seekers on the credit of wages.
 
 {% embed url="https://youtu.be/kwV7rjaiNEg" fullWidth="false" %}
