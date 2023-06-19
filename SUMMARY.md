@@ -108,6 +108,7 @@
           * [Edit/Submit Work Order](programs/mukta/user-stories/contracts-user-stories/edit-submit-work-order.md)
           * [Verify & Forward](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/verify-and-forward.md)
           * [Send Back](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/send-back.md)
+          * [Send Back To Originator](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/send-back-to-originator.md)
           * [Reject Work Order](programs/muktasoft/functional-requirements/user-stories/contracts-user-stories/reject-work-order.md)
     * [User Manual](programs/mukta/muktasoft-user-manual/README.md)
       * [Getting Started](programs/mukta/muktasoft-user-manual/getting-started.md)
