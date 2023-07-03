@@ -138,7 +138,7 @@ Ex. Template to build 100 mt of 20 ft road, Template to build 8\*10 sq ft standa
 
 ## **Mockups**
 
-<table data-header-hidden><thead><tr><th width="280">Description</th><th>Mockups</th></tr></thead><tbody><tr><td>Create Estimate</td><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td></tr><tr><td>Estimate Successfully Created</td><td><img src="../../../.gitbook/assets/image (42).png" alt=""></td></tr><tr><td>Estimates Inbox</td><td><img src="../../../.gitbook/assets/image (14).png" alt=""></td></tr><tr><td>Inbox Table</td><td><img src="../../../.gitbook/assets/image (29).png" alt=""></td></tr><tr><td>SOR Data entry screen</td><td><img src="../../../.gitbook/assets/image (39).png" alt=""></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="280">Description</th><th>Mockups</th></tr></thead><tbody><tr><td>Create Estimate</td><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td></tr><tr><td>Estimate Successfully Created</td><td><img src="../../../.gitbook/assets/image (42).png" alt=""></td></tr><tr><td>Estimates Inbox</td><td><img src="../../../.gitbook/assets/image (14).png" alt=""></td></tr><tr><td>Inbox Table</td><td><img src="../../../.gitbook/assets/image (29).png" alt=""></td></tr><tr><td>SOR Data entry screen</td><td><img src="../../../.gitbook/assets/image (39) (1).png" alt=""></td></tr></tbody></table>
 
 ## **User Acceptance Criteria**
 

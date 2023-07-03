@@ -47,5 +47,31 @@ It also has the functionality to generate an Excel file when payment is initiate
 * Project PDF - [Data Config](https://github.com/egovernments/works-configs/blob/UAT/pdf-service/data-config/project-detail.json), [Format Config](https://github.com/egovernments/works-configs/blob/UAT/pdf-service/format-config/project-detail.json)
 * Work order PDF - [Data Config](https://github.com/egovernments/works-configs/blob/UAT/pdf-service/data-config/work-order.json), [Format Config](https://github.com/egovernments/works-configs/blob/UAT/pdf-service/format-config/work-order.json)
 
-### Integration
+### Roll Action&#x20;
 
+<table><thead><tr><th width="507.3333333333333">API EndPoints</th><th>Roles</th></tr></thead><tbody><tr><td>/egov-pdf/download/estimate/estimates</td><td><p>ESTIMATE_CREATOR</p><p>ESTIMATE_VERIFIER</p><p>TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p>ESTIMATE_VIEWER</p></td></tr><tr><td>/egov-pdf/download/musterRoll/muster-roll</td><td><p>MUSTER_ROLL_APPROVER</p><p>ORG_ADMIN</p><p>MUSTER_ROLL_VERIFIER</p></td></tr><tr><td>/egov-pdf/download/project/project-details</td><td>PROJECT_VIEWER</td></tr><tr><td>/egov-pdf/download/workOrder/work-order</td><td><p>ORG_ADMIN</p><p>WORK_ORDER_VIEWER</p><p>WORK_ORDER_APPROVER</p></td></tr><tr><td>/egov-pdf/bill/_generate</td><td>BILL_ACCOUNTANT</td></tr><tr><td>/egov-pdf/bill/_search</td><td>BILL_ACCOUNTANT</td></tr></tbody></table>
+
+### Account creation for deductions
+
+Create accounts for purchase and wage bills, for head codes where category is deduction.&#x20;
+
+E.g. this is the head code object
+
+```
+{
+      "id": "5",
+      "code": "LC",
+      "category": "deduction",
+      "service": "works.purchase",
+      "description": "Labour Cess",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+}
+```
+
+And tenantId is pg.citya
+
+The format of referenceId is `Deduction_{tanentId}_{headcode}`
+
+Then create a bank account with the field `referenceId` value `Deduction_pg.citya_LC`

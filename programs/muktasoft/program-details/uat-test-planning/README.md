@@ -237,7 +237,7 @@ As a non-profit, we are unable to make any commitment on how long issues will ta
 CR must be clearly captured and reported for analysis to identify effort and impact in the eGov team. Each CR submitted will be validated and categorised for acceptance and then assigned with a priority. The development team will work on it and will be made available for testing. Following is a snapshot of the standard CR lifecycle:
 
 \
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (2).png>)
 
 #### Categorisation&#x20;
 

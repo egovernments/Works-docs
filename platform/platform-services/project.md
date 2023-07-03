@@ -6,7 +6,7 @@ description: High level design document
 
 ## Overview
 
-The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. Currently, this service is shared across the Health and Works platforms. All Works projects start with a project construct. The Works platform uses only 3 primary APIs: project create, update and search. For low-level design and other information on this service, click [here](http://localhost:5000/s/j7fNh51k98E3IpNor4eY/platform/low-level-design/services/project).&#x20;
+The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. Currently, this service is shared across the Health and Works platforms. All Works projects start with a project construct. The Works platform uses only 3 primary APIs: project create, update and search. For low-level design and other information on this service, click [here](http://localhost:5000/s/j7fNh51k98E3IpNor4eY/platform/architecture/low-level-design/services/project).&#x20;
 
 ## Key Functionalities
 
