@@ -16,21 +16,25 @@ Integration with Odisha IFMS is via the Just-in-Time (JIT) APIs provided by the 
 
 ## Sequence Diagram
 
-#### Happy path
+#### Success Flow
 
 {% tabs %}
 {% tab title="Posting a payment instruction" %}
-<figure><img src="../../../.gitbook/assets/posting-pi (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Posting-PI2.png" alt=""><figcaption><p>Posting a PI</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Checking Payment Status" %}
-<figure><img src="../../../.gitbook/assets/checking-status.svg" alt=""><figcaption><p>Checking PI status</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/checking-status (1).png" alt=""><figcaption><p>Checking PI status</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Errors" %}
+<figure><img src="../../../.gitbook/assets/ErrorFlows (1).png" alt=""><figcaption><p>Handling errors</p></figcaption></figure>
+
+
 {% endtab %}
 {% endtabs %}
 
-#### Errors
 
-<figure><img src="../../../.gitbook/assets/errorconditions.png" alt=""><figcaption><p>Handling errors</p></figcaption></figure>
 
 ## API specifications
 
