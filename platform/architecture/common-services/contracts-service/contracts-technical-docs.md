@@ -16,7 +16,7 @@ API spec YAML is [here](https://raw.githubusercontent.com/egovernments/DIGIT-Wor
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/contracts/Contract_v1.0.0_oas3.yaml" %}
 
-### Data Model&#x20;
+## Data Model&#x20;
 
 ### DB Schema Diagram
 

@@ -6,7 +6,7 @@
 
 ### API Contract Link
 
-API specification is available [here](https://github.com/egovernments/DIGIT-Specs/blob/master/works/expense-contract.yml). To view in Swagger editor, click below.
+API specification is available [here](https://github.com/egovernments/DIGIT-Specs/blob/master/works/expense-contract.yml). To view it in the Swagger editor, click below.
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/works/expense-contract.yml" %}
 
@@ -17,8 +17,6 @@ API specification is available [here](https://github.com/egovernments/DIGIT-Spec
 <figure><img src="https://github.com/egovernments/DIGIT-Works/blob/master/backend/expense/src/main/resources/db-diagram-expense.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 ### Web Sequence Diagrams
-
-
 
 TBD
 
@@ -32,4 +30,3 @@ Indexer Config: [Expense indexer](https://github.com/egovernments/works-configs/
 
 Index Name: expense-bill-index
 
-###

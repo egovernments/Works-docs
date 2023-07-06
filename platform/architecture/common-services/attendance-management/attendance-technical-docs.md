@@ -98,9 +98,3 @@ description: Description of the attendance service
 {% endtab %}
 {% endtabs %}
 
-
-
-###
-
-
-

@@ -8,7 +8,7 @@ description: Describes a calculator service for computing attendance
 
 The muster roll service aggregates attendance logs from the attendance service based on some rules and presents an attendance aggregate for a time period (week or month) per individual. This can then be used to compute payments or other semantics.&#x20;
 
-### Dependencies
+## Dependencies
 
 DIGIT backbone services
 
@@ -70,12 +70,9 @@ Attendance
 
 
 
-**MASTER DATA**&#x20;
+#### **Master Data**&#x20;
 
 {% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/common-masters/MusterRoll.json" %}
 
 {% embed url="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/common-masters/WageSeekerSkills.json" %}
 
-
-
-&#x20;
