@@ -126,7 +126,7 @@ A schedule category is a grouping of SORs for easy identification and filtering.
 
 Examples - Earth Work, Masonry, Brick Work, Painting, etc
 
-<table><thead><tr><th width="158">Field</th><th width="145">Data Type</th><th width="133">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>Category Code</td><td>Alphanumeric</td><td>Y</td><td>Unique Code Assigned to the Schedule Category</td></tr><tr><td>Category Name</td><td>Alphanumeric</td><td>Y</td><td>Name Assigned to the Schedule Category</td></tr></tbody></table>
+<table><thead><tr><th width="158">Field</th><th width="145">Data Type</th><th width="152">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>Category Code</td><td>Alphanumeric</td><td>Y</td><td>Unique Code Assigned to the Schedule Category</td></tr><tr><td>Category Name</td><td>Alphanumeric</td><td>Y</td><td>Name Assigned to the Schedule Category</td></tr></tbody></table>
 
 **Estimate Template**
 
