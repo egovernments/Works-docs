@@ -4,7 +4,7 @@
 
 **Base Path:** /org-services/organisation
 
-Raw API spec resides [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/organisation/Organisation\_V1.0\_OAS3\_final.yaml). To view in Swagger editor, click below:
+Raw API spec resides [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/organisation/Organisation\_V1.0\_OAS3\_final.yaml). To view in the Swagger editor, click below:
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/organisation/Organisation_V1.0_OAS3_final.yaml" %}
 
@@ -14,9 +14,7 @@ Raw API spec resides [here](https://raw.githubusercontent.com/egovernments/DIGIT
 
 ### Sequence Diagrams
 
-
-
-TBD
+To be added.
 
 ###
 
