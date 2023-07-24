@@ -2,7 +2,7 @@
 
 ## Mission
 
-Help countries achieve Infrastructure SDGs by building digital public goods that make cities and human settlements inclusive, safe, resilient and sustainable
+Help countries achieve Infrastructure SDGs by building digital public goods that make cities and human settlements inclusive, safe, resilient and sustainable.
 
 ## Overview
 
@@ -10,7 +10,7 @@ The DIGIT Works platform is being built as an open source Digital Public Good to
 
 As per a recent article in Economic Times (2022), “_Capital investment outlay is being increased steeply by 33% to Rs 10 lakh crore. This will be 3.3% of GDP. Will be almost three times the outlay made in 2019”_
 
-The majority of this capital investment (capital expenditure) which is on civil works is managed in offline or independent systems lying within the executing agencies. This is a massive problem as information is not exchanged between planning, executing, owning, financing, auditing and other authorities which leads to payment delays, poor quality of execution, poor financing and auditing amongst many others issues.
+The majority of this capital investment (capital expenditure) which is on civil works is managed in offline or independent systems lying within the executing agencies. This is a massive problem as information is not exchanged between planning, executing, owning, financing, auditing and other authorities which leads to payment delays, poor quality of execution, poor financing and auditing amongst many other issues.
 
 ## Need For DIGIT Works Platform
 
@@ -24,7 +24,7 @@ The goal of this works platform is to allow a seamless exchange of works-related
 
 &#x20;                 3\. Share open data & registries to avoid duplication and misuse of resources&#x20;
 
-The Works Platform on DIGIT can be used by any Agency (National, Sub National, Urban/Rural local bodies, para-statal agencies and others to create any kind of civil projects
+The Works Platform on DIGIT can be used by any Agency (National, Sub National, Urban/Rural local bodies, para-statal agencies and others to create any kind of civil project.
 
 The platform will become a “shared source of truth” that all stakeholders can use to align resources and decisions to achieve operational and financial efficiency. The platform will therefore greatly improve the transparency and competency of agencies executing Works.
 
@@ -62,7 +62,7 @@ The DIGIT Works Platform is designed to enable delivery at scale, across various
 
 * [Platform Architecture](platform/architecture/)
 * [Setup](platform/setup.md)
-* [Configuration](broken-reference)
+* [Configuration](platform/configuration/)
 * [Release Notes](platform/release-notes/)
 * [Mukta](programs/muktasoft-v1.0/)
 
