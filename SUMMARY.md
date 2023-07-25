@@ -119,6 +119,7 @@
           * [Muster Roll Workflow](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-roll-workflow.md)
           * [Muster Rolls - Verify & Forward](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-rolls-verify-and-forward.md)
           * [Muster Roll - Send Back](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-roll-send-back.md)
+          * [Muster Rolls - Send Back To CBO](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-rolls-send-back-to-cbo.md)
     * [User Manual](programs/muktasoft-v1.0/user-manual/README.md)
       * [Getting Started](programs/muktasoft-v1.0/user-manual/getting-started.md)
       * [CBO User Manual](programs/muktasoft-v1.0/user-manual/cbo-user-manual/README.md)
