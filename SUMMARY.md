@@ -127,6 +127,7 @@
         * [Bill User Stories](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/README.md)
           * [Create Purchase Bill](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/create-purchase-bill.md)
           * [Create Wage Bill](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/create-wage-bill.md)
+          * [Create Supervision Bill](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/create-supervision-bill.md)
     * [User Manual](programs/muktasoft-v1.0/user-manual/README.md)
       * [Getting Started](programs/muktasoft-v1.0/user-manual/getting-started.md)
       * [CBO User Manual](programs/muktasoft-v1.0/user-manual/cbo-user-manual/README.md)
