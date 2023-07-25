@@ -116,6 +116,7 @@
           * [View Work Order](programs/muktasoft-v1.0/functional-requirements/user-stories/contracts-user-stories/view-work-order.md)
         * [Muster Roll User Stories](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/README.md)
           * [Inbox Page](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/inbox-page.md)
+          * [Muster Roll Workflow](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-roll-workflow.md)
     * [User Manual](programs/muktasoft-v1.0/user-manual/README.md)
       * [Getting Started](programs/muktasoft-v1.0/user-manual/getting-started.md)
       * [CBO User Manual](programs/muktasoft-v1.0/user-manual/cbo-user-manual/README.md)
