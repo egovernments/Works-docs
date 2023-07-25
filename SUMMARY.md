@@ -123,6 +123,8 @@
           * [Muster Roll - Edit/Submit](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-roll-edit-submit.md)
           * [Muster Roll - Approve](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/muster-roll-approve.md)
           * [Search Muster Roll](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/search-muster-roll.md)
+          * [View Muster Roll](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/view-muster-roll.md)
+          * [Create Purchase Bill](programs/muktasoft-v1.0/functional-requirements/user-stories/muster-roll-user-stories/create-purchase-bill.md)
     * [User Manual](programs/muktasoft-v1.0/user-manual/README.md)
       * [Getting Started](programs/muktasoft-v1.0/user-manual/getting-started.md)
       * [CBO User Manual](programs/muktasoft-v1.0/user-manual/cbo-user-manual/README.md)
