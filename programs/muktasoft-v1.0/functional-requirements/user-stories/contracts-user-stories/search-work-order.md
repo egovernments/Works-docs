@@ -15,6 +15,11 @@ Role: Work Order Creator, Work Order Verifier, Work Order Approver.
 1. **Search Work Order**- It has to be configurable and is mapped with a role on demand.
 2. Search Work Order is provided to allow the users to search for a work order and view its details.
 
+#### Workflow Actions
+
+1. Search - To search the result upon supplying the values of the parameters.
+2. Clear Search - To clear the search parameters supplied.
+
 #### Search Criteria
 
 <table><thead><tr><th width="122">#</th><th width="190">Field</th><th width="143">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Ward</td><td>Drop-down</td><td>Auto-complete, matching search. The values populated from ward boundary master data.</td></tr><tr><td>2</td><td>Project type</td><td>Drop-down</td><td>Project type masters value</td></tr><tr><td>3</td><td>Project name</td><td>Textbox</td><td>Project name</td></tr><tr><td>4</td><td>Work order number</td><td>Textbox</td><td>Work Order number, unique identification no.</td></tr><tr><td>5</td><td>Status</td><td>Drop-down</td><td>Workflow state of a work order.</td></tr><tr><td>6</td><td>Created From Date</td><td>Date Picker</td><td>Work Order creation date.</td></tr><tr><td>7</td><td>Created To Date</td><td>Date Picker</td><td>Work Order creation date.</td></tr></tbody></table>
@@ -33,12 +38,7 @@ The search result is shown as given below.
 
 ## Validations
 
-1. At least one parameter is required to perform the search.
-
-## Actions
-
-1. Search - To search the result upon supplying the values of the parameters.
-2. Clear Search - To clear the search parameters supplied.
+At least one parameter is required to perform the search.
 
 ## Notifications
 
