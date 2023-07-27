@@ -131,6 +131,7 @@
           * [Bill Workflow](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/bill-workflow.md)
           * [Bill Inbox](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/bill-inbox.md)
           * [Edit Purchase Bills](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/edit-purchase-bills.md)
+          * [Verify & Forward](programs/muktasoft-v1.0/functional-requirements/user-stories/bill-user-stories/verify-and-forward.md)
     * [User Manual](programs/muktasoft-v1.0/user-manual/README.md)
       * [Getting Started](programs/muktasoft-v1.0/user-manual/getting-started.md)
       * [CBO User Manual](programs/muktasoft-v1.0/user-manual/cbo-user-manual/README.md)
