@@ -73,13 +73,13 @@ MDMS configuration is listed for each service.
 
 [Estimates](../../platform/platform-services/estimates.md)
 
-[Contracts](../mukta/configuration/service-configuration/contract.md#mdms-configuration)
+[Contracts](../../programs/mukta/configuration/service-configuration/contract.md#mdms-configuration)
 
-[Attendance](../mukta/configuration/service-configuration/attendance.md#configuration)
+[Attendance](../../programs/mukta/configuration/service-configuration/attendance.md#configuration)
 
-[Muster Roll](../mukta/configuration/service-configuration/muster-roll.md#configuration)
+[Muster Roll](../../programs/mukta/configuration/service-configuration/muster-roll.md#configuration)
 
-[Expense](../mukta/configuration/service-configuration/expense.md#configuration)
+[Expense](../../programs/mukta/configuration/service-configuration/expense.md#configuration)
 
 [Expense Calculator](muktasoft-services/expense-calculator.md)
 
