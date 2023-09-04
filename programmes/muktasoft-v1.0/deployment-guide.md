@@ -8,7 +8,7 @@
 
 ## Service Builds
 
-Please refer to this [link for the service builds](release-notes/service-build-updates.md) used.
+Please refer to this [link for the service builds](deployment/release-notes/service-build-updates.md) used.
 
 ## Deployment Helm Charts
 
@@ -37,7 +37,7 @@ Note: Any modifications in the above configuration, need to restart the MDMS ser
 
 ### Deploy Digit Core Services
 
-Refer to the [section](release-notes/service-build-updates.md)[ ](deployment-guide.md#service-builds)for a list of core services to be deployed
+Refer to the [section](deployment/release-notes/service-build-updates.md)[ ](deployment-guide.md#service-builds)for a list of core services to be deployed
 
 ### Deploy DIGIT Works Services
 
@@ -45,7 +45,7 @@ Refer to the [section](../../platform/release-notes/service-build-updates.md) fo
 
 ### Deploy MuktaSoft services
 
-Refer to the [section](release-notes/service-build-updates.md) for a list of MuktaSoft services to be deployed
+Refer to the [section](deployment/release-notes/service-build-updates.md) for a list of MuktaSoft services to be deployed
 
 ### Steps to configure Mukta configs
 

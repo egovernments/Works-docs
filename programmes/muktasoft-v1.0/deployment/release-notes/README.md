@@ -53,24 +53,24 @@ Fund Allocation Register
 
 ## Related Docs & Links
 
-| Doc links                                                                                             |
-| ----------------------------------------------------------------------------------------------------- |
-| [Product Requirements Document](../functional-requirements/product-requirements-document.md)          |
-| [Users Stories](../functional-requirements/user-stories/)                                             |
-| [Test Case Document](test-cases.md)                                                                   |
-| [Master Data Template](../configuration/master-data-templates/)                                       |
-| [Localization Document](../configuration/localisation.md)                                             |
-| [SMS Templates](../configuration/notifications-and-sms-templates.md)                                  |
-| [UI Configurations](../configuration/ui-configuration/#overview)                                      |
-| [APK Generation](../configuration/ui-configuration/common-configurations/apk-generation.md)           |
-| [Project UI](../user-manual/employee-user-manual/project.md)                                          |
-| [Estimate UI](../configuration/ui-configuration/modules/estimate.md#overview)                         |
-| [Workorder UI](../configuration/ui-configuration/modules/workorder.md#overview)                       |
-| [Muster Roll UI](../user-manual/cbo-user-manual/muster-rolls.md#\_sragxiwui1hb)                       |
-| [Bill UI](../configuration/ui-configuration/modules/bill.md#overview)                                 |
-| [Organization UI](../configuration/ui-configuration/modules/organization.md#customization)            |
-| [Roles Configuration ](../configuration/ui-configuration/common-configurations/role-configuration.md) |
-| [Work PDF](../muktasoft-services/works-pdf.md)                                                        |
-| [Bill Scheduler](../muktasoft-services/bill-scheduler.md)                                             |
-| [Expense Calculator](../muktasoft-services/expense-calculator.md)                                     |
+| Doc links                                                                                                |
+| -------------------------------------------------------------------------------------------------------- |
+| [Product Requirements Document](../../functional-requirements/product-requirements-document.md)          |
+| [Users Stories](../../functional-requirements/user-stories/)                                             |
+| [Test Case Document](test-cases.md)                                                                      |
+| [Master Data Template](../../configuration/master-data-templates/)                                       |
+| [Localization Document](../../configuration/localisation.md)                                             |
+| [SMS Templates](../../configuration/notifications-and-sms-templates.md)                                  |
+| [UI Configurations](../../configuration/ui-configuration/#overview)                                      |
+| [APK Generation](../../configuration/ui-configuration/common-configurations/apk-generation.md)           |
+| [Project UI](../../user-manual/employee-user-manual/project.md)                                          |
+| [Estimate UI](../../configuration/ui-configuration/modules/estimate.md#overview)                         |
+| [Workorder UI](../../configuration/ui-configuration/modules/workorder.md#overview)                       |
+| [Muster Roll UI](../../user-manual/cbo-user-manual/muster-rolls.md#\_sragxiwui1hb)                       |
+| [Bill UI](../../configuration/ui-configuration/modules/bill.md#overview)                                 |
+| [Organization UI](../../configuration/ui-configuration/modules/organization.md#customization)            |
+| [Roles Configuration ](../../configuration/ui-configuration/common-configurations/role-configuration.md) |
+| [Work PDF](../../muktasoft-services/works-pdf.md)                                                        |
+| [Bill Scheduler](../../muktasoft-services/bill-scheduler.md)                                             |
+| [Expense Calculator](../../muktasoft-services/expense-calculator.md)                                     |
 
