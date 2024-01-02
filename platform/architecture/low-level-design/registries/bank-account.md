@@ -1,12 +1,16 @@
 # Bank Account
 
+## Overview
+
+The Bank Account service stores the financial account details of entities (individuals or organizations).
+
 ## API Specifications
 
 **Base path**: `/bankaccount-service/bankaccounts/`
 
 ### API Contract Link
 
-API specification is available [here](https://github.com/egovernments/DIGIT-Works/tree/master/backend/bankaccounts/docs). To view in Swagger editor, click below.
+The API specification is available [here](https://github.com/egovernments/DIGIT-Works/tree/master/backend/bankaccounts/docs). To view it in the Swagger editor, click below.
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/bankaccounts/docs/bank-account-v1.0.0.yaml" %}
 

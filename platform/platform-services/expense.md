@@ -35,6 +35,6 @@ HeadCodes
 
 ### Integration
 
-[API spec](../specifications/technical-specifications/low-level-design/services/expense.md#api-specifications)
+[API spec](../architecture/low-level-design/services/expense.md#api-specifications)
 
 Postman TBD

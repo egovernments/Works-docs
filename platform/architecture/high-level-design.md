@@ -2,12 +2,12 @@
 
 The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 The high-level design (refer image above) of the Works System can be divided into three parts:
 
-1. Master(Reference) Data
-2. Works Registries(Services)
+1. Master (Reference) Data
+2. Works Registries (Services)
 3. Reused/Enhanced DIGIT Core Services
 
 ## Master (Reference) Data
@@ -15,7 +15,7 @@ The high-level design (refer image above) of the Works System can be divided int
 Below are classifications of some of the master data used in the Works platform. For a comprehensive list, please refer to the service documentation
 
 {% hint style="info" %}
-DIGIT Core service masters are not covered below.&#x20;
+DIGIT core service masters are not covered below.&#x20;
 {% endhint %}
 
 1. Simple Masters:

@@ -44,6 +44,6 @@ CBO Roles - defines the capacities in which an organisation can accept the contr
 
 `/contracts`
 
-API [specification](../architecture/common-services/contracts-service/contracts-technical-docs.md#api-contract-link)
+API [specification](../architecture/low-level-design/services/contracts.md#api-contract-link)
 
 [Contracts postman collection](https://github.com/egovernments/DIGIT-Works/blob/master/backend/contracts/Contract\_Service\_Postman\_Scripts.postman\_collection.json)

@@ -30,6 +30,6 @@ The attendance module allows creation of an attendance register, enrolment of st
 
 /attendance/
 
-[API spec](../architecture/common-services/attendance-management/attendance-technical-docs.md#api-specifications)
+[API spec](../architecture/low-level-design/services/attendance.md#api-specifications)
 
 [Attendance Postman collection](https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/attendance/Attendace%20Service%20Postman%20Scripts.postman\_collection.json)

@@ -2,9 +2,9 @@
 
 ## Overview
 
-The bank accounts registry houses financial account details of individual and organisational entities. The registry stores the account name, type, bank branch identifier (IFSC code) and other optional information. The bank branch identifier can be configured as master data. This makes it easy to extend this registry for use in countries outside India. The registry encrypts all PII and stores it in a secure fashion.
+The bank accounts registry houses the financial account details of individual and organisational entities. The registry stores the account name, type, bank branch identifier (IFSC code) and other optional information. The bank branch identifier can be configured as master data. This makes it easy to extend this registry for use in countries outside India. The registry encrypts all PII and stores it in a secure fashion.
 
-### Dependencies
+## Dependencies
 
 * DIGIT backbone services
 * Persister

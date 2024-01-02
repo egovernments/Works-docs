@@ -6,19 +6,15 @@ description: New release features, enhancements, and fixes
 
 ## Release Summary <a href="#release-summary" id="release-summary"></a>
 
-DIGIT-Works release v0.1 is a new release that offers new platform features and functions, the details of which are provided below.
+DIGIT-Works release v0.2 is a new release that offers new platform features and functions, the details of which are provided below.
 
 **Functional changes**&#x20;
 
-* **Projects** - Create a Project, Modify a Project, View a Project & Search a Project
-* **Estimates** - Create an Estimate, Modify an Estimate, View an Estimate & Search an Estimate
-* **Contract** - Create a Contract, Modify a Contract, View a Contract & Search for a Contract
-* **Organisation** - Create an Organisation, Modify an Organisation, View an Organisation & Search for an Organisation
-* **Attendance** - Create an Attendance Register, Modify an Attendance Register, View an Attendance Register & Search an Attendance Register
-* **Muster** **roll -** Create a Muster roll, Update a Muster roll
-* **Expense (Bill) -** Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill
-* **Individual** - Create an Individual, Modify an Individual, View an Individual & Search an Individual.
-* **Bank account** - Create a Bank account, Modify a Bank account, View a Bank account & Search a Bank account.
+* Added time extension capability in contracts.
+* Added signed audit capability for bank accounts and expense.
+* Added ability to update organisation contact details.
+* Integration from organisation to individual service.
+* Added ability to update payment and bill status at line item level.
 
 **Non-functional changes**&#x20;
 
@@ -26,22 +22,21 @@ DIGIT-Works release v0.1 is a new release that offers new platform features and 
 
 ## New ‌Feature Additions <a href="#new-feature-additions" id="new-feature-additions"></a>
 
-<table><thead><tr><th width="210">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Projects</td><td>Create a Project, Modify a Project, View a Project &#x26; Search a Project</td></tr><tr><td>Estimates</td><td>Create an Estimate, Modify an Estimate, View an Estimate &#x26; Search an Estimate</td></tr><tr><td>Contract</td><td>Create a Contract, Modify a Contract, View a Contract &#x26; Search for a Contract</td></tr><tr><td>Organisation</td><td>Create an Organisation, Modify an Organisation, View an Organisation &#x26; Search for an Organisation</td></tr><tr><td>Attendance</td><td>Create an Attendance Register, Modify an Attendance Register, View an Attendance Register &#x26; Search an Attendance Register</td></tr><tr><td>Muster roll</td><td>Create a Muster roll, Update a Muster roll</td></tr><tr><td>Expense (Bill)</td><td>Create a Wage Bill, Purchase Bill, Supervision Bill, Modify a Wage Bill, Purchase Bill, supervision Bill</td></tr><tr><td>Individual</td><td>Create an Individual, Modify an Individual, View an Individual &#x26; Search an Individual.</td></tr><tr><td>Bank account</td><td>Create a Bank account, Modify a Bank account, View a Bank account &#x26; Search a Bank account.</td></tr></tbody></table>
-
-## Enhancements
-
-It is a fresh development and getting released for the first time.
+<table><thead><tr><th width="210">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Contract</td><td>Ability to extend time period for a contract.</td></tr><tr><td>Bank account</td><td>Signed audit logs enabled for bank account.</td></tr><tr><td>Expense</td><td>Added status update at line item level</td></tr></tbody></table>
 
 ## Known Issues
 
 The following things are known issues that need to be addressed as part of the platform roadmap:
 
-* The payment status of bills needs to be updatable after offline processing.&#x20;
 * Integration with error queue implementation for all services and requisite measures to fix them need to be in place. In case of unrecoverable failures, this will provide a way to alert and institute measures to resolve.&#x20;
 * Alert mechanisms when critical errors occur need to be in place, especially with billing.&#x20;
 * Offline & low connectivity use cases need to be handled as a best practice.
 * Improved logging across services to help troubleshoot
 * Attendance service and muster roll are to be made configurable by adding a unit of measurement.&#x20;
+* Expense service to push workflow as part of the payload into the Kafka topic for persistence.&#x20;
+* Expense service & calculator to read effectiveFrom and effectiveTo dates from master data and pick rates accordingly.
+* Remove SMS related localisation from all services and move to a separate service.
+* Master data to be reviewed for all modules and state level master data to be added in master-config.json. Eliminate extra code in modules to strip out state level tenant.
 * Performance testing and benchmarking of services.
 * Security audit.
 
@@ -49,21 +44,14 @@ The following things are known issues that need to be addressed as part of the p
 
 ### Technical Documents
 
-| Doc links                                                                                          |
-| -------------------------------------------------------------------------------------------------- |
-| [High Level Design](../architecture/high-level-design.md)                                          |
-| [Individual](../specifications/technical-specifications/low-level-design/registries/individual.md) |
+| Doc links                                                 |
+| --------------------------------------------------------- |
+| [High Level Design](../architecture/high-level-design.md) |
+| [Low Level Design](../architecture/low-level-design/)     |
 
-### Backend Service Documents
+### Service Documents
 
-| Doc Links                                                                                  |
-| ------------------------------------------------------------------------------------------ |
-| [Project](../configuration/service-configuration/project.md)                               |
-| [Estimate](../../programs/mukta/configuration/service-configuration/estimate.md)           |
-| [Contract](../../programs/mukta/configuration/service-configuration/contract.md)           |
-| [Attendance](../../programs/mukta/configuration/service-configuration/attendance.md)       |
-| [Muster Roll](../../programs/mukta/configuration/service-configuration/muster-roll.md)     |
-| [Expense](../../programs/mukta/configuration/service-configuration/expense.md)             |
-| [Bank Accounts](../../programs/mukta/configuration/service-configuration/bank-accounts.md) |
-| [Organization](../../programs/mukta/configuration/service-configuration/organisation.md)   |
-| [Individual](../../programs/mukta/configuration/service-configuration/individual.md)       |
+| Doc Links                                                                |
+| ------------------------------------------------------------------------ |
+| [Contract](../configuration/service-configuration/contract.md)           |
+| [Bank Accounts](../configuration/service-configuration/bank-accounts.md) |

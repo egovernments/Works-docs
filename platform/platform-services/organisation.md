@@ -40,6 +40,6 @@ OrgTransferCode - The bank account transfer code (IFSC etc..). This is usually o
 
 ### Integration
 
-[API spec](../architecture/common-services/organisation-service/organisation-technical-docs.md#api-specification)
+[API spec](../architecture/low-level-design/registries/organization.md#api-specification)
 
 [Organisation postman collection](https://github.com/egovernments/DIGIT-Works/blob/master/backend/organisation/docs/Organisation%20Registry%20-%20Test%20Scripts.postman\_collection.json)

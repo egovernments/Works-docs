@@ -30,7 +30,7 @@ Attendance
 
 **Base path:** /muster-roll
 
-[API spec](../specifications/technical-specifications/low-level-design/services/muster-roll.md#api-specifications)
+[API spec](../architecture/low-level-design/services/muster-roll.md#api-specifications)
 
 [Postman Collection](https://raw.githubusercontent.com/egovernments/DIGIT-Works/master/backend/muster-roll/src/main/resources/Muster%20Roll%20Service.postman\_collection.json)
 

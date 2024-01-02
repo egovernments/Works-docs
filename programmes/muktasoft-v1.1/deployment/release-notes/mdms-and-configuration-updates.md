@@ -1,0 +1,5 @@
+# MDMS & Configuration Updates
+
+## **MDMS Changes**
+
+<table><thead><tr><th>Features</th><th>Services Names</th><th width="142">Changes</th><th>Descriptions</th></tr></thead><tbody><tr><td>Action role</td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/833">#833</a></td><td>IFMS Adaptor changes</td></tr><tr><td>UI PI search screen</td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/836">#836</a></td><td>UI JIT search PI changes</td></tr><tr><td>UI WMS search</td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/838">#838</a></td><td></td></tr><tr><td>Role action and ID Gen changes</td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/845">#845</a></td><td></td></tr><tr><td>Time Extension Role action</td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/868">#868</a></td><td>Role Action Mapping</td></tr><tr><td>Mukta Dashboard </td><td>UI</td><td><a href="https://github.com/egovernments/works-mdms-data/pull/841">#841</a></td><td></td></tr></tbody></table>
