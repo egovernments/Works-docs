@@ -70,5 +70,5 @@ The Muster Roll service aggregates attendance logs from the attendance service b
 
 * [Functional specifications - Muster Roll](../../../functional-specifications/muster-roll.md)
 * [Muster Roll service configuration](../../../configuration/service-configuration/muster-roll.md)
-* [Muster Roll UI configuration](../../../../programmes/muktasoft-v1.1/deployment/configuration/ui-configuration/modules/muster-roll-cbo-application.md) - for MuktaSoft
-* [Muster Roll user manual](../../../../programmes/muktasoft-v1.1/implementation/training-resources/user-manual/cbo-user-manual/muster-rolls.md)
+* [Muster Roll UI configuration](../../../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/muster-roll-cbo-application.md) - for MuktaSoft
+* [Muster Roll user manual](../../../../programmes/muktasoft-v2.0/implementation/training-resources/user-manual/cbo-user-manual/muster-rolls.md)

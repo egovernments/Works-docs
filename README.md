@@ -64,7 +64,7 @@ The DIGIT Works Platform is designed to enable delivery at scale, across various
 * [Setup](platform/installation.md)
 * [Configuration](broken-reference)
 * [Release Notes](platform/release-notes/)
-* [Mukta](programmes/muktasoft-v1.1/)
+* [Mukta](programmes/muktasoft-v2.0/)
 
 ## Contact Us
 

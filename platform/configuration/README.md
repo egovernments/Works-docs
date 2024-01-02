@@ -6,54 +6,57 @@ description: Common steps to configure platform services
 
 ## Overview
 
-This page lists common configuration steps that need to be repeatedly performed for all services. Please follow these steps in the context of each service replacing only certain values as needed. The respective service will provide you with information on what needs to be replaced.
+On this page, you will find a set of standard configuration steps that should be applied consistently across all services. Please adhere to these steps within the context of each service, making necessary replacements only as instructed by the respective service's guidelines.
 
-## Deploying A Service
+**Steps:**
 
-Deploying a service involves three parts:
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-1. Deploying a published docker image of the service in the DIGIT environment
-2. Having the Helm charts are necessary for the service deployment. Helm charts configure the environment variables for the service specific to a Kube cluster. A service can be deployed using  CI/CD[^1] OR  directly using Helm commands from a system. All helm charts for MUKTA[^2] services are [available in this repository here](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend).&#x20;
-3. Configuring the service&#x20;
-   * Set up MDMS[^3], IDGen[^4], Workflow[^5], other masters for the service to work properly on GitHub.
+## Deploy A Service
+
+Deploying a service encompasses three key aspects:
+
+1. **Service Image Deployment**: This entails deploying a published Docker image of the service within the DIGIT environment.
+2. **Helm Charts Requirement**: Helm charts play a crucial role in service deployment as they configure environment variables tailored to the specific Kubernetes cluster. You can deploy a service either through CI/CD pipelines or directly by utilizing Helm commands from your system. All helm charts for MUKTA[^1] services are [available in this repository](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend).&#x20;
+3. **Service Configuration**: To ensure the service functions seamlessly, it is essential to configure it correctly. This includes setting up MDMS, IDGen, Workflow, and other masters as necessary, all of which can be done on GitHub.
+
+In summary, deploying a service involves these three fundamental steps, each contributing to the successful deployment and operation of the service within the DIGIT environment.
 
 ## MDMS Role Action Configuration
 
 [Click here](https://core.digit.org/platform/core-services/mdms-master-data-management-service) to find detailed information on MDMS configuration.
 
-All modules expose certain actions (APIs), roles (actors) and role-action mappings (who can access which resource). Role-action mappings are used for access control.&#x20;
+Each module offers specific actions (APIs), roles (actors), and role-action mappings (defining access permissions). Role-action mappings control the access and permissions for each role. Each service documentation contains the role-action table that specifies the actors authorized to access particular resources. Adhere to the structure below, substituting specific actions and roles as required for each module.
 
-Each service documentation has a role-action table that identifies the actors that can access the resource. Follow the outline below replacing specific actions/roles for each module.&#x20;
-
-Actions, roles and role-action mapping are defined within a master tenant in folders. The folders have the same name as the module name for easy identification.&#x20;
+Actions, roles, and role-action mappings are organised within the master tenant and corresponding folders. These folders are conveniently named after the module, making it easy for users to identify.
 
 Example:
 
 ![](<../../.gitbook/assets/Screenshot 2023-05-01 at 5.13.19 PM.png>)
 
-In the above image, "pg" is the state level tenant. The three folders highlighted in orange contain the masters for actions, roleactions and roles respectively.&#x20;
+In the image above, "pg" represents the state-level tenant. The highlighted orange folders contain the masters for actions, role actions, and roles.
 
 {% hint style="info" %}
-Folder structures are only for categorisation and easy navigation of master files. The MDMS service retrieves  data only through module and master names. Make sure that these are correct.
+Folder structures are only for categorisation and easy navigation of master files. The MDMS service retrieves data only through module and master names. Make sure that these are correct.
 {% endhint %}
 
 ## Configure Actions
 
 * Add all the APIs exposed by the service (refer to service for actual APIs) to the <mark style="background-color:orange;">`actions.json`</mark> file in MDMS.&#x20;
 * Keep appending new entries to the bottom of the file.&#x20;
-* Make sure the `id` field is unique. Best practice is to increment the id by one when adding a new entry. This id field will be used in the role-action mapping.
+* Make sure the `id` field is unique. The best practice is to increment the ID by one when adding a new entry. This id field will be used in the role-action mapping.
 
 **Module name:** ACCESSCONTROL-ACTIONS-TEST
 
 **Master name:** actions-test
 
 {% hint style="info" %}
-In case 403s are encountered despite configuration, double check the actions.json file to make sure the API in question has a unique ID. In case of duplicate IDs, a 403 will be thrown by Zuul.
+In case 403s are encountered despite configuration, double-check the actions.json file to make sure the API in question has a unique ID. In case of duplicate IDs, a 403 will be thrown by Zuul.
 {% endhint %}
 
 #### Example:
 
-A sample entry given below:
+A sample entry is given below:
 
 ```json
 {
@@ -96,7 +99,7 @@ A sample entry given below:
 
 ## Configure Roles
 
-Configure roles based on the roles column (refer to service documentation) in the roles.json file. Make sure the role does not exist already. Append new roles to the bottom of the file.&#x20;
+Configure roles based on the details given in the roles column (refer to service documentation) in the roles.json file. Make sure the role does not exist already. Append new roles to the bottom of the file.&#x20;
 
 **Module name:** ACCESSCONTROL-ROLES
 
@@ -127,20 +130,18 @@ A sample entry is given below:
 
 Role-action mapping should be configured as per the role-action table defined. Add new entries to the bottom of the roleactions.json file.&#x20;
 
-Identify the action id (from the actions.json file) and map roles to that id. If multiple roles are mapped to an API, then each of them becomes a unique entry in the roleactions.json file.
+Identify the action ID (from the actions.json file) and map roles to that ID. If multiple roles are mapped to an API, then each of them becomes a unique entry in the roleactions.json file.
 
 **Module name:** ACCESSCONTROL-ROLEACTIONS
 
 **Master name:** roleactions.json
 
-#### Example:
+**Example:** A sample set of role-action entries is shown in the code block below. Each of the `actionid` fields should match a corresponding API in the actions.json file.&#x20;
 
-A sample set of role-action entries is shown below. Each of the `actionid` fields needs to match a corresponding API from the actions.json file.&#x20;
-
-In the example below the `ESTIMATE_CREATOR` is given access to API actionid 9. This maps to the estimate create API in our repository.&#x20;
+In the example below, the `ESTIMATE_CREATOR` is given access to API actionid 9. This maps to the estimate created API in our repository.&#x20;
 
 {% hint style="warning" %}
-Note that the `actionid` and `tenantId` might differ from implementation to implementation.&#x20;
+**Note** that the `actionid` and `tenantId` might differ from implementation to implementation.&#x20;
 {% endhint %}
 
 ```json
@@ -168,20 +169,14 @@ Note that the `actionid` and `tenantId` might differ from implementation to impl
 
 Each service has a persister.yaml file which needs to be stored in the configs repository. The actual file will be mentioned in the service documentation.&#x20;
 
-Please add that yaml file under the configs repository if not present already.
+Add this YAML file to the configs repository if not present already.
 
 {% hint style="warning" %}
-Make sure to restart MDMS and the persister service after adding the file at the above location.
+Make sure to restart MDMS and the persister service after adding the file in the above location.
 {% endhint %}
 
 ## Indexer Configuration
 
-[^1]: Continuous Integration/Continuous Deployment
 
-[^2]: Mukhyamantri Karma Tatpara Abhiyan Yojana ( MUKTA Yojana) - a government  scheme to provide employment
 
-[^3]: Master Data Management Service
-
-[^4]: Id Generation Service
-
-[^5]: Workflow Service
+[^1]: Mukhyamantri Karma Tatpara Abhiyan Yojana ( MUKTA Yojana) - a government  scheme to provide employment

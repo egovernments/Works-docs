@@ -31,9 +31,9 @@ Documentation for this service is available [here](https://health.digit.org/plat
 
 Click [here](https://raw.githubusercontent.com/egovernments/DIGIT-Works/develop/backend/project-management-system/src/main/resources/Project%20Management%20System.postman\_collection.json) to access the Postman collection used to test APIs. Import the link into Postman and follow the instructions to run the collection.&#x20;
 
-## Master Data Types
+## Master Data&#x20;
 
 The following primary masters are defined by this module and used for validations. Other common masters such as department, tenant etc..are also used by this module.&#x20;
 
-<table><thead><tr><th width="172.66666666666669">Module Name</th><th width="155">Master Name</th><th>Sample Data</th></tr></thead><tbody><tr><td>works</td><td>ProjectType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json">https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json</a></td></tr></tbody></table>
+<table><thead><tr><th width="152.66666666666669">Module Name</th><th width="139">Master Name</th><th>Sample Data</th></tr></thead><tbody><tr><td>works</td><td>ProjectType</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json">https://github.com/egovernments/works-mdms-data/blob/UAT/data/statea/works/ProjectType.json</a></td></tr></tbody></table>
 

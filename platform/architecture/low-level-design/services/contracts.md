@@ -14,11 +14,11 @@ The Contracts service allows users to enter, update, search and store functional
 
 ### API Contract Link
 
-API spec [YAML is here.](https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Works/Contract-Service-v1.0.0.yaml) Click below to view it in Swagger Editor.
+API spec [YAML is here.](https://github.com/egovernments/DIGIT-Specs/blob/6884c3123172568af7b5edbaa5e50b17bafd99d4/Domain%20Services/Works/Contract-Service-v1.0.0.yaml) Click below to view it in Swagger Editor.
 
-{% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain+Services/Works/Contract-Service-v1.0.0.yaml" %}
+{% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Specs/6884c3123172568af7b5edbaa5e50b17bafd99d4/Domain%20Services/Works/Contract-Service-v1.0.0.yaml" %}
 
-## High-level Design
+## High Level Design
 
 #### Flow for revised contracts
 
@@ -28,9 +28,7 @@ API spec [YAML is here.](https://raw.githubusercontent.com/egovernments/DIGIT-Sp
 
 ### DB Schema Diagram
 
-
-
-<figure><img src="../../../../.gitbook/assets/ContractsDBDiagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Contract service.png" alt=""><figcaption></figcaption></figure>
 
 ### Web Sequence Diagrams
 
@@ -56,11 +54,11 @@ Below are the sequence diagrams for the creation and consumption of revision con
 
 {% tabs %}
 {% tab title="Creation of revision contract" %}
-<figure><img src="../../../../.gitbook/assets/CreateRevisedContract.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/create-revision-Create Revision Contract.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Consumption of revisions" %}
-<figure><img src="../../../../.gitbook/assets/ConsumeRevisions2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/consume-revisions-Consumption of Contract Revisions.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -68,6 +66,6 @@ Below are the sequence diagrams for the creation and consumption of revision con
 
 * [Functional specifications - Contracts](../../../functional-specifications/contracts.md)
 * [Contracts module service configuration](../../../configuration/service-configuration/contract.md)
-* [Contracts UI configuration - for MuktaSoft](../../../../programmes/muktasoft-v1.1/deployment/configuration/ui-configuration/drafts/contracts/)
-* [Contracts employee user manual](../../../../programmes/muktasoft-v1.1/deployment/configuration/ui-configuration/drafts/contracts/contract-workflow.md) - for MuktaSoft
-* [Contracts user stories](../../../../programmes/muktasoft-v1.1/specifications/functional-requirements/user-stories/work-order/) - for MuktaSoft
+* [Contracts UI configuration - for MuktaSoft](../../../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/drafts/contracts/)
+* [Contracts employee user manual](../../../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/drafts/contracts/contract-workflow.md) - for MuktaSoft
+* [Contracts user stories](../../../../programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/work-order/) - for MuktaSoft

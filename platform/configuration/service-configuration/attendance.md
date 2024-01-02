@@ -74,7 +74,7 @@ Role-action mapping is configured in MDMS per the table below .&#x20;
 
 **Master name:** roleactions.json
 
-<table><thead><tr><th width="343">Roles</th><th>APIs /Actions</th></tr></thead><tbody><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_update</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_search</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/staff/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/staff/v1/_delete</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/attendee/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/attendee/v1/_delete</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_search</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_update</td></tr></tbody></table>
+<table><thead><tr><th width="319">Roles</th><th>APIs /Actions</th></tr></thead><tbody><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_update</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>JUNIOR_ENGINEER</li><li>MUNICIPAL_ENGINEER</li></ul></td><td>/attendance/v1/_search</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/staff/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/staff/v1/_delete</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/attendee/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/attendee/v1/_delete</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_create</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_search</td></tr><tr><td><ul><li>ORG_ADMIN</li><li>ORG_STAFF</li></ul></td><td>/attendance/log/v1/_update</td></tr></tbody></table>
 
 ### Idgen Configuration
 
@@ -86,9 +86,7 @@ Make sure the id format is configured in the [IdFormat.json](https://github.com/
 
 ## Persister
 
-&#x20;Please make sure that the file [attendance-service-persister.yml](https://github.com/egovernments/works-configs/tree/DEV/egov-persister) is present in the MDMS repository of the organisation:
-
-https://github.com/\{{ORG\}}/works-configs/tree/\<BRANCH>/egov-persister
+Make sure that the file [attendance-service-persister.yml](https://github.com/egovernments/works-configs/tree/DEV/egov-persister) is present in the MDMS repository of the organisation: https://github.com/\{{ORG\}}/works-configs/tree/\<BRANCH>/egov-persister
 
 ## Integration
 

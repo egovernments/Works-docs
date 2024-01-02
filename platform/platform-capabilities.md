@@ -11,7 +11,7 @@ The input to Works could be a decision that is taken in the legislature for the 
 
 Read on to learn more about the features and capabilities supported by Works.
 
-## Estimation <a href="#id-7lxspous6vj4" id="id-7lxspous6vj4"></a>
+## Estimation <a href="#_7lxspous6vj4" id="_7lxspous6vj4"></a>
 
 * [x] Once the project is decided, the first step is to estimate the cost of the project.
 * [x] The estimation includes multiple steps.
@@ -32,7 +32,7 @@ Read on to learn more about the features and capabilities supported by Works.
   6. **Revised Estimate:**
      * Under circumstances where the scope & finances of the project go beyond the estimated amount and the set buffer, a revised estimate needs to be created and moved through the approval process.
 
-## Tendering <a href="#irv9nx28q2r3" id="irv9nx28q2r3"></a>
+## Tendering <a href="#_irv9nx28q2r3" id="_irv9nx28q2r3"></a>
 
 1. **Work Packages** created from Estimates/Sub Estimates, essentially comprise the scope & bill of quantities that provide contractors with enough information to bid for the contract.
    * Authorities Draft Tender Papers (DTP) using Work Packages.
@@ -40,13 +40,13 @@ Read on to learn more about the features and capabilities supported by Works.
 3. The Authority issues a Letter of Intent (LOI) to enter into a contract with the contractor.
    * The contractor issues a Letter of Acceptance in response to the LOI.
 
-## Contracting <a href="#yxkefd3kpmer" id="yxkefd3kpmer"></a>
+## Contracting <a href="#_yxkefd3kpmer" id="_yxkefd3kpmer"></a>
 
 1. A Work Order is then created and shared with the contractor.
    * A work order is a detailed document that contains Scope, Bill of Quantities, Timelines, Terms and Conditions, Details of Contractor, Liability Periods, Other Documents etc.
 2. A Work order also goes through the approval process.
 
-## Measurement <a href="#q6w3dto1rpzh" id="q6w3dto1rpzh"></a>
+## Measurement <a href="#_q6w3dto1rpzh" id="_q6w3dto1rpzh"></a>
 
 1. Before the measurement starts, there are certain offline checks required. For example, acceptance letter issued to date, letter acknowledgement date, work order acknowledgement, signed site handover date, work commenced date etc.
 2. Measurement is essentially of two types.
@@ -58,7 +58,7 @@ Read on to learn more about the features and capabilities supported by Works.
      * MBook is also set up for detailed project tracking. MBook measurements are derived from abstract estimates and track the day-day progress of completed work.
      * MBook measurements can be entered by the vendor and verified by employees or can be entered by ground inspectors/ field staff on a regular basis.
 
-## Contractor Bill Payments <a href="#t8dle02vzju0" id="t8dle02vzju0"></a>
+## Contractor Bill Payments <a href="#_t8dle02vzju0" id="_t8dle02vzju0"></a>
 
 1. As the project progresses, the contractor raises the invoice for which bills are created by the employee in the system under specific budget heads and sent for approval
 2. Approved bills are sent to the finance department for disbursement.
@@ -70,7 +70,7 @@ Read on to learn more about the features and capabilities supported by Works.
    * Final Bill:
      * The last bill that is raised before completing the project.
 
-## Project Closure <a href="#pnzn1sroolt" id="pnzn1sroolt"></a>
+## Project Closure <a href="#_pnzn1sroolt" id="_pnzn1sroolt"></a>
 
 Closing the project is a set of activities/checklists (prospective list given below) that are run to ensure all requirements are fulfilled.
 
@@ -80,7 +80,7 @@ Closing the project is a set of activities/checklists (prospective list given be
 4. Site handover done
 5. Contractor feedback submitted etc
 
-## Reports & Dashboards <a href="#y5y46t164a4t" id="y5y46t164a4t"></a>
+## Reports & Dashboards <a href="#_y5y46t164a4t" id="_y5y46t164a4t"></a>
 
 Reports and Dashboards give employees views and ways to analyze project performance within their jurisdiction. This also includes timelines, delays, risks, projections etc.
 

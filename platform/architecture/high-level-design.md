@@ -1,77 +1,76 @@
 # High Level Design
 
-The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments.&#x20;
+The platform architecture illustration below provides a visual representation of the key components and layers that facilitate a seamless flow of information across multiple departments.
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-The high-level design (refer image above) of the Works System can be divided into three parts:
+The high-level design of the Works System is divided into three main parts, the details of which are available below.
 
-1. Master (Reference) Data
-2. Works Registries (Services)
-3. Reused/Enhanced DIGIT Core Services
+## **1. Master (Reference) Data**
 
-## Master (Reference) Data
+This part includes various classifications of master data used in the Works platform. Some examples of this master data include:
 
-Below are classifications of some of the master data used in the Works platform. For a comprehensive list, please refer to the service documentation
+* Organisation Class
+* Organisation Functional Area
+* Organisation Type
+* Department
+* Nature of Work
+* Wage Seeker Skills
+* Labour Charges
+* Overheads
+* Headcodes
+* Applicable Charges
+* Mode of Entrustment
+* Beneficiary Type
+* Designations
+* Hierarchical Masters like Type of Work, Sub-type of Work
+* Location (which is the same as DIGIT)
+
+1. Works Registries (Services)
+2. Reused/Enhanced DIGIT Core Services
 
 {% hint style="info" %}
-DIGIT core service masters are not covered below.&#x20;
+DIGIT core service masters are not covered here. Refer to the service documentation to find the comprehensive list of services.
 {% endhint %}
 
-1. Simple Masters:
-   * Organisation Class
-   * Organisation Functional Area
-   * Organisation Type
-   * Department
-   * Nature of Work
-   * Wage Seeker Skills
-   * Labour Charges
-   * Overheads
-   * Headcodes
-   * Applicable Charges
-   * Mode of Entrustment&#x20;
-   * Beneficiary Type
-   * Designations
-2. Hierarchical Masters&#x20;
-   * Type of work&#x20;
-   * Sub-type of work
-3. Location - Same as DIGIT
+## 2. Works Registries
 
-## Works Registries
+This part comprises various registries that store information related to the Works platform. Some of the key registries are:
 
-1. Individual - stores details of individual citizens. Individuals may or may not be users of the DIGIT system. If they need login access, they will be created in the User registry.&#x20;
-2. Organisation - This registry holds details of all types of organisations, their functional areas and class.
-3. Bank Accounts - This registry stores bank account details to be used for online payments in a safe and secure manner.&#x20;
+* [**Individual Registry**](low-level-design/registries/individual.md)**:** Stores details of individual citizens, whether or not they are DIGIT system users. In cases where login access is required, user accounts are created and stored separately in the User registry. This allows for a clear distinction between citizen data and user management within the system.
+* [**Organisation Registry:**](low-level-design/registries/organization.md) Holds details of different types of organisations, their functional areas, and classes.
+* [**Bank Accounts Registry:**](low-level-design/registries/bank-account.md) Stores bank account details securely for online payments.
 
-## Works Services
+### Works Services
 
-The following domain services have been developed/are being planned as part of the Works platform:
+This part includes domain-specific services (listed below) developed or planned for the Works platform.
 
-1. Project
-2. Estimate&#x20;
-3. Contracts
-4. Attendance
-5. Muster roll
-6. Expense/Billing
-7. JIT Adapter (Roadmap)
-8. Milestones (roadmap)
-9. Payment Calendar (roadmap)
-10. Measurement Book (roadmap)
+* Project
+* Estimate
+* Contracts
+* Attendance
+* Muster roll
+* Expense/Billing
+* JIT Adapter (on the roadmap)
+* Milestones (on the roadmap)
+* Payment Calendar (on the roadmap)
+* Measurement Book (on the roadmap)
 
-## Reused/Enhanced DIGIT Services
+## 3. Reused/Enhanced DIGIT Services
 
-The following list consists of major core services from DIGIT that will be reused in Works Project. A few of the common core services might have been missed from the list.
+This part lists the core services from DIGIT that are reused or enhanced in the Works Project. Some of these as-is reused DIGIT core services include:
 
-* [x] As-is Reused DIGIT Services
-  1. Master Data Management Service(MDMS)
-  2. Location Service
-  3. User Service
-  4. Access Control Service
-  5. Zuul API Gateway
-  6. PDF Service
-  7. File Store Service
-  8. IdGen Service
-  9. Persister&#x20;
-  10. Indexer
-  11. Inbox Service
-  12. Report Service
+* Master Data Management Service (MDMS)
+* Location Service
+* User Service
+* Access Control Service
+* Zuul API Gateway
+* PDF Service
+* File Store Service
+* IdGen Service
+* Persister
+* Indexer
+* Inbox Service
+* Report Service
+
+This architectural design ensures seamless data flow across multiple departments and provides a foundation for efficient and integrated operations within the Works Management System.
