@@ -30,14 +30,14 @@ DIGIT-Works release v1.0 is a new release that offers new platform features and 
 
 ## Known Issues
 
-The following things are known issues that need to be addressed as part of the platform roadmap:
+The list below are known issues that need to be addressed as part of the platform roadmap:
 
-* Integration with error queue implementation for all services and requisite measures to fix them need to be in place. In case of unrecoverable failures, this will provide a way to alert and institute measures to resolve.&#x20;
-* Alert mechanisms when critical errors occur need to be in place, especially with billing.&#x20;
-* Offline & low connectivity use cases need to be handled as a best practice.
-* Improved logging across services to help troubleshoot
-* Expense service to push workflow as part of the payload into the Kafka topic for persistence.&#x20;
-* Remove SMS-related localisation from all services and move to a separate service.
+* Integrated error queue implementation for all services along with the necessary measures for addressing issues, is required. In situations of unrecoverable failures, this setup will provide a means to trigger prompt alerts and implement corrective actions.
+* Establishing alert mechanisms for critical errors, particularly in the context of billing, is required.&#x20;
+* Managing offline & low connectivity use cases as a best practice.
+* Improved logging across services to help troubleshoot.
+* The expense service should include the workflow as part of the payload and push it into the Kafka topic for persistence.&#x20;
+* Separate SMS-related localization from all services and migrate it to a dedicated service.
 * Performance testing and benchmarking of services.
 * Security audit.
 

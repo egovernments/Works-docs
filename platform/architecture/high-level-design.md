@@ -6,6 +6,10 @@ The platform architecture illustration below provides a visual representation of
 
 The high-level design of the Works System is divided into three main parts, the details of which are available below.
 
+1. [Master (Reference) Data](high-level-design.md#id-1.-master-reference-data)
+2. [Works Registries](high-level-design.md#id-2.-works-registries)
+3. [Reused/Enhanced DIGIT Core Services](high-level-design.md#id-3.-reused-enhanced-digit-services)
+
 ## **1. Master (Reference) Data**
 
 This part includes various classifications of master data used in the Works platform. Some examples of this master data include:
@@ -26,9 +30,6 @@ This part includes various classifications of master data used in the Works plat
 * Hierarchical Masters like Type of Work, Sub-type of Work
 * Location (which is the same as DIGIT)
 
-1. Works Registries (Services)
-2. Reused/Enhanced DIGIT Core Services
-
 {% hint style="info" %}
 DIGIT core service masters are not covered here. Refer to the service documentation to find the comprehensive list of services.
 {% endhint %}
@@ -45,32 +46,32 @@ This part comprises various registries that store information related to the Wor
 
 This part includes domain-specific services (listed below) developed or planned for the Works platform.
 
-* Project
-* Estimate
-* Contracts
-* Attendance
-* Muster roll
-* Expense/Billing
+* [Project](../platform-services/project.md)
+* [Estimate](../platform-services/estimate.md)
+* [Contracts](../platform-services/contracts.md)
+* [Attendance](../platform-services/attendance.md)
+* [Muster roll](../platform-services/muster-roll.md)
+* [Expense/Billing](../platform-services/expense.md)
 * JIT Adapter (on the roadmap)
 * Milestones (on the roadmap)
 * Payment Calendar (on the roadmap)
-* Measurement Book (on the roadmap)
+* [Measurement Book](../platform-services/measurement-book-registry.md) (on the roadmap)
 
 ## 3. Reused/Enhanced DIGIT Services
 
 This part lists the core services from DIGIT that are reused or enhanced in the Works Project. Some of these as-is reused DIGIT core services include:
 
-* Master Data Management Service (MDMS)
-* Location Service
-* User Service
-* Access Control Service
-* Zuul API Gateway
-* PDF Service
-* File Store Service
-* IdGen Service
-* Persister
-* Indexer
+* [Master Data Management Service (MDMS)](https://core.digit.org/platform/core-services/mdms-master-data-management-service)
+* [Location Service](https://core.digit.org/platform/core-services/location-services)
+* [User Service](https://core.digit.org/platform/core-services/user-services)
+* [Access Control Service](https://core.digit.org/platform/core-services/access-control-services)
+* [Zuul API Gateway](https://core.digit.org/platform/core-services/zuul-service)
+* [PDF Service](https://core.digit.org/platform/core-services/pdf-generation-service)
+* [File Store Service](https://core.digit.org/platform/core-services/filestore-service)
+* [IdGen Service](https://core.digit.org/platform/core-services/id-generation-service)
+* [Persister](https://core.digit.org/platform/core-services/persister-service)
+* [Indexer](https://core.digit.org/platform/core-services/indexer-service)
 * Inbox Service
-* Report Service
+* [Report Service](https://core.digit.org/platform/core-services/report-service)
 
 This architectural design ensures seamless data flow across multiple departments and provides a foundation for efficient and integrated operations within the Works Management System.
