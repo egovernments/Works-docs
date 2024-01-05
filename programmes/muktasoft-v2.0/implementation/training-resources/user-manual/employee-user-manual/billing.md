@@ -1,10 +1,10 @@
 # Billing
 
-### Billing <a href="#q0m0h2enldd1" id="q0m0h2enldd1"></a>
+### Billing <a href="#_q0m0h2enldd1" id="_q0m0h2enldd1"></a>
 
 The billing menu enables employee users to access employee inbox.
 
-#### Inbox <a href="#h6416wd7h5gt" id="h6416wd7h5gt"></a>
+#### Inbox <a href="#_h6416wd7h5gt" id="_h6416wd7h5gt"></a>
 
 Home Page > Bills
 
@@ -21,7 +21,7 @@ From the Home Page on click of the Bills, the Inbox Page is displayed.
 3. On the right side of the top, search parameters are displayed, which allow you to search the bill by Bill Number, Project ID, and Bill Type.
 4. On the right side on the bottom, a window is provided to list the bills based on default setting and applied filters and search parameters.
 
-#### Search <a href="#lhi1axuu7cee" id="lhi1axuu7cee"></a>
+#### Search <a href="#_lhi1axuu7cee" id="_lhi1axuu7cee"></a>
 
 Home Page > Bills > Inbox > Search Bill
 
@@ -51,7 +51,7 @@ The search Bill enables ULB employees to search for a specific Bill using differ
 
 ![](<../../../../../../.gitbook/assets/2 (2).png>)
 
-#### View <a href="#l58uqzt3r1td" id="l58uqzt3r1td"></a>
+#### View <a href="#_l58uqzt3r1td" id="_l58uqzt3r1td"></a>
 
 Home Page > Bills > Inbox > Search Bill > Search Results
 
@@ -62,7 +62,7 @@ The bill for which the details to be displayed is searched using Search Bill and
 1. Click on the Bill Number to view the Bill details.
 2. Complete bill details are displayed along with attached documents and the option to download the bill in PDF.
 
-#### Create <a href="#xgmgvm83bfx" id="xgmgvm83bfx"></a>
+#### Create <a href="#_xgmgvm83bfx" id="_xgmgvm83bfx"></a>
 
 Home Page > Bills > Inbox > Create Bill
 

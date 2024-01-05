@@ -1,12 +1,19 @@
-# Estimate
+# Detailed Estimate
 
-The estimate menu enables employee users to access employee inbox.
+A detailed estimate in the context of construction refers to a comprehensive breakdown of the anticipated costs associated with a construction project. This estimate is a meticulous calculation that itemizes various components, materials, labor, and other expenses required for the successful completion of the project.&#x20;
+
+The detailed estimate is typically created during the planning and design phase of a project and serves as a fundamental tool for budgeting, tendering, and project management.
 
 ## Inbox <a href="#kap9trqshk7j" id="kap9trqshk7j"></a>
 
 **Home Page > Estimates**
 
-Click on the Estimate Inbox Page on the home page.
+To access the estimate inbox, follow these steps:
+
+1. Navigate to the home page.
+2. Look for and click on the "Estimates" option.
+
+This action should direct you to the estimate inbox, where you can manage and view the estimates.
 
 ![](<../../../../../../.gitbook/assets/0 (5).png>)
 
@@ -25,7 +32,7 @@ Click on the Estimate Inbox Page on the home page.
 
 **Home Page > Estimates> Search Estimate**
 
-The search estimate enables ULB employees to find specific estimates using multiple filters.
+The 'Search Estimate' functionality empowers ULB employees to locate specific estimates with precision by utilizing multiple filters, streamlining the process of retrieving relevant and targeted information.
 
 **Search Criteria**
 
@@ -59,7 +66,7 @@ The search estimate enables ULB employees to find specific estimates using multi
 
 **Home Page > Estimates> Inbox > Search Estimate > Search Results**
 
-Click on the applicable **Estimate Number** from the search results to view the estimate details.
+To view the details of a specific estimate, click on the Estimate Number from the search results. This action will provide access to comprehensive information and specifics associated with the selected estimate.
 
 ![](<../../../../../../.gitbook/assets/4 (9).png>)
 
@@ -75,7 +82,7 @@ Click on the applicable **Estimate Number** from the search results to view the 
 
 **Home Page > Estimates > Inbox > Create Estimate**
 
-To create an estimate for a project, search for the project using the search project feature. Open the project to view the details. Navigate to the Actions button on the bottom right corner and click on the Create Estimate option.&#x20;
+To create an estimate for a project, use the search project feature to locate the desired project. Once the project is found, open it to view the details. Navigate to the Actions button located on the bottom right corner and click on the 'Create Estimate' option.&#x20;
 
 * Search for the project is searched using the Search Project.
 * Click on the applicable Project ID from the search results list to view the project details.
@@ -87,44 +94,58 @@ To create an estimate for a project, search for the project using the search pro
 
 ![](<../../../../../../.gitbook/assets/10 (6).png>)
 
-* The basic project details are displayed at the top of the page.
-* The project details tab displays the full project details.
-* Estimate details are captured in 2 grids - SOR/Non-SOR items and overhead.
-* Enter the Item Description, Unit, Rate, and Estimated Quantity in the SOR/Non-SOR Grid. Click on Add Line Item button to append additional items.
+* Basic project details are presented at the top of the page.
+* The Project Details tab provides a comprehensive view of the full project details.
+* Estimate details are organized into grids for Schedule of Rates (SOR), Non-SOR items, and Other Charges.
+* To include SOR items, use the search criteria to find a relevant Schedule of Rates (SOR).
 
-![](<../../../../../../.gitbook/assets/11 (1).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 
-* An overhead grid is provided to capture the GST and Supervision Charges.
+* Add the identified SOR to the estimate.
 
-![](<../../../../../../.gitbook/assets/12 (1).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
 
-* The total of SOR/ Non-SOR and overheads grids are displayed as Total Estimate Amount.
-* An option to enter the Labour and Material cost is provided. Total these 2 can not be more than the total estimated amount.
+<figure><img src="../../../../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../../../.gitbook/assets/13.png)
+* For Non-SOR items, enter the item description, unit, rate, and estimated quantity.
+* Click on the "Add Non-SOR" button to append additional Non-SOR items to the estimate.
 
+<figure><img src="../../../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+
+* To add Goods and Services Tax (GST) and Supervision Charges into the "Other Charges" section by selecting them from the dropdown.
+
+<figure><img src="../../../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+
+* The total of SOR, Non-SOR and Other Charges is displayed as Total Estimate Amount.
+* To view the breakdown of labor, material, and machinery costs from the estimated amount, click on View Analysis Statements. Only saved estimate analysis statement can be viewed.
 * Upload the documents in the Relevant Documents section required to verify and approve the estimate.
 
-![](../../../../../../.gitbook/assets/14.png)
+<figure><img src="../../../../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../../../.gitbook/assets/15.png)
+* The process to save and create an estimate involves the following steps:
+  1. **Save as Draft:**
+     * Click on the "Save as Draft" button to save the entered details without finalizing the estimate. This allows for further editing and review before submission.
+  2. **Submit:**
+     * Once all details are filled in and the estimate is ready for submission, click on the "Submit" button.
+     * Ensure that all fields marked with an asterisk (\*) are completed, as these are mandatory fields.
 
-* Click on Create Estimate button once the details are filled in. All fields marked with an asterisk are mandatory.
-
-### Create Workflows <a href="#ifmt2wi19o01" id="ifmt2wi19o01"></a>
+### Workflow <a href="#ifmt2wi19o01" id="ifmt2wi19o01"></a>
 
 **Creator**
 
 The Estimate Creator (EC) is responsible for creating and forwarding the estimation along with relevant documents uploaded.
 
-EV can
+EC can
 
-* Forward estimate
-* Edit estimate
+* Save as Draft
+* Submit
+* Edit Estimate
 
-**Create and Forward**
+#### Save as Draft
 
-Estimate creator (EC) has the rights to create an estimate for a project and then forward it to the verifier. On creation, the EC gets the forward dialog box from which the user optionally selects the verifier’s name as assignee name, add the comments if any, and then forward the estimate.
+**Submit**
+
+Estimate creator (EC) has the rights to submit an estimate for a project and then forward it to the verifier. On submission, the EC gets the forward dialog box from which the user optionally selects the verifier’s name as assignee name, add the comments if any, and then forward the estimate.
 
 ![](../../../../../../.gitbook/assets/16.png)
 

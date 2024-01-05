@@ -110,4 +110,4 @@ TBD
 * [Estimates module service configuration](../../../configuration/service-configuration/estimate.md)
 * [Estimates module UI configuration](../../../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/drafts/estimate/) - for MuktaSoft
 * [Estimates user stories](../../../../programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/jit-fs-integration/) - for MuktaSoft
-* [Employee user manual on using the Estimates module ](../../../../programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/estimate.md)- for MuktaSoft
+* [Employee user manual on using the Estimates module ](../../../../programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/detailed-estimate.md)- for MuktaSoft

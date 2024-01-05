@@ -7,7 +7,7 @@ The work in the finalized work list is called a project. The project option enab
 * [Create projects](project.md#\_knxsefvb7ee7)
 * [Modify projects](project.md#\_r4yyntfzp4qz)
 
-### Search Project <a href="#h2jobkdffx0h" id="h2jobkdffx0h"></a>
+### Search Project <a href="#_h2jobkdffx0h" id="_h2jobkdffx0h"></a>
 
 **Home Page > Projects > Search Project**
 
@@ -38,7 +38,7 @@ The search project option enables ULB employees to find specific projects using 
 
 ![](<../../../../../../.gitbook/assets/1 (6).png>)
 
-### View Project Details <a href="#id-9r2zeio0tf57" id="id-9r2zeio0tf57"></a>
+### View Project Details <a href="#_9r2zeio0tf57" id="_9r2zeio0tf57"></a>
 
 **Home Page > Projects > Search Project > View Project Details**
 
@@ -50,7 +50,7 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../../../.gitbook/assets/4 (2).png>)
 
-### Create Projects <a href="#knxsefvb7ee7" id="knxsefvb7ee7"></a>
+### Create Projects <a href="#_knxsefvb7ee7" id="_knxsefvb7ee7"></a>
 
 **Home Page > Projects > Search Project > Create Project**
 
@@ -73,7 +73,7 @@ Search for the project to view details. Click on the **Project ID** to open and 
 
 ![](<../../../../../../.gitbook/assets/11 (2).png>)
 
-### Modify Project <a href="#r4yyntfzp4qz" id="r4yyntfzp4qz"></a>
+### Modify Project <a href="#_r4yyntfzp4qz" id="_r4yyntfzp4qz"></a>
 
 **Home Page > Projects > Search Project > View Project > Modify Project**
 

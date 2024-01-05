@@ -1,16 +1,16 @@
 # Product Requirements Document v2.0
 
-### Introduction <a href="#_tb1v2iqvwlas" id="_tb1v2iqvwlas"></a>
+### Introduction <a href="#tb1v2iqvwlas" id="tb1v2iqvwlas"></a>
 
 Mukhyamantri Karma Tatpara Abhiyan Yojana ( MUKTA Yojana) is a government scheme and This scheme is helpful for the poor urban people, which leads to the rising of the employment rate of the state. This document is prepared to detail out the specification MUKTASoft v2.0.
 
 MUKTASoft aims to improve the overall scheme efficiency of MUKTA by identifying & providing equal job opportunities to the urban poor, construct environment-friendly projects, develop local communities and slums & plan better for upcoming years.
 
-### Purpose <a href="#_9cisne6xhkib" id="_9cisne6xhkib"></a>
+### Purpose <a href="#id-9cisne6xhkib" id="id-9cisne6xhkib"></a>
 
 The purpose of this document is to give a detailed description of the requirements for the MUKTASoft v2.0. It will illustrate the purpose and complete declaration for the development of the system. It will also explain system constraints, interface and interactions with other external applications. This document is primarily intended to define the scope of the version v2.0 and propose to the stakeholders for its approval and as a reference for developing the next version of the system for the development team.
 
-### Definitions, Acronyms & Abbreviations <a href="#_qzq77sfsp70h" id="_qzq77sfsp70h"></a>
+### Definitions, Acronyms & Abbreviations <a href="#qzq77sfsp70h" id="qzq77sfsp70h"></a>
 
 | JE  | Junior Engineer                |
 | --- | ------------------------------ |
@@ -23,13 +23,13 @@ The purpose of this document is to give a detailed description of the requiremen
 | PO  | Purchase Order                 |
 | MB  | Measurement Book               |
 
-### Source of Information <a href="#_jhiymemba6hg" id="_jhiymemba6hg"></a>
+### Source of Information <a href="#jhiymemba6hg" id="jhiymemba6hg"></a>
 
 1\. MUKTA [FRS](https://drive.google.com/file/d/14C1KzG\_WvSOOLOhjfuWOyMz3M7FLrYM9/view?usp=share\_link)
 
 2\. Field Visit to Dhenkanal and Jatni ULBs \[**21st & 22nd June 2023**]
 
-### In Scope <a href="#_fynoodnocymm" id="_fynoodnocymm"></a>
+### In Scope <a href="#fynoodnocymm" id="fynoodnocymm"></a>
 
 1. Schedule of Rates
    1. Material
@@ -41,7 +41,7 @@ The purpose of this document is to give a detailed description of the requiremen
 4. Detailed Measurement Book
 5. Muster roll and purchase bill validations
 
-### Scope of v2.1, v2.2, v2.3, v2.4 and v2.5 <a href="#_opk9g5idu0s5" id="_opk9g5idu0s5"></a>
+### Scope of v2.1, v2.2, v2.3, v2.4 and v2.5 <a href="#opk9g5idu0s5" id="opk9g5idu0s5"></a>
 
 1. Rate Analysis
 2. Estimate Template
@@ -57,54 +57,57 @@ The purpose of this document is to give a detailed description of the requiremen
 6. Project Closure
 7. Dashboard Enhancements
 
-### Functional Details <a href="#_ijp25hw7g0em" id="_ijp25hw7g0em"></a>
+### Functional Details <a href="#ijp25hw7g0em" id="ijp25hw7g0em"></a>
 
-### Actors <a href="#_ay6fk8fo01to" id="_ay6fk8fo01to"></a>
+### Actors <a href="#ay6fk8fo01to" id="ay6fk8fo01to"></a>
 
 <table><thead><tr><th width="241">Users/Features</th><th width="187.66666666666663">State</th><th>ULB</th></tr></thead><tbody><tr><td>Create SOR</td><td>Yes</td><td>No</td></tr><tr><td>Search SOR</td><td>Yes</td><td>Yes</td></tr><tr><td>View SOR</td><td>Yes</td><td>Yes</td></tr><tr><td>Modify SOR</td><td>Yes</td><td>No</td></tr><tr><td>Add/Modify Rate</td><td>No</td><td>Yes</td></tr></tbody></table>
 
-### Schedule of Rates <a href="#_l7vg7evde8la" id="_l7vg7evde8la"></a>
+### Schedule of Rates <a href="#l7vg7evde8la" id="l7vg7evde8la"></a>
 
-labourThe basic rate of material, labour, and machinery is decided by the state public works department which would be the same for a group of ULBs and then the final cost of SORs would vary from ULB to ULB based on the Conveyance and Royalty Charges applicable for the ULB.
+The basic rate of material, labour, and machinery is decided by the state public works department which would be the same for a group of ULBs and then the final cost of SORs would vary from ULB to ULB based on the Conveyance and Royalty Charges applicable for the ULB.
 
-#### Units of Measurement <a href="#_xcdxa6i7fufb" id="_xcdxa6i7fufb"></a>
+#### Units of Measurement <a href="#xcdxa6i7fufb" id="xcdxa6i7fufb"></a>
 
-1. CUM
-2. QNTL
-3. MT
-4. NOs
-5. KG
-6. LTR
-7. SQM
-8. HOUR
-9. EACH
-10. MTR
-11. KL
+1. CUM - Cubic Meter
+2. QNTL - Quintal
+3. MT - Metric Ton
+4. NOs - Numbers
+5. KG - Kilogram
+6. LTR - Liter
+7. SQM - Square Meter
+8. HOUR - Hour&#x20;
+9. MTR - Meter&#x20;
+10. KL - Kilo Liter
 
-#### SOR Heads <a href="#_hcvpwd1dse5z" id="_hcvpwd1dse5z"></a>
+#### SOR Heads <a href="#hcvpwd1dse5z" id="hcvpwd1dse5z"></a>
 
-1. Basic Rate (Material, Labour, Machinery)
-2. Conveyance
-3. Royalty
-4. Labour Cess
+1. Material Basic Rate&#x20;
+2. Labour Basic Rate
+3. Machinery Basic Rate
+4. Exploration Mineral Fund
+5. District Mineral Fund&#x20;
+6. Conveyance
+7. Royalty
+8. Labour Cess
 
-#### SOR Type <a href="#_m6hlhia1n0og" id="_m6hlhia1n0og"></a>
+#### SOR Type <a href="#m6hlhia1n0og" id="m6hlhia1n0og"></a>
 
 There are a total of 4 types of SOR.
 
 <table><thead><tr><th width="117">S.No.</th><th width="206.33333333333331">Code</th><th>Type</th></tr></thead><tbody><tr><td>1</td><td>M</td><td>Material</td></tr><tr><td>2</td><td>L</td><td>Labour</td></tr><tr><td>3</td><td>E</td><td>Machinery</td></tr><tr><td>4</td><td>W</td><td>Works</td></tr></tbody></table>
 
-#### SOR Sub Type <a href="#_xrikr24n43l9" id="_xrikr24n43l9"></a>
+#### SOR Sub Type <a href="#xrikr24n43l9" id="xrikr24n43l9"></a>
 
-sub-typesThe SOR of type works are grouped into various sub-types as given below.
+The SOR of type works are grouped into various sub-types as given below.
 
 <table><thead><tr><th width="108.66666666666666">S.No.</th><th width="138">Code</th><th>Sub Type</th></tr></thead><tbody><tr><td>1</td><td>EW</td><td>EARTH WORK</td></tr><tr><td>2</td><td>CC</td><td>CEMENT CONCRETE</td></tr><tr><td>3</td><td>RC</td><td>RCC WORK</td></tr><tr><td>4</td><td>MB</td><td>MASONRY BRICK WORK</td></tr><tr><td>5</td><td>MS</td><td>MASONRY STONE WORK</td></tr><tr><td>6</td><td>PL</td><td>PLASTERING</td></tr><tr><td>7</td><td>WC</td><td>WHITE &#x26; COLOUR WASHING</td></tr><tr><td>8</td><td>FL</td><td>FLOORING</td></tr><tr><td>9</td><td>PA</td><td>PAINTING</td></tr><tr><td>10</td><td>RD</td><td>ROAD WORK</td></tr><tr><td>11</td><td>WD</td><td>WOOD WORK</td></tr><tr><td>12</td><td>RF</td><td>ROOFING</td></tr><tr><td>13</td><td>DI</td><td>DISMANTLING</td></tr><tr><td>14</td><td>PB</td><td>PAVER BLOCK</td></tr><tr><td>15</td><td>SC</td><td>SITE CLEARANCE</td></tr><tr><td>16</td><td>PF</td><td>PILE FOUNDATION</td></tr><tr><td>17</td><td>IW</td><td>IRON WORK</td></tr><tr><td>18</td><td>BI</td><td>OTHER BUILDING ITEMS</td></tr></tbody></table>
 
-#### SOR Variants <a href="#_i14ephumi4ok" id="_i14ephumi4ok"></a>
+#### SOR Variants <a href="#i14ephumi4ok" id="i14ephumi4ok"></a>
 
 <table><thead><tr><th width="111.66666666666666">S.No.</th><th width="150">Code</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>FN</td><td>Excavation in Foundation</td></tr><tr><td>2</td><td>GF</td><td>Ground Floor</td></tr><tr><td>3</td><td>SF</td><td>Second Floor</td></tr><tr><td>4</td><td>TF</td><td>Third Floor</td></tr><tr><td>5</td><td>PL</td><td>Foundation and Plinth</td></tr><tr><td>6</td><td>SG</td><td>Super Structure (GF)</td></tr><tr><td>7</td><td>SS</td><td>Super Structure (SF)</td></tr><tr><td>8</td><td>ST</td><td>Super Structure (TF)</td></tr><tr><td>9</td><td>BS</td><td>Basic</td></tr></tbody></table>
 
-#### Schedule of Rates <a href="#_elpqbkedvew3" id="_elpqbkedvew3"></a>
+#### Schedule of Rates <a href="#elpqbkedvew3" id="elpqbkedvew3"></a>
 
 The scheduled items for which the works department publishes the rates are known as the schedule of rates. There are mainly 4 types of items for which schedules of rates are published.
 
@@ -139,7 +142,7 @@ The search result always displays the currently effective rates unless the searc
 
 <table><thead><tr><th width="103.66666666666666">S.No.</th><th width="144">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>SOR Code</td><td>It is system generated unique code to identify the SOR uniquely.</td></tr><tr><td>2</td><td>SOR Description</td><td>It is the description of SOR to describe the SOR.</td></tr><tr><td>3</td><td>SOR Type</td><td>SOR types, the values from SOR Type Master.</td></tr><tr><td>4</td><td>SOR Sub Type</td><td>SOR sub types, the values from SOR Sub Type Master.</td></tr><tr><td>5</td><td>Status</td><td>The status of SOR, Active/ Inactive.</td></tr><tr><td>6</td><td>Rate</td><td>The current effective rate of the SOR.</td></tr></tbody></table>
 
-**Mockups**
+**Mock-ups**
 
 ![](<../../../../.gitbook/assets/1 (13).png>)
 
@@ -185,20 +188,20 @@ The screen to modify SOR is almost the same as creating SOR with the limitation 
 
 <figure><img src="../../../../.gitbook/assets/5 (15).png" alt=""><figcaption></figcaption></figure>
 
-### Detailed Estimate <a href="#_qa5qunvernhu" id="_qa5qunvernhu"></a>
+### Detailed Estimate <a href="#qa5qunvernhu" id="qa5qunvernhu"></a>
 
-After getting administrative approval on pre-estimation, a detailed estimate is prepared. In this, the estimate is divided into SOR, Non-SOR and Other Expenses and the quantities of various items are calculated individually by recording the detailed measurement of each activity. A detailed estimate is more accurate in terms of predicting the cost, material, labour, and machinery required to complete the work. It is also used for tendering and contracting the work.
+Following administrative approval of the pre-estimation, a comprehensive detailed estimate is meticulously crafted. This detailed breakdown categorizes the estimate into Schedule of Rates (SOR), Non-SOR, and Other Expenses, with individual quantities calculated through precise measurements for each activity. The detailed estimate provides a heightened level of accuracy in forecasting costs, materials, labor, and machinery necessary for project completion. Moreover, it serves as a crucial tool for tendering and contracting purposes.
 
 **Create Estimate**
 
-Create estimate enables users to create a detailed estimate using the measurements taken from ground. The options of searching a template, and adding SOR using SOR search is provided on the create estimate page.
+The 'Create Estimate' feature empowers users to generate a comprehensive estimate by utilizing measurements gathered on-site. This functionality includes convenient options such as searching for pre-existing templates and adding Schedule of Rates (SOR) through a dedicated SOR search interface directly on the create estimate page.
 
 **Search SOR**
 
 1. SOR Type - Drop-down to select a value for SOR type.
 2. SOR Sub Type - Drop-down to select a value for the SOR sub type.
 3. SOR Variant - Drop-down to select a value.
-4. SOR - Drop-down with incremental/ fuzzy search on code or description.
+4. SOR - Drop-down with incremental/ fuzzy search on code/ description.
 
 **Plus Measurements**
 
@@ -216,23 +219,64 @@ These are the measurements which are subtracted from the measurement to calculat
 
 ![](<../../../../.gitbook/assets/6 (16).png>)
 
-#### Workflow <a href="#_407t7v8mmwfq" id="_407t7v8mmwfq"></a>
+#### Workflow <a href="#id-407t7v8mmwfq" id="id-407t7v8mmwfq"></a>
 
-One additional step of adding and saving the estimate as a draft with the creator of the estimate is incorporated.
+One additional step to be added in the existing estimate workflow to save the estimate as a draft with the creator of the estimate is incorporated.
 
 <table><thead><tr><th width="66">#</th><th>Action</th><th>Role</th><th>From State</th><th>To State</th><th>Status</th></tr></thead><tbody><tr><td>1</td><td>Save as Draft</td><td>Estimate Creator</td><td></td><td>Saved as draft</td><td>Drafted</td></tr><tr><td>2</td><td>Submit</td><td>Estimate Creator</td><td>Saved as draft</td><td>Pending for verification</td><td>Submitted</td></tr><tr><td>3</td><td>Verify and Forward</td><td>Estimate Verifier</td><td>Pending for verification</td><td>Pending for technical sanction</td><td>Verified</td></tr><tr><td>4</td><td>Technical Sanction</td><td>Technical Sanctioner</td><td>Pending for technical sanction</td><td>Pending for approval</td><td>Technically Sanctioned</td></tr><tr><td>5</td><td>Send Back</td><td>Estimate Verifier</td><td>Pending for verification</td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>6</td><td>Send Back</td><td>Technical Sanctioner</td><td>Pending for technical sanction</td><td>Pending for verification</td><td>Sent Back</td></tr><tr><td>7</td><td>Send Back</td><td>Estimate Approver</td><td>Pending for approval</td><td>Pending for technical sanction</td><td>Sent Back</td></tr><tr><td>8</td><td>Send Back To Originator</td><td>&#x3C;roles having access></td><td>&#x3C;Current Status></td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>9</td><td>Edit/ Re-submit</td><td>Estimate Creator</td><td>Pending for correction</td><td>Pending for verification</td><td>Re-submitted</td></tr><tr><td>10</td><td>Approve</td><td>Estimate Approver</td><td>Pending for approval</td><td>Approved</td><td>Approved</td></tr><tr><td>11</td><td>Reject</td><td>&#x3C;any roles having access></td><td>&#x3C;Current Status></td><td>Rejected</td><td>Rejected</td></tr></tbody></table>
 
-### Measurement Book <a href="#_6eol12o3ofhf" id="_6eol12o3ofhf"></a>
+### Revise Estimate <a href="#id-6eol12o3ofhf" id="id-6eol12o3ofhf"></a>
+
+When the amount of work exceeds up to 10% more from originally estimated amount either due to rates being found insufficient or due to some other reasons, a revised estimate is prepared.&#x20;
+
+1. A comparative statement is attached on the last page. It includes reasons for increase in cost in case of each item.&#x20;
+2. The revised estimate should show the variation of each item of work, its quantity, rate and cost under original and revised.
+
+Once a revised estimate is created, both the estimates can be searched and viewed for details. The original estimate will remain unchanged and reflects the original items and its measurements.
+
+**Create**
+
+It empowers users to modify measurements for existing Schedule of Rates (SOR) and Non-SOR items, consequently adjusting quantities. Additionally, users can seamlessly incorporate new SOR or Non-SOR items into the estimate. These changes collectively result in the creation of a revised estimate, which undergoes a subsequent approval process."
+
+<figure><img src="../../../../.gitbook/assets/Create Revise Estimate (2).png" alt=""><figcaption></figcaption></figure>
+
+**Workflow**
+
+A revised estimate follows the same workflow steps of the original estimate and on approval the changes come into effect.&#x20;
+
+**Search**
+
+The same search estimate feature is used to search an revised estimate. Hence there is no change in the search screen.
+
+**View**
+
+It enables users to view the details of the revised estimate. The view screen is the same as the original estimate screen.
+
+<figure><img src="../../../../.gitbook/assets/View Revise Estimate (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Deviation Statement
+
+A deviation statement is generated for each revised estimate in the PDF form. It is generated with a comparison of the original estimate. The format of the deviation statement is given below.
+
+**Attribute**
+
+<table data-header-hidden><thead><tr><th width="98"></th><th width="170"></th><th></th></tr></thead><tbody><tr><td>Sr. No.</td><td>Field Name</td><td>Description</td></tr><tr><td>1</td><td>SOR Code</td><td>SOR Code.</td></tr><tr><td>2</td><td>SOR Description</td><td>SOR item from the estimate.</td></tr><tr><td>3</td><td>Unit</td><td>The unit of measurement</td></tr><tr><td>4</td><td>Rate</td><td>Rate per unit</td></tr><tr><td>5</td><td>Quantity (Original)</td><td>Total quantity required for the given SOR item.</td></tr><tr><td>6</td><td>Amount (Original)</td><td>Amount calculated rate*quantity.</td></tr><tr><td>7</td><td>Quantity (Revised)</td><td>Total quantity required for the given SOR item.</td></tr><tr><td>8</td><td>Amount (Revised)</td><td>Amount calculated rate*quantity.</td></tr><tr><td>9</td><td>Deviation</td><td>Deviation, Less/ Excess/ Nil</td></tr><tr><td>10</td><td>Total</td><td>Total of Amounts for both original and revised.</td></tr></tbody></table>
+
+**Mockups**
+
+<figure><img src="https://lh7-us.googleusercontent.com/iqp2LnECL-8dzfQkwZxQRVVDa7PTJcrXP_6tQB9Alnjn_WDAhd6KE1bXAUlJFm-SOm56rlvcGRsIcaZ0l2M0Gvcq3V9jPiNl3919ummYRp9dXsG_8nA6RLy2IwRlgNSE9wq4pIO1-K7mJKWbsWF7TA" alt=""><figcaption></figcaption></figure>
+
+### Measurement Book
 
 The measurement book is the most important record. It is the basis of all accounts of quantities of work done, and purchase made and it must contain such a complete record of facts as to be conclusive evidence in the court of law.
 
 It is the basis of all accounts of quantities whether of works done by Contractors or by labourers employed departmentally, or materials received. It is so written the transactions are readily traceable.
 
-#### MB Recording <a href="#_qd7oamvegixn" id="_qd7oamvegixn"></a>
+#### MB Recording <a href="#qd7oamvegixn" id="qd7oamvegixn"></a>
 
 All the measurements for the work completed are measured and recorded in the measurement book against each and every BOQ provided in the estimate. Once the complete quantity of the item mentioned in the estimate is consumed in MB the item is considered completed.
 
-#### MB Process Flow <a href="#_mx5uomtdjhyt" id="_mx5uomtdjhyt"></a>
+#### MB Process Flow <a href="#mx5uomtdjhyt" id="mx5uomtdjhyt"></a>
 
 <div align="left">
 
@@ -240,7 +284,7 @@ All the measurements for the work completed are measured and recorded in the mea
 
 </div>
 
-#### Create MB <a href="#_6yxdxdxkm2ke" id="_6yxdxdxkm2ke"></a>
+#### Create MB <a href="#id-6yxdxdxkm2ke" id="id-6yxdxdxkm2ke"></a>
 
 It enables users to capture the measurement of the completed works item (SOR/ Non-SOR) and create a record which becomes the basis of payment for the wage seekers, suppliers and supervisors (CBOs).
 
@@ -254,13 +298,13 @@ It enables users to capture the measurement of the completed works item (SOR/ No
 
 ![](<../../../../.gitbook/assets/9 (12).png>)
 
-#### Workflow <a href="#_imb1lz1w9yyl" id="_imb1lz1w9yyl"></a>
+#### Workflow <a href="#imb1lz1w9yyl" id="imb1lz1w9yyl"></a>
 
 The table below illustrates the steps of workflow followed to approve the revised work order.
 
 <table><thead><tr><th width="66">#</th><th>Action</th><th>Role</th><th>From State</th><th>To State</th><th>Status</th></tr></thead><tbody><tr><td>1</td><td>Save</td><td>MB Creator</td><td></td><td>Drafted</td><td>Drafted</td></tr><tr><td>2</td><td>Submit</td><td>MB Creator</td><td>Drafted</td><td>Pending for verification</td><td>Submitted</td></tr><tr><td>3</td><td>Verify and Forward</td><td>MB Verifier</td><td>Pending for verification</td><td>Pending for approval</td><td>Verified</td></tr><tr><td>4</td><td>Send Back</td><td>MB Verifier</td><td>Pending for verification</td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>5</td><td>Send Back</td><td>MB Approver</td><td>Pending for approval</td><td>Pending for verification</td><td>Sent Back</td></tr><tr><td>6</td><td>Send Back To Originator</td><td><strong>&#x3C;any roles having access of action></strong></td><td><strong>&#x3C;Current Status></strong></td><td>Pending for correction</td><td>Sent Back</td></tr><tr><td>7</td><td>Edit/ Re-submit</td><td>MB Creator</td><td>Pending for correction</td><td>Pending for verification</td><td>Re-submitted</td></tr><tr><td>8</td><td>Approve</td><td>MB Approver</td><td>Pending for approval</td><td>Approved</td><td>Approved</td></tr><tr><td>9</td><td>Reject</td><td><strong>&#x3C;any roles having access></strong></td><td><strong>&#x3C;Current Status></strong></td><td>Rejected</td><td>Rejected</td></tr></tbody></table>
 
-#### Search MB <a href="#_3fznk2bifw4o" id="_3fznk2bifw4o"></a>
+#### Search MB <a href="#id-3fznk2bifw4o" id="id-3fznk2bifw4o"></a>
 
 It enables users to search and MB recordings which are captured for a period and then sent for verification/ approval.
 
@@ -276,7 +320,7 @@ It enables users to search and MB recordings which are captured for a period and
 
 ![](<../../../../.gitbook/assets/10 (7).png>)
 
-#### View MB <a href="#_rengypa2hgz5" id="_rengypa2hgz5"></a>
+#### View MB <a href="#rengypa2hgz5" id="rengypa2hgz5"></a>
 
 It enables the users to view the details and workflow status of the measurement book.
 
@@ -320,12 +364,12 @@ View measurement book displays all the details related to it as given below.
        7. Height/ Depth (D)
        8. Quantity
        9. Total
-12. Analysis
-    1. Material Consumed (₹)
+12. Utilization
+    1. Material Utilized(₹)
     2. Labour Utilized (₹)
     3. Machinery Utilized (₹)
 13. Workflow Timelines
 
 **Mockups**
 
-The screen is similar to creating MB in the display mode of information including timelines.
+<figure><img src="../../../../.gitbook/assets/View MB (2).png" alt=""><figcaption></figcaption></figure>

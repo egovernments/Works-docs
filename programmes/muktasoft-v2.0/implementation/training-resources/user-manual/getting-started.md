@@ -4,7 +4,7 @@ description: MuktaSoft - how to get started
 
 # Getting Started
 
-This section of the user manual guides you through the user login process and guides you through the details of using the MUKTASoft application for each role.
+This section of the user manual guides you through the user login process and the steps for using the MUKTASoft application for individual role.
 
 On this page:
 
@@ -21,7 +21,7 @@ On this page:
 
 ### Home Page <a href="#y9ihxiqjb66c" id="y9ihxiqjb66c"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (132).png" alt=""></td><td>Mukta home page</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (132).png" alt=""></td><td>Mukta home page</td><td></td></tr></tbody></table>
 
 ### Change Language <a href="#vhz5bczfaqjw" id="vhz5bczfaqjw"></a>
 
@@ -41,4 +41,4 @@ On this page:
 
 **Home > Profile > Logout**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (148).png" alt=""></td><td>Click on the profile icon on the top right side of the screen. There are two options - <strong>Edit Profile</strong> and <strong>Logout</strong>. </td><td>Click on the <strong>Logout</strong> option. The user is logged out.</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (148).png" alt=""></td><td>Click on the profile icon on the top right side of the screen. There are two options - <strong>Edit Profile</strong> and <strong>Logout</strong>. </td><td>Click on the <strong>Logout</strong> option. The user is logged out.</td></tr></tbody></table>
