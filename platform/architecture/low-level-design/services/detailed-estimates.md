@@ -14,13 +14,13 @@ Estimate Service allows users to create estimates and forward them for approval 
 * [MDMS](https://core.digit.org/platform/core-services/mdms-master-data-management-service)
 * [Workflow](https://core.digit.org/platform/core-services/workflow-service)
 * [Notification](https://core.digit.org/platform/core-services/sms-notification-service)
-* Localisation
+* [Localisation](https://core.digit.org/platform/core-services/localization-service)
 * [Access Control](https://core.digit.org/platform/core-services/access-control-services)
 * [User](https://core.digit.org/platform/core-services/user-services)
 * [IDGen](https://core.digit.org/platform/core-services/id-generation-service)
-* MDMS V2
-* Contract Service
-* Measurement Service
+* [MDMS V2](https://core.digit.org/platform/core-services/mdms-master-data-management-service/setting-up-master-data/mdms-rewritten)
+* [Contract Service](../../../platform-services/contracts.md)
+* [Measurement Service](../../../platform-services/measurement-book-service.md)
 
 ## API Specifications
 
