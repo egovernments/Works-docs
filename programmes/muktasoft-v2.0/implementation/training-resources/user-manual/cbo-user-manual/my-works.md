@@ -9,12 +9,11 @@ My Works displays all assigned works orders for a CBO in a card view, categorize
 
 ## Accept/ Decline
 
-CBOs have the option to view work orders via the CBO portal or the mobile app. They can then choose to either accept or decline the work order based on their decision.
+CBOs have the option to view work orders via the CBO portal or the mobile app.
 
-| ![](https://lh7-us.googleusercontent.com/y2Q8Vqop2R6JTsubUVOUDvT83Bcp5GbWyo-HlycWYFAKEg6zGVOzXiMNSPeIEB5mI\_mB42J9HBnaxXCsc6PBKsFNTkdlgdk8N7BPk5UA6JHwn8RSm0FrwyxjQLT-JdhQdgSWmBFwOXtOtxb8WmR-vw) | ![](https://lh7-us.googleusercontent.com/VXARnjBLzv4nt\_LpOWLePEIggq-eqtdOT06yE9pu2Hwy4VY78jTSHms8ylkGMmGs9to1WCPzGxioIUZYXmZrVf4XhIT\_-9pRO3GsVI4BoefOcSqAnN2-kpJM-oMCMDRrSeWguDgGZ\_E4-01smn2NqA) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-After acceptance, a success message is displayed. On decline, the work order is declined only after confirmation from the logged-in user.
+| ![](https://lh7-us.googleusercontent.com/y2Q8Vqop2R6JTsubUVOUDvT83Bcp5GbWyo-HlycWYFAKEg6zGVOzXiMNSPeIEB5mI\_mB42J9HBnaxXCsc6PBKsFNTkdlgdk8N7BPk5UA6JHwn8RSm0FrwyxjQLT-JdhQdgSWmBFwOXtOtxb8WmR-vw) | ![](https://lh7-us.googleusercontent.com/VXARnjBLzv4nt\_LpOWLePEIggq-eqtdOT06yE9pu2Hwy4VY78jTSHms8ylkGMmGs9to1WCPzGxioIUZYXmZrVf4XhIT\_-9pRO3GsVI4BoefOcSqAnN2-kpJM-oMCMDRrSeWguDgGZ\_E4-01smn2NqA)                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:red;">**Step 1:**</mark> Click on **My Work Orders** to view the work orders. Click on the specific work order.                                                                | <mark style="color:red;">**Step 2:**</mark> Click on **Accept** or **Decline** to process the work order. A success message is displayed after acceptance. The work order is declined only after confirmation from the logged-in user. |
 
 ## **View Details**
 
@@ -24,7 +23,9 @@ CBOs can access their work orders either through the CBO portal or the mobile ap
 
 ## **Engage Wage Seekers**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../../.gitbook/assets/image (121).png" alt=""></td><td><p>A CBO user can engage or disengage the wage seekers for all its running works.</p><p>To engage wage seekers -</p><p><mark style="color:red;"><strong>Step 1:</strong></mark> Click on <strong>My Works</strong> to list all the running works.</p><p><mark style="color:red;"><strong>Step 2:</strong></mark> Click on the <strong>Engage Wage Seekers</strong> button available on the Work Order card.</p></td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (7).png" alt=""></td><td><p><mark style="color:red;"><strong>Step 3:</strong></mark> Search wage seekers by the registered <strong>Mobile Numbers</strong> and map to specific works. </p><p><mark style="color:red;"><strong>Step 4:</strong></mark> Click on <strong>Add a new wage seeker</strong> option to add wage seekers.</p></td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (106).png" alt=""></td><td><mark style="color:red;"><strong>Step 5:</strong></mark> Click on <strong>Submit</strong> once all the wage seekers are added. This saves the wage seeker record.</td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (47).png" alt=""></td><td></td><td></td></tr></tbody></table>
+A CBO user can engage or disengage the wage seekers for all its running works.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../../.gitbook/assets/image (121).png" alt=""></td><td><p>To engage wage seekers -</p><p><mark style="color:red;"><strong>Step 1:</strong></mark> Click on <strong>My Works</strong> to list all the running works.</p><p><mark style="color:red;"><strong>Step 2:</strong></mark> Click on the <strong>Engage Wage Seekers</strong> button available on the Work Order card.</p></td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (7).png" alt=""></td><td><p><mark style="color:red;"><strong>Step 3:</strong></mark> Search wage seekers by the registered <strong>Mobile Numbers</strong> and map to specific works. </p><p><mark style="color:red;"><strong>Step 4:</strong></mark> Click on <strong>Add a new wage seeker</strong> option to add wage seekers.</p></td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (106).png" alt=""></td><td><mark style="color:red;"><strong>Step 5:</strong></mark> Click on <strong>Submit</strong> once all the wage seekers are added. This saves the wage seeker record.</td><td></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (47).png" alt=""></td><td></td><td></td></tr></tbody></table>
 
 ## **Time Extension**
 
