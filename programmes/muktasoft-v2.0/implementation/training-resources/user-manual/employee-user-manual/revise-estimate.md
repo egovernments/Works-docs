@@ -14,19 +14,19 @@ The same inbox used for managing detailed estimates is also utilized to track an
 
 To initiate a time extension request, users can search for the original detailed estimate, view its details, and then, from the actions menu, select 'Create Revise Estimate.' This action opens the revise estimate page for users to fill in and submit.
 
-<figure><img src="../../../../../../.gitbook/assets/image (178).png" alt=""><figcaption><p>Estimate and Project Details</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (209).png" alt=""><figcaption><p>Estimate Header Details</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (179).png" alt=""><figcaption><p>Search and Add SOR</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (210).png" alt=""><figcaption><p>Search and Add SOR</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (180).png" alt=""><figcaption><p>Originally Added SOR</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>Originally Added SOR</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (181).png" alt=""><figcaption><p>Originally Added Non-SOR</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (212).png" alt=""><figcaption><p>Originally Added Non-SOR</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (182).png" alt=""><figcaption><p>Originally Added Overheads</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (183).png" alt=""><figcaption><p>View Analysis</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (185).png" alt=""><figcaption><p>Attachments</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
 
 ## Search
 

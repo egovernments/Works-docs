@@ -14,9 +14,21 @@ The search screen for work orders is also utilized to search for time extension 
 
 To view the details of a time extension request, users can search for the request using the work order search screen and then open it by clicking on the corresponding time extension request ID.
 
+<figure><img src="../../../../../../.gitbook/assets/image (201).png" alt=""><figcaption><p>Time Extension Header</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (202).png" alt=""><figcaption><p>Time Extension Details</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (203).png" alt=""><figcaption><p>Time Extension Workflow</p></figcaption></figure>
+
 ## Create Time Extension Request
 
 To initiate a time extension request, users can search for the original work order, view its details, and then, from the actions menu, select 'Create Time Extension.' This action opens the time extension page for users to fill in and submit the request.
+
+<figure><img src="../../../../../../.gitbook/assets/image (204).png" alt=""><figcaption><p>Work Order Details</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (206).png" alt=""><figcaption><p>Create TE Header</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (208).png" alt=""><figcaption><p>Create TE Details</p></figcaption></figure>
 
 ## Workflow
 

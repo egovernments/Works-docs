@@ -1,2 +1,0 @@
-# UAT Test Case Scenarios
-
