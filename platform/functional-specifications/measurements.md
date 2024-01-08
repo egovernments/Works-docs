@@ -1,8 +1,14 @@
 # Measurements
 
-## Scope
+## Overview
 
 Measurement books or M-Books help track the work progress once the execution of the contract is initiated.&#x20;
+
+Click on the MBook feature below to view functional details:
+
+* [MBook Create](measurements.md#mbook-create)
+* [MBook Track](measurements.md#mbook-track)
+* [MBook Cancel](measurements.md#mbook-cancel)
 
 ## **MBook Create**
 
@@ -41,9 +47,9 @@ Overall, digitisation enhances efficiency, accuracy, and the overall effectivene
 6. The summation of all the measurement quantities will be automatically populated in the SOR/Non-SOR Quantity row. This quantity will then be multiplied by the rate to calculate the final amount.
 7. Measurement Book will be created only when the contract is accepted.
 8. Mbook line items will be SOR line items if while creating an estimate, a sub-line item under SOR is not created.&#x20;
-   1. If SOR sub-line items are created, the M-Book will have to be tracked at the SOR sub-line items level.&#x20;
-9. There should be an option to capture images of physical mbook and site photos along with m-book readings for each date.&#x20;
-10. Each M-book entry will go for approval workflow
+   * If SOR sub-line items are created, the M-Book will have to be tracked at the SOR sub-line items level.&#x20;
+9. There should be an option to capture images of physical MBook and site photos along with MBook readings for each date.&#x20;
+10. Each MBook entry will go for approval workflow
 
 ### **Specifications**
 
