@@ -2,14 +2,7 @@
 
 ## Template
 
-| Sr. No. | Type          | Title | Description/Summary | Screenshot | Steps to Reproduce | Status | Priority | Resolution | Assignee | Ticket No. |
-| ------- | ------------- | ----- | ------------------- | ---------- | ------------------ | ------ | -------- | ---------- | -------- | ---------- |
-| 1       | Defect        |       |                     |            |                    |        |          |            |          |            |
-| 2       | Clarification |       |                     |            |                    |        |          |            |          |            |
-| 3       | Enhancements  |       |                     |            |                    |        |          |            |          |            |
-| 4       | Task          |       |                     |            |                    |        |          |            |          |            |
-| 5       | Defect        |       |                     |            |                    |        |          |            |          |            |
-| 6       | Defect        |       |                     |            |                    |        |          |            |          |            |
+<table><thead><tr><th width="95">#</th><th>Type</th><th>Title</th><th>Description/Summary</th><th>Screenshot</th><th>Steps to Reproduce</th><th>Status</th><th>Priority</th><th>Resolution</th><th>Assignee</th><th>Ticket No.</th></tr></thead><tbody><tr><td>1</td><td>Defect</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>2</td><td>Clarification</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>3</td><td>Enhancements</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>4</td><td>Task</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>5</td><td>Defect</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>6</td><td>Defect</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr></tbody></table>
 
 ## Definitions
 
