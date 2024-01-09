@@ -1,10 +1,6 @@
 # CBO: Create Time Extension
 
-## Context
-
-## Solution <a href="#solution" id="solution"></a>
-
-### Scope <a href="#scope" id="scope"></a>
+## Scope <a href="#scope" id="scope"></a>
 
 CBO: My Works → Request Time Extension
 
@@ -16,51 +12,51 @@ Role: CBO ADMIN
 
 ### Details <a href="#details" id="details"></a>
 
-1. My Works lists all the work orders which are assigned to logged in CBO and are segregated by In Progress and Completed works.
-2. A work orders for which at least one muster roll is created and approved are allowed to create the time extension request.
-3. Also for that project closure request should not be created.
-4. In the action menu Request Time Extension option is displayed only if above 2 conditions are met.
+1. My Works lists all the work orders assigned to logged-in CBO and are segregated by In Progress and Completed works.
+2. Time extension requests can be created only for Work Orders for which at least one muster roll is created and approved.
+3. Time extension requests can be created only for those Work Orders for which a Project Closure request is not created.&#x20;
+4. The action menu Request Time Extension option is available only when the above-mentioned conditions are met.
 
 #### My Works <a href="#myworks" id="myworks"></a>
 
-Each work order card will have below attributes displayed
+Each work order card will have the below attributes displayed:
 
 1. Work order number
 2. Project description
 3. Role of CBO
-4. Officer in-charge
+4. Officer-in-charge
 5. Issue Date
 6. Due Date
 7. Work order amount
 8. Status
-9. View Details - Link to view the complete detail of work order.
-10. Request Time Extension - Action button. \[This action is shown only when at least one muster roll is submitted and approved]
+9. View Details - Link to view the complete details of the work order.
+10. Request Time Extension - Action button \[This action is shown only when at least one muster roll is submitted and approved].
 
-On create time extension request,
+On Create Time Extension Request,
 
-1. A window to capture the requested extension for completion period in days is displayed.
-2. CBO enters below details and submit the request.
-   1. Extension Period (in days) - Mandatory
-   2. Reason for Extension - Mandatory
+1. A window to capture the requested extension for the completion period in days is displayed.
+2. CBO enters the details below and submits the request.
+   * Extension Period (in days) - Mandatory
+   * Reason for Extension - Mandatory
 
-### Validations <a href="#validations" id="validations"></a>
+## Validations <a href="#validations" id="validations"></a>
 
-On Request Time Extension - In case first muster roll is pending to submit for approval.
+On Request Time Extension - In case the first muster roll is pending to submit for approval.
 
-Not even a single muster roll has been approved for the project. Please ensure that the first muster roll is submitted for approval.
+Not even a single muster roll has been approved for the project. Ensure that the first muster roll is submitted for approval.
 
-### Configurations <a href="#configurations" id="configurations"></a>
+## Configurations <a href="#configurations" id="configurations"></a>
 
 Not applicable.
 
-### Actions <a href="#actions" id="actions"></a>
+## Actions <a href="#actions" id="actions"></a>
 
 On submit,
 
 1. A time extension request is created and sent for verification/ approval.
-2. Request ID is generated as per the specified format. ID: TE/2022-23/000021.
+2. The Request ID is generated as per the specified format. ID: TE/2022-23/000021.
 
-### Notifications <a href="#notifications" id="notifications"></a>
+## Notifications <a href="#notifications" id="notifications"></a>
 
 Not applicable.
 
@@ -74,6 +70,6 @@ Not applicable.
 
 ## Acceptance Criteria <a href="#acceptancecriteria" id="acceptancecriteria"></a>
 
-1. On successful submission, success page is displayed.
-2. On failure, common failure page is displayed.
-3. Request ID is generated as per the specified format.
+1. On successful submission, the success page is displayed.
+2. On failure, a common failure page is displayed.
+3. The request ID is generated as per the specified format.
