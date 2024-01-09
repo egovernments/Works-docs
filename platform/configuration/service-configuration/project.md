@@ -6,18 +6,19 @@ description: Steps to configure the project service
 
 ## Overview
 
-The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. This service is shared across multiple eGov missions. The source code for this service resides [here](https://github.com/egovernments/health-campaign-services/tree/demo/health-services/project). For a deeper understanding, please refer to the following:
+The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. This service is shared across multiple eGov missions. The source code for this service resides [here](https://github.com/egovernments/health-campaign-services/tree/demo/health-services/project). Refer to the below docs for a deeper understanding of this service.
 
 [Low-level design](https://works.digit.org/platform/specifications/technical-specifications/low-level-design/services/project)
 
 [Functional specifications](https://works.digit.org/platform/specifications/functional-specifications/projects-service)
 
-## Configuration Details
+## Configuration
 
 ### MDMS Configuration
 
 #### roles.json
 
+{% code lineNumbers="true" %}
 ```json
  {
       "code": "PROJECT_CREATOR",
@@ -30,6 +31,7 @@ The project service provides APIs to create, update and manage a generic project
       "description": "Project Viewer"
     },
 ```
+{% endcode %}
 
 {% hint style="info" %}
 Define (if not present already) and assign the EMPLOYEE\_COMMON role to all project actors.&#x20;
@@ -37,8 +39,9 @@ Define (if not present already) and assign the EMPLOYEE\_COMMON role to all proj
 
 #### actions.json
 
-Below are the actions or APIs exposed by the Project service used by the Works platform. Note that the "id" in the attributes needs to be unique and may be different in the implementation environment. It need not be exactly the same as what is shown below.
+Below are the actions or APIs exposed by the Project service used by the Works platform. Note that the "id" in the attributes needs to be unique and may be different in the implementation environment. It need not be the same as shown below.
 
+{% code lineNumbers="true" %}
 ```json
 {
       "id": 51,
@@ -77,15 +80,17 @@ Below are the actions or APIs exposed by the Project service used by the Works p
       "path": ""
     },
 ```
+{% endcode %}
 
 ### roleactions.json
 
-The following table shows the mapping between the APIs and the roles:
+The table below shows the mapping between the APIs and the roles:
 
 <table><thead><tr><th width="215">Role Code</th><th width="140">Description</th><th>API</th></tr></thead><tbody><tr><td>PROJECT_CREATOR</td><td>Project Creator</td><td>/project/v1/_create</td></tr><tr><td></td><td></td><td>/project/v1/_update</td></tr><tr><td></td><td></td><td>/project/v1/_search</td></tr><tr><td>PROJECT_VIEWER</td><td>Project Viewer</td><td>/project/v1/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>Employee Common</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
-The following role-action mappings derived from the above table are configured for the Project service in the roleactions.json in MDMS. A sample is provided below. Make sure the action ID is correct and corresponds to actions.json.&#x20;
+The following role-action mappings derived from the above table are configured for the Project Service in the roleactions.json in MDMS. A sample is provided below. Make sure the action ID is correct and corresponds to actions.json.&#x20;
 
+{% code lineNumbers="true" %}
 ```json
 {
       "id": 51,
@@ -124,6 +129,7 @@ The following role-action mappings derived from the above table are configured f
       "path": ""
     },
 ```
+{% endcode %}
 
 #### IdGen Format
 
@@ -138,13 +144,13 @@ Add Id Format as configured in the ‘IdFormat.json’ file of the ‘common-mas
 
 ### Persister Configuration
 
-Add persister file [`project-management-system-persister.yml`](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/project-management-system-persister.yml) as defined [here](https://github.com/egovernments/works-configs/tree/DEV/egov-persister).
+Add the persister file [`project-management-system-persister.yml`](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/project-management-system-persister.yml) as defined [here](https://github.com/egovernments/works-configs/tree/DEV/egov-persister).
 
 ### Indexer Configuration
 
 Add indexer file [projectmanagementsystem-indexer.yml](https://github.com/egovernments/works-configs/blob/DEV/egov-indexer/projectmanagementsystem-indexer.yml) as defined [here](https://github.com/egovernments/works-configs/tree/DEV/egov-indexer).
 
-### Other Master Data Configuration
+### Master Data Configuration
 
 1\. [ProjectType ](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ProjectType.json)&#x20;
 
@@ -154,7 +160,7 @@ Add indexer file [projectmanagementsystem-indexer.yml](https://github.com/egover
 
 4\. [Nature of Work](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/NatureOfWork.json)
 
-## Deployment Details
+## Deployment&#x20;
 
 The image name of the service is available in the release charts in the DevOps repository. The service can be deployed using Helm commands.&#x20;
 
@@ -165,7 +171,7 @@ Environment variables to be configured in the Helm chart for the service are:
   1. [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L80](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L80)
   2. [https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L223-L230](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L223-L230)
   3. [https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/project-management-system)&#x20;
-* Add the ‘[egov-mdms-service](https://github.com/egovernments/DIGIT-DevOps/blob/5a9eb4c6141e19bd747238889ceed9bc9fffdc6f/deploy-as-code/helm/environments/works-dev.yaml#L190)’ related configuration to the respective environment yaml file. Make sure to change the git-sync branch name to one that is applicable for the environment.
+* Add the ‘[egov-mdms-service](https://github.com/egovernments/DIGIT-DevOps/blob/5a9eb4c6141e19bd747238889ceed9bc9fffdc6f/deploy-as-code/helm/environments/works-dev.yaml#L190)’ related configuration to the respective environment yaml file. Make sure to change the git-sync branch name to one that applies to the environment.
 * Verify whether the project management system persister file is added in the egov-persister.persister-yml-path variable. If not, follow the process outlined [here](https://github.com/egovernments/DIGIT-DevOps/blob/digit-works/deploy-as-code/helm/environments/works-dev.yaml#L352).
 * Verify whether the project management system indexer file is added to the egov-indexer.egov-indexer-yaml-repo-path variable. If not, follow the process outlined [here](https://github.com/egovernments/DIGIT-DevOps/commit/8fa730b0a2586c553e597bd77a4a4b19caac99af#diff-9e3afadcf906194e9b3fbeede6ea73eaf1c1f8e93f145f9a37a6630121395de0R308).
 * Verify whether the project management system persister file is added to the audit-service.persist-yml-path variable. If not, follow the process outlined [here](https://github.com/egovernments/DIGIT-DevOps/commit/044aeda0d05d91fbc1267368d1154f2c7da3878c).
@@ -176,7 +182,7 @@ Environment variables to be configured in the Helm chart for the service are:
 **NOTE:** Restart egov-mdms-service, egov-accesscontrol, egov-persister, audit-service, egov-indexer and zuul after the above changes are performed.
 {% endhint %}
 
-## Integration Details
+## Integration&#x20;
 
-Refer to the [API spec](https://works.digit.org/platform/specifications/technical-specifications/low-level-design/services/project) for a description of the APIs. The associated [Postman scripts](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/project-management-system/src/main/resources/Project%20Management%20System%20-%20Postman%20Test%20Suite.postman\_collection.json) are provided here for reference. Use these to understand the request payloads.&#x20;
+Refer to the [API spec](../../architecture/low-level-design/services/project.md) for a description of the APIs. Find the [Postman scripts](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/project-management-system/src/main/resources/Project%20Management%20System%20-%20Postman%20Test%20Suite.postman\_collection.json) here to understand the request payloads.&#x20;
 
