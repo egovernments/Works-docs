@@ -90,4 +90,4 @@ Make sure that the file [attendance-service-persister.yml](https://github.com/eg
 
 ## Integration
 
-Sample [postman collections ](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/attendance-service/Attendance-Service.postman\_collection.json)are here to demonstrate integration with the attendance service.
+Sample [postman collections ](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/attendance/Attendace%20Service%20Postman%20Scripts.postman\_collection.json)are here to demonstrate integration with the attendance service.
