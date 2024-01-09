@@ -400,4 +400,4 @@ Restart the Inbox service after updating the above configuration
 
 ## Integration
 
-The API specifications for this service are located [here](https://works.digit.org/v/works-v1.0-in-progress/platform/architecture/low-level-design/services/contracts#api-contract-link). Postman scripts are also provided here for reference to understand the request payloads.&#x20;
+The API specifications for this service are located [here](https://works.digit.org/v/works-v1.0-in-progress/platform/architecture/low-level-design/services/contracts#api-contract-link). Postman scripts are available [here](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/contracts/Contract\_Service\_Postman\_Scripts.postman\_collection.json) for reference to understand the request payloads.&#x20;

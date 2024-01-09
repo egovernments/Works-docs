@@ -368,5 +368,5 @@ The below variables should be configured well before the deployment of the estim
 
 ## Integration
 
-Postman scripts for Estimate are available here.
+Postman scripts for Estimate are available [here](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/estimates/Estimate\_Service\_Collection.postman\_collection.json).
 
