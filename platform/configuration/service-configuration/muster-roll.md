@@ -84,15 +84,15 @@ Role-action mapping is configured in MDMS per the table below.&#x20;
 
 Other muster roll masters are configured in the **`common-masters`** folder:
 
-[MusterRoll.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/common-masters/MusterRoll.json)
+[MusterRoll.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/MusterRoll.json)
 
-[WageSeekers.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pb/common-masters/WageSeekerSkills.json)
+[WageSeekers.json](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/common-masters/WageSeekerSkills.json)
 
 ## Integration
 
-[Environment file](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Environment.postman\_environment.json)
+[Environment file](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll/src/main/resources/Muster%20Environment.postman\_environment.json)
 
-[Postman collection](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll-service/src/main/resources/Muster%20Roll%20Service.postman\_collection.json)
+[Postman collection](https://github.com/egovernments/DIGIT-Works/blob/develop/backend/muster-roll/src/main/resources/Muster%20Roll%20Service.postman\_collection.json)
 
 #### Steps to run the postman collection:
 
