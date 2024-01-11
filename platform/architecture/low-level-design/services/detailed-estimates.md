@@ -40,7 +40,7 @@ Estimates API specification
 
 ## Estimate Flow Diagram
 
-The diagram below shows the interaction between the estimate service and the persister, indexer. This does not follow the default pattern. Instead, enrichment of the payload for the indexer happens via a separate consumer and then the enriched payload is pushed to a topic. The indexer listens to this topic and sends it to ElasticSearch.&#x20;
+The diagram below shows the interaction between the estimate service and the persister indexer. This does not follow the default pattern. Instead, enrichment of the payload for the indexer happens via a separate consumer and then the enriched payload is pushed to a topic. The indexer listens to this topic and sends it to ElasticSearch.&#x20;
 
 <div align="left">
 
@@ -88,10 +88,10 @@ The diagram below shows the interaction between the estimate service and the per
 
 ### Estimate Inbox
 
-Estimate inbox uses the Inbox V2 service (from DIGIT core) which queries ES to retrieve details for the inbox. For more information on Inbox V2, please refer [here](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/2289271031/Event+based+inbox).&#x20;
+Estimate inbox uses the Inbox V2 service (from DIGIT core) that queries ES to retrieve details for the inbox. For more information on Inbox V2, please refer [here](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/2289271031/Event+based+inbox).&#x20;
 
 {% hint style="info" %}
-An inbox is needed when there is a workflow enabled for the service.&#x20;
+An inbox is needed for a workflow-enabled service.&#x20;
 {% endhint %}
 
 ### Estimate PDF

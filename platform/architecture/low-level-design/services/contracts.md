@@ -18,9 +18,9 @@ API spec [YAML is here.](https://github.com/egovernments/DIGIT-Specs/blob/6884c3
 
 {% embed url="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/DIGIT-Specs/6884c3123172568af7b5edbaa5e50b17bafd99d4/Domain%20Services/Works/Contract-Service-v1.0.0.yaml" %}
 
-## High Level Design
+## High-Level Design
 
-#### Flow for revised contracts
+### Flow for revised contracts
 
 <figure><img src="../../../../.gitbook/assets/ContractRevisionHLD.png" alt=""><figcaption><p>High level design diagram</p></figcaption></figure>
 
