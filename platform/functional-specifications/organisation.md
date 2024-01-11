@@ -64,3 +64,8 @@ A contractor organisation has a class associated with at least one department; t
 
 ## Related Links
 
+* [Technical specifications - Organisation](../architecture/low-level-design/registries/organization.md)
+* [Organisation module service configuration](../configuration/service-configuration/organisation.md)
+* [Organisation module UI configuration](../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/organization.md) - for MuktaSoft
+* [Project user stories](../../programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/time-extension/) - for MuktaSoft
+
