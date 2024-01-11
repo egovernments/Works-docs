@@ -93,7 +93,7 @@ When a lead master is set on a particular material in a particular ULB, all SOR 
 **Non-Schedule of Rates (SOR)**
 
 1. CPWD does not define non-SOR items and based on project requirements will get added to the estimate.&#x20;
-2. They will have the same attributes as the SOR item but not a defined SOR ID or SOR category. _Example: Purchasing Fancy benches & themed dustbins at the Park. The rate, in this case, is fixed by JE upon discussion with potential vendors._
+2. They will have the same attributes as the SOR item but not a defined SOR ID or SOR category. _Example: Purchasing fancy benches & themed dustbins at the Park. The rate, in this case, is fixed by JE upon discussion with potential vendors._
 
 **Overheads**
 
@@ -105,7 +105,7 @@ Overheads can be of two types.
 
 We should be able to abstract out similar overheads from multiple SOR line items and groups to form a single overall overhead for the estimate.
 
-<table><thead><tr><th width="138">Field</th><th width="159">Data Type</th><th width="120">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>ID</td><td>NA</td><td>NA</td><td>ID generated for each overhead type</td></tr><tr><td>Name</td><td>Alphanumeric</td><td>Y</td><td><p>Name of the overhead</p><p>Ex. Labour Cess, GST, Royalty etc</p></td></tr><tr><td>Description</td><td>Alphanumeric</td><td>N</td><td>Description</td></tr><tr><td>Account head</td><td>Dropdown</td><td>Y</td><td>Account head to which overheads should be credited</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td></td></tr><tr><td>Percentage/ Lumpsum</td><td>Numeric</td><td>Y</td><td>Percentage or Lumpsum amount of estimate including value</td></tr></tbody></table>
+<table><thead><tr><th width="156">Field</th><th width="159">Data Type</th><th width="120">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>ID</td><td>NA</td><td>NA</td><td>ID generated for each overhead type</td></tr><tr><td>Name</td><td>Alphanumeric</td><td>Y</td><td><p>Name of the overhead</p><p>Ex. Labour Cess, GST, Royalty etc</p></td></tr><tr><td>Description</td><td>Alphanumeric</td><td>N</td><td>Description</td></tr><tr><td>Account head</td><td>Dropdown</td><td>Y</td><td>Account head to which overheads should be credited</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td></td></tr><tr><td>Percentage/ Lumpsum</td><td>Numeric</td><td>Y</td><td>Percentage or Lumpsum amount of estimate including value</td></tr></tbody></table>
 
 **Revised Estimates**
 
@@ -124,7 +124,7 @@ A schedule category is a grouping of SORs for easy identification and filtering.
 
 _Examples - Earth Work, Masonry, Brick Work, Painting, etc_
 
-<table><thead><tr><th width="158">Field</th><th width="145">Data Type</th><th width="152">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>Category Code</td><td>Alphanumeric</td><td>Y</td><td>Unique Code Assigned to the Schedule Category</td></tr><tr><td>Category Name</td><td>Alphanumeric</td><td>Y</td><td>Name Assigned to the Schedule Category</td></tr></tbody></table>
+<table><thead><tr><th width="158">Field</th><th width="145">Data Type</th><th width="100">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>Category Code</td><td>Alphanumeric</td><td>Y</td><td>Unique Code Assigned to the Schedule Category</td></tr><tr><td>Category Name</td><td>Alphanumeric</td><td>Y</td><td>Name Assigned to the Schedule Category</td></tr></tbody></table>
 
 **Estimate Template**
 
@@ -153,5 +153,9 @@ A user should be able to -
 
 ## Related Topics
 
-
+* [Technical specifications - Estimates](../platform-services/estimate.md)
+* [Estimate module service configuration](../configuration/service-configuration/estimate.md)
+* [Estimate module UI configuration](../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/drafts/estimate/) - for MuktaSoft
+* [Estimate user stories](../../programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/detailed-estimate/) - for MuktaSoft
+* [Employee user manual on using the Estimate module](../../programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/detailed-estimate.md) - for MuktaSoft
 

@@ -18,7 +18,7 @@ This section gives information related to Organisation Services. An organisation
      4. (Offline) Issue Letter of Acceptance
      5. (System) Accept/Reject Contract
      6. (System) Track Work Measurements
-        1. (System) Track Attendance Measurements
+        * (System) Track Attendance Measurements
      7. (System) Create Running/Final Bills
      8. (System) Download and upload relevant documents
 
@@ -61,4 +61,6 @@ A contractor organisation has a class associated with at least one department; t
 | Description                                                                                                  | Mockup                                       |
 | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------- |
 | View Vendor screen has the same details as Create Vendors with 1 additional attribute which is the Vendor ID | ![](<../../.gitbook/assets/image (101).png>) |
+
+## Related Links
 
