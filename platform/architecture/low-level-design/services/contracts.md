@@ -20,7 +20,7 @@ API spec [YAML is here.](https://github.com/egovernments/DIGIT-Specs/blob/6884c3
 
 ## High-Level Design
 
-### Flow for revised contracts
+### Revised Contracts Flow
 
 <figure><img src="../../../../.gitbook/assets/ContractRevisionHLD.png" alt=""><figcaption><p>High level design diagram</p></figcaption></figure>
 
