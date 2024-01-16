@@ -34,7 +34,7 @@ Post-pilot implementation of MUKTA V1 in 2 ULBs (Jatni and Dhenkanal), a helpdes
 | Priority - 3 | Moderate    | Response within 1-2 business days, once it reaches to eGov |
 | Priority - 4 | Low         | Response within 1-2 business days, once it reaches to eGov |
 
-### **Ticketing Tool - To be set up by HUDD**
+### **Ticketing Tool (To Be Setup By HUDD)**
 
 1. A free version of the JIRA ticket management tool will be made available by eGov’s technical team for HUDD. This can be used by up to 10 users.
 2. The following are the mandatory users of JIRA:&#x20;
@@ -42,4 +42,4 @@ Post-pilot implementation of MUKTA V1 in 2 ULBs (Jatni and Dhenkanal), a helpdes
    * HUDD technical team,&#x20;
    * MUKTASoft help desk staff,&#x20;
    * eGov technical team, and&#x20;
-   * other users can be decided based on necessity.
+   * other users can be decided based on necessity

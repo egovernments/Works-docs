@@ -1,5 +1,5 @@
 ---
-description: MuktaSoft V12.0 implementation plan & checklist
+description: MuktaSoft V2.0 implementation plan & checklist
 ---
 
 # Implementation Plan & Checklist
