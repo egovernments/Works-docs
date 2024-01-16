@@ -13,10 +13,4 @@ Click on the link below to download the test cases&#x20;
 
 {% embed url="https://docs.google.com/spreadsheets/d/1JtAh_PQ5KjarZV1OL_dq6lHqiM0yHRV4SYQr5QT3UTU/edit?usp=sharing" %}
 
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vQttiiNYSBk6T0ms8cKu43W0XL9FvDYOeQrJDmoT-OQo9H-hipmzhLB9uc1L4-MqHVQN0ONlHXZc8b1/pubhtml" %}
-
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vSz3y-FmRSqqibh_cAXGkSPTp9EIktciXC-cn0_f-Qn05nhv3iAzndYMScZKmPXEAm-6QlIn7tWvvEl/pubhtml" %}
-
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vTo4Y8IhbYQUylur7eG5anPrx-nAE3curNC43pRLhsFD1HhK3tl6T5-4vrmeyt0xX5nulioau2Qbc_G/pubhtml" %}
-
-{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQKfJy59cchyOOENW95Pmd11hObqvBf-6qwQGK4U9vxaPnrK9pEwX3n51Y5H535iogGuwGkhUfrDwk/pubhtml" %}
+{% embed url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPLR7FsKOEHhcbGil77XbSl6apJYOaeoy6SzJXeNoUd457ir0pu9wnPJHdFXYV1uHD1KIPdaSLux1F/pubhtml" %}
