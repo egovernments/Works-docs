@@ -24,11 +24,11 @@ To access the measurement book inbox, follow these steps:
 
 * The feature menus are displayed on the top left side.
 * The bottom panel displays the filters on the left.
-  1. Assigned to Me - The panel on the right side displays the estimates assigned to the logged-in user.
-  2. Assigned to All - This option is selected by default and displays all the estimates along with the assignee names.
-  3. Ward- This filters and displays the applications based on the selected ward on the right side window.
-  4. Workflow States - This option is displayed only when the application type filter is selected. It filters and displays the applications based on the selected application status on the right side window.
-* The search parameters are displayed on the top right. Search the measurement book by Measurement Book Number, Project ID, and Project Type.
+  1. **Assigned to Me** - The panel on the right side displays the estimates assigned to the logged-in user.
+  2. **Assigned to All** - This option is selected by default and displays all the estimates along with the assignee names.
+  3. **Ward**- This filters and displays the applications based on the selected ward on the right side window.
+  4. **Workflow State** - This option is displayed only when the application type filter is selected. It filters and displays the applications based on the selected application status on the right side window.
+* The search parameters are displayed on the top right. Search the measurement book by **Measurement Book Number**, **Project ID**, and **Project Type**.
 
 <mark style="color:red;">**Step 4:**</mark> The window on the bottom right lists the measurement books based on the default settings, applied filters and search parameters.
 
@@ -38,15 +38,17 @@ The system enables users to capture measurements of completed work items, whethe
 
 **Home Page > Measurement Books > Create MB**
 
-1. It will open the search work order screen to search a WO to create a MB.
+<mark style="color:red;">**Step 1:**</mark> Follow the navigation link given above. This will open the **Search Work Order** screen to search for a Work Order to create a Measurement Book.&#x20;
+
+<mark style="color:red;">**Step 2:**</mark> Enter at least one of the search parameters to search for a work order.&#x20;
 
 <figure><img src="../../../../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 
-2. Click on WO number to open the WO to see the details and from action menu select create MB.
+<mark style="color:red;">**Step 3:**</mark> Click on the relevant **Work Order** number to open the work order and view the details. Click on the **Action** button and select the option **Create MB**.
 
 <figure><img src="../../../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 
-3. It will take the use to the create MB screen as given below.
+<mark style="color:red;">**Step 4:**</mark> Scroll down the details in the Create MB screen (screenshots below).
 
 <figure><img src="../../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
@@ -54,9 +56,21 @@ The system enables users to capture measurements of completed work items, whethe
 
 <figure><img src="../../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**Step 5:**</mark> Enter the **Current MB Entry** detail as applicable. Click on the <mark style="color:orange;">**+**</mark> icon to increment the value as required.
+
 <figure><img src="../../../../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**Step 6:**</mark> Enter the **Number**, **Length**, **Width**, **Depth/Height** details as applicable. Click on the **Clear** button to reset and enter fresh details. Click on the **Done** button to proceed with the existing details.
+
 <figure><img src="../../../../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Step 7:**</mark> Click on the **View Utilisation Statement** button to fetch the details.&#x20;
+
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Step 8:**</mark> Click on the **Choose File** button to upload worksite photos. Ensure only .jpg, .png, and .jpeg files are allowed and the file size should not exceed 5MB.
+
+<mark style="color:red;">**Step 9:**</mark> Click on the **Take Action** button and select **Submit** option to save and submit the details. Click on the **Save As Draft** to save the inputs and submit the Measurement Book details later.
 
 ### Validations
 
@@ -64,13 +78,17 @@ Measurement books cannot be created if the estimate's revision status is in the 
 
 ## Search Measurement Book
 
-The "Search MB" functionality allows users to search for a specific Measurement Book (MB) created for a particular period. Upon locating the relevant MB, users can open it to view comprehensive details and take the necessary actions based on the information contained within the record.
+The **Search MB** functionality allows users to search for a specific Measurement Book (MB) created for a particular period. Upon locating the relevant MB, users can open it to view comprehensive details and take the necessary actions based on the information contained within the record.
 
 <figure><img src="../../../../../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**Step 1:**</mark> Enter the applicable search parameter (at least one) and click on the **Search** button to fetch a specific measurement book. Click on the **Clear Search** button to clear the existing search parameters and initiate a fresh search.
+
+<mark style="color:red;">**Step 2:**</mark> Click on the specified **MB Number** hyperlink to view the measurement book details.
+
 ## View Measurement Book
 
-The "View MB" feature empowers users to access and review the details as well as the workflow status of a Measurement Book (MB).
+The View MB feature empowers users to access and review the details as well as the workflow status of a Measurement Book (MB).
 
 <figure><img src="../../../../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
 
