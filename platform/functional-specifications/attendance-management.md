@@ -7,7 +7,7 @@ Attendance Management is divided into 2 parts:
 1. Attendance Service
 2. Muster-Roll Service
 
-## Dependencies
+### Dependencies
 
 To verify the ids of the individuals, the attendance service depends on Individual Registry. It is an optional dependency. If the no individual registry is linked with the attendance service, then the ids would not be checked for validity and assumed to be correct.&#x20;
 

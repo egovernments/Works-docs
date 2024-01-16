@@ -35,7 +35,7 @@ Estimates are created for each project/sub-project entity.
 8. Overheads are predefined masters.&#x20;
    * The cost of the project becomes the cost of SOR and non-SOR items plus overheads.
    * Overheads are either added on top of SOR and Non-SoR separately or can be derived from SOR Sub Line items.
-   * Overhead amounts will not be going to the contractor but to specific heads defined in the Master for respective overheads. (GST 12% to GST department, Cess 1% to labour dept etc). This means Contracts will selectively capture only a few overheads for contractors.
+   * Overhead amounts will not be going to the contractor but to specific heads defined in the Master for respective overheads. (GST 12% to GST department, Cess 1% to labour department etc). This means Contracts will selectively capture only a few overheads for contractors.
 9. Each estimate will have a unique ID that is generated
    * ID: EST/\<ULB/Department Code>/\<Year>/\<month>/\<Date>/\<running sequence number>
 10. Status of an estimate
@@ -49,19 +49,19 @@ Estimates are created for each project/sub-project entity.
 
 **Schedule of Rates (SOR)**
 
-1. SOR is a line item that represents the rate for a single unit of work. SOR is defined by the Central PWD or state PWD and is revised based on the market needs from time to time. In general, there are about 3000+ SOR line items
+1. SOR is a line item that represents the rate for a single unit of work. SOR is defined by the Central PWD or state PWD and is revised based on the market needs from time to time. In general, there are about 3000+ SOR line items.
 2. Each executing authority ULB/Department may modify the rates of these SORs by applying lead charges.
-   * Lead Masters will vary for each project as the project site will be different for each.
+   * Lead Masters varies for each project as the project site is different for each.
    * For simplicity, SORs are usually kept constant under a ULB.
 3. Each SOR Item may have multiple variants with slight changes in description and amounts.
-   * _Example: The estimate of tiling for the ground floor and the estimate of tiling for the first floor will change by 15 Rs to capture the carriage charges. These should be captured with .serial\_number. (Parent.Child)_
+   * _Example: The estimate of tiling for the ground floor and the estimate of tiling for the first floor will change by 15 Rs to capture the carriage charges. These should be captured with .serial\_number (Parent.Child)._
 
 <table><thead><tr><th width="154">Field</th><th width="143">Data Type</th><th width="97">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>SOR Category ID</td><td>Drop down</td><td>Y</td><td><p>Options will be the list of Category Code from the SOR category type master</p><p>The combination of category Code and Item code is unique</p></td></tr><tr><td>Item ID</td><td>Alphanumeric</td><td>Y</td><td>System generated</td></tr><tr><td>Item Description</td><td></td><td>Y</td><td>Item description of the selected Item</td></tr><tr><td>Unit of Measurement</td><td></td><td>Y</td><td>Options will be the list from Unit of measurement master</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Item Rate</td><td>Numeric</td><td>Y</td><td>Multiple entries can be specified for each Item, but there cannot be an overlap in the rates for a range of dates</td></tr><tr><td>Item rate Applicable From</td><td>Date</td><td>Y</td><td>To be entered in the format dd/mm/yyyy</td></tr><tr><td>Item rate Applicable To</td><td>Date</td><td>N</td><td>To be entered in the format dd/mm/yyyy</td></tr></tbody></table>
 
 **Analysis of Rates**
 
 1. Each line item of a SOR master/SOR variant will further be divided into Sub line items that come from a set of category Masters like Labour Master, Material Master, Royalty Master, Carriage Master etc.
-   * A group of Sub line items together will form an estimate line item.
+   * A group of sub line items together will form an estimate line item.
    * Each sub-line item will have Item detail 1, item detail 2, quantity, UOM, rate, and estimated amount.
    * The sum of all sub-line items will become the total of the SOR line item
    * Item detail 1 will capture whether it is material/labour/carriage/overhead/royalty etc
@@ -78,7 +78,7 @@ Estimates are created for each project/sub-project entity.
 
 **Labour Rate Master**
 
-<table><thead><tr><th width="142">Field</th><th width="138">Data Type</th><th width="147">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>ID</td><td>NA</td><td>Na</td><td>System generated ID</td></tr><tr><td>Department</td><td>Dropdown</td><td>Y</td><td>Labour rates may vary by each department</td></tr><tr><td>Skill Category</td><td>Dropdown</td><td>Y</td><td>Highly Skilled, Semi Skilled Unskilled etc</td></tr><tr><td>Description of Labour</td><td>Alphanumeric</td><td>Y</td><td>Technical Assistant, Stone Polisher, Smith etc</td></tr><tr><td>Quantity</td><td>Numeric</td><td>Y</td><td>Quantity for which base rate is defined. Default to 1</td></tr><tr><td>Unit</td><td>Dropdown</td><td>Y</td><td>Day/Week/Month</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Rate</td><td>Numeric</td><td>Y</td><td>Rate of Labour for specified (Quantity' units)</td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td>Date to which these rates are applicable</td></tr></tbody></table>
+<table><thead><tr><th width="142">Field</th><th width="138">Data Type</th><th width="147">Required (Y/N)</th><th>Comments</th></tr></thead><tbody><tr><td>ID</td><td>NA</td><td>Na</td><td>System generated ID</td></tr><tr><td>Department</td><td>Dropdown</td><td>Y</td><td>Labour rates may vary by each department</td></tr><tr><td>Skill Category</td><td>Dropdown</td><td>Y</td><td>Highly Skilled, Semi Skilled Unskilled etc</td></tr><tr><td>Description of Labour</td><td>Alphanumeric</td><td>Y</td><td>Technical Assistant, Stone Polisher, Smith etc</td></tr><tr><td>Quantity</td><td>Numeric</td><td>Y</td><td>Quantity for which base rate is defined. Default to 1</td></tr><tr><td>Unit</td><td>Dropdown</td><td>Y</td><td>Day/Week/Month</td></tr><tr><td><em>[Array] for specific date ranges</em></td><td></td><td></td><td></td></tr><tr><td>Rate</td><td>Numeric</td><td>Y</td><td>Rate of Labour for specified (Quantity units)</td></tr><tr><td>From Date</td><td>Date</td><td>Y</td><td>Date from which these rates are applicable</td></tr><tr><td>To Date</td><td>Date</td><td>Y</td><td>Date to which these rates are applicable</td></tr></tbody></table>
 
 There are about 80 types of labour.
 

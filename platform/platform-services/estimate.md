@@ -24,7 +24,7 @@ Estimate Service allows users to create estimates and forward them for Workflow 
 * Workflow and inbox integration
 * Create/update/search for Work Revised Estimate for an existing approved estimate.
 
-## Code
+### Code
 
 [Estimate](https://github.com/egovernments/DIGIT-Works/tree/master/backend/estimates)
 
@@ -38,15 +38,15 @@ Estimate Service allows users to create estimates and forward them for Workflow 
 
 ### Postman Collection
 
-Postman collection for this service is [available here](https://github.com/egovernments/DIGIT-Works/blob/141824e20b335a42397ec09f599ba832d75d5d96/backend/estimates/Estimate\_Service\_Collection.postman\_collection.json)
+Postman collection for this service is [available here](https://github.com/egovernments/DIGIT-Works/blob/141824e20b335a42397ec09f599ba832d75d5d96/backend/estimates/Estimate\_Service\_Collection.postman\_collection.json).
 
 ## Deployment
 
 [Helm chart](https://github.com/egovernments/DIGIT-DevOps/blob/unified-env/deploy-as-code/helm/charts/digit-works/backend/estimates/values.yaml)
 
-## Master Data
+### Master Data
 
-<table><thead><tr><th width="144.66666666666666">Master Name</th><th width="314">Sample Data</th><th>Description</th></tr></thead><tbody><tr><td>Overheads</td><td><p></p><pre class="language-json"><code class="lang-json">{
+<table><thead><tr><th width="130.66666666666666">Master Name</th><th width="314">Sample Data</th><th>Description</th></tr></thead><tbody><tr><td>Overheads</td><td><p></p><pre class="language-json"><code class="lang-json">{
             "id": "1",
             "code": "SC",
             "description": "Supervision Charge",

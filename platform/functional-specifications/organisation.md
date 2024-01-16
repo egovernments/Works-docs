@@ -7,14 +7,14 @@ This section gives information related to Organisation Services. An organisation
 ## Features & Scope
 
 1. A contractor/vendor is someone who does projects with the government. Every Project, after estimation approval and tendering, will have to be assigned to a contractor/vendor for it to be executed.
-2. Works contractors bid for or are assigned works' contracts depending on the mode of entrustment for specific projects
+2. Works contractors bid for or are assigned works' contracts depending on the mode of entrustment for specific projects.
 3. Process of registering a contractor.
    * A contractor will apply for registration with any of the government departments. The contractor will be assigned a class and ID upon registration. A contractor will be issued projects that will fall into that class.
    * A contractor can have multiple staff that manage contractor organisation with permissions
    * List of things done by contractors for a project -
      1. (Offline) Bid for contracts
-     2. (Offline)Negotiate contracts
-     3. (Offline)Accept Letter of Intent
+     2. (Offline) Negotiate contracts
+     3. (Offline) Accept Letter of Intent
      4. (Offline) Issue Letter of Acceptance
      5. (System) Accept/Reject Contract
      6. (System) Track Work Measurements
