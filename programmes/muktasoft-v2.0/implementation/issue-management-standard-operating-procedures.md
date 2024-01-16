@@ -1,5 +1,5 @@
 ---
-description: Process flow for Issue Management for MUKTASoft V1.1 App
+description: Process flow for Issue Management for MUKTASoft V2.0 App
 ---
 
 # Issue Management - Standard Operating Procedures
