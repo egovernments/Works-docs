@@ -16,7 +16,7 @@ To access the measurement book inbox, follow these steps:
 
 <mark style="color:red;">**Step 1:**</mark> Navigate to the home page.
 
-<mark style="color:red;">**Step 2:**</mark> Look for and click on the "Measurement Books" option. This action navigates you to the measurement books inbox, where you can manage and view the measurement books.
+<mark style="color:red;">**Step 2:**</mark> Look for and click on the **Measurement Books** option. This redirects you to the measurement books inbox, where you can manage and view the measurement books.
 
 <figure><img src="../../../../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
 
@@ -88,13 +88,17 @@ The **Search MB** functionality allows users to search for a specific Measuremen
 
 ## View Measurement Book
 
-The View MB feature empowers users to access and review the details as well as the workflow status of a Measurement Book (MB).
+The **View MB** feature empowers users to access and review the details as well as the workflow status of a Measurement Book (MB).
+
+<mark style="color:red;">**Step 1:**</mark> Search for the required Measurement Book and click on the **MB Number** hyperlink to view the details.
 
 <figure><img src="../../../../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**Step 2:**</mark> The measurement book details are available on the screen. Click on the **MB History** button to fetch the past transaction details for the MB. Click on the **Hide MB History** button to hide these details.
+
 <figure><img src="../../../../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
-MB Hist
+
 
 <figure><img src="../../../../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +112,7 @@ MB Hist
 
 ## Workflow
 
-The workflow of the Measurement Book (MB) comprises three key roles: the creator, verifier, and approver. Each role is associated with specific actions that contribute to the overall processing and approval of the MB. The workflow typically involves a sequence of actions performed by these roles to ensure accurate documentation, verification, and approval of measurements within the MB.
+The workflow of the Measurement Book (MB) comprises three key roles: the Creator, Verifier, and Approver. Each role is associated with specific actions that contribute to the overall processing and approval of the MB. The workflow typically involves a sequence of actions performed by these roles to ensure accurate documentation, verification, and approval of measurements within the MB.
 
 ### Creator
 
