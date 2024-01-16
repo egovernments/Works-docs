@@ -1,4 +1,4 @@
-# Detailed Measurement Book
+# Measurement Book
 
 The Measurement Book holds paramount significance as a record, serving as the foundation for all accounts related to the quantities of work completed and purchases made. It is imperative that this record is comprehensive, containing detailed and factual information to serve as conclusive evidence in a court of law.
 
@@ -10,11 +10,43 @@ The completion of an item is determined by the exhaustion of the total quantity 
 
 The Measurement Book (MB) inbox, dedicated to managing MB, is also utilized for tracking and processing the workflow related to Measurement Books.
 
-<figure><img src="../../../../../../.gitbook/assets/image (172).png" alt=""><figcaption><p>MB Inbox</p></figcaption></figure>
+**Home Page > Measurement Books**
+
+To access the measurement book inbox, follow these steps:
+
+<mark style="color:red;">**Step 1:**</mark> Navigate to the home page.
+
+<mark style="color:red;">**Step 2:**</mark> Look for and click on the "Measurement Books" option. This action navigates you to the measurement books inbox, where you can manage and view the measurement books.
+
+<figure><img src="../../../../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Step 3:**</mark> Select and apply the filters and search parameters as applicable.&#x20;
+
+* The feature menus are displayed on the top left side.
+* The bottom panel displays the filters on the left.
+  1. Assigned to Me - The panel on the right side displays the estimates assigned to the logged-in user.
+  2. Assigned to All - This option is selected by default and displays all the estimates along with the assignee names.
+  3. Ward- This filters and displays the applications based on the selected ward on the right side window.
+  4. Workflow States - This option is displayed only when the application type filter is selected. It filters and displays the applications based on the selected application status on the right side window.
+* The search parameters are displayed on the top right. Search the measurement book by Measurement Book Number, Project ID, and Project Type.
+
+<mark style="color:red;">**Step 4:**</mark> The window on the bottom right lists the measurement books based on the default settings, applied filters and search parameters.
 
 ## Create Measurement Book
 
-The system enables users to capture measurements of completed work items, whether they are part of the Schedule of Rates (SOR) or Non-SOR items. This recorded information serves as a crucial record and becomes the foundation for payment processes involving wage seekers, suppliers, and supervisors (CBOs).
+The system enables users to capture measurements of completed work items, whether they are part of the Schedule of Rates (SOR) or Non-SOR items. This recorded information is crucial and becomes the foundation for payment processes involving wage seekers, suppliers, and supervisors (CBOs).
+
+**Home Page > Measurement Books > Create MB**
+
+1. It will open the search work order screen to search a WO to create a MB.
+
+<figure><img src="../../../../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+
+2. Click on WO number to open the WO to see the details and from action menu select create MB.
+
+<figure><img src="../../../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+
+3. It will take the use to the create MB screen as given below.
 
 <figure><img src="../../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +54,13 @@ The system enables users to capture measurements of completed work items, whethe
 
 <figure><img src="../../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+
+### Validations
+
+Measurement books cannot be created if the estimate's revision status is in the workflow for a given project.
 
 ## Search Measurement Book
 
@@ -33,6 +71,22 @@ The "Search MB" functionality allows users to search for a specific Measurement 
 ## View Measurement Book
 
 The "View MB" feature empowers users to access and review the details as well as the workflow status of a Measurement Book (MB).
+
+<figure><img src="../../../../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+
+MB Hist
+
+<figure><img src="../../../../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../../../../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
 ## Workflow
 

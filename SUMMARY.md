@@ -253,7 +253,7 @@
             * [My Requests](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/cbo-user-manual/my-requests.md)
           * [Employee User Manual](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/README.md)
             * [Project](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/project.md)
-            * [Detailed Estimate](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/detailed-estimate.md)
+            * [Estimate](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/estimate.md)
             * [Revise Estimate](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/revise-estimate.md)
             * [Work Order](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/work-order.md)
             * [Time Extension](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/time-extension.md)
@@ -262,7 +262,7 @@
               * [Wage Seekers](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/registries/wage-seekers.md)
               * [Organizations](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/registries/organizations.md)
             * [Payments](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/payments.md)
-            * [Detailed Measurement Book](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/detailed-measurement-book.md)
+            * [Measurement Book](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/measurement-book.md)
             * [Schedule of Rates](programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/schedule-of-rates.md)
         * [Training Videos](programmes/muktasoft-v2.0/implementation/training-resources/training-videos.md)
 

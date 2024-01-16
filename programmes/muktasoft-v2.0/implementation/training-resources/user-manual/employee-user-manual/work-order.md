@@ -6,7 +6,7 @@ The work order option enables employee users to access employee inbox.
 
 #### Inbox <a href="#spimz29sxim6" id="spimz29sxim6"></a>
 
-Home Page > Work Orders
+**Home Page > Work Orders**
 
 From the Home Page on click of the Work Orders, Inbox Page is displayed.
 
@@ -23,7 +23,7 @@ From the Home Page on click of the Work Orders, Inbox Page is displayed.
 
 #### Search <a href="#xy5ganelyhqj" id="xy5ganelyhqj"></a>
 
-Home Page > Work Orders> Inbox > Search Work Order
+**Home Page > Work Orders> Inbox > Search Work Order**
 
 The search work order enables ULB employees to search for a specific work order using different search parameters.
 

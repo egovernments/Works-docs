@@ -6,9 +6,57 @@ The time extension feature enables users to request an extension for the complet
 
 The same inbox used for managing work orders is also utilized to track and process time extension requests.
 
+**Home Page > Work Orders**
+
+From the Home Page on click of the Work Orders, Inbox Page is displayed.
+
+<figure><img src="../../../../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+
+1. On the left side on the top feature menus are displayed.
+2. On the left side on the bottom Filters Panel is displayed with the filters.
+   1. Assigned to Me - The only work orders assigned to the logged-in user are displayed on the right side window.
+   2. Assigned to All - It is default selected and hence the work orders assigned to anyone are displayed on the right side window.
+   3. Ward- It filters the application based on the ward selected and then displays the result on the right side window.
+   4. Workflow States - It appears only when the application type filter is selected and filters the application based on the application status selected and then displays the result on the right side window.
+3. On the right side of the top, search parameters are displayed, which allow you to search the work order by Work Order Number, Project ID, and Project Type.
+4. On the right side on the bottom, a window is provided to list the work orders based on default setting and applied filters and search parameters.
+
 ## Search Time Extension Request
 
 The search screen for work orders is also utilized to search for time extension requests.
+
+**Home Page > Work Orders> Inbox > Search Work Order**
+
+The search work order enables ULB employees to search for a specific work order using different search parameters.
+
+**Search Criteria**
+
+1. Ward
+2. Project Type
+3. Project Name
+4. Work Order Number/ Time Extension Number
+5. Status
+6. Created From Date
+7. Created To Date
+
+<figure><img src="../../../../../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
+
+1. At Least one parameter is mandatory. Enter anyone for more to search for a work order.
+2. The system fetches the work order created between the specified period by entering the date range in created from and created to. From Date and To Date considered as one parameter.
+3. Click on the Search button to view the search results.
+4. Click on the Reset button to renew the search using different parameters.
+
+**Search Result**
+
+1. Work Order Number/ Time Extension Number
+2. Project Name
+3. Name of CBO
+4. Role of CBO
+5. Location
+6. Status
+7. Amount
+
+<figure><img src="../../../../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
 
 ## View Time Extension Request
 

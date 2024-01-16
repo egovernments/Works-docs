@@ -1,16 +1,16 @@
 # Billing
 
-### Billing <a href="#_q0m0h2enldd1" id="_q0m0h2enldd1"></a>
+## Billing <a href="#q0m0h2enldd1" id="q0m0h2enldd1"></a>
 
-The billing menu enables employee users to access employee inbox.
+The billing enables employee users to access Bill Inbox and take appropriate actions on bills.
 
-#### Inbox <a href="#_h6416wd7h5gt" id="_h6416wd7h5gt"></a>
+### Inbox <a href="#h6416wd7h5gt" id="h6416wd7h5gt"></a>
 
-Home Page > Bills
+**Home Page > Bills**
 
 From the Home Page on click of the Bills, the Inbox Page is displayed.
 
-![](<../../../../../../.gitbook/assets/0 (3).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
 
 1. On the left side on the top feature menus are displayed.
 2. On the left side on the bottom Filters Panel is displayed with the filters.
@@ -21,9 +21,9 @@ From the Home Page on click of the Bills, the Inbox Page is displayed.
 3. On the right side of the top, search parameters are displayed, which allow you to search the bill by Bill Number, Project ID, and Bill Type.
 4. On the right side on the bottom, a window is provided to list the bills based on default setting and applied filters and search parameters.
 
-#### Search <a href="#_lhi1axuu7cee" id="_lhi1axuu7cee"></a>
+### Search <a href="#lhi1axuu7cee" id="lhi1axuu7cee"></a>
 
-Home Page > Bills > Inbox > Search Bill
+**Home Page > Bills > Inbox > Search Bill**
 
 The search Bill enables ULB employees to search for a specific Bill using different search parameters.
 
@@ -51,18 +51,24 @@ The search Bill enables ULB employees to search for a specific Bill using differ
 
 ![](<../../../../../../.gitbook/assets/2 (2).png>)
 
-#### View <a href="#_l58uqzt3r1td" id="_l58uqzt3r1td"></a>
+### View Bill <a href="#l58uqzt3r1td" id="l58uqzt3r1td"></a>
 
-Home Page > Bills > Inbox > Search Bill > Search Results
+**Home Page > Bills > Inbox > Search Bill > Search Results**
 
 The bill for which the details to be displayed is searched using Search Bill and then opened by clicking on bill number.
-
-![](<../../../../../../.gitbook/assets/3 (6).png>)
 
 1. Click on the Bill Number to view the Bill details.
 2. Complete bill details are displayed along with attached documents and the option to download the bill in PDF.
 
-#### Create <a href="#_xgmgvm83bfx" id="_xgmgvm83bfx"></a>
+<figure><img src="../../../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+
+### Create Purchase Bill <a href="#xgmgvm83bfx" id="xgmgvm83bfx"></a>
 
 Home Page > Bills > Inbox > Create Bill
 
@@ -72,29 +78,24 @@ To create a bill for a project, the work order for the project is searched using
 2. Click on the Work Order Number to view the work order details.
 3. Click on the **Create Purchase Bill** from the action.
 
-![](<../../../../../../.gitbook/assets/4 (5).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
-1. **Create Purchase Bill** page is opened.
+4. **Create Purchase Bill** page is opened.
 
-![](<../../../../../../.gitbook/assets/5 (10).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../../../.gitbook/assets/6 (10).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../../../.gitbook/assets/7 (1).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../../../.gitbook/assets/8.png)
-
-![](<../../../../../../.gitbook/assets/9 (4).png>)
-
-![](../../../../../../.gitbook/assets/10.png)
+<figure><img src="../../../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
 
 1. Fill all the relevant details properly and then forward the application.
+2. On successful completion, the success page is displayed along with the bill number.
 
-![](<../../../../../../.gitbook/assets/11 (3).png>)
+<figure><img src="../../../../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 
-1. On successful completion, the success page is displayed along with the bill number.
-
-#### Workflow
+### Workflow
 
 **Creator**
 

@@ -1,4 +1,4 @@
-# Detailed Estimate
+# Estimate
 
 A detailed estimate in construction refers to a comprehensive breakdown of the anticipated costs associated with a construction project. This estimate is a meticulous calculation that itemizes various components, materials, labour, and other expenses required for the successful completion of the project.&#x20;
 
@@ -153,9 +153,9 @@ Only saved estimate analysis statements can be viewed.
 
 The role-based workflows detail the actions available for individual roles. Click on the applicable role to navigate the workflows.
 
-* [Estimate Creator](detailed-estimate.md#estimate-creator)
-* [Estimate Verifier](detailed-estimate.md#estimate-verifier)
-* [Technical Sanctioner](detailed-estimate.md#technical-sanctioner)
+* [Estimate Creator](estimate.md#estimate-creator)
+* [Estimate Verifier](estimate.md#estimate-verifier)
+* [Technical Sanctioner](estimate.md#technical-sanctioner)
 
 ### **Estimate Creator**
 
@@ -163,13 +163,13 @@ The Estimate Creator (EC) is responsible for creating and forwarding the estimat
 
 EC can
 
-* [Save as Draft](detailed-estimate.md#save-as-draft)
-* [Submit](detailed-estimate.md#submit)
-* [Edit Estimate](detailed-estimate.md#edit)
+* [Save as Draft](estimate.md#save-as-draft)
+* [Submit](estimate.md#submit)
+* [Edit Estimate](estimate.md#edit)
 
 #### Save as Draft
 
-
+The "Save as Draft" feature provides users with the capability to create an estimate and retain it in the creator's inbox for subsequent updates. This functionality allows users to initiate the estimate creation process, save the work in progress as a draft, and revisit it later for additional edits or finalization before submission.
 
 #### **Submit**
 
@@ -201,8 +201,8 @@ The Estimate Verifier (EV) is responsible for verifying the estimation and suppo
 
 EV can
 
-* [Verify and forward estimate](detailed-estimate.md#verify-and-forward)
-* [Send estimate back to EC](detailed-estimate.md#send-back)
+* [Verify and forward estimate](estimate.md#verify-and-forward)
+* [Send estimate back to EC](estimate.md#send-back)
 
 ![](../../../../../../.gitbook/assets/18.png)
 
@@ -254,10 +254,10 @@ The Technical Sanctioner (TS) is responsible for technically sanctioning the est
 
 TS can
 
-* [Technical sanction estimate](detailed-estimate.md#technical-sanction)
-* [Send the estimate back to EV](detailed-estimate.md#send-back-1)
-* [Send the estimate back to EC](detailed-estimate.md#send-back-to-originator-1)
-* [Reject the estimate](detailed-estimate.md#reject-1)
+* [Technical sanction estimate](estimate.md#technical-sanction)
+* [Send the estimate back to EV](estimate.md#send-back-1)
+* [Send the estimate back to EC](estimate.md#send-back-to-originator-1)
+* [Reject the estimate](estimate.md#reject-1)
 
 ![](<../../../../../../.gitbook/assets/0 (7).png>)
 
