@@ -13,4 +13,5 @@ Click on the service links below for details.
 * [Works PDF](works-pdf.md)
 * [Bill Scheduler](bill-scheduler.md)
 * [Mukta Service (BFF)](mukta-services.md)
+* [SOR Uploader](sor-uploader.md)
 

@@ -153,6 +153,7 @@
         * [Expense Calculator](programmes/muktasoft-v2.0/deployment/muktasoft-services/expense-calculator.md)
         * [Works PDF](programmes/muktasoft-v2.0/deployment/muktasoft-services/works-pdf.md)
         * [Mukta-services](programmes/muktasoft-v2.0/deployment/muktasoft-services/mukta-services.md)
+        * [SOR Uploader](programmes/muktasoft-v2.0/deployment/muktasoft-services/sor-uploader.md)
         * [Bill Scheduler](programmes/muktasoft-v2.0/deployment/muktasoft-services/bill-scheduler.md)
       * [Configuration](programmes/muktasoft-v2.0/deployment/configuration/README.md)
         * [Master Data Templates](programmes/muktasoft-v2.0/deployment/configuration/master-data-templates/README.md)
