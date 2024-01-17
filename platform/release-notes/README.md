@@ -32,6 +32,7 @@ DIGIT-Works release v1.0 is a new release that offers new platform features and 
 
 The list below are known issues that need to be addressed as part of the platform roadmap:
 
+* Multiple measurements can not be created for the same contract.
 * Integrated error queue implementation for all services along with the necessary measures for addressing issues, is required. In situations of unrecoverable failures, this setup will provide a means to trigger prompt alerts and implement corrective actions.
 * Establishing alert mechanisms for critical errors, particularly in the context of billing, is required.&#x20;
 * Managing offline & low connectivity use cases as a best practice.
@@ -40,6 +41,11 @@ The list below are known issues that need to be addressed as part of the platfor
 * Separate SMS-related localization from all services and migrate it to a dedicated service.
 * Performance testing and benchmarking of services.
 * Security audit.
+* Multiple mdms-v2 calls in services, because mdms-v2 was returning only one master's response.
+* Code refactoring of works-services like
+  * Remove unused models
+  * Change package names
+  * Remove duplicate validation logic
 
 ## Document Resources and Links <a href="#document-resources-and-links" id="document-resources-and-links"></a>
 
