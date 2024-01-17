@@ -16,11 +16,13 @@ The module has 5 associated screens :&#x20;
 4. View Estimate&#x20;
 5. Estimate Inbox
 
-## MDMS Configurations
+## Configurations
+
+### MDMS Configurations
 
 <table><thead><tr><th width="103">S.No.</th><th width="263">Data</th><th>MDMS Link</th></tr></thead><tbody><tr><td>1</td><td>UOM (Unit of Measurement)</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/7e35616d8b0a21261854de7a38a4e814a2934888/data/pg/common-masters/uom.json">Unit of Measurement Masters</a></td></tr><tr><td>2</td><td>Overheads</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/fa1435e1757c544f9a71a4455e3f9df5a595b802/data/pg/works/Overheads.json">Overheads Masters</a></td></tr><tr><td>3</td><td>Document Config</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/677f82c458acefc1c7484387e056f1e8f7ad99b4/data/pg/works/DocumentConfig.json">Document Upload Config</a></td></tr></tbody></table>
 
-## Module Enablement Configuration&#x20;
+### Module Enablement Configuration&#x20;
 
 Set module code as “Estimate” in Module.js of Estimate Module. Refer to the file [CityModule.json](https://github.com/egovernments/works-mdms-data/blob/481752ba70aa29d235967d8ba6080685d897324a/data/pg/tenant/citymodule.json) &#x20;
 
@@ -49,11 +51,11 @@ Set module code as “Estimate” in Module.js of Estimate Module. Refer to the 
 
 Enable Module in App.js. Update the object ‘enabledModules’. Use the code Estimate. This code should match the code of the cityModule.json, mentioned above.
 
-## Role-action Mapping
+### Role-action Mapping
 
 <table><thead><tr><th width="93">S.No.</th><th width="268">API</th><th width="110">Action ID</th><th>Roles</th></tr></thead><tbody><tr><td>1</td><td>/estimate-service/estimate/v1/_create</td><td>9</td><td><p>ESTIMATE_CREATOR</p><p><br></p></td></tr><tr><td>2</td><td>/estimate-service/estimate/v1/_search</td><td>10</td><td><p>ESTIMATE_CREATOR, ESTIMATE_VERIFIER, TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p>ESTIMATE_VIEWER</p><p>EMPLOYEE_COMMON</p></td></tr><tr><td>3</td><td>/estimate-service/estimate/v1/_update</td><td>11</td><td>ESTIMATE_VERIFIER, TECHNICAL_SANCTIONER, ESTIMATE_APPROVER</td></tr><tr><td>4</td><td>/wms/estimate/_search</td><td>77</td><td>EMPLOYEE_COMMON</td></tr><tr><td>5</td><td>/pms/project/v1/_search</td><td>52</td><td>PROJECT_VIEWER</td></tr></tbody></table>
 
-## Sidebar Configuration&#x20;
+### Sidebar Configuration&#x20;
 
 <table><thead><tr><th width="93">S.No.</th><th width="118">Screen</th><th width="197">Navigation URL</th><th width="190">Left Icon Updates</th><th>Roles</th></tr></thead><tbody><tr><td>1</td><td>Search Estimate</td><td><p>/works-ui/employee/estimate/search-estimate</p><p><br></p></td><td><p>dynamic:EstimateIcon</p><p><br></p></td><td><p>ESTIMATE_VIEWER</p><p><br></p></td></tr><tr><td>2</td><td>Estimate Inbox</td><td>/works-ui/employee/estimate/inbox</td><td>dynamic:EstimateIcon</td><td><p>ESTIMATE_VERIFIER</p><p>TECHNICAL_SANCTIONER</p><p>ESTIMATE_APPROVER</p><p></p><p></p><p></p><p>ESTIMATE_CREATOR</p></td></tr></tbody></table>
 
