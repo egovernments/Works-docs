@@ -197,7 +197,7 @@
             * [Project](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/project.md)
             * [Estimate](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/estimate.md)
             * [Work Order](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/work-order/README.md)
-              * [Time Extension](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/work-order/time-extension.md)
+              * [Time Extension](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/workorder/time-extension.md)
             * [Muster Roll](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/muster-roll.md)
             * [Bill](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/bill.md)
             * [Organization](programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/organization.md)

@@ -21,15 +21,38 @@ This release note provides the details of the features of MUKTASoft v2.0.
 
 ## Bug Fixes
 
-* To be updated.
+There are technical debts fixes from platform and the same are mentioned in the platform release notes and can be access [here](../../../../platform/release-notes/).
 
 ## Known Issues
 
-To be updated.
+1. Increasing SOR size. \[[https://digit-discuss.atlassian.net/browse/PFM-5438](https://digit-discuss.atlassian.net/browse/PFM-5438)]
+2. Restricting SOR/ Non-SOR to 128 characters while display, and providing tool-tip to see full description.\[[https://digit-discuss.atlassian.net/browse/PFM-5450](https://digit-discuss.atlassian.net/browse/PFM-5450)]&#x20;
+3. PDF related issues. Estimate and Measurement PDF to be improved as per the requirement.
+4. SOR related issues. There are total 16 bugs reported.
+   1. [https://digit-discuss.atlassian.net/browse/PFM-5036](https://digit-discuss.atlassian.net/browse/PFM-5036)
+   2. [https://digit-discuss.atlassian.net/browse/PFM-5037](https://digit-discuss.atlassian.net/browse/PFM-5037)
+   3. [https://digit-discuss.atlassian.net/browse/PFM-5038](https://digit-discuss.atlassian.net/browse/PFM-5038)
+   4. [https://digit-discuss.atlassian.net/browse/PFM-5040](https://digit-discuss.atlassian.net/browse/PFM-5040)
+   5. [https://digit-discuss.atlassian.net/browse/PFM-5041](https://digit-discuss.atlassian.net/browse/PFM-5041)
+   6. [https://digit-discuss.atlassian.net/browse/PFM-5043](https://digit-discuss.atlassian.net/browse/PFM-5043)
+   7. [https://digit-discuss.atlassian.net/browse/PFM-5049](https://digit-discuss.atlassian.net/browse/PFM-5049)
+   8. [https://digit-discuss.atlassian.net/browse/PFM-5050](https://digit-discuss.atlassian.net/browse/PFM-5050)
+   9. [https://digit-discuss.atlassian.net/browse/PFM-5051](https://digit-discuss.atlassian.net/browse/PFM-5051)
+   10. [https://digit-discuss.atlassian.net/browse/PFM-5053](https://digit-discuss.atlassian.net/browse/PFM-5053)
+   11. [https://digit-discuss.atlassian.net/browse/PFM-5055](https://digit-discuss.atlassian.net/browse/PFM-5055)
+   12. [https://digit-discuss.atlassian.net/browse/PFM-5133](https://digit-discuss.atlassian.net/browse/PFM-5133)
+   13. [https://digit-discuss.atlassian.net/browse/PFM-5139](https://digit-discuss.atlassian.net/browse/PFM-5139)
+   14. [https://digit-discuss.atlassian.net/browse/PFM-5371](https://digit-discuss.atlassian.net/browse/PFM-5371)
+   15. [https://digit-discuss.atlassian.net/browse/PFM-5415](https://digit-discuss.atlassian.net/browse/PFM-5415)
+   16. [https://digit-discuss.atlassian.net/browse/PFM-5425](https://digit-discuss.atlassian.net/browse/PFM-5425)
+5. UI/UX Audit \[[https://docs.google.com/spreadsheets/d/1Rr1KVa8ZUkf18Z5mfYa27IUy7kkIrEX5aExKY\_KO95E/edit#gid=1086997315](https://docs.google.com/spreadsheets/d/1Rr1KVa8ZUkf18Z5mfYa27IUy7kkIrEX5aExKY\_KO95E/edit#gid=1086997315)]
+6. Product showcase feedback. \[[https://docs.google.com/document/d/1TEtmdiQuSFSxSnbHpAxSQtj59FyzK2l3WpFvuez5NKU/edit#heading=h.2seod4cwthlt](https://docs.google.com/document/d/1TEtmdiQuSFSxSnbHpAxSQtj59FyzK2l3WpFvuez5NKU/edit#heading=h.2seod4cwthlt)]
 
 ## Upcoming Release Features
 
-To be updated.
+* Estimate Template
+* Measurement Book on Mobile
+* Aadhaar Integration
 
 ## Related Docs & Links
 
