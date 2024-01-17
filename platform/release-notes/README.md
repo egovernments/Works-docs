@@ -10,23 +10,23 @@ DIGIT-Works release v1.0 is a new release that offers new platform features and 
 
 **Functional changes**&#x20;
 
-* Added detailed estimate capability in estimate service.
-* Added revision of estimate in estimate service.
-* Added SOR and Non-SOR in estimate service.
-* Added revision contract in contract service.
-* Added measurement service validation while revision estimate and contract.
-* Added SOR and Rate master using MDMS-v2.
+* Added detailed estimate capability in estimate service
+* Added revision of estimate in estimate service
+* Added SOR and Non-SOR in estimate service
+* Added revision contract in contract service
+* Added measurement service validation while revision estimate and contract
+* Added SOR and Rate master using MDMS-v2
 
 **Non-functional changes**&#x20;
 
-* Added contact details encryption in organisation service.
-* Removed Tenant ID splitting from all the services and added modules in master-config.json.
-* Expense service & calculator to read effectiveFrom and effectiveTo dates from master data and pick rates accordingly.
-* Updated attendance service query while the changing CBO.
+* Added contact details encryption in organisation service
+* Removed Tenant ID splitting from all the services and added modules in master-config.json
+* Expense service & calculator to read effectiveFrom and effectiveTo dates from master data and pick rates accordingly
+* Updated attendance service query while the changing CBO
 
 ## New ‌Feature Additions <a href="#new-feature-additions" id="new-feature-additions"></a>
 
-<table><thead><tr><th width="210">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Estimate</td><td>Ability to add details like length, width, height, etc in an estimate details.</td></tr><tr><td>Estimate</td><td>Ability to create revision of an estimate.</td></tr><tr><td>Contract</td><td>Ability to revision for a contract.</td></tr><tr><td>Measurement Service</td><td>Create a Measurement, Modify a Measurement, View a Measurement &#x26; Search for a Measurement with Workflow</td></tr><tr><td>Measurement Registry</td><td>Create a Measurement, Modify a Measurement, View a Measurement &#x26; Search for a Measurement without Workflow</td></tr></tbody></table>
+<table><thead><tr><th width="210">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Estimate</td><td>Ability to add details like length, width, height, etc in an estimate details.</td></tr><tr><td>Estimate</td><td>Ability to create revision of an estimate.</td></tr><tr><td>Contract</td><td>Ability to revise contracts</td></tr><tr><td>Measurement Service</td><td>Create, modify, view &#x26; search Measurements in workflow</td></tr><tr><td>Measurement Registry</td><td>Create, modify, view &#x26; search Measurements without workflow</td></tr></tbody></table>
 
 ## Known Issues
 

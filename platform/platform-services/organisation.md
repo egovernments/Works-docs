@@ -1,6 +1,6 @@
 # Organisation
 
-### Overview
+## Overview
 
 This is being designed as a cross-functional registry that will house vendors, suppliers, contractors, non-profits, SHGs etc.. Can be used across domains.&#x20;
 
@@ -12,7 +12,7 @@ This is being designed as a cross-functional registry that will house vendors, s
 * IDGen
 * Individual&#x20;
 
-### Key Functionality
+## Key Functionalities
 
 * Provides create/update/search operations for organisation entities.
 * Captures organisation details, contact details and classifications.
@@ -22,7 +22,7 @@ This is being designed as a cross-functional registry that will house vendors, s
 
 [Organisation](https://github.com/egovernments/DIGIT-Works/tree/master/backend/organisation)
 
-### Deployment
+## Deployment
 
 [Helm chart](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/organisation)
 
@@ -36,9 +36,9 @@ OrgFunctionClass - The class (rating) of an organisation in a specific functiona
 
 OrgTaxIdentifier - The list of tax identifiers that can be entered.
 
-OrgTransferCode - The bank account transfer code (IFSC etc..). This is usually only one defined in the master data. Can be customised for other countries.
+OrgTransferCode - The bank account transfer code (IFSC etc..). This is usually the only one defined in the master data. Can be customised for other countries.
 
-### Integration
+## Integration
 
 [API spec](../architecture/low-level-design/registries/organization.md#api-specification)
 
