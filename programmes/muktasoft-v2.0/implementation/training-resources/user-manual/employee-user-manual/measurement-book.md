@@ -98,51 +98,47 @@ The **View MB** feature empowers users to access and review the details as well 
 
 <figure><img src="../../../../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
-
-
 <figure><img src="../../../../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
 
-
-
 <figure><img src="../../../../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
 ## Workflow
 
-The workflow of the Measurement Book (MB) comprises three key roles: the Creator, Verifier, and Approver. Each role is associated with specific actions that contribute to the overall processing and approval of the MB. The workflow typically involves a sequence of actions performed by these roles to ensure accurate documentation, verification, and approval of measurements within the MB.
+The Measurement Book (MB) workflow involves three key roles: the Creator, Verifier, and Approver. Each role is mapped to specific actions that contribute to the overall processing and approval of the MB. The workflow typically involves a sequence of actions performed by these roles to ensure accurate documentation, verification, and approval of measurements within the MB.
 
 ### Creator
 
 #### Save as Draft
 
-The "Save as Draft" feature provides users with the capability to create a Measurement Book (MB) and retain it in the creator's inbox for subsequent updates. This functionality allows users to initiate the MB creation process, save the work in progress as a draft, and revisit it later for additional edits or finalization before submission.
+The **Save as Draft** feature provides users with the capability to create a Measurement Book (MB) and retain it in the creator's inbox for subsequent updates. This functionality allows users to initiate the MB creation process, save the work in progress as a draft, and revisit it later for additional edits or finalization before submission.
 
 #### Submit
 
-When a MB is created, it is submitted to the next user in the workflow for verification. Upon selecting the 'submit' action, the system provides the user with the option to either choose a specific user as the verifier or submit it without selecting a verifier.
+When a Measurement Book is created, it is submitted to the next user in the workflow for verification. Upon selecting the **Submit** action, the system provides the user with the option to either choose a specific user as the verifier or submit it without selecting a verifier.
 
 #### Edit
 
-If a MB is sent back to the creator for correction, MB is placed into the creator's inbox, allowing them to make edits and subsequently re-submit it for verification.
+If the Measurement Book is sent back to the Creator for correction, it is placed into the creator's inbox, allowing them to make edits and subsequently re-submit it for verification.
 
 ### Verifier
 
 #### Verify and Forward
 
-The 'Verify and Forward' action enables the verifier to forward MB to the approver after completing the verification process and adding the comments if required.
+The **Verify and Forward** action enables the verifier to forward MB to the approver after completing the verification process and adding the comments if required.
 
 #### Send Back
 
-The 'Send Back' action provides the verifier with the capability to send the MB back to the creator for necessary corrections.
+The **Send Back** action provides the verifier with the capability to send the MB back to the creator for necessary corrections.
 
 ### Approver
 
 #### Approve
 
-The 'Approve' action bestows upon the approver the authority to approve the Measurement Book (MB). Upon approval, the MB attains an immutable status, meaning that it becomes unalterable or resistant to further changes. This step typically signifies the finalization and confirmation of the recorded measurements and associated details within the MB.
+The Approve action bestows upon the approver the authority to approve the Measurement Book (MB). Upon approval, the MB attains an immutable status, meaning that it becomes unalterable or resistant to further changes. This step typically signifies the finalization and confirmation of the recorded measurements and associated details within the MB.
 
 #### Reject
 
@@ -154,15 +150,15 @@ The 'Send Back' action permits the approver to send the MB back to the previous 
 
 #### Send Back To Originator
 
-The 'Send Back To Originator' action enables the approver to return the MB to the creator for necessary corrections. Request is placed into the creator's inbox, allowing them to make edits and subsequently re-submit it for verification.
+The 'Send Back To Originator' action enables the approver to return the MB to the creator for necessary corrections. The request is placed into the creator's inbox, allowing them to make edits and subsequently re-submit it for verification.
 
 ## Validations
 
-The amounts in Muster Roll and Purchase Bill are validated against the corresponding utilization amount in the Measurement Book (MB).
+The amounts in the Muster Roll and Purchase Bill are validated against the corresponding utilization amount in the Measurement Book (MB).
 
 ### Muster Roll
 
-The approval of the muster roll is restricted if a Measurement Book (MB) for the same period is either missing or pending approval. Additionally, if the labor utilization amount does not match the muster roll wage amount, the approver of muster roll is presented with an alert message.
+The approval of the muster roll is restricted if a Measurement Book (MB) for the same period is either missing or pending approval. Additionally, if the labour utilization amount does not match the muster roll wage amount, the approver of the muster roll is presented with an alert message.
 
 ### Purchase Bill
 
@@ -170,5 +166,5 @@ The creation of the purchase bill is restricted if no Measurement Book (MB) has 
 
 ## Measurement Book PDF
 
-The system facilitates the download of a abstract measurement in PDF format from the view details page through the available download option.
+The system facilitates the download of an abstract measurement in PDF format from the view details page through the available download option.
 
