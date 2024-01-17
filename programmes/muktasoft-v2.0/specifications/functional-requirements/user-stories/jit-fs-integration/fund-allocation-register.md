@@ -23,7 +23,7 @@ Role: Fund Allocation View
 1. Virtual Allotment Details (VA) is the API to fetch the fund allocation details.
 2. MUKTA as a scheme has multiple HOAs for which fund is sanctioned and allocated.
 3. Fund Allocation Register has to be developed to see and download the details.
-4. For Request/ Response parameters, please refer to the [integration approach document](../../product-requirements-document-v1.1.md#\_tahrkib399r5).
+4. For Request/ Response parameters, please refer to the [integration approach document](broken-reference).
 5. This data is stored and maintained at MUKTASoft for every financial year and used for reporting and reference purposes.
 6. APIs will be triggered daily at 10 PM.
 

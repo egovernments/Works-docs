@@ -74,7 +74,6 @@
       * [Roadmap](programmes/muktasoft-v2.0/specifications/roadmap.md)
       * [User Persona](programmes/muktasoft-v2.0/specifications/user-persona.md)
       * [Functional Requirements](programmes/muktasoft-v2.0/specifications/functional-requirements/README.md)
-        * [Product Requirements Document v1.1](programmes/muktasoft-v2.0/specifications/functional-requirements/product-requirements-document-v1.1.md)
         * [Product Requirements Document v2.0](programmes/muktasoft-v2.0/specifications/functional-requirements/product-requirements-document-v2.0.md)
         * [User Stories](programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/README.md)
           * [Time Extension](programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/time-extension/README.md)
