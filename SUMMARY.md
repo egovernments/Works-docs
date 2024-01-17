@@ -229,7 +229,6 @@
           * [CSS Customisation](programmes/muktasoft-v2.0/deployment/customisation/ui-screens-customisation/css-customisation.md)
           * [Inbox/Search Screen](programmes/muktasoft-v2.0/deployment/customisation/ui-screens-customisation/inbox-search-screen.md)
     * [Implementation](programmes/muktasoft-v2.0/implementation/README.md)
-      * [Pilot Roll Out Plan](programmes/muktasoft-v2.0/implementation/pilot-roll-out-plan.md)
       * [Go Live Definition](programmes/muktasoft-v2.0/implementation/go-live-definition.md)
       * [Sucess Metrics](programmes/muktasoft-v2.0/implementation/sucess-metrics.md)
       * [Adoption Metrics](programmes/muktasoft-v2.0/implementation/adoption-metrics.md)
