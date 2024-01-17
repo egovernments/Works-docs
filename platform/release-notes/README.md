@@ -32,7 +32,7 @@ DIGIT-Works release v1.0 is a new release that offers new platform features and 
 
 The list below are known issues that need to be addressed as part of the platform roadmap:
 
-* Multiple measurements can not be created for the same contract.
+* Multiple measurements can not be created at the same time for one contract.
 * Integrated error queue implementation for all services along with the necessary measures for addressing issues, is required. In situations of unrecoverable failures, this setup will provide a means to trigger prompt alerts and implement corrective actions.
 * Establishing alert mechanisms for critical errors, particularly in the context of billing, is required.&#x20;
 * Managing offline & low connectivity use cases as a best practice.
