@@ -13,22 +13,22 @@ The Measurement Registry captures measurement data according. It was designed as
 * MDMS
 * FileStore
 
-### Key Functionalities
+## Key Functionalities
 
-* Models real world measurement book to keep record of measurements
+* Models real-world measurement book to keep a record of measurements
 * Measurements like length, breadth, height and number of units are taken as input and stored.
 * Quantity can be directly or can be calculated by giving measurement data of length, breadth, height and number of units.
-* Documents given are validated against fileStore service and stored in registry
+* Documents given are validated against the fileStore service and stored in the registry
 
 ### Code
 
 [Measurement book registry](https://github.com/egovernments/DIGIT-Works/tree/6d58b3f8674334f2ad4b838bb383253faa9fe092/backend/measurement-registry)
 
-### Deployment
+## Deployment
 
 [Measurement book registry helm charts](https://github.com/egovernments/DIGIT-DevOps/tree/2f99b0978d5581b30cf10ffbae27e8d48d309948/deploy-as-code/helm/charts/digit-works/backend/measurement-registry)
 
-### Integration
+## Integration
 
 API [contract](../architecture/low-level-design/services/detailed-measurement-book.md#api-contract-link)
 

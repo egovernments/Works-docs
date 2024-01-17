@@ -2,7 +2,7 @@
 
 ## Overview
 
-The measurement book service integrates estimate line item validation and workflow along with measurement book registry.
+The measurement book service integrates estimate line item validation and workflow along with the measurement book registry.
 
 ## Pre-requisites
 

@@ -50,7 +50,7 @@ Follow the steps [here](./#persister-configuration) for configuring this.
 
 Ensure the below files are present in [https://github.com/egovernments/configs/blob/UNIFIED-DEV/works/egov-indexer/estimateservices-indexer.yml](https://github.com/egovernments/configs/blob/UNIFIED-DEV/works/egov-indexer/estimateservices-indexer.yml)
 
-In case the above files are not present, add them in the given location and restart the ‘egov-indexer’  service in the respective environment. Before restarting the service ensure the below configurations are done.
+In case the above files are not present, add them in the given location and restart the egov-indexer service in the respective environment. Before restarting the service ensure the below configurations are done.
 
 {% hint style="info" %}
 **Note:** Add [this config](https://github.com/egovernments/DIGIT-DevOps/pull/1101/commits/5a31196d78e8aa537a3176f67f4b1951e1306a0f) in the respective environment YAML file in the DevOps repository and then deploy the service.

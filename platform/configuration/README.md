@@ -54,10 +54,9 @@ Folder structures are only for categorisation and easy navigation of master file
 In case 403s are encountered despite configuration, double-check the actions.json file to make sure the API in question has a unique ID. In case of duplicate IDs, a 403 will be thrown by Zuul.
 {% endhint %}
 
-#### Example:
+_**Example:** A sample entry is given below:_
 
-A sample entry is given below:
-
+{% code lineNumbers="true" %}
 ```json
 {
       "id": {unique ID},
@@ -96,6 +95,7 @@ A sample entry is given below:
       "path": ""
     },
 ```
+{% endcode %}
 
 ## Configure Roles
 
@@ -109,10 +109,9 @@ Configure roles based on the details given in the roles column (refer to service
 #### Assign EMPLOYEE\_COMMON to all actors in the Works platform.
 {% endhint %}
 
-#### Example:
+_**Example:** A sample entry is given below:_
 
-A sample entry is given below:
-
+{% code lineNumbers="true" %}
 ```json
 {
       "code": "ESTIMATE_CREATOR",
@@ -125,6 +124,7 @@ A sample entry is given below:
       "description": "Estimate VIEWER having search api access"
     },
 ```
+{% endcode %}
 
 ## Configure Role Action
 
@@ -136,7 +136,7 @@ Identify the action ID (from the actions.json file) and map roles to that ID. If
 
 **Master name:** roleactions.json
 
-**Example:** A sample set of role-action entries is shown in the code block below. Each of the `actionid` fields should match a corresponding API in the actions.json file.&#x20;
+_**Example:** A sample set of role-action entries is shown in the code block below. Each of the `actionid` fields should match a corresponding API in the actions.json file._&#x20;
 
 In the example below, the `ESTIMATE_CREATOR` is given access to API actionid 9. This maps to the estimate created API in our repository.&#x20;
 
@@ -174,8 +174,6 @@ Add this YAML file to the configs repository if not present already.
 {% hint style="warning" %}
 Make sure to restart MDMS and the persister service after adding the file in the above location.
 {% endhint %}
-
-## Indexer Configuration
 
 
 
