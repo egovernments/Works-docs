@@ -38,7 +38,7 @@ To be updated.
 | [Product Requirements Document](../../specifications/functional-requirements/product-requirements-document-v2.0.md) |
 | [Users Stories](../../specifications/functional-requirements/user-stories/)                                         |
 | [Test Case Document](test-cases.md)                                                                                 |
-| [Master Data Template](../configuration/master-data-templates/)                                                     |
+| [Master Data Templates](../configuration/master-data-templates/)                                                    |
 | [Localization Document](../configuration/localisation.md)                                                           |
 | [Data migration from Works 0.1](../../../../platform/release-notes/data-migration.md)                               |
 | [IFMS Adapter](../muktasoft-services/ifms-adapter.md)                                                               |

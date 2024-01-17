@@ -11,7 +11,7 @@ This page provides details about the MuktaSoft UI configuration required to enab
 **Steps:**
 
 1. [DevOps configuration](./#devops-configuration)
-2. [Global configuration](./#global-configuration)
+2. [Global Configuration](./#global-configuration)
 3. [MDMS](./#mdms-configuration)
 4. [Roles](./#roles-configuration)
 5. [Localisation](./#localization-configuration)
@@ -34,17 +34,18 @@ A dev environment sample file is available [here](https://github.com/egovernment
 
 ## **Global Configuration**&#x20;
 
-This section contains the configurations applicable globally to all UI modules. These need to be configured prior to service-specific UI configurations.
+This section contains the configurations applicable globally to all UI modules. These need to be configured before service-specific UI configurations.
 
 #### &#x20;Create a globalconfig.js file - Steps:
 
 1. Generate a configuration file named "globalconfigs.js" using the settings provided (refer to the code below).
 2. Set up all the images and logos needed in your S3 storage, and include the links as "footerBWLogoURL" and "footerLogoURL."
 3. Specify the state tenant ID as "stateTenantId."
-4. If there are any user roles that should be marked as invalid, list them under "invalidEmployeeRoles."
+4. If any user roles should be marked as invalid, list them under "invalidEmployeeRoles."
 5. Upload this global configuration file to your S3 bucket, naming it "globalconfigs.js."
 6. Make sure to include the URL of the "globalConfigs" file in your [`Environment config`](./#devops-configuration) .
 
+{% code lineNumbers="true" %}
 ```javascript
 var globalConfigs = (function () {
   var stateTenantId = 'pg' // statetenantId
@@ -94,6 +95,7 @@ var globalConfigs = (function () {
    };
  }());
 ```
+{% endcode %}
 
 ## **MDMS Configuration**
 
@@ -111,6 +113,4 @@ Refer to the [sheet here](https://docs.google.com/spreadsheets/d/1Pk5TD\_GbnWB6z
 ## **Reference Links**
 
 Figma screens for the UI are available [here](https://www.figma.com/file/M2P3O9WlKtxuLCjQKxLLDg/DIGIT-Works?node-id=1-2). Refer to them to understand the MUKTA UI.&#x20;
-
-
 
