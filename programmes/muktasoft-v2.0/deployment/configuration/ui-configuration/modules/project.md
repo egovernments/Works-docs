@@ -62,6 +62,7 @@ The project created can be downloaded in PDF format from the View Project screen
 
 ### Sample Configuration
 
+{% code lineNumbers="true" %}
 ```
  {
      "id": 15,
@@ -79,6 +80,7 @@ The project created can be downloaded in PDF format from the View Project screen
   }
 
 ```
+{% endcode %}
 
 ## Screen Configuration&#x20;
 

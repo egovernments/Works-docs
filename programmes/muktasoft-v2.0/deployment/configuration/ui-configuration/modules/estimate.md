@@ -24,6 +24,7 @@ The module has 5 associated screens :&#x20;
 
 Set module code as “Estimate” in Module.js of Estimate Module. Refer to the file [CityModule.json](https://github.com/egovernments/works-mdms-data/blob/481752ba70aa29d235967d8ba6080685d897324a/data/pg/tenant/citymodule.json) &#x20;
 
+{% code lineNumbers="true" %}
 ```
 {
             "module": "Estimate",
@@ -44,6 +45,7 @@ Set module code as “Estimate” in Module.js of Estimate Module. Refer to the 
         }
 
 ```
+{% endcode %}
 
 Enable Module in App.js. Update the object ‘enabledModules’. Use the code Estimate. This code should match the code of the cityModule.json, mentioned above.
 
@@ -57,6 +59,7 @@ Enable Module in App.js. Update the object ‘enabledModules’. Use the code Es
 
 Sample object for a sidebar action defined in MDMS (containing navigationUrl )
 
+{% code lineNumbers="true" %}
 ```
 {
       "id": 17,
@@ -74,6 +77,7 @@ Sample object for a sidebar action defined in MDMS (containing navigationUrl )
     }
 
 ```
+{% endcode %}
 
 ### Screen Configuration&#x20;
 

@@ -155,7 +155,7 @@ A user should be able to -
 
 * [Technical specifications - Estimates](../platform-services/estimate.md)
 * [Estimate module service configuration](../configuration/service-configuration/estimate.md)
-* [Estimate module UI configuration](../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/drafts/estimate/) - for MuktaSoft
+* [Estimate module UI configuration](../../programmes/muktasoft-v2.0/deployment/configuration/ui-configuration/modules/estimate-1/) - for MuktaSoft
 * [Estimate user stories](../../programmes/muktasoft-v2.0/specifications/functional-requirements/user-stories/detailed-estimate/) - for MuktaSoft
 * [Employee user manual on using the Estimate module](../../programmes/muktasoft-v2.0/implementation/training-resources/user-manual/employee-user-manual/estimate.md) - for MuktaSoft
 

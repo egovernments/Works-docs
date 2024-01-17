@@ -16,13 +16,15 @@ This module has 5 associated screens :&#x20;
 4. View
 5. Inbox
 
-## MDMS Configurations
+## Configuration
+
+### MDMS Configurations
 
 <table><thead><tr><th width="70.99999999999997">#</th><th width="183">Data</th><th>MDMS Link</th></tr></thead><tbody><tr><td>1</td><td>Role Of CBO</td><td><a href="https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ContractCBORoles.json">https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ContractCBORoles.json</a></td></tr><tr><td>2</td><td>Document Config</td><td>https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/DocumentConfig.json</td></tr></tbody></table>
 
 ### Module Enablement Configuration&#x20;
 
-1. Set module code as “Contracts” in Module.js of Contracts Module. Refer https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/tenant/citymodule.json
+Set module code as Contracts in Module.js of Contracts module. Refer https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/tenant/citymodule.json
 
 ```
  {
@@ -46,7 +48,7 @@ This module has 5 associated screens :&#x20;
 
 ```
 
-2. Enable Module in App.js. Update the object ‘enabledModules’. Use the code “Contracts”. This code should match the code of the cityModule.json, mentioned above.
+Enable Module in App.js. Update the object enabledModules. Use the code Contracts. This code should match the code of the cityModule.json, mentioned above.
 
 ### Role-action Mapping
 
@@ -92,30 +94,23 @@ This module has 5 associated screens :&#x20;
 
 ## Customization
 
-1\. API-based Data -&#x20;
-
-* Name of CBO - This field is being captured on the Create screen and Modify screen. Data for this field comes from the backend.
-* CBO ID - This field is being set based on the value selected in the Name Of CBO.
-* Name of Officer In Charge - This field is being populated based on the HRMS Search. Here the role is hardcoded to ‘OFFICER\_IN\_CHARGE’.
-* Designation of Officer In Charge - This field is being set based on the value selected in the Name of Officer in charge.
-* Work Order Amount - This field shows the calculated amount of Total Estimated Cost minus the Overheads which has ‘isWorkOrderValue’ as true. Please refer to [this](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/Overheads.json) OverHeads config for Amount calculation.
-* The role of CBO will be shown based on the calculated Work Order Amount. If the calculated Work Order Amount is less than the ‘amount’ in RoleOfCBO Config, show Implementation Agency else show Implementation Partner. This logic will vary based on the updates in the [RoleOfCBO config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ContractCBORoles.json).
-
-#### &#x20;  2.   Custom Components used in Projects :&#x20;
-
-* Document Config - Based on the [document config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/DocumentConfig.json), respective documents will be rendered on the Create Screen. Please mention the validations, file type limits and file size limits in this config.
-* Work Order Terms and Conditions - This component will help input the description in the table. Users can add and delete the rows. The first row will not be deleted, clicking on the delete button will empty the first row. Refer Component - WOTermsAndConditions.
-
-&#x20;**3.   Create Screen:**&#x20;
-
-* Please use the common Utility “PreProcessMDMSConfig”.&#x20;
-* Pass the associated dependencies for the config.
-* The utility will return a config which will run through FormComposer.
-* Refer to docs for Pre-Process config in Component comments.
-
-&#x20; **4.  Inbox / Search Screen :**&#x20;
-
-* Please use the common utility “preProcessMDMSConfigInboxSearch”.
-* Pass the associated dependencies for the config.
-* The utility will return a config which will run through RenderFormFields.
-* Refer to docs for Pre-Process config in Component comments.
+1. **API-based data -**&#x20;
+   * Name of CBO - This field is being captured on the Create screen and Modify screen. Data for this field comes from the backend.
+   * CBO ID - This field is being set based on the value selected in the Name Of CBO.
+   * Name of Officer In Charge - This field is being populated based on the HRMS Search. Here the role is hardcoded to ‘OFFICER\_IN\_CHARGE’.
+   * Designation of Officer In Charge - This field is being set based on the value selected in the Name of Officer in charge.
+   * Work Order Amount - This field shows the calculated amount of Total Estimated Cost minus the Overheads which has ‘isWorkOrderValue’ as true. Please refer to [this](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/Overheads.json) OverHeads config for Amount calculation.
+   * The role of CBO will be shown based on the calculated Work Order Amount. If the calculated Work Order Amount is less than the ‘amount’ in RoleOfCBO Config, show Implementation Agency else show Implementation Partner. This logic will vary based on the updates in the [RoleOfCBO config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/ContractCBORoles.json).
+2. **Custom components used in Projects -**&#x20;
+   * Document Config - Based on the [document config](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/works/DocumentConfig.json), respective documents will be rendered on the Create Screen. Please mention the validations, file type limits and file size limits in this config.
+   * Work Order Terms and Conditions - This component will help input the description in the table. Users can add and delete the rows. The first row will not be deleted, clicking on the delete button will empty the first row. Refer Component - WOTermsAndConditions.
+3. **Create Screen -**&#x20;
+   * Please use the common Utility “PreProcessMDMSConfig”.&#x20;
+   * Pass the associated dependencies for the config.
+   * The utility will return a config which will run through FormComposer.
+   * Refer to docs for Pre-Process config in Component comments.
+4. **Inbox / Search Screen -**
+   * Please use the common utility “preProcessMDMSConfigInboxSearch”.
+   * Pass the associated dependencies for the config.
+   * The utility will return a config which will run through RenderFormFields.
+   * Refer to docs for Pre-Process config in Component comments.
