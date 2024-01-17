@@ -45,5 +45,5 @@ To be updated.
 | [Contract Service](../../../../platform/configuration/service-configuration/contract.md)                            |
 | [Mukta Dashboard](../configuration/ui-configuration/modules/mukta-dashboard.md)                                     |
 | [Organisation Service](../../../../platform/functional-specifications/organisation.md)                              |
-| [Workorder UI](../configuration/ui-configuration/modules/workorder/#overview)                                       |
+| [Workorder UI](../configuration/ui-configuration/modules/work-order/#overview)                                      |
 
