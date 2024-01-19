@@ -6,11 +6,17 @@ description: Provides an overview of the configuration of the estimate service
 
 ## Overview
 
-The estimate service provides the functionality to create, update and search for estimates related to a Works project. An estimate is always linked to a project. For low-level technical design, please refer to this section.
+The estimate service provides the functionality to create, update and search for estimates related to a Works project. An estimate is always linked to a project.&#x20;
+
+The source code for this service is available [here](https://github.com/egovernments/DIGIT-Works/tree/master/backend/estimates). Refer to the below docs for a deeper understanding of this service.
+
+[Low-level design](../../architecture/low-level-design/services/detailed-estimates.md)
+
+[Functional specifications](../../functional-specifications/estimates.md)
 
 ## Pre-requisites
 
-The following services need to be running for the estimate service to function:
+The following services need to be running for the Estimate service to function:
 
 * DIGIT backbone services (PostgreSQL, Elastic Search, Zuul)
 * Project&#x20;
@@ -34,7 +40,7 @@ Refer to the [functional specifications](../../functional-specifications/estimat
 
 Configure roles, actions and role-action mappings as per the table below by referring to this document:
 
-<table><thead><tr><th width="318.3333333333333">Role</th><th width="514">APIs</th></tr></thead><tbody><tr><td>ESTIMATE_CREATOR</td><td>/estimate-service/estimate/v1/_create</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VERIFIER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>TECHNICAL_SANCTIONER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_APPROVER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VIEWER</td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>/inbox/v2/_search</td></tr></tbody></table>
+<table><thead><tr><th width="274.3333333333333">Role</th><th width="514">APIs</th></tr></thead><tbody><tr><td>ESTIMATE_CREATOR</td><td>/estimate-service/estimate/v1/_create</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VERIFIER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>TECHNICAL_SANCTIONER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_APPROVER</td><td>/estimate-service/estimate/v1/_update</td></tr><tr><td></td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>ESTIMATE_VIEWER</td><td>/estimate-service/estimate/v1/_search</td></tr><tr><td></td><td>/wms/estimate/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
 Refer to the sample [here](https://github.com/egovernments/works-mdms-data/blob/DEV/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
 

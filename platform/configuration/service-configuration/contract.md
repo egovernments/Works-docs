@@ -8,6 +8,12 @@ description: Detailed description of configuring the contract service
 
 The contract service provides the functionality of a works contract.&#x20;
 
+The source code for this service is available [here](https://github.com/egovernments/DIGIT-Works/tree/master/backend/contracts). Refer to the below docs for a deeper understanding of this service.
+
+[Low-level design](../../architecture/low-level-design/services/contracts.md)
+
+[Functional specifications](../../functional-specifications/contracts.md)
+
 ## Pre-requisites
 
 A running DIGIT platform is needed to deploy the contract service. Specifically, the following dependencies are needed:

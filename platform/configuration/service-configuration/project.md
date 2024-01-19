@@ -6,7 +6,9 @@ description: Steps to configure the project service
 
 ## Overview
 
-The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. This service is shared across multiple eGov missions. The source code for this service resides [here](https://github.com/egovernments/health-campaign-services/tree/demo/health-services/project). Refer to the below docs for a deeper understanding of this service.
+The project service provides APIs to create, update and manage a generic project. A project can have one or more of the following constructs: staff, tasks, beneficiaries and facilities. This service is shared across multiple eGov missions.&#x20;
+
+The source code for this service is available [here](https://github.com/egovernments/health-campaign-services/tree/demo/health-services/project). Refer to the below docs for a deeper understanding of this service.
 
 [Low-level design](../../architecture/low-level-design/services/project.md)
 
