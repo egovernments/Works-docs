@@ -80,7 +80,7 @@ Role-action mapping is configured in MDMS per the table below.&#x20;
 
 <table><thead><tr><th width="302">Roles</th><th>API Endpoints</th></tr></thead><tbody><tr><td><p>ORG_ADMIN</p><p>ORG_STAFF</p></td><td>/muster-roll/v1/_estimate</td></tr><tr><td><p>ORG_ADMIN</p><p>ORG_STAFF</p></td><td>/muster-roll/v1/_create</td></tr><tr><td><p></p><p>ORG_ADMIN</p><p>ORG_STAFF</p><p>MUSTER_ROLL_VERIFIER</p><p>MUSTER_ROLL_APPROVER</p><p><br></p></td><td>/muster-roll/v1/_update</td></tr><tr><td><p>ORG_ADMIN</p><p>ORG_STAFF</p><p>MUSTER_ROLL_VERIFIER</p><p>MUSTER_ROLL_APPROVER</p><p>BILL_CREATOR</p><p>BILL_VIEWER</p></td><td>/muster-roll/v1/_search</td></tr></tbody></table>
 
-#### Other masters to be added
+#### Muster Roll Masters
 
 Other muster roll masters are configured in the **`common-masters`** folder:
 

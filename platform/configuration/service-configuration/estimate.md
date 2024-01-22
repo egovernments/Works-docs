@@ -82,7 +82,7 @@ In the common-masters folder of MDMS, locate the IDFormat.json file. ID formats 
 }
 ```
 
-#### Other masters for Estimate:
+#### Estimate masters
 
 The following masters need to be configured for the Estimate Service. Make sure to use the same master name and module names:
 

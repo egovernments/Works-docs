@@ -30,24 +30,27 @@ Provides APIs to create, update and search an organisation's details. As part of
 
 The Helm chart for this service is [configured here](https://github.com/egovernments/DIGIT-DevOps/tree/digit-works/deploy-as-code/helm/charts/digit-works/backend/organisation).&#x20;
 
-## MDMS Configuration
+## Configuration
+
+### Configure MDMS
 
 Configure roles, actions and role-actions per the table below by following the steps [below](./#mdms-role-action-configuration).&#x20;
 
 <table><thead><tr><th width="317">Roles</th><th>API Endpoints</th></tr></thead><tbody><tr><td><ul><li>WORK_ORDER_CREATOR</li><li>MUKTA_ADMIN</li></ul></td><td>/org-services/organisation/v1/_search</td></tr><tr><td><ul><li>MUKTA_ADMIN</li></ul></td><td>/org-services/organisation/v1/_create</td></tr><tr><td><ul><li>MUKTA_ADMIN</li></ul></td><td>/org-services/organisation/v1/_update</td></tr></tbody></table>
 
-## Persister
+### Configure Persister
 
 Make sure [organisation-persister.yml ](https://github.com/egovernments/works-configs/blob/DEV/egov-persister/organisation-persister.yml)is present in the configs repo under the egov-persister directory.&#x20;
 
-## Indexer
+### Configure Indexer
 
 Make sure that the file [organisationservices-indexer.yml ](https://github.com/egovernments/works-configs/tree/DEV/egov-indexer)is present in the configs repo under the egov-indexer directory.
 
-## ID Generation&#x20;
+### Configure ID Generation&#x20;
 
 The following ID formats are configured for the Organisation service under the common-masters directory, IDFormat.json file. Make sure these are present in the file.
 
+{% code lineNumbers="true" %}
 ```json
    {
       "format": "ORG-[SEQ_ORG_NUM]",
@@ -62,11 +65,13 @@ The following ID formats are configured for the Organisation service under the c
       "idname": "function.application.number"
     }
 ```
+{% endcode %}
 
-## SMS Templates
+### Configure SMS Templates
 
 SMS templates have to be configured with the service provider to send notifications to users. Current SMS template configurations are as follows:
 
+{% code lineNumbers="true" %}
 ```json
   {
            "code": "ORGANISATION_NOTIFICATION_ON_CREATE",
@@ -84,6 +89,7 @@ SMS templates have to be configured with the service provider to send notificati
        }
 
 ```
+{% endcode %}
 
 ## Integration
 

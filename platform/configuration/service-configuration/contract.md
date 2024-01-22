@@ -35,7 +35,7 @@ This service provides APIs to create, update and search for contracts. Refer to 
 
 ## Deployment
 
-The below variables should be configured for the contract service in the Helm environment file prior to deployment. The Helm environment file will be located under:
+The below variables should be configured for the contract service in the Helm environment file before deployment. The Helm environment file will be located under:
 
 `https://github.com/`<mark style="color:red;">`{{ORG}}`</mark>`/DIGIT-DevOps/deploy-as-code/helm/environments/`<mark style="color:red;">`{{EnvironmentFile}}`</mark>`.yaml`
 
@@ -60,17 +60,17 @@ Configure actions, roles and role-action mappings from the table below. Follow t
 
 <table><thead><tr><th width="295">Role</th><th>APIs</th></tr></thead><tbody><tr><td>WORK_ORDER_CREATOR</td><td>/contract/v1/_create</td></tr><tr><td></td><td>/contract/v1/_update</td></tr><tr><td></td><td>/contract/v1/_search</td></tr><tr><td></td><td>/wms/contract/_search</td></tr><tr><td>WORK_ORDER_VERIFIER</td><td>/contract/v1/_update</td></tr><tr><td></td><td>/contract/v1/_search</td></tr><tr><td></td><td>/wms/contract/_search</td></tr><tr><td>WORK_ORDER_APPROVER</td><td>/contract/v1/_update</td></tr><tr><td></td><td>/contract/v1/_search</td></tr><tr><td>WORK_ORDER_VIEWER</td><td>/contract/v1/_search</td></tr><tr><td></td><td>/wms/contract/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
-These have to be translated into JSON in the role-action mapping module in MDMS.
+These must be translated into JSON in the role-action mapping module in MDMS.
 
-Example - available [here](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
+_Example - available_ [_here_](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json)_._&#x20;
 
-#### Other masters to be added:
+#### Contract masters
 
 The following masters are to be added as per the table below:
 
 <table data-header-hidden><thead><tr><th width="213"></th><th></th></tr></thead><tbody><tr><td>CBO Roles</td><td><a href="https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractCBORoles.json">https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractCBORoles.json</a></td></tr><tr><td>OCI Roles</td><td><a href="https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractOfficerIncharge.json">https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractOfficerIncharge.json</a></td></tr><tr><td>ContractType</td><td><a href="https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractType.json">https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/ContractType.json</a></td></tr><tr><td>Overheads</td><td><a href="https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/Overheads.json">https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/works/Overheads.json</a></td></tr></tbody></table>
 
-## Idgen Configuration
+### Idgen Configuration
 
 Make sure the id format is configured in the ‘IdFormat.json’ file of the ‘common-masters’ module. The sample [is available here](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/common-masters/IdFormat.json#L34).&#x20;
 

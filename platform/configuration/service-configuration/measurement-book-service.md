@@ -44,22 +44,23 @@ Restart egov-mdms-service, egov-persister, egov-indexer, inbox, egov-workflow-v2
 
 ## Configuration
 
-### MDMS configuration
+### Configure MDMS
 
 Configure actions, roles and role-action mappings from the table below. Follow the steps here.
 
 <table><thead><tr><th width="295">Role</th><th>APIs</th></tr></thead><tbody><tr><td>MB_CREATOR</td><td>/measurement-service/v1/_create</td></tr><tr><td></td><td>/measurement-service/v1/_update</td></tr><tr><td></td><td>/measurement-service/v1/_search</td></tr><tr><td></td><td>/wms/measurement-service/_search</td></tr><tr><td>MB_VERIFIER</td><td>/measurement-service/v1/_update</td></tr><tr><td></td><td>/measurement-service/v1/_search</td></tr><tr><td></td><td>/wms/measurement-service/_search</td></tr><tr><td>MB_APPROVER</td><td>/measurement-service/v1/_update</td></tr><tr><td></td><td>/measurement-service/v1/_search</td></tr><tr><td>MB_VIEWER</td><td>/measurement-service/v1/_search</td></tr><tr><td></td><td>/wms/measurement-service/_search</td></tr><tr><td>EMPLOYEE_COMMON</td><td>/inbox/v2/_search</td></tr></tbody></table>
 
-These have to be translated into JSON in the role-action mapping module in MDMS.
+These must be translated into JSON in the role-action mapping module in MDMS.
 
-Example - available [here](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json).&#x20;
+_Example - available_ [_here_](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/ACCESSCONTROL-ROLEACTIONS/roleactions.json)_._&#x20;
 
-### Workflow Configuration
+### Configure Workflows
 
 #### Measurement Service Workflow
 
 The following workflow JSON needs to be put in the request body of the `/egov-workflow-v2/egov-wf/businessservice/_create` API.&#x20;
 
+{% code lineNumbers="true" %}
 ```
 "BusinessServices": [
 {
@@ -239,31 +240,31 @@ The following workflow JSON needs to be put in the request body of the `/egov-wo
 }
 ]
 ```
+{% endcode %}
 
 [Workflow configuration](https://github.com/egovernments/configs/blob/UNIFIED-DEV/works/workflow-configs/MB.json)
 
-### Persister Configuration
+### Configure Persister
 
-Please make sure that the file[ <mark style="color:purple;">measurement-service-persister.yml</mark>](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-persister/measurement-service-persister.yml) is present in the **`configs`** repository in the below location.&#x20;
+Make sure that the file[ <mark style="color:purple;">measurement-service-persister.yml</mark>](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-persister/measurement-service-persister.yml) is present in the **`configs`** repository in the below location.&#x20;
 
 [https://github.com/\<YOUR ORGANISATION>/configs/tree/UNIFIED-DEV/works/egov-persister](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-persister/measurement-persister.yml)
 
-### Indexer Configuration
+### Configure Indexer
 
 Please make sure that the file [measurement-service-indexer.yml](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-indexer/measurement-indexer.yml) is present in the **`configs`** repository in the below location.&#x20;
 
 [https://github.com/\<YOUR ORGANISATION>/configs/tree/UNIFIED-DEV/works/egov-indexer](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-persister/measurement-persister.yml)
 
-
-
 {% hint style="info" %}
 Make sure to restart MDMS, persister service and indexer service after adding the file at the above location.
 {% endhint %}
 
-### Inbox Configuration
+### Configure Inbox
 
 In the MDMS repository, locate the[ inbox configuration file](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/inbox-v2/InboxConfiguration.json). Make sure the following JSON is added to the inbox configuration:
 
+{% code lineNumbers="true" %}
 ```
 {
   "module": "measurement-service",
@@ -333,3 +334,4 @@ In the MDMS repository, locate the[ inbox configuration file](https://github.com
   ]
 }
 ```
+{% endcode %}

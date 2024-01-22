@@ -37,7 +37,9 @@ Refer to the [sample here](https://github.com/egovernments/DIGIT-DevOps/blob/uni
 Restart egov-mdms-service and egov-persister after the above changes are performed.
 {% endhint %}
 
-### Idgen Configuration
+## Configuration
+
+### Configure ID Generation
 
 Ensure the id format is configured in the ‘IdFormat.json’ file of the ‘common-masters’ module. The sample [is available here](https://github.com/egovernments/egov-mdms-data/blob/0dd049ffddbc7c6078b940b5eb9eb4951eb8996a/data/pg/common-masters/IdFormat.json#L94C1-L94C1).&#x20;
 
@@ -49,7 +51,7 @@ Ensure the id format is configured in the ‘IdFormat.json’ file of the ‘com
 }
 </code></pre> |
 
-### Persister Configuration
+### Configure Persister
 
 Make sure that the file[ <mark style="color:purple;">measurement-registry-persister.yml</mark>](https://github.com/egovernments/configs/blob/e3cca4152e63d9b671ed34c2e0fa321f1b4da87c/works/egov-persister/measurement-persister.yml) is present in the **`configs`** repository in the below location.&#x20;
 
