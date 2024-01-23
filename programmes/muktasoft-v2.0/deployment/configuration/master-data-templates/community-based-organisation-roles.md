@@ -10,10 +10,7 @@ In MUKA community-based organizations have different roles to play based on the 
 
 ## Data Table
 
-| Sr. No. | Code | Description            | Description (Odiya)        | Effective From | Effective To | Is Active |
-| ------- | ---- | ---------------------- | -------------------------- | -------------- | ------------ | --------- |
-| 1       | IA   | Implementation Agency  | କାର୍ଯ୍ୟକାରୀ ଏଜେନ୍ସି/ସଂସ୍ଥା |                |              |           |
-| 2       | IP   | Implementation Partner | କାର୍ଯ୍ୟକାରୀ ସହଭାଗୀ         |                |              |           |
+<table><thead><tr><th width="95">Sr. No.</th><th>Code</th><th width="172">Description</th><th width="131">Description (Odiya)</th><th>Effective From</th><th>Effective To</th><th>Is Active</th></tr></thead><tbody><tr><td>1</td><td>IA</td><td>Implementation Agency</td><td>କାର୍ଯ୍ୟକାରୀ ଏଜେନ୍ସି/ସଂସ୍ଥା</td><td></td><td></td><td></td></tr><tr><td>2</td><td>IP</td><td>Implementation Partner</td><td>କାର୍ଯ୍ୟକାରୀ ସହଭାଗୀ</td><td></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.

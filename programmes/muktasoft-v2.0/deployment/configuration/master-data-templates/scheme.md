@@ -6,10 +6,7 @@ MUKTA is known as a scheme and it is configured in the system along with its HOA
 
 ## Data Table
 
-| Sr. No. | Code  | Description | Description (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ----- | ----------- | ------------------- | -------------- | ------------ | --------- |
-| 1       | MUKTA | MUKTA       | ମୁକ୍ତା              |                |              |           |
-|         |       |             |                     |                |              |           |
+<table><thead><tr><th width="75">Sr. No.</th><th>Code</th><th>Description</th><th>Description (Odiya)</th><th>Effective From</th><th>Effective To</th><th>Is Active</th></tr></thead><tbody><tr><td>1</td><td>MUKTA</td><td>MUKTA</td><td>ମୁକ୍ତା</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.

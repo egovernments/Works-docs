@@ -6,13 +6,7 @@ These are the heads under which MUKTA expenditure is booked.&#x20;
 
 ## Data Table
 
-| Sr. No. | Code | Description           | Description (Odiya) | Effective From | Effective To | Is Active |
-| ------- | ---- | --------------------- | ------------------- | -------------- | ------------ | --------- |
-| 1       | WEG  | Wages                 | ମଜୁରୀ               |                |              |           |
-| 2       | SC   | Supervision Charge    | ତଦାରଖ ଦେୟ           |                |              |           |
-| 3       | GST  | Goods and Service Tax | ଦ୍ରବ୍ୟ ଏବଂ ସେବା କର  |                |              |           |
-| 4       | MC   | Material Cost         | ସାମଗ୍ରୀ ମୂଲ୍ୟ       |                |              |           |
-| 5       | PA   | Purchase              | କ୍ରୟ ପରିମାଣ         |                |              |           |
+<table><thead><tr><th width="90">Sr. No.</th><th>Code</th><th width="163">Description</th><th>Description (Odiya)</th><th>Effective From</th><th>Effective To</th><th>Is Active</th></tr></thead><tbody><tr><td>1</td><td>WEG</td><td>Wages</td><td>ମଜୁରୀ</td><td></td><td></td><td></td></tr><tr><td>2</td><td>SC</td><td>Supervision Charge</td><td>ତଦାରଖ ଦେୟ</td><td></td><td></td><td></td></tr><tr><td>3</td><td>GST</td><td>Goods and Service Tax</td><td>ଦ୍ରବ୍ୟ ଏବଂ ସେବା କର</td><td></td><td></td><td></td></tr><tr><td>4</td><td>MC</td><td>Material Cost</td><td>ସାମଗ୍ରୀ ମୂଲ୍ୟ</td><td></td><td></td><td></td></tr><tr><td>5</td><td>PA</td><td>Purchase </td><td>କ୍ରୟ ପରିମାଣ</td><td></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 The data given in the table is sample data for reference.
